@@ -26,7 +26,7 @@ from _common import (
     REQUIRED_ITEM_FIELDS,
     build_item,
     load_state,
-    prune_unknown_fields,
+    normalize_item,
     save_state,
     utcnow_iso,
 )
@@ -47,13 +47,14 @@ def merge(
     processed_items: list[dict],
     default_routine: str | None = None,
     default_topic: str | None = None,
+    fallback_ts: str | None = None,
 ) -> tuple[list[dict], int, int, int]:
     """Return (merged, added, updated, skipped)."""
     by_id: dict[str, dict] = {}
     for it in state_items:
-        pruned = prune_unknown_fields(it)
-        if pruned.get("event_id"):
-            by_id[pruned["event_id"]] = pruned
+        norm = normalize_item(it, fallback_ts=fallback_ts)
+        if norm.get("event_id"):
+            by_id[norm["event_id"]] = norm
 
     added = 0
     updated = 0
@@ -72,8 +73,8 @@ def merge(
             continue
 
         # build_item already returns only the 8 canonical fields; pass it
-        # through prune_unknown_fields anyway so the contract is explicit.
-        item = prune_unknown_fields(
+        # through normalize_item anyway so the contract is explicit.
+        item = normalize_item(
             build_item(routine=routine, topic=topic, title=title, url=url)
         )
         existing = by_id.get(item["event_id"])
@@ -120,6 +121,9 @@ def main() -> int:
         processed,
         default_routine=args.routine,
         default_topic=args.topic,
+        # Repair legacy rows (missing timestamps) using the previous
+        # updated_at of the file, rather than dropping them.
+        fallback_ts=state.get("updated_at"),
     )
     state["items"] = merged
     save_state(state)

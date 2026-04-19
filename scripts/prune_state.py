@@ -32,7 +32,7 @@ from _common import (
     REQUIRED_ITEM_FIELDS,
     load_config,
     load_state,
-    prune_unknown_fields,
+    normalize_item,
     save_state,
 )
 
@@ -58,6 +58,7 @@ def prune(
     retention_days: int,
     max_items: int,
     routine: str | None = None,
+    fallback_ts: str | None = None,
 ) -> tuple[list[dict], dict]:
     """Apply the retention policy. Returns (kept_items, stats).
 
@@ -80,10 +81,11 @@ def prune(
         else:
             scoped.append(raw)
 
-    # 1) Strip unknown fields + drop invalid rows.
+    # 1) Normalize (strip unknown fields + repair derivable ones), then
+    #    drop rows that are still invalid after repair.
     cleaned: list[dict] = []
     for raw in scoped:
-        item = prune_unknown_fields(raw)
+        item = normalize_item(raw, fallback_ts=fallback_ts)
         has_content = bool((item.get("title") or "").strip() or item.get("canonical_url"))
         if not item.get("routine") or not has_content or not item.get("first_sent_at"):
             stats["dropped_blank"] += 1
@@ -168,6 +170,9 @@ def main() -> int:
         retention_days=retention_days,
         max_items=max_items,
         routine=args.routine,
+        # Use the previous updated_at as timestamp fallback for rows that
+        # lost their timestamps (e.g. were written directly from filtered.json).
+        fallback_ts=state.get("updated_at"),
     )
 
     print(

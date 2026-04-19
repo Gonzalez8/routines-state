@@ -1,7 +1,67 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-04-19T20:10:25+00:00",
+  "updated_at": "2026-04-19T20:23:09+00:00",
   "items": [
+    {
+      "event_id": "2bf04faaf5ad640e",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce lanza Headless 360: toda la plataforma como API, MCP y CLI para agentes de IA",
+      "canonical_url": "https://venturebeat.com/ai/salesforce-launches-headless-360-to-turn-its-entire-platform-into-infrastructure-for-ai-agents",
+      "source_domain": "venturebeat.com",
+      "first_sent_at": "2026-04-19T20:10:25+00:00",
+      "last_seen_at": "2026-04-19T20:10:25+00:00"
+    },
+    {
+      "event_id": "2a69c8dffc0078f6",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Agentforce Vibes 2.0: soporte multimodelo (Claude Sonnet y GPT-5) y SDK abierto para agentes en TDX 2026",
+      "canonical_url": "https://salesforceben.com/salesforce-headless-360-and-agentforce-vibes-2-0-revealed-at-tdx-2026",
+      "source_domain": "salesforceben.com",
+      "first_sent_at": "2026-04-19T20:10:25+00:00",
+      "last_seen_at": "2026-04-19T20:10:25+00:00"
+    },
+    {
+      "event_id": "4ef8bf7bdc096ea2",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "AgentExchange: nuevo marketplace unificado de Salesforce con 10.000 apps y fondo de 50 millones para builders",
+      "canonical_url": "https://salesforcetrail.com/salesforce-introduces-headless-360-at-tdx-2026",
+      "source_domain": "salesforcetrail.com",
+      "first_sent_at": "2026-04-19T20:10:25+00:00",
+      "last_seen_at": "2026-04-19T20:10:25+00:00"
+    },
+    {
+      "event_id": "f5fc0af848fa2258",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Developer Edition de Salesforce incluye gratis Agentforce Vibes IDE, Claude Sonnet 4.5 y MCP Servers desde TDX 2026",
+      "canonical_url": "https://apexhours.com/tdx-2026-keynote-everything-salesforce-announced-at-trailblazerdx-and-what-it-actually-means-for-you",
+      "source_domain": "apexhours.com",
+      "first_sent_at": "2026-04-19T20:10:25+00:00",
+      "last_seen_at": "2026-04-19T20:10:25+00:00"
+    },
+    {
+      "event_id": "35086e7a6e72290e",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce: Agentforce convierte eficiencia de IA en ingresos, ahorra 100 millones en soporte y gestiona 3 millones de conversaciones",
+      "canonical_url": "https://fortune.com/2026/04/18/salesforce-agentforce-ai-efficiency-revenue-growth",
+      "source_domain": "fortune.com",
+      "first_sent_at": "2026-04-19T20:10:25+00:00",
+      "last_seen_at": "2026-04-19T20:10:25+00:00"
+    },
+    {
+      "event_id": "dc563569baf7d670",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "TDX 2026: Salesforce apuesta por la conversación como nueva interfaz para desarrolladores",
+      "canonical_url": "https://siliconangle.com/2026/04/15/salesforce-bets-conversation-new-interface-developers",
+      "source_domain": "siliconangle.com",
+      "first_sent_at": "2026-04-19T20:10:25+00:00",
+      "last_seen_at": "2026-04-19T20:10:25+00:00"
+    },
     {
       "event_id": "fc2222dc562833c0",
       "routine": "claude-news",
@@ -131,60 +191,6 @@
       "source_domain": "cnn.com",
       "first_sent_at": "2026-04-19T19:52:03+00:00",
       "last_seen_at": "2026-04-19T19:52:03+00:00"
-    },
-    {
-      "event_id": "2bf04faaf5ad640e",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce lanza Headless 360: toda la plataforma como API, MCP y CLI para agentes de IA",
-      "url": "https://venturebeat.com/ai/salesforce-launches-headless-360-to-turn-its-entire-platform-into-infrastructure-for-ai-agents",
-      "canonical_url": "https://venturebeat.com/ai/salesforce-launches-headless-360-to-turn-its-entire-platform-into-infrastructure-for-ai-agents",
-      "normalized_title": "salesforce lanza headless 360 toda la plataforma como api mcp y cli para agentes de ia"
-    },
-    {
-      "event_id": "2a69c8dffc0078f6",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Agentforce Vibes 2.0: soporte multimodelo (Claude Sonnet y GPT-5) y SDK abierto para agentes en TDX 2026",
-      "url": "https://www.salesforceben.com/salesforce-headless-360-and-agentforce-vibes-2-0-revealed-at-tdx-2026/",
-      "canonical_url": "https://salesforceben.com/salesforce-headless-360-and-agentforce-vibes-2-0-revealed-at-tdx-2026",
-      "normalized_title": "agentforce vibes 2 0 soporte multimodelo claude sonnet y gpt 5 y sdk abierto para agentes en tdx 2026"
-    },
-    {
-      "event_id": "4ef8bf7bdc096ea2",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "AgentExchange: nuevo marketplace unificado de Salesforce con 10.000 apps y fondo de 50 millones para builders",
-      "url": "https://salesforcetrail.com/salesforce-introduces-headless-360-at-tdx-2026/",
-      "canonical_url": "https://salesforcetrail.com/salesforce-introduces-headless-360-at-tdx-2026",
-      "normalized_title": "agentexchange nuevo marketplace unificado de salesforce con 10 000 apps y fondo de 50 millones para builders"
-    },
-    {
-      "event_id": "f5fc0af848fa2258",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Developer Edition de Salesforce incluye gratis Agentforce Vibes IDE, Claude Sonnet 4.5 y MCP Servers desde TDX 2026",
-      "url": "https://www.apexhours.com/tdx-2026-keynote-everything-salesforce-announced-at-trailblazerdx-and-what-it-actually-means-for-you/",
-      "canonical_url": "https://apexhours.com/tdx-2026-keynote-everything-salesforce-announced-at-trailblazerdx-and-what-it-actually-means-for-you",
-      "normalized_title": "developer edition de salesforce incluye gratis agentforce vibes ide claude sonnet 4 5 y mcp servers desde tdx 2026"
-    },
-    {
-      "event_id": "35086e7a6e72290e",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce: Agentforce convierte eficiencia de IA en ingresos, ahorra 100 millones en soporte y gestiona 3 millones de conversaciones",
-      "url": "https://fortune.com/2026/04/18/salesforce-agentforce-ai-efficiency-revenue-growth/",
-      "canonical_url": "https://fortune.com/2026/04/18/salesforce-agentforce-ai-efficiency-revenue-growth",
-      "normalized_title": "salesforce agentforce convierte eficiencia de ia en ingresos ahorra 100 millones en soporte y gestiona 3 millones de conversaciones"
-    },
-    {
-      "event_id": "dc563569baf7d670",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "TDX 2026: Salesforce apuesta por la conversación como nueva interfaz para desarrolladores",
-      "url": "https://siliconangle.com/2026/04/15/salesforce-bets-conversation-new-interface-developers/",
-      "canonical_url": "https://siliconangle.com/2026/04/15/salesforce-bets-conversation-new-interface-developers",
-      "normalized_title": "tdx 2026 salesforce apuesta por la conversacion como nueva interfaz para desarrolladores"
     }
   ]
 }

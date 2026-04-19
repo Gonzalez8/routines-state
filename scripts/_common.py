@@ -92,13 +92,20 @@ def save_state(state: dict) -> None:
     """Write events.json atomically.
 
     This is the single chokepoint for persisting state. Every item is
-    forced through ``prune_unknown_fields`` before it hits disk, so no
+    forced through ``normalize_item`` before it hits disk, so no
     candidate/intermediate/dedupe field can ever leak into
     ``state/events.json`` — regardless of what the caller passed in.
+    Partially-broken rows (missing ``source_domain`` or timestamps) are
+    also repaired here rather than dropped, using the file's previous
+    ``updated_at`` as the timestamp fallback.
     """
+    previous_updated_at = state.get("updated_at")
     state["updated_at"] = utcnow_iso()
     state.setdefault("schema_version", SCHEMA_VERSION)
-    state["items"] = [prune_unknown_fields(it) for it in state.get("items", [])]
+    state["items"] = [
+        normalize_item(it, fallback_ts=previous_updated_at)
+        for it in state.get("items", [])
+    ]
     atomic_write_json(EVENTS_PATH, state)
 
 
@@ -264,3 +271,41 @@ def build_item(
 def prune_unknown_fields(item: dict) -> dict:
     """Keep only the allowed fields — prevents accidental state bloat."""
     return {k: item.get(k) for k in REQUIRED_ITEM_FIELDS}
+
+
+def normalize_item(item: dict, fallback_ts: str | None = None) -> dict:
+    """Return a canonical 8-field item, repairing derivable fields in place.
+
+    Used as the single source of truth for "what a persisted item looks
+    like". Steps:
+
+      1. Strip any field not in ``REQUIRED_ITEM_FIELDS`` (prevents bloat
+         from ``url``, ``normalized_title``, ``_dedupe_reason``, payloads,
+         or anything else a lazy caller might pass in).
+      2. Derive ``source_domain`` from ``canonical_url`` when missing.
+      3. Fill missing ``first_sent_at`` / ``last_seen_at`` from the other
+         timestamp if available, else from ``fallback_ts`` (the previous
+         ``updated_at`` of the state file), else from ``utcnow_iso()``.
+
+    The repair step means partially-broken historical rows (e.g. rows
+    that skipped ``update_state.py`` and were written directly from
+    ``filtered.json``) are fixed on the next write instead of being
+    dropped by ``prune_state.py`` as "blank".
+    """
+    pruned = prune_unknown_fields(item)
+
+    if not pruned.get("source_domain") and pruned.get("canonical_url"):
+        pruned["source_domain"] = source_domain(pruned["canonical_url"])
+
+    fsa = pruned.get("first_sent_at")
+    lsa = pruned.get("last_seen_at")
+    if not fsa and lsa:
+        pruned["first_sent_at"] = lsa
+    elif not lsa and fsa:
+        pruned["last_seen_at"] = fsa
+    elif not fsa and not lsa:
+        ts = fallback_ts or utcnow_iso()
+        pruned["first_sent_at"] = ts
+        pruned["last_seen_at"] = ts
+
+    return pruned
