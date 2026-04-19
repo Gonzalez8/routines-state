@@ -1,32 +1,47 @@
 # routines-state
 
-Tiny, file-based memory for **Claude Code Routines** that run daily news
-digests. The repo stores the minimum amount of state required to answer one
-question each morning:
+Tiny, file-based **persistent memory layer for Claude Code Routines**.
 
-> *"Have we already sent this news item?"*
+Claude Code Routines are stateless between runs. This repo gives them a
+single, very small memory so that each run can answer one question before
+doing work:
 
-It is intentionally small:
+> *"Have we already processed, sent, or handled this item?"*
 
-- Pure-stdlib Python scripts (no `pip install` step).
-- One JSON file for state, one JSON file for config.
-- Deterministic, bounded growth — safe to commit on every run.
+It is deliberately minimal:
 
-## Why it exists
+- Pure-stdlib Python scripts (no `pip install`).
+- One JSON file for state, one for config.
+- Deterministic, bounded growth — safe to commit after every run.
+- Reusable across **any** routine, not tied to a specific use case.
 
-Claude Code Routines are stateless between runs. If a routine searches for
-"Claude AI / Anthropic" news every morning, it will happily surface the same
-headline three days in a row unless it has a memory of what it already sent.
-This repo is that memory.
+## Not an archive
 
-The routine's daily loop becomes:
+This repo is **operational memory, not a historical archive**. Old items
+are intentionally deleted. Records exist only as long as they are useful
+for dedupe on upcoming runs. If you need long-term history, analytics, or
+audit trails, put those in a separate system (a data warehouse, an
+archive bucket, a proper database). Do not try to stretch this repo to
+cover those needs.
 
-1. Search for recent news → `candidates.json`.
-2. `dedupe_candidates.py` removes anything already in `state/sent_news.json`.
-3. Generate and send the digest from the filtered list.
-4. `update_state.py` records what actually went out.
-5. `prune_state.py` enforces retention + size caps.
-6. Commit `state/sent_news.json` so the next run inherits the memory.
+## Use cases
+
+Any routine that must remember whether it has already handled something:
+
+- **AI news digests** — don't re-send the same story tomorrow.
+- **GitHub / PR / issue monitoring** — don't re-notify about the same PR.
+- **Alerts and notifications** — suppress repeated pings for the same event.
+- **Repeated-content avoidance** — skip content already seen.
+- Any workflow where "did we do this already?" is the decisive question.
+
+## How a routine uses it
+
+1. Run your search / fetch / detection step → write `candidates.json`.
+2. `dedupe_candidates.py` drops anything already in `state/events.json`.
+3. Generate and perform the routine action (send digest, open ticket, …).
+4. `update_state.py` records what was actually handled.
+5. `prune_state.py` enforces retention + cap.
+6. Commit `state/events.json` so the next run inherits the memory.
 
 ## Repository layout
 
@@ -35,166 +50,223 @@ routines-state/
 ├── README.md
 ├── .gitignore
 ├── state/
-│   ├── sent_news.json      # the memory (only file routines need to commit)
-│   └── config.json         # retention + similarity knobs
+│   ├── events.json           # the memory (the only file routines must commit)
+│   └── config.json           # retention + similarity knobs
 ├── scripts/
-│   ├── _common.py          # shared helpers (URL/title normalization, I/O)
-│   ├── load_state.py       # inspect current state
+│   ├── _common.py            # shared helpers (URL/title normalization, I/O)
+│   ├── load_state.py         # inspect current state
 │   ├── dedupe_candidates.py
 │   ├── update_state.py
 │   └── prune_state.py
 └── docs/
-    ├── memory-design.md    # data model + dedupe signals
+    ├── memory-design.md      # data model + dedupe signals
     └── routine-integration.md
 ```
 
-## How deduplication works
+## Data model
 
-Three signals, checked in order. The first match wins.
+Each item in `state/events.json` is a flat object with a fixed set of
+fields. Nothing else is stored — no summaries, no bodies, no payloads.
 
-1. **Same `event_id`** — `sha1(canonical_url or normalized_title)[:16]`.
-2. **Same canonical URL** — tracking params stripped, host lower-cased,
-   fragment removed, trailing slash trimmed.
-3. **Near-duplicate title** — Jaccard similarity ≥ `similarity_threshold`
-   (default `0.85`) over normalized, stop-worded, accent-stripped tokens,
-   scoped to a single `topic`.
+| Field | Required | Notes |
+| --- | --- | --- |
+| `event_id` | yes | 16-hex stable id: `sha1("routine:topic:canonical_url_or_normalized_title")[:16]`. |
+| `routine` | yes | Primary namespace. Distinguishes different routines sharing this store. |
+| `topic` | optional | Secondary grouping within a routine (e.g. `"claude-ai"`, a repo name). May be empty. |
+| `title` | one of title/url required | Human-readable headline or identifier. |
+| `canonical_url` | one of title/url required | URL with tracking params stripped, host lower-cased, no fragment. |
+| `source_domain` | derived | Convenience field — the host of `canonical_url`. |
+| `first_sent_at` | yes | ISO-8601 UTC when we first recorded the item. |
+| `last_seen_at` | yes | ISO-8601 UTC when we most recently observed the item. |
 
-Dedupe also collapses in-batch duplicates, so a digest never includes two
-outlets' write-ups of the same event on the same day.
+### Event identity is namespaced
 
-See [docs/memory-design.md](docs/memory-design.md) for the full data model.
+`event_id` is derived from `routine + topic + (canonical_url or normalized_title)`.
+That prevents collisions when two unrelated routines happen to process
+similar-looking items. **`routine` is the primary namespace**; `topic` is
+a convenience for grouping within a routine and can be empty.
 
-## How pruning works
+## Deduplication
 
-`prune_state.py` applies a strict retention policy:
+Three signals, checked in order. First match wins.
 
-- Keep only items whose `last_seen_at` falls inside the last
-  `retention_days` (default **30**).
-- Keep only **one** record per `event_id` (freshest `last_seen_at` wins).
-- Drop items that were never actually sent (missing `first_sent_at`).
+1. **Same `event_id`** — already known (namespaced, so safe across routines).
+2. **Same canonical URL**, scoped to the same `routine`.
+3. **Near-duplicate title** — Jaccard ≥ `similarity_threshold` over
+   normalized, stop-worded, accent-stripped tokens. Scoped to the same
+   `(routine, topic)` pair to prevent cross-context false positives.
+
+In-batch dedupe is applied too — two sources covering the same event on
+the same day collapse into one row.
+
+See [docs/memory-design.md](docs/memory-design.md) for details.
+
+## Growth control (bounded by construction)
+
+`prune_state.py` enforces the retention policy:
+
+- Keep only items whose `last_seen_at` falls inside `retention_days`
+  (default **30**).
+- Keep only **one** record per `event_id` (freshest wins).
+- Drop items with no `routine`, no title+URL, or no `first_sent_at`.
 - Enforce `max_items` (default **2000**) by evicting oldest rows first.
-- Strip unknown fields before persisting (no accidental bloat).
+- Strip unknown fields before persisting — no accidental bloat.
 
-Worst-case disk footprint is small and predictable: ~300–400 bytes per row,
-so the default cap translates to under ~1 MB on disk.
+Fixed-shape rows (~300–500 bytes each) × default cap (2000) ≈ under ~1 MB
+worst-case on disk.
 
-Run it in dry-run mode to preview:
-
-```bash
-python scripts/prune_state.py --dry-run
-```
-
-## Configuration
-
-`state/config.json`:
+## Configuration (`state/config.json`)
 
 ```json
 {
   "retention_days": 30,
   "max_items": 2000,
   "similarity_threshold": 0.85,
-  "topics": ["claude-ai", "anthropic"],
-  "schema_version": 1
+  "routines": [],
+  "topics": [],
+  "schema_version": 2
 }
 ```
 
-| Key | Default | Notes |
+| Key | Default | Purpose |
 | --- | --- | --- |
-| `retention_days` | `30` | Rolling window for dedupe memory. |
+| `retention_days` | `30` | Rolling dedupe window. |
 | `max_items` | `2000` | Hard cap regardless of time window. |
-| `similarity_threshold` | `0.85` | Title-similarity cutoff (Jaccard, 0–1). |
-| `topics` | `[]` | Canonical topic slugs your routines pass via `--topic`. |
-| `schema_version` | `1` | Bump if the item shape ever changes. |
+| `similarity_threshold` | `0.85` | Title Jaccard cutoff (0–1). |
+| `routines` | `[]` | Optional list of known routine slugs (documentation only). |
+| `topics` | `[]` | Optional list of known topic slugs (documentation only). |
+| `schema_version` | `2` | Bump if the item shape ever changes. |
 
 ## Scripts: CLI reference
 
-All scripts use Python 3.9+ and no third-party dependencies.
+Python 3.9+, stdlib only.
 
 ### `scripts/load_state.py`
 
-Print the current memory as JSON.
-
 ```bash
-python scripts/load_state.py                    # full state
-python scripts/load_state.py --ids-only         # just event_ids, one per line
-python scripts/load_state.py --topic claude-ai  # filter by topic
+python scripts/load_state.py                                 # full state
+python scripts/load_state.py --ids-only                      # event_ids only
+python scripts/load_state.py --routine claude-news           # scope to one routine
+python scripts/load_state.py --routine claude-news --topic claude-ai
 ```
 
 ### `scripts/dedupe_candidates.py`
 
-Filter a candidates file against state.
-
 ```bash
 python scripts/dedupe_candidates.py \
     --input candidates.json \
     --output filtered.json \
-    --topic claude-ai \
-    --report dedupe_report.json   # optional audit trail
+    --routine claude-news \
+    [--topic claude-ai] \
+    [--report dedupe_report.json]
 ```
 
-Input shape (either a bare list or `{"items": [...]}`):
+Input accepts either a bare list or `{"items": [...]}`:
 
 ```json
 [
-  { "title": "Anthropic launches Claude 4.7", "url": "https://...", "topic": "claude-ai" }
+  { "title": "Anthropic launches Claude 4.7", "url": "https://...", "routine": "claude-news", "topic": "claude-ai" }
 ]
 ```
 
-Extra fields are ignored.
+`--routine` is used both as a filter and as the default for items that
+don't carry a `routine` field. `--topic` behaves the same way. Extra fields
+in the input are ignored.
 
 ### `scripts/update_state.py`
 
-Record items that were actually sent.
-
 ```bash
-python scripts/update_state.py --input sent_today.json --topic claude-ai
+python scripts/update_state.py --input processed_today.json --routine claude-news
 ```
 
-Idempotent: re-running with the same input only bumps `last_seen_at` on
-already-recorded events.
+Idempotent. Items missing both `title` and `url`, or missing `routine`
+(after applying the CLI default), are skipped.
 
 ### `scripts/prune_state.py`
 
-Apply retention + cap.
-
 ```bash
-python scripts/prune_state.py
-python scripts/prune_state.py --dry-run
+python scripts/prune_state.py                              # all routines
+python scripts/prune_state.py --dry-run                    # preview
 python scripts/prune_state.py --retention-days 14 --max-items 500
+python scripts/prune_state.py --routine claude-news        # scope to one routine
 ```
 
-## Example workflow (before and after sending the digest)
+When `--routine` is passed, items from other routines are left untouched.
+
+## Multi-routine examples
+
+### 1. AI news digest
 
 ```bash
-# --- BEFORE ---
-# Your routine writes candidates.json with the news it found.
+# Candidates written by the routine's search step.
 python scripts/dedupe_candidates.py \
-    --input candidates.json \
-    --output filtered.json \
-    --topic claude-ai
+    --input candidates.json --output filtered.json \
+    --routine claude-news --topic claude-ai
 
-# Your routine uses filtered.json to build and send the digest,
-# writing the items that actually went out into sent_today.json.
+# Send the digest from filtered.json; record what went out:
+python scripts/update_state.py --input sent_today.json --routine claude-news --topic claude-ai
+python scripts/prune_state.py --routine claude-news
+```
 
-# --- AFTER ---
-python scripts/update_state.py --input sent_today.json --topic claude-ai
+### 2. GitHub PR / issue monitor
+
+```bash
+# candidates.json: [{"title": "...", "url": "https://github.com/org/repo/pull/123",
+#                    "routine": "gh-monitor", "topic": "org/repo"}, ...]
+python scripts/dedupe_candidates.py \
+    --input candidates.json --output filtered.json \
+    --routine gh-monitor --topic org/repo
+
+python scripts/update_state.py --input notified.json --routine gh-monitor --topic org/repo
+python scripts/prune_state.py --routine gh-monitor
+```
+
+### 3. Generic alerts / notifications
+
+```bash
+# An alert system that must not page twice for the same incident URL.
+python scripts/dedupe_candidates.py \
+    --input candidates.json --output filtered.json \
+    --routine oncall-alerts
+
+python scripts/update_state.py --input delivered.json --routine oncall-alerts
+python scripts/prune_state.py --routine oncall-alerts
+```
+
+All three routines share the same `state/events.json` safely — their
+`event_id`s are namespaced by `routine`, so they cannot collide.
+
+## Daily flow (copy-paste template)
+
+```bash
+# 1. Your routine produces candidates.json (shape: [{title, url, routine, topic}, ...]).
+
+# 2. Filter.
+python scripts/dedupe_candidates.py \
+    --input candidates.json --output filtered.json --routine <slug>
+
+# 3. Do the work (send digest, open ticket, notify, ...) using filtered.json.
+#    Write what was actually handled to handled.json.
+
+# 4. Record and prune.
+python scripts/update_state.py --input handled.json --routine <slug>
 python scripts/prune_state.py
 
-git add state/sent_news.json
-git commit -m "chore(state): daily update $(date -u +%Y-%m-%d)"
+# 5. Commit.
+git add state/events.json
+git commit -m "chore(state): $(date -u +%Y-%m-%d) <slug>"
 git push
 ```
 
-More detail in [docs/routine-integration.md](docs/routine-integration.md).
-
 ## Design principles
 
-- **One job.** Remember which events were sent. Nothing else.
-- **Stdlib only.** A routine shouldn't need a package manager.
-- **Atomic writes.** State is written via a temp file + `os.replace`, so a
-  crash mid-run can't leave corrupted JSON.
+- **One job.** Remember which events were handled. Nothing else.
+- **Operational memory, not archive.** Old rows are deleted on purpose.
+- **Stdlib only.** No package manager needed in a routine.
+- **Atomic writes.** Temp file + `os.replace`, so a crash can't corrupt state.
 - **Bounded by construction.** Fixed-shape rows + retention + hard cap.
-- **No magic.** URL and title normalization are explicit and reviewable.
+- **Namespaced identity.** `routine` is the primary key; different routines
+  cannot collide even if their items look similar.
 
 ## License
 

@@ -1,19 +1,25 @@
 #!/usr/bin/env python3
 """Trim the memory state so it never grows without bound.
 
+This repo is **operational memory**, not an archive. Pruning is mandatory,
+not optional.
+
 Retention policy (all configurable via ``state/config.json``):
 
   * Drop items older than ``retention_days`` (based on ``last_seen_at``,
     falling back to ``first_sent_at``).
-  * Drop items that look blank / never actually sent (no title AND no URL,
-    or no ``first_sent_at`` timestamp).
+  * Drop items that look blank or were never actually processed (no
+    ``routine``, or no title+URL, or no ``first_sent_at`` timestamp).
   * Collapse duplicate ``event_id`` records, keeping the most recent.
-  * Enforce ``max_items`` by evicting the oldest low-value entries first.
+  * Enforce ``max_items`` by evicting the oldest rows first.
+  * Optionally scope the run to a single routine via ``--routine``.
 
-Usage:
-    python scripts/prune_state.py              # normal run
-    python scripts/prune_state.py --dry-run    # show what would happen
-    python scripts/prune_state.py --retention-days 14 --max-items 500
+Usage::
+
+    python scripts/prune_state.py                              # full state
+    python scripts/prune_state.py --dry-run                    # preview
+    python scripts/prune_state.py --retention-days 14          # override
+    python scripts/prune_state.py --routine claude-news        # scope
 """
 
 from __future__ import annotations
@@ -35,7 +41,6 @@ def _parse_ts(value: str | None) -> datetime | None:
     if not value:
         return None
     try:
-        # ``fromisoformat`` handles the output of ``utcnow_iso``.
         dt = datetime.fromisoformat(value)
     except ValueError:
         return None
@@ -45,7 +50,6 @@ def _parse_ts(value: str | None) -> datetime | None:
 
 
 def _item_timestamp(item: dict) -> datetime | None:
-    """Best-effort "when did we last care about this item" timestamp."""
     return _parse_ts(item.get("last_seen_at")) or _parse_ts(item.get("first_sent_at"))
 
 
@@ -53,8 +57,13 @@ def prune(
     items: list[dict],
     retention_days: int,
     max_items: int,
+    routine: str | None = None,
 ) -> tuple[list[dict], dict]:
-    """Apply the retention policy. Returns (kept_items, stats)."""
+    """Apply the retention policy. Returns (kept_items, stats).
+
+    When ``routine`` is set, only items in that routine are evaluated;
+    items belonging to other routines are preserved untouched.
+    """
     stats = {
         "input": len(items),
         "dropped_blank": 0,
@@ -63,12 +72,20 @@ def prune(
         "dropped_over_cap": 0,
     }
 
-    # 1) Strip unknown fields + drop obviously invalid rows.
-    cleaned: list[dict] = []
+    untouched: list[dict] = []
+    scoped: list[dict] = []
     for raw in items:
+        if routine is not None and (raw.get("routine") or "") != routine:
+            untouched.append(raw)
+        else:
+            scoped.append(raw)
+
+    # 1) Strip unknown fields + drop invalid rows.
+    cleaned: list[dict] = []
+    for raw in scoped:
         item = prune_unknown_fields(raw)
         has_content = bool((item.get("title") or "").strip() or item.get("canonical_url"))
-        if not has_content or not item.get("first_sent_at"):
+        if not item.get("routine") or not has_content or not item.get("first_sent_at"):
             stats["dropped_blank"] += 1
             continue
         cleaned.append(item)
@@ -84,7 +101,6 @@ def prune(
         if existing is None:
             by_id[eid] = item
             continue
-        # Keep the one with the most recent last_seen_at.
         keep_new = (_item_timestamp(item) or datetime.min.replace(tzinfo=timezone.utc)) >= (
             _item_timestamp(existing) or datetime.min.replace(tzinfo=timezone.utc)
         )
@@ -104,30 +120,34 @@ def prune(
             continue
         fresh.append(item)
 
-    # 4) Enforce the absolute cap. Oldest go first — they're the least useful
-    #    for future dedupe since they're close to the retention cliff anyway.
-    fresh.sort(key=lambda it: _item_timestamp(it) or datetime.min.replace(tzinfo=timezone.utc), reverse=True)
+    # 4) Enforce the absolute cap. Oldest go first.
+    fresh.sort(
+        key=lambda it: _item_timestamp(it) or datetime.min.replace(tzinfo=timezone.utc),
+        reverse=True,
+    )
     if max_items > 0 and len(fresh) > max_items:
         stats["dropped_over_cap"] = len(fresh) - max_items
         fresh = fresh[:max_items]
 
-    stats["output"] = len(fresh)
-    # Ensure every kept item has the full canonical shape.
     fresh = [{k: it.get(k) for k in REQUIRED_ITEM_FIELDS} for it in fresh]
-    return fresh, stats
+
+    # Put the untouched (other-routine) items back.
+    kept = untouched + fresh
+    stats["output"] = len(kept)
+    return kept, stats
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Prune old/duplicate items from state.")
     parser.add_argument(
-        "--retention-days",
-        type=int,
-        help="Override config.retention_days for this run.",
+        "--retention-days", type=int, help="Override config.retention_days."
     )
     parser.add_argument(
-        "--max-items",
-        type=int,
-        help="Override config.max_items for this run.",
+        "--max-items", type=int, help="Override config.max_items."
+    )
+    parser.add_argument(
+        "--routine",
+        help="Only prune items from this routine. Others are left untouched.",
     )
     parser.add_argument(
         "--dry-run",
@@ -143,13 +163,19 @@ def main() -> int:
     max_items = args.max_items if args.max_items is not None else int(cfg["max_items"])
 
     state = load_state()
-    kept, stats = prune(state.get("items", []), retention_days, max_items)
+    kept, stats = prune(
+        state.get("items", []),
+        retention_days=retention_days,
+        max_items=max_items,
+        routine=args.routine,
+    )
 
     print(
         "prune: "
         f"input={stats['input']} output={stats['output']} "
         f"blank={stats['dropped_blank']} duplicate={stats['dropped_duplicate']} "
-        f"expired={stats['dropped_expired']} over_cap={stats['dropped_over_cap']}",
+        f"expired={stats['dropped_expired']} over_cap={stats['dropped_over_cap']}"
+        + (f" routine={args.routine}" if args.routine else ""),
         file=sys.stderr,
     )
 

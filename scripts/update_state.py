@@ -1,15 +1,18 @@
 #!/usr/bin/env python3
-"""Record a batch of just-sent news items into the memory state.
+"""Record a batch of just-processed items into the memory state.
 
-Input: a JSON list of items that were actually included in today's digest.
-Each item needs at minimum ``title`` and ``url`` (and should carry ``topic``).
+Input: a JSON list of items that were actually handled by the routine this
+run (sent, notified, processed — whatever "handled" means for you). Each
+item needs at minimum ``title`` or ``url``, and must resolve to a
+``routine`` either per-item or via ``--routine``.
 
-Usage:
-    python scripts/update_state.py --input sent_today.json
-    python scripts/update_state.py --input sent_today.json --topic claude-ai
+Usage::
 
-The update is idempotent: if an event is already in state, we only bump its
-``last_seen_at`` instead of creating a second record.
+    python scripts/update_state.py --input processed_today.json --routine claude-news
+    python scripts/update_state.py --input processed_today.json --routine gh-monitor --topic anthropics/anthropic-cookbook
+
+The update is idempotent: if an event is already in state, only its
+``last_seen_at`` is refreshed.
 """
 
 from __future__ import annotations
@@ -29,50 +32,48 @@ from _common import (
 )
 
 
-def _read_sent(path: Path) -> list[dict]:
+def _read_processed(path: Path) -> list[dict]:
     with path.open("r", encoding="utf-8") as f:
         data = json.load(f)
     if isinstance(data, dict) and "items" in data:
         data = data["items"]
     if not isinstance(data, list):
-        raise ValueError("sent-today file must be a JSON list or {items: [...]}")
+        raise ValueError("input file must be a JSON list or {items: [...]}")
     return data
 
 
 def merge(
     state_items: list[dict],
-    sent_items: list[dict],
+    processed_items: list[dict],
+    default_routine: str | None = None,
     default_topic: str | None = None,
-) -> tuple[list[dict], int, int]:
-    """Return (new_state_items, added_count, updated_count).
-
-    We keep items keyed by ``event_id``; duplicates in the incoming batch
-    collapse into a single record.
-    """
+) -> tuple[list[dict], int, int, int]:
+    """Return (merged, added, updated, skipped)."""
     by_id: dict[str, dict] = {}
     for it in state_items:
-        # Defensive: drop anything without an id and strip unknown fields.
         pruned = prune_unknown_fields(it)
         if pruned.get("event_id"):
             by_id[pruned["event_id"]] = pruned
 
     added = 0
     updated = 0
+    skipped = 0
     now = utcnow_iso()
 
-    for raw in sent_items:
+    for raw in processed_items:
         title = (raw.get("title") or "").strip()
         url = (raw.get("url") or raw.get("canonical_url") or "").strip()
+        routine = (raw.get("routine") or default_routine or "").strip()
         topic = (raw.get("topic") or default_topic or "").strip()
 
-        if not title and not url:
-            # Skip garbage rather than store a blank record.
+        # Skip invalid rows rather than persist garbage.
+        if not routine or (not title and not url):
+            skipped += 1
             continue
 
-        item = build_item(title=title, url=url, topic=topic)
+        item = build_item(routine=routine, topic=topic, title=title, url=url)
         existing = by_id.get(item["event_id"])
         if existing:
-            # Already known — just refresh last_seen_at and fill any gaps.
             existing["last_seen_at"] = now
             for field in REQUIRED_ITEM_FIELDS:
                 if not existing.get(field) and item.get(field):
@@ -82,21 +83,24 @@ def merge(
             by_id[item["event_id"]] = item
             added += 1
 
-    # Keep output stable: newest first by first_sent_at, then by event_id.
     merged = sorted(
         by_id.values(),
         key=lambda it: (it.get("first_sent_at") or "", it.get("event_id") or ""),
         reverse=True,
     )
-    return merged, added, updated
+    return merged, added, updated, skipped
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description="Record sent news items into the memory state."
+        description="Record processed items into the events memory."
     )
     parser.add_argument(
-        "--input", required=True, help="Path to a JSON list of sent items."
+        "--input", required=True, help="Path to a JSON list of processed items."
+    )
+    parser.add_argument(
+        "--routine",
+        help="Default routine to apply to items that don't carry one.",
     )
     parser.add_argument(
         "--topic",
@@ -105,18 +109,19 @@ def main() -> int:
     args = parser.parse_args()
 
     state = load_state()
-    sent_items = _read_sent(Path(args.input))
+    processed = _read_processed(Path(args.input))
 
-    merged, added, updated = merge(
+    merged, added, updated, skipped = merge(
         state.get("items", []),
-        sent_items,
+        processed,
+        default_routine=args.routine,
         default_topic=args.topic,
     )
     state["items"] = merged
     save_state(state)
 
     print(
-        f"update_state: added={added} updated={updated} total={len(merged)}",
+        f"update_state: added={added} updated={updated} skipped={skipped} total={len(merged)}",
         file=sys.stderr,
     )
     return 0

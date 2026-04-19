@@ -21,9 +21,13 @@ env/
 .DS_Store
 Thumbs.db
 
-# Routine working files (never commit transient candidate dumps)
+# Routine working files (never commit transient dumps)
 candidates.json
 filtered.json
 sent_today.json
+handled.json
+notified.json
+paged.json
+delivered.json
 *.tmp.json
 /tmp/

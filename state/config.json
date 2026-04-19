@@ -2,9 +2,7 @@
   "retention_days": 30,
   "max_items": 2000,
   "similarity_threshold": 0.85,
-  "topics": [
-    "claude-ai",
-    "anthropic"
-  ],
-  "schema_version": 1
+  "routines": [],
+  "topics": [],
+  "schema_version": 2
 }

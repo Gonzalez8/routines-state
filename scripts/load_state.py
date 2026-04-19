@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """Print the current memory state as JSON.
 
-Used by a routine to inspect what has already been sent. Typical usage:
+Used by a routine to inspect what is already stored. Typical usage:
 
-    python scripts/load_state.py                # full state
-    python scripts/load_state.py --ids-only     # just event ids
-    python scripts/load_state.py --topic claude-ai
+    python scripts/load_state.py
+    python scripts/load_state.py --routine github-monitor
+    python scripts/load_state.py --routine claude-news --topic claude-ai
+    python scripts/load_state.py --ids-only
 """
 
 from __future__ import annotations
@@ -18,11 +19,15 @@ from _common import load_state
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Load and print the sent-news state.")
+    parser = argparse.ArgumentParser(description="Load and print the events state.")
     parser.add_argument(
         "--ids-only",
         action="store_true",
-        help="Only print the list of event_ids (one per line).",
+        help="Only print event_ids, one per line.",
+    )
+    parser.add_argument(
+        "--routine",
+        help="Filter items to a single routine before printing.",
     )
     parser.add_argument(
         "--topic",
@@ -32,6 +37,8 @@ def main() -> int:
 
     state = load_state()
     items = state.get("items", [])
+    if args.routine:
+        items = [it for it in items if it.get("routine") == args.routine]
     if args.topic:
         items = [it for it in items if it.get("topic") == args.topic]
 
@@ -42,7 +49,7 @@ def main() -> int:
 
     json.dump(
         {
-            "schema_version": state.get("schema_version", 1),
+            "schema_version": state.get("schema_version", 2),
             "updated_at": state.get("updated_at"),
             "count": len(items),
             "items": items,

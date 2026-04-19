@@ -1,7 +1,11 @@
 """Shared helpers for the routines-state scripts.
 
-Keep this module dependency-free so every script can be called from a
-Claude Code Routine without extra setup (pure stdlib only).
+Kept dependency-free so every script can be called from any Claude Code
+Routine without `pip install` (pure stdlib only).
+
+This module provides the primitives behind a **general-purpose, file-based
+memory layer**: URL/title normalization, event-id namespacing, atomic JSON
+I/O, and a minimal canonical item shape.
 """
 
 from __future__ import annotations
@@ -19,8 +23,10 @@ from urllib.parse import urlparse, urlunparse
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 STATE_DIR = REPO_ROOT / "state"
-SENT_NEWS_PATH = STATE_DIR / "sent_news.json"
+EVENTS_PATH = STATE_DIR / "events.json"
 CONFIG_PATH = STATE_DIR / "config.json"
+
+SCHEMA_VERSION = 2
 
 # Tracking query/fragment params pollute canonical URLs and break dedupe.
 _TRACKING_PREFIXES = ("utm_", "mc_", "hsa_", "fb_", "gclid", "ref_", "ref=", "spm")
@@ -52,7 +58,6 @@ def atomic_write_json(path: Path, data: Any) -> None:
             f.write("\n")
         os.replace(tmp_path, path)
     except Exception:
-        # Best effort: remove the temp file on failure.
         try:
             os.unlink(tmp_path)
         except OSError:
@@ -66,8 +71,9 @@ def load_config() -> dict:
         "retention_days": 30,
         "max_items": 2000,
         "similarity_threshold": 0.85,
+        "routines": [],
         "topics": [],
-        "schema_version": 1,
+        "schema_version": SCHEMA_VERSION,
     }
     cfg = load_json(CONFIG_PATH, {})
     defaults.update(cfg or {})
@@ -75,16 +81,17 @@ def load_config() -> dict:
 
 
 def load_state() -> dict:
-    """Load sent_news.json with the expected shape."""
+    """Load events.json with the expected shape."""
     return load_json(
-        SENT_NEWS_PATH,
-        {"schema_version": 1, "updated_at": None, "items": []},
+        EVENTS_PATH,
+        {"schema_version": SCHEMA_VERSION, "updated_at": None, "items": []},
     )
 
 
 def save_state(state: dict) -> None:
     state["updated_at"] = utcnow_iso()
-    atomic_write_json(SENT_NEWS_PATH, state)
+    state.setdefault("schema_version", SCHEMA_VERSION)
+    atomic_write_json(EVENTS_PATH, state)
 
 
 # ---------------------------------------------------------------------------
@@ -94,8 +101,8 @@ def save_state(state: dict) -> None:
 def canonicalize_url(url: str) -> str:
     """Return a canonical URL: lower-case host, no tracking params, no fragment.
 
-    We keep the path and any remaining query intact so two legitimately
-    different articles on the same domain don't collide.
+    Keeps the path and any remaining query intact so two legitimately
+    different URLs on the same domain don't collide.
     """
     if not url:
         return ""
@@ -109,7 +116,6 @@ def canonicalize_url(url: str) -> str:
     if netloc.startswith("www."):
         netloc = netloc[4:]
 
-    # Drop tracking params; keep everything else in original order.
     kept_pairs = []
     if parsed.query:
         for pair in parsed.query.split("&"):
@@ -123,7 +129,6 @@ def canonicalize_url(url: str) -> str:
             kept_pairs.append(pair)
     query = "&".join(kept_pairs)
 
-    # Strip trailing slash from path (but keep "/" root).
     path = parsed.path or ""
     if len(path) > 1 and path.endswith("/"):
         path = path.rstrip("/")
@@ -132,7 +137,7 @@ def canonicalize_url(url: str) -> str:
 
 
 def source_domain(url: str) -> str:
-    """Extract the registrable-ish domain from a URL, minus the ``www.`` prefix."""
+    """Extract the domain from a URL, minus the ``www.`` prefix."""
     if not url:
         return ""
     try:
@@ -157,13 +162,11 @@ _STOPWORDS = {
 def normalize_title(title: str) -> str:
     """Lower-case, strip accents/punctuation, drop stopwords.
 
-    The goal is to collapse near-duplicate headlines from different outlets
-    into the same fingerprint (e.g. "Anthropic launches Claude 4" vs.
-    "Anthropic Launches New Claude 4 Model Today").
+    Collapses near-duplicate headlines or item titles from different sources
+    into the same fingerprint.
     """
     if not title:
         return ""
-    # Unicode-normalize and strip accents (NFKD -> drop combining marks).
     decomposed = unicodedata.normalize("NFKD", title)
     ascii_ish = "".join(c for c in decomposed if not unicodedata.combining(c))
     lowered = ascii_ish.lower()
@@ -189,56 +192,64 @@ def jaccard(a: set[str], b: set[str]) -> float:
     return inter / len(a | b)
 
 
-def event_id(title: str, url: str) -> str:
-    """Stable id for a news event.
+def event_id(routine: str, topic: str, title: str, url: str) -> str:
+    """Stable, namespaced id for an event.
 
-    Prefer the canonical URL (strongest signal). Fall back to the normalized
-    title so items without a URL still get a stable id. The resulting id is
-    short enough to read at a glance but wide enough to avoid collisions.
+    The id is ``sha1("routine:topic:canonical_url_or_normalized_title")[:16]``.
+    Namespacing by ``routine`` (and ``topic``) ensures two different routines
+    that happen to process a similar-looking item don't collide in memory.
     """
+    routine_key = (routine or "").strip()
+    topic_key = (topic or "").strip()
     canon = canonicalize_url(url)
-    key = canon or normalize_title(title)
-    if not key:
-        # Last-resort: hash the raw title so we never emit a blank id.
-        key = (title or "").strip()
-    digest = hashlib.sha1(key.encode("utf-8")).hexdigest()
+    payload = canon or normalize_title(title) or (title or "").strip()
+    raw = f"{routine_key}:{topic_key}:{payload}"
+    digest = hashlib.sha1(raw.encode("utf-8")).hexdigest()
     return digest[:16]
 
 
 # ---------------------------------------------------------------------------
-# Item shape helpers
+# Item shape
 # ---------------------------------------------------------------------------
 
+# Canonical order. `routine` is the primary namespace; `topic` is an optional
+# grouping within a routine. `title` / `canonical_url` are the content keys —
+# at least one of them must be present for an item to be valid.
 REQUIRED_ITEM_FIELDS = (
     "event_id",
+    "routine",
+    "topic",
     "title",
     "canonical_url",
     "source_domain",
     "first_sent_at",
     "last_seen_at",
-    "topic",
 )
 
 
 def build_item(
     *,
+    routine: str,
+    topic: str,
     title: str,
     url: str,
-    topic: str,
     first_sent_at: str | None = None,
     last_seen_at: str | None = None,
 ) -> dict:
-    """Construct a minimal state item. Drops any extra fields by design."""
+    """Construct a minimal canonical item. Extra fields are intentionally dropped."""
     now = utcnow_iso()
     canon = canonicalize_url(url)
+    routine = (routine or "").strip()
+    topic = (topic or "").strip()
     return {
-        "event_id": event_id(title, url),
+        "event_id": event_id(routine, topic, title, url),
+        "routine": routine,
+        "topic": topic,
         "title": (title or "").strip(),
         "canonical_url": canon,
         "source_domain": source_domain(url),
         "first_sent_at": first_sent_at or now,
         "last_seen_at": last_seen_at or now,
-        "topic": topic or "",
     }
 
 
