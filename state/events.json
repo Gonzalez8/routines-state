@@ -1,7 +1,57 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-04-19T19:52:03+00:00",
+  "updated_at": "2026-04-19T20:07:46+00:00",
   "items": [
+    {
+      "event_id": "fc2222dc562833c0",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Mythos Preview: Anthropic's most powerful model restricted to cybersecurity use",
+      "canonical_url": "https://red.anthropic.com/2026/mythos-preview",
+      "source_domain": "red.anthropic.com",
+      "first_sent_at": "2026-04-19T20:07:46+00:00",
+      "last_seen_at": "2026-04-19T20:07:46+00:00"
+    },
+    {
+      "event_id": "e87e4f0a54c7ce64",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Mythos Preview now available on Amazon Bedrock and Google Cloud Vertex AI",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-bedrock-claude-mythos",
+      "source_domain": "aws.amazon.com",
+      "first_sent_at": "2026-04-19T20:07:46+00:00",
+      "last_seen_at": "2026-04-19T20:07:46+00:00"
+    },
+    {
+      "event_id": "8cdb7b875edd202e",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "AISI: Claude Mythos Preview shows unprecedented attack capability, completes 32-step cyber attack range",
+      "canonical_url": "https://aisi.gov.uk/blog/our-evaluation-of-claude-mythos-previews-cyber-capabilities",
+      "source_domain": "aisi.gov.uk",
+      "first_sent_at": "2026-04-19T20:07:46+00:00",
+      "last_seen_at": "2026-04-19T20:07:46+00:00"
+    },
+    {
+      "event_id": "655edf50d011df8f",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic delays Claude Mythos general release over cybersecurity concerns",
+      "canonical_url": "https://cryptobriefing.com/anthropic-delays-claude-mythos-release-over-cybersecurity-concerns",
+      "source_domain": "cryptobriefing.com",
+      "first_sent_at": "2026-04-19T20:07:46+00:00",
+      "last_seen_at": "2026-04-19T20:07:46+00:00"
+    },
+    {
+      "event_id": "2a72a0db582ba521",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Project Glasswing: Anthropic uses Claude Mythos to secure critical software",
+      "canonical_url": "https://anthropic.com/glasswing",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-04-19T20:07:46+00:00",
+      "last_seen_at": "2026-04-19T20:07:46+00:00"
+    },
     {
       "event_id": "fa4123eacda69c9c",
       "routine": "claude-news",
