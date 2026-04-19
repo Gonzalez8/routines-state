@@ -65,8 +65,13 @@ routines-state/
 
 ## Data model
 
-Each item in `state/events.json` is a flat object with a fixed set of
-fields. Nothing else is stored — no summaries, no bodies, no payloads.
+Each item in `state/events.json` is a flat object with a **fixed set of
+eight fields**. Nothing else is ever persisted — no summaries, no bodies,
+no candidate/dedupe fields (`url`, `normalized_title`, `_dedupe_reason`,
+etc.). The sanitization runs inside `save_state()` in
+`scripts/_common.py`, which is the only write path to the file. Extra
+fields added by hand, by a bad input, or by a future bug are stripped on
+the next write.
 
 | Field | Required | Notes |
 | --- | --- | --- |
@@ -221,7 +226,37 @@ python scripts/update_state.py --input notified.json --routine gh-monitor --topi
 python scripts/prune_state.py --routine gh-monitor
 ```
 
-### 3. Generic alerts / notifications
+### 3. Salesforce digest
+
+```bash
+# 1. Your routine queries Salesforce and writes candidates.json:
+#    [{"title": "Opportunity XYZ moved to Closed-Won", "url": "https://acme.my.salesforce.com/006.../view",
+#      "routine": "salesforce-digest", "topic": "opportunities"}, ...]
+
+# 2. Filter out anything already handled.
+python scripts/dedupe_candidates.py \
+    --input candidates.json --output filtered.json \
+    --routine salesforce-digest --topic opportunities
+
+# 3. Generate and send the digest from filtered.json.
+
+# 4. Your routine writes sent_today.json with exactly the items that were
+#    actually included in the digest (same shape as candidates.json).
+
+# 5. Record what was sent — only the 8 canonical fields land in state/events.json.
+python scripts/update_state.py --input sent_today.json \
+    --routine salesforce-digest --topic opportunities
+
+# 6. Keep state bounded.
+python scripts/prune_state.py --routine salesforce-digest
+
+# 7. Commit.
+git add state/events.json
+git commit -m "chore(state): $(date -u +%Y-%m-%d) salesforce-digest"
+git push
+```
+
+### 4. Generic alerts / notifications
 
 ```bash
 # An alert system that must not page twice for the same incident URL.

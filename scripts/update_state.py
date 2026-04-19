@@ -71,7 +71,11 @@ def merge(
             skipped += 1
             continue
 
-        item = build_item(routine=routine, topic=topic, title=title, url=url)
+        # build_item already returns only the 8 canonical fields; pass it
+        # through prune_unknown_fields anyway so the contract is explicit.
+        item = prune_unknown_fields(
+            build_item(routine=routine, topic=topic, title=title, url=url)
+        )
         existing = by_id.get(item["event_id"])
         if existing:
             existing["last_seen_at"] = now

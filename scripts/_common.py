@@ -89,8 +89,16 @@ def load_state() -> dict:
 
 
 def save_state(state: dict) -> None:
+    """Write events.json atomically.
+
+    This is the single chokepoint for persisting state. Every item is
+    forced through ``prune_unknown_fields`` before it hits disk, so no
+    candidate/intermediate/dedupe field can ever leak into
+    ``state/events.json`` — regardless of what the caller passed in.
+    """
     state["updated_at"] = utcnow_iso()
     state.setdefault("schema_version", SCHEMA_VERSION)
+    state["items"] = [prune_unknown_fields(it) for it in state.get("items", [])]
     atomic_write_json(EVENTS_PATH, state)
 
 

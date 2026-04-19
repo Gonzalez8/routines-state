@@ -59,6 +59,18 @@ We deliberately **do not** store article bodies, summaries, payloads, or
 any secondary metadata. The only job of this file is answering: *have we
 handled this before?*
 
+### Only the 8 fields above are ever persisted
+
+Intermediate fields that appear in transient files (`url`,
+`normalized_title`, `_dedupe_reason`, …) never reach `events.json`.
+Enforcement happens at the single write chokepoint — `save_state()` in
+`scripts/_common.py` — which runs every item through
+`prune_unknown_fields` before the atomic write. This is belt-and-braces:
+`build_item()` already returns only the canonical fields, and
+`update_state.py` sanitizes again before merging. The net effect is that
+no matter what garbage the caller passes in, the file on disk always
+matches the schema exactly.
+
 ### `state/config.json`
 
 | Key | Default | Purpose |
