@@ -65,8 +65,13 @@ routines-state/
 
 ## Data model
 
-Each item in `state/events.json` is a flat object with a fixed set of
-fields. Nothing else is stored — no summaries, no bodies, no payloads.
+Each item in `state/events.json` is a flat object with a **fixed set of
+eight fields**. Nothing else is ever persisted — no summaries, no bodies,
+no candidate/dedupe fields (`url`, `normalized_title`, `_dedupe_reason`,
+etc.). The sanitization runs inside `save_state()` in
+`scripts/_common.py`, which is the only write path to the file. Extra
+fields added by hand, by a bad input, or by a future bug are stripped on
+the next write.
 
 | Field | Required | Notes |
 | --- | --- | --- |
@@ -221,7 +226,51 @@ python scripts/update_state.py --input notified.json --routine gh-monitor --topi
 python scripts/prune_state.py --routine gh-monitor
 ```
 
-### 3. Generic alerts / notifications
+### 3. Salesforce news digest
+
+The canonical multi-step flow. **Never write `filtered.json` directly into
+`state/events.json`** — always go through `update_state.py`, which is the
+only script that produces normalized 8-field records.
+
+```bash
+# 1. Your routine searches Salesforce-related news and writes candidates.json:
+#    [{"title": "Salesforce launches Headless 360 ...",
+#      "url": "https://venturebeat.com/...",
+#      "routine": "salesforce-news", "topic": "salesforce"}, ...]
+
+# 2. Dedupe against state -> filtered.json (transient; has extra fields
+#    like url / normalized_title — this is fine, it's a working file).
+python scripts/dedupe_candidates.py \
+    --input candidates.json --output filtered.json \
+    --routine salesforce-news --topic salesforce
+
+# 3. Generate and send the digest from filtered.json.
+
+# 4. Write sent_today.json with exactly the items that went out
+#    (same shape as candidates.json; a subset of filtered.json is fine).
+
+# 5. Record what was sent. update_state.py normalizes: only the 8
+#    canonical fields land in state/events.json. Extras are stripped.
+python scripts/update_state.py --input sent_today.json \
+    --routine salesforce-news --topic salesforce
+
+# 6. Keep state bounded.
+python scripts/prune_state.py --routine salesforce-news
+
+# 7. Commit.
+git add state/events.json
+git commit -m "chore(state): $(date -u +%Y-%m-%d) salesforce-news"
+git push
+```
+
+**Common mistake:** piping `filtered.json` straight into
+`state/events.json` (bypassing `update_state.py`). This leaks candidate
+fields (`url`, `normalized_title`) and drops timestamps. If this ever
+happens, running `python scripts/prune_state.py` once repairs the file in
+place — it derives `source_domain` from `canonical_url`, fills missing
+timestamps from the file's previous `updated_at`, and strips extras.
+
+### 4. Generic alerts / notifications
 
 ```bash
 # An alert system that must not page twice for the same incident URL.
