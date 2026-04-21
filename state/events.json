@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-04-20T07:29:56+00:00",
+  "updated_at": "2026-04-21T07:09:23+00:00",
   "items": [
     {
       "event_id": "d4c9923504bed0c9",
@@ -131,6 +131,26 @@
       "source_domain": "salesforceben.com",
       "first_sent_at": "2026-04-19T20:10:25+00:00",
       "last_seen_at": "2026-04-19T20:10:25+00:00"
+    },
+    {
+      "event_id": "ca9cdf7484e3b03e",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute",
+      "canonical_url": "https://anthropic.com/news/anthropic-amazon-compute",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-04-21T07:09:18+00:00",
+      "last_seen_at": "2026-04-21T07:09:18+00:00"
+    },
+    {
+      "event_id": "326369c3123c94b4",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.116: faster session resume, improved MCP startup and thinking spinner progress",
+      "canonical_url": "https://releasebot.io/updates/anthropic/claude-code",
+      "source_domain": "releasebot.io",
+      "first_sent_at": "2026-04-21T07:09:18+00:00",
+      "last_seen_at": "2026-04-21T07:09:18+00:00"
     },
     {
       "event_id": "f39f8ee3174b576e",
