@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-04-21T07:09:23+00:00",
+  "updated_at": "2026-04-22T07:25:10+00:00",
   "items": [
     {
       "event_id": "d4c9923504bed0c9",
@@ -131,6 +131,46 @@
       "source_domain": "salesforceben.com",
       "first_sent_at": "2026-04-19T20:10:25+00:00",
       "last_seen_at": "2026-04-19T20:10:25+00:00"
+    },
+    {
+      "event_id": "6e83267a04ee1afe",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic's Claude Mythos Preview changes cyber calculus with Project Glasswing",
+      "canonical_url": "https://foreignpolicy.com/2026/04/20/claude-mythos-preview-anthropic-project-glasswing-cybersecurity-ai-hacking-danger",
+      "source_domain": "foreignpolicy.com",
+      "first_sent_at": "2026-04-22T07:25:10+00:00",
+      "last_seen_at": "2026-04-22T07:25:10+00:00"
+    },
+    {
+      "event_id": "6c885f980d6dcc1b",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic tests removing Claude Code from $20 Pro subscription tier",
+      "canonical_url": "https://theregister.com/2026/04/22/anthropic_removes_claude_code_pro",
+      "source_domain": "theregister.com",
+      "first_sent_at": "2026-04-22T07:25:10+00:00",
+      "last_seen_at": "2026-04-22T07:25:10+00:00"
+    },
+    {
+      "event_id": "6488e7d8888d8cff",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Introducing Claude Opus 4.7",
+      "canonical_url": "https://anthropic.com/news/claude-opus-4-7",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-04-22T07:25:10+00:00",
+      "last_seen_at": "2026-04-22T07:25:10+00:00"
+    },
+    {
+      "event_id": "15607ef1dec84277",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Trump says Anthropic deal with Department of Defense is 'possible'",
+      "canonical_url": "https://cnbc.com/2026/04/21/trump-anthropic-department-defense-deal.html",
+      "source_domain": "cnbc.com",
+      "first_sent_at": "2026-04-22T07:25:10+00:00",
+      "last_seen_at": "2026-04-22T07:25:10+00:00"
     },
     {
       "event_id": "ca9cdf7484e3b03e",
