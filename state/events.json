@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-04-22T07:25:10+00:00",
+  "updated_at": "2026-04-23T07:33:03+00:00",
   "items": [
     {
       "event_id": "d4c9923504bed0c9",
@@ -133,14 +133,44 @@
       "last_seen_at": "2026-04-19T20:10:25+00:00"
     },
     {
-      "event_id": "6e83267a04ee1afe",
+      "event_id": "bab447efc94602fe",
       "routine": "claude-news",
       "topic": "claude-ai",
-      "title": "Anthropic's Claude Mythos Preview changes cyber calculus with Project Glasswing",
-      "canonical_url": "https://foreignpolicy.com/2026/04/20/claude-mythos-preview-anthropic-project-glasswing-cybersecurity-ai-hacking-danger",
-      "source_domain": "foreignpolicy.com",
-      "first_sent_at": "2026-04-22T07:25:10+00:00",
-      "last_seen_at": "2026-04-22T07:25:10+00:00"
+      "title": "Amazon to invest up to another $25 billion in Anthropic as part of AI infrastructure deal",
+      "canonical_url": "https://cnbc.com/2026/04/20/amazon-invest-up-to-25-billion-in-anthropic-part-of-ai-infrastructure.html",
+      "source_domain": "cnbc.com",
+      "first_sent_at": "2026-04-23T07:32:58+00:00",
+      "last_seen_at": "2026-04-23T07:32:58+00:00"
+    },
+    {
+      "event_id": "608aa125531d0aa6",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Is Claude Code going to cost $100/month? Probably not—it's all very confusing",
+      "canonical_url": "https://simonwillison.net/2026/Apr/22/claude-code-confusion",
+      "source_domain": "simonwillison.net",
+      "first_sent_at": "2026-04-23T07:32:58+00:00",
+      "last_seen_at": "2026-04-23T07:32:58+00:00"
+    },
+    {
+      "event_id": "4bbd40c65a77d3d7",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic Just Announced Huge News for Alphabet and Broadcom (TPU expansion)",
+      "canonical_url": "https://fool.com/investing/2026/04/22/anthropic-just-announced-huge-news-for-alphabet-an",
+      "source_domain": "fool.com",
+      "first_sent_at": "2026-04-23T07:32:58+00:00",
+      "last_seen_at": "2026-04-23T07:32:58+00:00"
+    },
+    {
+      "event_id": "437ba19b21c2f361",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic is investigating unauthorized access of its Mythos cybersecurity tool",
+      "canonical_url": "https://engadget.com/ai/anthropic-is-investigating-unauthorized-access-of-its-mythos-cybersecurity-tool-091017168.html",
+      "source_domain": "engadget.com",
+      "first_sent_at": "2026-04-23T07:32:58+00:00",
+      "last_seen_at": "2026-04-23T07:32:58+00:00"
     },
     {
       "event_id": "6c885f980d6dcc1b",
@@ -149,6 +179,16 @@
       "title": "Anthropic tests removing Claude Code from $20 Pro subscription tier",
       "canonical_url": "https://theregister.com/2026/04/22/anthropic_removes_claude_code_pro",
       "source_domain": "theregister.com",
+      "first_sent_at": "2026-04-22T07:25:10+00:00",
+      "last_seen_at": "2026-04-23T07:32:58+00:00"
+    },
+    {
+      "event_id": "6e83267a04ee1afe",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic's Claude Mythos Preview changes cyber calculus with Project Glasswing",
+      "canonical_url": "https://foreignpolicy.com/2026/04/20/claude-mythos-preview-anthropic-project-glasswing-cybersecurity-ai-hacking-danger",
+      "source_domain": "foreignpolicy.com",
       "first_sent_at": "2026-04-22T07:25:10+00:00",
       "last_seen_at": "2026-04-22T07:25:10+00:00"
     },
