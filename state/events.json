@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-04-23T07:33:03+00:00",
+  "updated_at": "2026-04-24T07:22:35+00:00",
   "items": [
     {
       "event_id": "d4c9923504bed0c9",
@@ -131,6 +131,46 @@
       "source_domain": "salesforceben.com",
       "first_sent_at": "2026-04-19T20:10:25+00:00",
       "last_seen_at": "2026-04-19T20:10:25+00:00"
+    },
+    {
+      "event_id": "8ee22311a00e5614",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.118: vim visual mode and visual-line mode with selection and operators",
+      "canonical_url": "https://code.claude.com/docs/en/changelog",
+      "source_domain": "code.claude.com",
+      "first_sent_at": "2026-04-24T07:22:32+00:00",
+      "last_seen_at": "2026-04-24T07:22:32+00:00"
+    },
+    {
+      "event_id": "7442282aa3aedc39",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "New connectors in Claude for everyday life (Spotify, Uber, Instacart, and more)",
+      "canonical_url": "https://claude.com/blog/connectors-for-everyday-life",
+      "source_domain": "claude.com",
+      "first_sent_at": "2026-04-24T07:22:32+00:00",
+      "last_seen_at": "2026-04-24T07:22:32+00:00"
+    },
+    {
+      "event_id": "42a557eca5290d34",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic and NEC collaborate to build Japan's largest AI engineering workforce",
+      "canonical_url": "https://anthropic.com/news/anthropic-nec",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-04-24T07:22:32+00:00",
+      "last_seen_at": "2026-04-24T07:22:32+00:00"
+    },
+    {
+      "event_id": "353152087dd69c4e",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "An update on recent Claude Code quality reports (April 23 postmortem)",
+      "canonical_url": "https://anthropic.com/engineering/april-23-postmortem",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-04-24T07:22:32+00:00",
+      "last_seen_at": "2026-04-24T07:22:32+00:00"
     },
     {
       "event_id": "bab447efc94602fe",
