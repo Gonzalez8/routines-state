@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-04-24T07:22:35+00:00",
+  "updated_at": "2026-04-25T07:08:44+00:00",
   "items": [
     {
       "event_id": "d4c9923504bed0c9",
@@ -131,6 +131,26 @@
       "source_domain": "salesforceben.com",
       "first_sent_at": "2026-04-19T20:10:25+00:00",
       "last_seen_at": "2026-04-19T20:10:25+00:00"
+    },
+    {
+      "event_id": "33c3b9309f1bab61",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Google to invest up to $40 billion in Anthropic in cash and compute",
+      "canonical_url": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute",
+      "source_domain": "techcrunch.com",
+      "first_sent_at": "2026-04-25T07:08:41+00:00",
+      "last_seen_at": "2026-04-25T07:08:41+00:00"
+    },
+    {
+      "event_id": "04049d13330a5f23",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "An update on Claude's election safeguards",
+      "canonical_url": "https://anthropic.com/news/election-safeguards-update",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-04-25T07:08:41+00:00",
+      "last_seen_at": "2026-04-25T07:08:41+00:00"
     },
     {
       "event_id": "8ee22311a00e5614",
