@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-04-25T07:08:44+00:00",
+  "updated_at": "2026-04-26T07:10:59+00:00",
   "items": [
     {
       "event_id": "d4c9923504bed0c9",
@@ -131,6 +131,56 @@
       "source_domain": "salesforceben.com",
       "first_sent_at": "2026-04-19T20:10:25+00:00",
       "last_seen_at": "2026-04-19T20:10:25+00:00"
+    },
+    {
+      "event_id": "d70077a35c73e37b",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Inside Claude Mythos: the AI forcing a rethink of global cybersecurity",
+      "canonical_url": "https://businesstoday.in/technology/story/bt-explainer-inside-claude-mythos-the-ai-is-forcing-a-rethink-of-global-cybersecurity-527461-2026-04-26",
+      "source_domain": "businesstoday.in",
+      "first_sent_at": "2026-04-26T07:10:55+00:00",
+      "last_seen_at": "2026-04-26T07:10:55+00:00"
+    },
+    {
+      "event_id": "b02e3e4c3292451e",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Developer Platform releases Rate Limits API for programmatic organization and workspace queries",
+      "canonical_url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "source_domain": "platform.claude.com",
+      "first_sent_at": "2026-04-26T07:10:55+00:00",
+      "last_seen_at": "2026-04-26T07:10:55+00:00"
+    },
+    {
+      "event_id": "8cf78ea75919d36d",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.120 regression: --resume and --continue crash, rollback to v2.1.119",
+      "canonical_url": "https://github.com/anthropics/claude-code/issues/53086",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-04-26T07:10:55+00:00",
+      "last_seen_at": "2026-04-26T07:10:55+00:00"
+    },
+    {
+      "event_id": "62fb7dccac7be818",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic engages governments over Claude Mythos early access amid cybersecurity concerns",
+      "canonical_url": "https://letsdatascience.com/news/anthropic-engages-governments-over-mythos-early-access-a44eb3a0",
+      "source_domain": "letsdatascience.com",
+      "first_sent_at": "2026-04-26T07:10:55+00:00",
+      "last_seen_at": "2026-04-26T07:10:55+00:00"
+    },
+    {
+      "event_id": "13ac1e76ac438009",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "UK Government in discussions with Anthropic for limited access to Claude Mythos cybersecurity AI platform",
+      "canonical_url": "https://crowdfundinsider.com/2026/04/275453-uk-government-in-discussions-with-anthropic-for-limited-access-to-claude-mythos-cybersecurity-ai-platform",
+      "source_domain": "crowdfundinsider.com",
+      "first_sent_at": "2026-04-26T07:10:55+00:00",
+      "last_seen_at": "2026-04-26T07:10:55+00:00"
     },
     {
       "event_id": "33c3b9309f1bab61",
