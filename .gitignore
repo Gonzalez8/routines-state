@@ -30,4 +30,5 @@ notified.json
 paged.json
 delivered.json
 *.tmp.json
+dedupe_report.json
 /tmp/
