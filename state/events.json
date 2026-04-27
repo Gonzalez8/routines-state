@@ -1,137 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-04-26T07:10:59+00:00",
+  "updated_at": "2026-04-27T07:06:48+00:00",
   "items": [
-    {
-      "event_id": "d4c9923504bed0c9",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce Launches the Forward Deployed Engineering Partner Network to Scale Agentforce Success",
-      "canonical_url": "https://salesforce.com/news/stories/salesforce-launches-forward-deployed-engineer-partner-network-announcement",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-04-20T07:23:48+00:00",
-      "last_seen_at": "2026-04-20T07:23:48+00:00"
-    },
-    {
-      "event_id": "95cd0d53d155456d",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce Advances Agent Fabric: New Guided Determinism and Governance Controls to Scale Multi-Vendor AI Faster",
-      "canonical_url": "https://salesforce.com/news/stories/agent-fabric-control-plane-announcement",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-04-20T07:23:48+00:00",
-      "last_seen_at": "2026-04-20T07:23:48+00:00"
-    },
-    {
-      "event_id": "ba0fb558f1128815",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce State of Sales 2026: el 54% de los vendedores ya usa agentes de IA y el 87% usa alguna forma de IA",
-      "canonical_url": "https://salesforce.com/news/stories/state-of-sales-report-announcement-2026",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-04-19T20:28:13+00:00",
-      "last_seen_at": "2026-04-19T20:28:13+00:00"
-    },
-    {
-      "event_id": "921233d6e05043fc",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Preview orgs de Summer '26 ya disponibles: Agentforce, Tableau Next y mejoras en Flow",
-      "canonical_url": "https://martechnotes.com/salesforce-summer-26-preview-orgs-are-live-agentforce-tableau-next-and-flow-updates",
-      "source_domain": "martechnotes.com",
-      "first_sent_at": "2026-04-19T20:28:13+00:00",
-      "last_seen_at": "2026-04-19T20:28:13+00:00"
-    },
-    {
-      "event_id": "3ff7f9683bb991fa",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Tableau Next con MCP ahora disponible para ISVs con analítica agentiva e insights de ventas",
-      "canonical_url": "https://tableau.com/products/new-features",
-      "source_domain": "tableau.com",
-      "first_sent_at": "2026-04-19T20:28:13+00:00",
-      "last_seen_at": "2026-04-19T20:28:13+00:00"
-    },
-    {
-      "event_id": "361251bada05239c",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce Web Console (Beta): nuevo IDE de navegador integrado en la plataforma para desarrolladores",
-      "canonical_url": "https://developer.salesforce.com/blogs/2026/04/introducing-web-console-beta-code-where-you-build-on-salesforce",
-      "source_domain": "developer.salesforce.com",
-      "first_sent_at": "2026-04-19T20:28:13+00:00",
-      "last_seen_at": "2026-04-19T20:28:13+00:00"
-    },
-    {
-      "event_id": "02fd296eca0d8b02",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce cierra la adquisición de Qualified: marketing agentivo integrado en Agentforce",
-      "canonical_url": "https://salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-qualified",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-04-19T20:28:13+00:00",
-      "last_seen_at": "2026-04-19T20:28:13+00:00"
-    },
-    {
-      "event_id": "f5fc0af848fa2258",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Developer Edition de Salesforce incluye gratis Agentforce Vibes IDE, Claude Sonnet 4.5 y MCP Servers desde TDX 2026",
-      "canonical_url": "https://apexhours.com/tdx-2026-keynote-everything-salesforce-announced-at-trailblazerdx-and-what-it-actually-means-for-you",
-      "source_domain": "apexhours.com",
-      "first_sent_at": "2026-04-19T20:10:25+00:00",
-      "last_seen_at": "2026-04-19T20:10:25+00:00"
-    },
-    {
-      "event_id": "dc563569baf7d670",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "TDX 2026: Salesforce apuesta por la conversación como nueva interfaz para desarrolladores",
-      "canonical_url": "https://siliconangle.com/2026/04/15/salesforce-bets-conversation-new-interface-developers",
-      "source_domain": "siliconangle.com",
-      "first_sent_at": "2026-04-19T20:10:25+00:00",
-      "last_seen_at": "2026-04-19T20:10:25+00:00"
-    },
-    {
-      "event_id": "4ef8bf7bdc096ea2",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "AgentExchange: nuevo marketplace unificado de Salesforce con 10.000 apps y fondo de 50 millones para builders",
-      "canonical_url": "https://salesforcetrail.com/salesforce-introduces-headless-360-at-tdx-2026",
-      "source_domain": "salesforcetrail.com",
-      "first_sent_at": "2026-04-19T20:10:25+00:00",
-      "last_seen_at": "2026-04-19T20:10:25+00:00"
-    },
-    {
-      "event_id": "35086e7a6e72290e",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce: Agentforce convierte eficiencia de IA en ingresos, ahorra 100 millones en soporte y gestiona 3 millones de conversaciones",
-      "canonical_url": "https://fortune.com/2026/04/18/salesforce-agentforce-ai-efficiency-revenue-growth",
-      "source_domain": "fortune.com",
-      "first_sent_at": "2026-04-19T20:10:25+00:00",
-      "last_seen_at": "2026-04-19T20:10:25+00:00"
-    },
-    {
-      "event_id": "2bf04faaf5ad640e",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce lanza Headless 360: toda la plataforma como API, MCP y CLI para agentes de IA",
-      "canonical_url": "https://venturebeat.com/ai/salesforce-launches-headless-360-to-turn-its-entire-platform-into-infrastructure-for-ai-agents",
-      "source_domain": "venturebeat.com",
-      "first_sent_at": "2026-04-19T20:10:25+00:00",
-      "last_seen_at": "2026-04-19T20:10:25+00:00"
-    },
-    {
-      "event_id": "2a69c8dffc0078f6",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Agentforce Vibes 2.0: soporte multimodelo (Claude Sonnet y GPT-5) y SDK abierto para agentes en TDX 2026",
-      "canonical_url": "https://salesforceben.com/salesforce-headless-360-and-agentforce-vibes-2-0-revealed-at-tdx-2026",
-      "source_domain": "salesforceben.com",
-      "first_sent_at": "2026-04-19T20:10:25+00:00",
-      "last_seen_at": "2026-04-19T20:10:25+00:00"
-    },
     {
       "event_id": "d70077a35c73e37b",
       "routine": "claude-news",
@@ -283,16 +153,6 @@
       "last_seen_at": "2026-04-23T07:32:58+00:00"
     },
     {
-      "event_id": "6c885f980d6dcc1b",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic tests removing Claude Code from $20 Pro subscription tier",
-      "canonical_url": "https://theregister.com/2026/04/22/anthropic_removes_claude_code_pro",
-      "source_domain": "theregister.com",
-      "first_sent_at": "2026-04-22T07:25:10+00:00",
-      "last_seen_at": "2026-04-23T07:32:58+00:00"
-    },
-    {
       "event_id": "6e83267a04ee1afe",
       "routine": "claude-news",
       "topic": "claude-ai",
@@ -301,6 +161,16 @@
       "source_domain": "foreignpolicy.com",
       "first_sent_at": "2026-04-22T07:25:10+00:00",
       "last_seen_at": "2026-04-22T07:25:10+00:00"
+    },
+    {
+      "event_id": "6c885f980d6dcc1b",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic tests removing Claude Code from $20 Pro subscription tier",
+      "canonical_url": "https://theregister.com/2026/04/22/anthropic_removes_claude_code_pro",
+      "source_domain": "theregister.com",
+      "first_sent_at": "2026-04-22T07:25:10+00:00",
+      "last_seen_at": "2026-04-23T07:32:58+00:00"
     },
     {
       "event_id": "6488e7d8888d8cff",
@@ -491,6 +361,176 @@
       "source_domain": "cnn.com",
       "first_sent_at": "2026-04-19T19:52:03+00:00",
       "last_seen_at": "2026-04-19T19:52:03+00:00"
+    },
+    {
+      "event_id": "df17e31bf5fda3fb",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "10 New Salesforce Flow Features in Summer '26",
+      "canonical_url": "https://salesforceben.com/10-new-salesforce-flow-features-in-summer-26",
+      "source_domain": "salesforceben.com",
+      "first_sent_at": "2026-04-27T07:06:45+00:00",
+      "last_seen_at": "2026-04-27T07:06:45+00:00"
+    },
+    {
+      "event_id": "6caa74cb6f944e02",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce and Google Cloud Enable AI Agents to Act Across Both Platforms with Deep Context and End-to-End Workflows",
+      "canonical_url": "https://salesforce.com/news/press-releases/2026/04/22/salesforce-google-cloud-launch-new-integrations-deep-context",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-04-27T07:06:45+00:00",
+      "last_seen_at": "2026-04-27T07:06:45+00:00"
+    },
+    {
+      "event_id": "58e8e0ee513259b1",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Top Sales Cloud Features in Salesforce Summer '26",
+      "canonical_url": "https://salesforceben.com/sales-cloud-top-7-salesforce-summer-26-features",
+      "source_domain": "salesforceben.com",
+      "first_sent_at": "2026-04-27T07:06:45+00:00",
+      "last_seen_at": "2026-04-27T07:06:45+00:00"
+    },
+    {
+      "event_id": "08339254444eb463",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce Summer '26 Release Notes Drop: What Admins and Marketers Need to Know Today",
+      "canonical_url": "https://martechnotes.com/salesforce-summer-26-release-notes-drop-what-admins-and-marketers-need-to-know-today",
+      "source_domain": "martechnotes.com",
+      "first_sent_at": "2026-04-27T07:06:45+00:00",
+      "last_seen_at": "2026-04-27T07:06:45+00:00"
+    },
+    {
+      "event_id": "d4c9923504bed0c9",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce Launches the Forward Deployed Engineering Partner Network to Scale Agentforce Success",
+      "canonical_url": "https://salesforce.com/news/stories/salesforce-launches-forward-deployed-engineer-partner-network-announcement",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-04-20T07:23:48+00:00",
+      "last_seen_at": "2026-04-20T07:23:48+00:00"
+    },
+    {
+      "event_id": "95cd0d53d155456d",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce Advances Agent Fabric: New Guided Determinism and Governance Controls to Scale Multi-Vendor AI Faster",
+      "canonical_url": "https://salesforce.com/news/stories/agent-fabric-control-plane-announcement",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-04-20T07:23:48+00:00",
+      "last_seen_at": "2026-04-20T07:23:48+00:00"
+    },
+    {
+      "event_id": "ba0fb558f1128815",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce State of Sales 2026: el 54% de los vendedores ya usa agentes de IA y el 87% usa alguna forma de IA",
+      "canonical_url": "https://salesforce.com/news/stories/state-of-sales-report-announcement-2026",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-04-19T20:28:13+00:00",
+      "last_seen_at": "2026-04-19T20:28:13+00:00"
+    },
+    {
+      "event_id": "921233d6e05043fc",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Preview orgs de Summer '26 ya disponibles: Agentforce, Tableau Next y mejoras en Flow",
+      "canonical_url": "https://martechnotes.com/salesforce-summer-26-preview-orgs-are-live-agentforce-tableau-next-and-flow-updates",
+      "source_domain": "martechnotes.com",
+      "first_sent_at": "2026-04-19T20:28:13+00:00",
+      "last_seen_at": "2026-04-19T20:28:13+00:00"
+    },
+    {
+      "event_id": "3ff7f9683bb991fa",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Tableau Next con MCP ahora disponible para ISVs con analítica agentiva e insights de ventas",
+      "canonical_url": "https://tableau.com/products/new-features",
+      "source_domain": "tableau.com",
+      "first_sent_at": "2026-04-19T20:28:13+00:00",
+      "last_seen_at": "2026-04-19T20:28:13+00:00"
+    },
+    {
+      "event_id": "361251bada05239c",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce Web Console (Beta): nuevo IDE de navegador integrado en la plataforma para desarrolladores",
+      "canonical_url": "https://developer.salesforce.com/blogs/2026/04/introducing-web-console-beta-code-where-you-build-on-salesforce",
+      "source_domain": "developer.salesforce.com",
+      "first_sent_at": "2026-04-19T20:28:13+00:00",
+      "last_seen_at": "2026-04-19T20:28:13+00:00"
+    },
+    {
+      "event_id": "02fd296eca0d8b02",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce cierra la adquisición de Qualified: marketing agentivo integrado en Agentforce",
+      "canonical_url": "https://salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-qualified",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-04-19T20:28:13+00:00",
+      "last_seen_at": "2026-04-19T20:28:13+00:00"
+    },
+    {
+      "event_id": "f5fc0af848fa2258",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Developer Edition de Salesforce incluye gratis Agentforce Vibes IDE, Claude Sonnet 4.5 y MCP Servers desde TDX 2026",
+      "canonical_url": "https://apexhours.com/tdx-2026-keynote-everything-salesforce-announced-at-trailblazerdx-and-what-it-actually-means-for-you",
+      "source_domain": "apexhours.com",
+      "first_sent_at": "2026-04-19T20:10:25+00:00",
+      "last_seen_at": "2026-04-19T20:10:25+00:00"
+    },
+    {
+      "event_id": "dc563569baf7d670",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "TDX 2026: Salesforce apuesta por la conversación como nueva interfaz para desarrolladores",
+      "canonical_url": "https://siliconangle.com/2026/04/15/salesforce-bets-conversation-new-interface-developers",
+      "source_domain": "siliconangle.com",
+      "first_sent_at": "2026-04-19T20:10:25+00:00",
+      "last_seen_at": "2026-04-19T20:10:25+00:00"
+    },
+    {
+      "event_id": "4ef8bf7bdc096ea2",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "AgentExchange: nuevo marketplace unificado de Salesforce con 10.000 apps y fondo de 50 millones para builders",
+      "canonical_url": "https://salesforcetrail.com/salesforce-introduces-headless-360-at-tdx-2026",
+      "source_domain": "salesforcetrail.com",
+      "first_sent_at": "2026-04-19T20:10:25+00:00",
+      "last_seen_at": "2026-04-19T20:10:25+00:00"
+    },
+    {
+      "event_id": "35086e7a6e72290e",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce: Agentforce convierte eficiencia de IA en ingresos, ahorra 100 millones en soporte y gestiona 3 millones de conversaciones",
+      "canonical_url": "https://fortune.com/2026/04/18/salesforce-agentforce-ai-efficiency-revenue-growth",
+      "source_domain": "fortune.com",
+      "first_sent_at": "2026-04-19T20:10:25+00:00",
+      "last_seen_at": "2026-04-19T20:10:25+00:00"
+    },
+    {
+      "event_id": "2bf04faaf5ad640e",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce lanza Headless 360: toda la plataforma como API, MCP y CLI para agentes de IA",
+      "canonical_url": "https://venturebeat.com/ai/salesforce-launches-headless-360-to-turn-its-entire-platform-into-infrastructure-for-ai-agents",
+      "source_domain": "venturebeat.com",
+      "first_sent_at": "2026-04-19T20:10:25+00:00",
+      "last_seen_at": "2026-04-19T20:10:25+00:00"
+    },
+    {
+      "event_id": "2a69c8dffc0078f6",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Agentforce Vibes 2.0: soporte multimodelo (Claude Sonnet y GPT-5) y SDK abierto para agentes en TDX 2026",
+      "canonical_url": "https://salesforceben.com/salesforce-headless-360-and-agentforce-vibes-2-0-revealed-at-tdx-2026",
+      "source_domain": "salesforceben.com",
+      "first_sent_at": "2026-04-19T20:10:25+00:00",
+      "last_seen_at": "2026-04-19T20:10:25+00:00"
     }
   ]
 }
