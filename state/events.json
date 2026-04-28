@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-04-27T07:31:37+00:00",
+  "updated_at": "2026-04-28T07:31:02+00:00",
   "items": [
     {
       "event_id": "df17e31bf5fda3fb",
@@ -171,6 +171,36 @@
       "source_domain": "salesforceben.com",
       "first_sent_at": "2026-04-19T20:10:25+00:00",
       "last_seen_at": "2026-04-19T20:10:25+00:00"
+    },
+    {
+      "event_id": "e6a16379dd240210",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic opens Sydney office and appoints Theo Hourmouzis as General Manager for Australia and New Zealand",
+      "canonical_url": "https://anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-04-28T07:30:59+00:00",
+      "last_seen_at": "2026-04-28T07:30:59+00:00"
+    },
+    {
+      "event_id": "aadc3238e275396b",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Cowork now available in Amazon Bedrock for enterprise deployment",
+      "canonical_url": "https://aws.amazon.com/blogs/machine-learning/from-developer-desks-to-the-whole-organization-running-claude-cowork-in-amazon-bedrock",
+      "source_domain": "aws.amazon.com",
+      "first_sent_at": "2026-04-28T07:30:59+00:00",
+      "last_seen_at": "2026-04-28T07:30:59+00:00"
+    },
+    {
+      "event_id": "311d88b3d784e95d",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Australian Government signs MOU with Anthropic for AI safety, research and national AI plan collaboration",
+      "canonical_url": "https://anthropic.com/news/australia-MOU",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-04-28T07:30:59+00:00",
+      "last_seen_at": "2026-04-28T07:30:59+00:00"
     },
     {
       "event_id": "e4df53266b32b81d",
