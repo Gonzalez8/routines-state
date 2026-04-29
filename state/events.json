@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-04-28T07:31:02+00:00",
+  "updated_at": "2026-04-29T07:11:12+00:00",
   "items": [
     {
       "event_id": "df17e31bf5fda3fb",
@@ -171,6 +171,46 @@
       "source_domain": "salesforceben.com",
       "first_sent_at": "2026-04-19T20:10:25+00:00",
       "last_seen_at": "2026-04-19T20:10:25+00:00"
+    },
+    {
+      "event_id": "ccbe649e250b3444",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Trimble integrates SketchUp with Claude via MCP for conversational 3D modeling",
+      "canonical_url": "https://morningstar.com/news/pr-newswire/20260428sf46299/trimble-links-sketchup-with-anthropics-claude-bringing-new-conversational-ai-powered-capabilities-to-3d-modeling",
+      "source_domain": "morningstar.com",
+      "first_sent_at": "2026-04-29T07:11:10+00:00",
+      "last_seen_at": "2026-04-29T07:11:10+00:00"
+    },
+    {
+      "event_id": "714f44d67c8b4ab4",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Goldman Sachs blocks Claude AI access for Hong Kong staff amid US-China tech tensions",
+      "canonical_url": "https://bloomberg.com/news/articles/2026-04-29/goldman-staff-in-hong-kong-lose-access-to-anthropic-s-claude",
+      "source_domain": "bloomberg.com",
+      "first_sent_at": "2026-04-29T07:11:10+00:00",
+      "last_seen_at": "2026-04-29T07:11:10+00:00"
+    },
+    {
+      "event_id": "54624ca7f2b27785",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Platform coming natively to AWS: full access via existing AWS accounts and billing",
+      "canonical_url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-anthropic-meta-partnership-aws-lambda-s3-files-amazon-bedrock-agentcore-cli-and-more-april-27-2026",
+      "source_domain": "aws.amazon.com",
+      "first_sent_at": "2026-04-29T07:11:10+00:00",
+      "last_seen_at": "2026-04-29T07:11:10+00:00"
+    },
+    {
+      "event_id": "0cddd6fcf3d79511",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic quietly doubles Claude Code token cost estimate to $13 per developer per active day",
+      "canonical_url": "https://letsdatascience.com/news/anthropic-doubles-claude-code-developer-cost-estimate-2f1d51b3",
+      "source_domain": "letsdatascience.com",
+      "first_sent_at": "2026-04-29T07:11:10+00:00",
+      "last_seen_at": "2026-04-29T07:11:10+00:00"
     },
     {
       "event_id": "e6a16379dd240210",
