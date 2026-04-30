@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-04-29T07:11:12+00:00",
+  "updated_at": "2026-04-30T07:09:43+00:00",
   "items": [
     {
       "event_id": "df17e31bf5fda3fb",
@@ -171,6 +171,36 @@
       "source_domain": "salesforceben.com",
       "first_sent_at": "2026-04-19T20:10:25+00:00",
       "last_seen_at": "2026-04-19T20:10:25+00:00"
+    },
+    {
+      "event_id": "cffad9512116c739",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "White House drafting plans to permit federal Anthropic use, bypassing supply chain risk designation",
+      "canonical_url": "https://axios.com/2026/04/29/trump-anthropic-pentagon-ai-executive-order-gov",
+      "source_domain": "axios.com",
+      "first_sent_at": "2026-04-30T07:09:40+00:00",
+      "last_seen_at": "2026-04-30T07:09:40+00:00"
+    },
+    {
+      "event_id": "8b2ae52e83da6718",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic launches 'Claude for Creative Work' with 9 connectors for Adobe, Blender, Autodesk and more",
+      "canonical_url": "https://anthropic.com/news/claude-for-creative-work",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-04-30T07:09:40+00:00",
+      "last_seen_at": "2026-04-30T07:09:40+00:00"
+    },
+    {
+      "event_id": "05146b4ab290a590",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic and OpenAI splurge on London office space in major AI leasing wave",
+      "canonical_url": "https://bloomberg.com/news/articles/2026-04-29/anthropic-openai-splurge-on-london-office-space-in-leasing-wave",
+      "source_domain": "bloomberg.com",
+      "first_sent_at": "2026-04-30T07:09:40+00:00",
+      "last_seen_at": "2026-04-30T07:09:40+00:00"
     },
     {
       "event_id": "ccbe649e250b3444",
