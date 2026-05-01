@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-04-30T07:09:43+00:00",
+  "updated_at": "2026-05-01T07:05:27+00:00",
   "items": [
     {
       "event_id": "df17e31bf5fda3fb",
@@ -171,6 +171,36 @@
       "source_domain": "salesforceben.com",
       "first_sent_at": "2026-04-19T20:10:25+00:00",
       "last_seen_at": "2026-04-19T20:10:25+00:00"
+    },
+    {
+      "event_id": "c3df587d4e08a994",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic launches Claude Security public beta for enterprise customers",
+      "canonical_url": "https://siliconangle.com/2026/04/30/anthropic-announces-claude-security-public-beta-find-fix-software-vulnerabilities",
+      "source_domain": "siliconangle.com",
+      "first_sent_at": "2026-05-01T07:05:25+00:00",
+      "last_seen_at": "2026-05-01T07:05:25+00:00"
+    },
+    {
+      "event_id": "a7e90058f98ab198",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "CrowdStrike integrates Claude Opus 4.7 across Falcon platform via Project QuiltWorks",
+      "canonical_url": "https://crowdstrike.com/en-us/press-releases/crowdstrike-puts-claude-opus-4-7-to-work-across-falcon-platform-project-quiltworks",
+      "source_domain": "crowdstrike.com",
+      "first_sent_at": "2026-05-01T07:05:25+00:00",
+      "last_seen_at": "2026-05-01T07:05:25+00:00"
+    },
+    {
+      "event_id": "012c3b3c4956a49e",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic BioMysteryBench: Claude matches and surpasses human experts in bioinformatics research",
+      "canonical_url": "https://anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-05-01T07:05:25+00:00",
+      "last_seen_at": "2026-05-01T07:05:25+00:00"
     },
     {
       "event_id": "cffad9512116c739",
