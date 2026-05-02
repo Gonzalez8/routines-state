@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-05-01T07:05:27+00:00",
+  "updated_at": "2026-05-02T07:30:23+00:00",
   "items": [
     {
       "event_id": "df17e31bf5fda3fb",
@@ -171,6 +171,26 @@
       "source_domain": "salesforceben.com",
       "first_sent_at": "2026-04-19T20:10:25+00:00",
       "last_seen_at": "2026-04-19T20:10:25+00:00"
+    },
+    {
+      "event_id": "7a95a5e686642909",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Pentagon freezes out Anthropic as it signs deals with AI rivals",
+      "canonical_url": "https://defensenews.com/news/pentagon-congress/2026/05/01/pentagon-freezes-out-anthropic-as-it-signs-deals-with-ai-rivals",
+      "source_domain": "defensenews.com",
+      "first_sent_at": "2026-05-02T07:30:21+00:00",
+      "last_seen_at": "2026-05-02T07:30:21+00:00"
+    },
+    {
+      "event_id": "73a28df43ddd77cd",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic seeks $900 billion valuation in new funding raise",
+      "canonical_url": "https://winbuzzer.com/2026/05/01/sources-anthropic-potential-900b-valuation-round-c-xcxwbn",
+      "source_domain": "winbuzzer.com",
+      "first_sent_at": "2026-05-02T07:30:21+00:00",
+      "last_seen_at": "2026-05-02T07:30:21+00:00"
     },
     {
       "event_id": "c3df587d4e08a994",
