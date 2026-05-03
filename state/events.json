@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-05-02T07:30:23+00:00",
+  "updated_at": "2026-05-03T07:26:05+00:00",
   "items": [
     {
       "event_id": "df17e31bf5fda3fb",
@@ -171,6 +171,26 @@
       "source_domain": "salesforceben.com",
       "first_sent_at": "2026-04-19T20:10:25+00:00",
       "last_seen_at": "2026-04-19T20:10:25+00:00"
+    },
+    {
+      "event_id": "ad462437d60934d1",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Blender Foundation revises Anthropic AI funding deal to one-time donation amid community concerns",
+      "canonical_url": "https://blender.org/news/upcoming-blender-development-fund-and-ai-policies",
+      "source_domain": "blender.org",
+      "first_sent_at": "2026-05-03T07:26:02+00:00",
+      "last_seen_at": "2026-05-03T07:26:02+00:00"
+    },
+    {
+      "event_id": "257a06b940522874",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Harvard FAS plans to grant access to Anthropic's Claude, phase out ChatGPT Edu",
+      "canonical_url": "https://thecrimson.com/article/2026/4/28/fas-anthropic-claude",
+      "source_domain": "thecrimson.com",
+      "first_sent_at": "2026-05-03T07:26:02+00:00",
+      "last_seen_at": "2026-05-03T07:26:02+00:00"
     },
     {
       "event_id": "7a95a5e686642909",
