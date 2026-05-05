@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-05-04T07:18:49+00:00",
+  "updated_at": "2026-05-05T07:10:09+00:00",
   "items": [
     {
       "event_id": "f2d6d9bed14ac43e",
@@ -231,6 +231,26 @@
       "source_domain": "salesforceben.com",
       "first_sent_at": "2026-04-19T20:10:25+00:00",
       "last_seen_at": "2026-04-19T20:10:25+00:00"
+    },
+    {
+      "event_id": "5494b4e392c51f59",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic forms $1.5B joint venture with Goldman Sachs, Blackstone, and Hellman & Friedman",
+      "canonical_url": "https://cnbc.com/2026/05/04/anthropic-goldman-blackstone-ai-venture.html",
+      "source_domain": "cnbc.com",
+      "first_sent_at": "2026-05-05T07:10:07+00:00",
+      "last_seen_at": "2026-05-05T07:10:07+00:00"
+    },
+    {
+      "event_id": "0ac183024f17c2fc",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic and OpenAI both launch joint ventures for enterprise AI services",
+      "canonical_url": "https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services",
+      "source_domain": "techcrunch.com",
+      "first_sent_at": "2026-05-05T07:10:07+00:00",
+      "last_seen_at": "2026-05-05T07:10:07+00:00"
     },
     {
       "event_id": "9ba1579d92a836c9",
