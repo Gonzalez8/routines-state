@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-05-05T07:10:09+00:00",
+  "updated_at": "2026-05-06T07:12:10+00:00",
   "items": [
     {
       "event_id": "f2d6d9bed14ac43e",
@@ -231,6 +231,66 @@
       "source_domain": "salesforceben.com",
       "first_sent_at": "2026-04-19T20:10:25+00:00",
       "last_seen_at": "2026-04-19T20:10:25+00:00"
+    },
+    {
+      "event_id": "ff26d485e637fe93",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Moody's lanza app MCP para Claude con datos de 600 millones de empresas para análisis crediticio",
+      "canonical_url": "https://theregister.com/2026/05/05/anthropic_unleashes_finance_agents_claude",
+      "source_domain": "theregister.com",
+      "first_sent_at": "2026-05-06T07:12:08+00:00",
+      "last_seen_at": "2026-05-06T07:12:08+00:00"
+    },
+    {
+      "event_id": "cc5123e562389cf5",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "FIS integra Anthropic Claude Opus 4.7 para combatir crímenes financieros en banca",
+      "canonical_url": "https://fisglobal.com/about-us/media-room/press-release/2026/fis-brings-agentic-ai-to-banking-with-anthropic-starting-with-financial-crimes",
+      "source_domain": "fisglobal.com",
+      "first_sent_at": "2026-05-06T07:12:08+00:00",
+      "last_seen_at": "2026-05-06T07:12:08+00:00"
+    },
+    {
+      "event_id": "b9af04fa855c3ccb",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Orbit: el asistente proactivo de Anthropic que genera briefings automáticos desde Gmail, Slack, GitHub y Figma",
+      "canonical_url": "https://testingcatalog.com/anthropic-is-working-on-orbit-its-upcoming-proactive-assistant",
+      "source_domain": "testingcatalog.com",
+      "first_sent_at": "2026-05-06T07:12:08+00:00",
+      "last_seen_at": "2026-05-06T07:12:08+00:00"
+    },
+    {
+      "event_id": "b017ca474470c7cc",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic celebra \"Code with Claude\", su primera conferencia para desarrolladores en San Francisco",
+      "canonical_url": "https://anthropic.com/news/Introducing-code-with-claude",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-05-06T07:12:08+00:00",
+      "last_seen_at": "2026-05-06T07:12:08+00:00"
+    },
+    {
+      "event_id": "03740e5df9c64728",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Fuga de código fuente revela Claude Sonnet 4.8 y modo encubierto antes de conferencia de desarrolladores",
+      "canonical_url": "https://ainexusdaily.com/article/anthropic-source-leak-claude-sonnet-4-8-undercover-mode",
+      "source_domain": "ainexusdaily.com",
+      "first_sent_at": "2026-05-06T07:12:08+00:00",
+      "last_seen_at": "2026-05-06T07:12:08+00:00"
+    },
+    {
+      "event_id": "03559b5a68aca069",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic lanza 10 agentes de IA para servicios financieros con integración Microsoft 365",
+      "canonical_url": "https://fortune.com/2026/05/05/anthropic-wall-street-financial-services-agents-jamie-dimon",
+      "source_domain": "fortune.com",
+      "first_sent_at": "2026-05-06T07:12:08+00:00",
+      "last_seen_at": "2026-05-06T07:12:08+00:00"
     },
     {
       "event_id": "5494b4e392c51f59",
