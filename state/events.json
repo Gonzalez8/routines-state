@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-05-06T07:12:10+00:00",
+  "updated_at": "2026-05-07T07:12:49+00:00",
   "items": [
     {
       "event_id": "f2d6d9bed14ac43e",
@@ -231,6 +231,36 @@
       "source_domain": "salesforceben.com",
       "first_sent_at": "2026-04-19T20:10:25+00:00",
       "last_seen_at": "2026-04-19T20:10:25+00:00"
+    },
+    {
+      "event_id": "d539ad0840e0855d",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Higher usage limits for Claude and a compute deal with SpaceX",
+      "canonical_url": "https://anthropic.com/news/higher-limits-spacex",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-05-07T07:12:47+00:00",
+      "last_seen_at": "2026-05-07T07:12:47+00:00"
+    },
+    {
+      "event_id": "cfff1b52ed5593cf",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic Is Making Its Claude Chatbot More Appealing to Consumers",
+      "canonical_url": "https://bloomberg.com/news/articles/2026-05-07/anthropic-is-making-claude-chatbot-more-appealing-to-consumers",
+      "source_domain": "bloomberg.com",
+      "first_sent_at": "2026-05-07T07:12:47+00:00",
+      "last_seen_at": "2026-05-07T07:12:47+00:00"
+    },
+    {
+      "event_id": "1b71bd9ede3e2e50",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration",
+      "canonical_url": "https://claude.com/blog/new-in-claude-managed-agents",
+      "source_domain": "claude.com",
+      "first_sent_at": "2026-05-07T07:12:47+00:00",
+      "last_seen_at": "2026-05-07T07:12:47+00:00"
     },
     {
       "event_id": "ff26d485e637fe93",
