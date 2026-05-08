@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-05-07T07:12:49+00:00",
+  "updated_at": "2026-05-08T07:12:38+00:00",
   "items": [
     {
       "event_id": "f2d6d9bed14ac43e",
@@ -231,6 +231,26 @@
       "source_domain": "salesforceben.com",
       "first_sent_at": "2026-04-19T20:10:25+00:00",
       "last_seen_at": "2026-04-19T20:10:25+00:00"
+    },
+    {
+      "event_id": "aafe974f5424799c",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.133: hooks receive effort level, worktree.baseRef setting, memory optimizations and stability fixes",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.133",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-05-08T07:12:36+00:00",
+      "last_seen_at": "2026-05-08T07:12:36+00:00"
+    },
+    {
+      "event_id": "4abe906bc321a8a0",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Snyk Embeds Anthropic's Claude to Advance AI-Powered Security for Software Development",
+      "canonical_url": "https://finance.yahoo.com/sectors/technology/articles/snyk-embeds-anthropics-claude-advance-174900036.html",
+      "source_domain": "finance.yahoo.com",
+      "first_sent_at": "2026-05-08T07:12:36+00:00",
+      "last_seen_at": "2026-05-08T07:12:36+00:00"
     },
     {
       "event_id": "d539ad0840e0855d",
