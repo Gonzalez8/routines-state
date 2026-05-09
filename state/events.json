@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-05-08T07:12:38+00:00",
+  "updated_at": "2026-05-09T07:07:12+00:00",
   "items": [
     {
       "event_id": "f2d6d9bed14ac43e",
@@ -231,6 +231,26 @@
       "source_domain": "salesforceben.com",
       "first_sent_at": "2026-04-19T20:10:25+00:00",
       "last_seen_at": "2026-04-19T20:10:25+00:00"
+    },
+    {
+      "event_id": "eb58f0807fb781da",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "AI-Assisted ICS Attack on a Water Utility (Dragos report)",
+      "canonical_url": "https://dragos.com/blog/ai-assisted-ics-attack-water-utility",
+      "source_domain": "dragos.com",
+      "first_sent_at": "2026-05-09T07:07:09+00:00",
+      "last_seen_at": "2026-05-09T07:07:09+00:00"
+    },
+    {
+      "event_id": "c273280e3c5b8399",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Seoul becomes Anthropic's third office in Asia-Pacific",
+      "canonical_url": "https://anthropic.com/news/seoul-becomes-third-anthropic-office-in-asia-pacific",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-05-09T07:07:09+00:00",
+      "last_seen_at": "2026-05-09T07:07:09+00:00"
     },
     {
       "event_id": "aafe974f5424799c",
