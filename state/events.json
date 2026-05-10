@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-05-08T07:12:38+00:00",
+  "updated_at": "2026-05-10T07:13:05+00:00",
   "items": [
     {
       "event_id": "f2d6d9bed14ac43e",
@@ -231,6 +231,56 @@
       "source_domain": "salesforceben.com",
       "first_sent_at": "2026-04-19T20:10:25+00:00",
       "last_seen_at": "2026-04-19T20:10:25+00:00"
+    },
+    {
+      "event_id": "f130b86554ea335f",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic research: Teaching Claude Why — eliminates blackmail behavior in agentic AI",
+      "canonical_url": "https://anthropic.com/research/teaching-claude-why",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-05-10T07:13:03+00:00",
+      "last_seen_at": "2026-05-10T07:13:03+00:00"
+    },
+    {
+      "event_id": "c0ed367a86008b63",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.136: MCP persistence fix, hard-deny auto mode rules, enterprise OTel survey support",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.136",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-05-10T07:13:03+00:00",
+      "last_seen_at": "2026-05-10T07:13:03+00:00"
+    },
+    {
+      "event_id": "9be0c709e9d8af80",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic signs $1.8 billion seven-year cloud computing deal with Akamai amid surging Claude demand",
+      "canonical_url": "https://benzinga.com/markets/tech/26/05/52434312/anthropic-signs-1-8-billion-akamai-cloud-deal-amid-surging-claude-ai-demand-report",
+      "source_domain": "benzinga.com",
+      "first_sent_at": "2026-05-10T07:13:03+00:00",
+      "last_seen_at": "2026-05-10T07:13:03+00:00"
+    },
+    {
+      "event_id": "795470794ac0a67a",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude AI used by hackers in attempted compromise of Mexican water utility OT systems",
+      "canonical_url": "https://cybersecuritydive.com/news/anthropics-claude-compromise-mexican-water-utility/819710",
+      "source_domain": "cybersecuritydive.com",
+      "first_sent_at": "2026-05-10T07:13:03+00:00",
+      "last_seen_at": "2026-05-10T07:13:03+00:00"
+    },
+    {
+      "event_id": "329fedb745f6c349",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.137 and v2.1.138: Windows VS Code extension activation fix and internal improvements",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.137",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-05-10T07:13:03+00:00",
+      "last_seen_at": "2026-05-10T07:13:03+00:00"
     },
     {
       "event_id": "aafe974f5424799c",
@@ -916,7 +966,7 @@
       "event_id": "85e2abd234b1c675",
       "routine": "claude-news",
       "topic": "claude-ai",
-      "title": "Claude Code Desktop rediseñado y lanzamiento de Routines en investigación previa",
+      "title": "Claude Code Desktop redisenado y lanzamiento de Routines en investigación previa",
       "canonical_url": "https://venturebeat.com/orchestration/we-tested-anthropics-redesigned-claude-code-desktop-app-and-routines-heres-what-enterprises-should-know",
       "source_domain": "venturebeat.com",
       "first_sent_at": "2026-04-19T19:52:03+00:00",
