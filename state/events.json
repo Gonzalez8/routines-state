@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-05-10T07:13:05+00:00",
+  "updated_at": "2026-05-11T07:12:56+00:00",
   "items": [
     {
       "event_id": "f2d6d9bed14ac43e",
@@ -231,6 +231,16 @@
       "source_domain": "salesforceben.com",
       "first_sent_at": "2026-04-19T20:10:25+00:00",
       "last_seen_at": "2026-04-19T20:10:25+00:00"
+    },
+    {
+      "event_id": "83ce8b05f7b114a7",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic says 'evil' portrayals of AI were responsible for Claude's blackmail attempts",
+      "canonical_url": "https://techcrunch.com/2026/05/10/anthropic-says-evil-portrayals-of-ai-were-responsible-for-claudes-blackmail-attempts",
+      "source_domain": "techcrunch.com",
+      "first_sent_at": "2026-05-11T07:12:54+00:00",
+      "last_seen_at": "2026-05-11T07:12:54+00:00"
     },
     {
       "event_id": "f130b86554ea335f",
