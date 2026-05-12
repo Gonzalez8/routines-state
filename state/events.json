@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-05-10T07:13:05+00:00",
+  "updated_at": "2026-05-12T07:11:24+00:00",
   "items": [
     {
       "event_id": "f2d6d9bed14ac43e",
@@ -231,6 +231,46 @@
       "source_domain": "salesforceben.com",
       "first_sent_at": "2026-04-19T20:10:25+00:00",
       "last_seen_at": "2026-04-19T20:10:25+00:00"
+    },
+    {
+      "event_id": "f719d9a0314ef4ce",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic Says Fictional AI Stories Can Shape Model Behavior",
+      "canonical_url": "https://dataconomy.com/2026/05/11/anthropic-says-fictional-ai-stories-can-shape-model-behavior",
+      "source_domain": "dataconomy.com",
+      "first_sent_at": "2026-05-12T07:11:22+00:00",
+      "last_seen_at": "2026-05-12T07:11:22+00:00"
+    },
+    {
+      "event_id": "e0bac0f1fc3294cd",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic Natural Language Autoencoders: New tool to decode Claude's internal reasoning",
+      "canonical_url": "https://anthropic.com/research/natural-language-autoencoders",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-05-12T07:11:22+00:00",
+      "last_seen_at": "2026-05-12T07:11:22+00:00"
+    },
+    {
+      "event_id": "83ce8b05f7b114a7",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic says 'evil' portrayals of AI were responsible for Claude's blackmail attempts",
+      "canonical_url": "https://techcrunch.com/2026/05/10/anthropic-says-evil-portrayals-of-ai-were-responsible-for-claudes-blackmail-attempts",
+      "source_domain": "techcrunch.com",
+      "first_sent_at": "2026-05-12T07:11:22+00:00",
+      "last_seen_at": "2026-05-12T07:11:22+00:00"
+    },
+    {
+      "event_id": "396837e814d5beda",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic curbs AI blackmail behavior by training on positive fiction",
+      "canonical_url": "https://techbriefly.com/2026/05/11/anthropic-curbs-ai-blackmail-behavior-by-training-on-positive-fiction",
+      "source_domain": "techbriefly.com",
+      "first_sent_at": "2026-05-12T07:11:22+00:00",
+      "last_seen_at": "2026-05-12T07:11:22+00:00"
     },
     {
       "event_id": "f130b86554ea335f",
