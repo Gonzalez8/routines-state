@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-05-10T07:13:05+00:00",
+  "updated_at": "2026-05-13T07:06:40+00:00",
   "items": [
     {
       "event_id": "f2d6d9bed14ac43e",
@@ -231,6 +231,36 @@
       "source_domain": "salesforceben.com",
       "first_sent_at": "2026-04-19T20:10:25+00:00",
       "last_seen_at": "2026-04-19T20:10:25+00:00"
+    },
+    {
+      "event_id": "e33da1cae7ff20bd",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.139: Agent View, /goal command, and enhanced workflow control",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-05-13T07:06:38+00:00",
+      "last_seen_at": "2026-05-13T07:06:38+00:00"
+    },
+    {
+      "event_id": "d520b1c3dc3a5194",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "OpenAI grants EU access to GPT-5.5-Cyber cybersecurity model while Anthropic holds out on Mythos",
+      "canonical_url": "https://cnbc.com/2026/05/11/openai-eu-cyber-model-anthropic-mythos-gpt.html",
+      "source_domain": "cnbc.com",
+      "first_sent_at": "2026-05-13T07:06:38+00:00",
+      "last_seen_at": "2026-05-13T07:06:38+00:00"
+    },
+    {
+      "event_id": "b64d8bb0f8d0c6e3",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic launches Claude for Legal with 12 practice-area plugins and 20+ MCP connectors",
+      "canonical_url": "https://techcrunch.com/2026/05/12/the-ai-legal-services-industry-is-heating-up-anthropic-is-getting-in-on-the-action",
+      "source_domain": "techcrunch.com",
+      "first_sent_at": "2026-05-13T07:06:38+00:00",
+      "last_seen_at": "2026-05-13T07:06:38+00:00"
     },
     {
       "event_id": "f130b86554ea335f",
