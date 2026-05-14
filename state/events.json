@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-05-13T07:06:40+00:00",
+  "updated_at": "2026-05-14T07:15:42+00:00",
   "items": [
     {
       "event_id": "f2d6d9bed14ac43e",
@@ -231,6 +231,36 @@
       "source_domain": "salesforceben.com",
       "first_sent_at": "2026-04-19T20:10:25+00:00",
       "last_seen_at": "2026-04-19T20:10:25+00:00"
+    },
+    {
+      "event_id": "a608d7b04823af27",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "SAP and Anthropic partner to embed Claude as primary AI reasoning across SAP Business AI Platform",
+      "canonical_url": "https://news.sap.com/2026/05/sap-anthropic-to-bring-claude-sap-business-ai-platform",
+      "source_domain": "news.sap.com",
+      "first_sent_at": "2026-05-14T07:15:42+00:00",
+      "last_seen_at": "2026-05-14T07:15:42+00:00"
+    },
+    {
+      "event_id": "9d98c82ae058d11b",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.140 and v2.1.141: agent color palette, hook terminalSequence, ANTHROPIC_WORKSPACE_ID and Rewind 'Summarize up to here'",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-05-14T07:15:42+00:00",
+      "last_seen_at": "2026-05-14T07:15:42+00:00"
+    },
+    {
+      "event_id": "21ec615f55e28d0a",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Introducing Claude for Small Business",
+      "canonical_url": "https://anthropic.com/news/claude-for-small-business",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-05-14T07:15:42+00:00",
+      "last_seen_at": "2026-05-14T07:15:42+00:00"
     },
     {
       "event_id": "e33da1cae7ff20bd",
