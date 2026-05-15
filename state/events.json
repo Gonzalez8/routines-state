@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-05-14T07:15:42+00:00",
+  "updated_at": "2026-05-15T07:03:48+00:00",
   "items": [
     {
       "event_id": "f2d6d9bed14ac43e",
@@ -231,6 +231,56 @@
       "source_domain": "salesforceben.com",
       "first_sent_at": "2026-04-19T20:10:25+00:00",
       "last_seen_at": "2026-04-19T20:10:25+00:00"
+    },
+    {
+      "event_id": "c51c1c1d477db142",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic puts Claude agents on a separate credit meter starting June 15",
+      "canonical_url": "https://axios.com/2026/05/14/anthropic-claude-price-openai-tokens",
+      "source_domain": "axios.com",
+      "first_sent_at": "2026-05-15T07:03:47+00:00",
+      "last_seen_at": "2026-05-15T07:03:47+00:00"
+    },
+    {
+      "event_id": "a610d18f07b98ecc",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "US judge seeks more details on Anthropic's $1.5 billion author copyright settlement",
+      "canonical_url": "https://storyboard18.com/amp/digital/judge-seeks-more-details-on-anthropic-1-5-billion-author-settlement-ws-l-98181.htm",
+      "source_domain": "storyboard18.com",
+      "first_sent_at": "2026-05-15T07:03:47+00:00",
+      "last_seen_at": "2026-05-15T07:03:47+00:00"
+    },
+    {
+      "event_id": "56ea2e19f1aff21b",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.142: new claude agents flags, fast mode defaults to Opus 4.7, and background session fixes",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.142",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-05-15T07:03:47+00:00",
+      "last_seen_at": "2026-05-15T07:03:47+00:00"
+    },
+    {
+      "event_id": "15deaf8a34eaf924",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "PwC deploys Claude to build technology and reinvent enterprise functions for clients",
+      "canonical_url": "https://anthropic.com/news/pwc-expanded-partnership",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-05-15T07:03:47+00:00",
+      "last_seen_at": "2026-05-15T07:03:47+00:00"
+    },
+    {
+      "event_id": "136ae5d0f135ad61",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic forms $200 million partnership with the Gates Foundation",
+      "canonical_url": "https://anthropic.com/news/gates-foundation-partnership",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-05-15T07:03:47+00:00",
+      "last_seen_at": "2026-05-15T07:03:47+00:00"
     },
     {
       "event_id": "a608d7b04823af27",
