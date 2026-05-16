@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-05-15T07:03:48+00:00",
+  "updated_at": "2026-05-16T07:06:05+00:00",
   "items": [
     {
       "event_id": "f2d6d9bed14ac43e",
@@ -231,6 +231,36 @@
       "source_domain": "salesforceben.com",
       "first_sent_at": "2026-04-19T20:10:25+00:00",
       "last_seen_at": "2026-04-19T20:10:25+00:00"
+    },
+    {
+      "event_id": "fc11d82b46376729",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic overtakes OpenAI in business AI adoption for first time: 34.4% vs 32.3% (Ramp AI Index May 2026)",
+      "canonical_url": "https://ramp.com/leading-indicators/ai-index-may-2026",
+      "source_domain": "ramp.com",
+      "first_sent_at": "2026-05-16T07:06:00+00:00",
+      "last_seen_at": "2026-05-16T07:06:00+00:00"
+    },
+    {
+      "event_id": "87517c6c1c4ea0bd",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude for Microsoft 365: Excel, Word and PowerPoint reach general availability; Outlook enters public beta",
+      "canonical_url": "https://claude.com/claude-for-microsoft-365",
+      "source_domain": "claude.com",
+      "first_sent_at": "2026-05-16T07:06:00+00:00",
+      "last_seen_at": "2026-05-16T07:06:00+00:00"
+    },
+    {
+      "event_id": "3716dc1920d4025a",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.143: plugin dependency enforcement, projected context cost, and worktree.bgIsolation setting",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-05-16T07:06:00+00:00",
+      "last_seen_at": "2026-05-16T07:06:00+00:00"
     },
     {
       "event_id": "c51c1c1d477db142",
