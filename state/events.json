@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-05-15T07:03:48+00:00",
+  "updated_at": "2026-05-17T07:10:22+00:00",
   "items": [
     {
       "event_id": "f2d6d9bed14ac43e",
@@ -231,6 +231,56 @@
       "source_domain": "salesforceben.com",
       "first_sent_at": "2026-04-19T20:10:25+00:00",
       "last_seen_at": "2026-04-19T20:10:25+00:00"
+    },
+    {
+      "event_id": "79ca81fcf634dee6",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic reinstates OpenClaw and third-party agent usage on Claude subscriptions — with a catch",
+      "canonical_url": "https://venturebeat.com/technology/anthropic-reinstates-openclaw-and-third-party-agent-usage-on-claude-subscriptions-with-a-catch",
+      "source_domain": "venturebeat.com",
+      "first_sent_at": "2026-05-17T07:10:20+00:00",
+      "last_seen_at": "2026-05-17T07:10:20+00:00"
+    },
+    {
+      "event_id": "6ead052ea0943489",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic research: 2028 — Two scenarios for global AI leadership",
+      "canonical_url": "https://anthropic.com/research/2028-ai-leadership",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-05-17T07:10:20+00:00",
+      "last_seen_at": "2026-05-17T07:10:20+00:00"
+    },
+    {
+      "event_id": "45c19af545eff272",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude's next enterprise battle is not models: it's the agent control plane",
+      "canonical_url": "https://venturebeat.com/orchestration/claudes-next-enterprise-battle-is-not-models-its-the-agent-control-plane",
+      "source_domain": "venturebeat.com",
+      "first_sent_at": "2026-05-17T07:10:20+00:00",
+      "last_seen_at": "2026-05-17T07:10:20+00:00"
+    },
+    {
+      "event_id": "3716dc1920d4025a",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.143: plugin dependency enforcement, projected context cost, and worktree.bgIsolation setting",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-05-17T07:10:20+00:00",
+      "last_seen_at": "2026-05-17T07:10:20+00:00"
+    },
+    {
+      "event_id": "2b6f70592ff55d09",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic opens Bengaluru office and announces new partnerships across India",
+      "canonical_url": "https://anthropic.com/news/bengaluru-office-partnerships-across-india",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-05-17T07:10:20+00:00",
+      "last_seen_at": "2026-05-17T07:10:20+00:00"
     },
     {
       "event_id": "c51c1c1d477db142",
