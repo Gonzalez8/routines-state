@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-05-18T07:10:02+00:00",
+  "updated_at": "2026-05-18T07:12:36+00:00",
   "items": [
     {
       "event_id": "79ca81fcf634dee6",
@@ -1191,6 +1191,36 @@
       "source_domain": "salesforceben.com",
       "first_sent_at": "2026-04-19T20:10:25+00:00",
       "last_seen_at": "2026-04-19T20:10:25+00:00"
+    },
+    {
+      "event_id": "63a3ad69b162f1c6",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic says it hit a $30 billion revenue run rate after 'crazy' 80x growth",
+      "canonical_url": "https://venturebeat.com/technology/anthropic-says-it-hit-a-30-billion-revenue-run-rate-after-crazy-80x-growth",
+      "source_domain": "venturebeat.com",
+      "first_sent_at": "2026-05-18T07:12:34+00:00",
+      "last_seen_at": "2026-05-18T07:12:34+00:00"
+    },
+    {
+      "event_id": "247c268c4b3fcc9c",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic now has more business customers than OpenAI, according to Ramp data",
+      "canonical_url": "https://techcrunch.com/2026/05/13/anthropic-now-has-more-business-customers-than-openai-according-to-ramp-data",
+      "source_domain": "techcrunch.com",
+      "first_sent_at": "2026-05-18T07:12:34+00:00",
+      "last_seen_at": "2026-05-18T07:12:34+00:00"
+    },
+    {
+      "event_id": "0bdb0149e94b077c",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude can now follow users across Outlook, Word, Excel, and PowerPoint",
+      "canonical_url": "https://thenewstack.io/claude-word-excel-powerpoint-outlook-microsoft-office",
+      "source_domain": "thenewstack.io",
+      "first_sent_at": "2026-05-18T07:12:34+00:00",
+      "last_seen_at": "2026-05-18T07:12:34+00:00"
     }
   ]
 }
