@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-05-20T07:09:54+00:00",
+  "updated_at": "2026-05-21T07:11:03+00:00",
   "items": [
     {
       "event_id": "eadd5492709fe5d0",
@@ -271,6 +271,26 @@
       "source_domain": "salesforceben.com",
       "first_sent_at": "2026-04-19T20:10:25+00:00",
       "last_seen_at": "2026-04-19T20:10:25+00:00"
+    },
+    {
+      "event_id": "de34eb2d037fcb13",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "KPMG and Anthropic sign Global Alliance and launch Digital Gateway Powered by Claude",
+      "canonical_url": "https://anthropic.com/news/anthropic-kpmg",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-05-21T07:11:00+00:00",
+      "last_seen_at": "2026-05-21T07:11:00+00:00"
+    },
+    {
+      "event_id": "0ab86c8c835cbf46",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic on pace for first profitable quarter as revenue surges to $10.9B",
+      "canonical_url": "https://techcrunch.com/2026/05/20/anthropic-says-its-about-to-have-its-first-profitable-quarter",
+      "source_domain": "techcrunch.com",
+      "first_sent_at": "2026-05-21T07:11:00+00:00",
+      "last_seen_at": "2026-05-21T07:11:00+00:00"
     },
     {
       "event_id": "d6d12a8d55837550",
@@ -1101,46 +1121,6 @@
       "source_domain": "cnbc.com",
       "first_sent_at": "2026-04-22T07:25:10+00:00",
       "last_seen_at": "2026-04-22T07:25:10+00:00"
-    },
-    {
-      "event_id": "ca9cdf7484e3b03e",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute",
-      "canonical_url": "https://anthropic.com/news/anthropic-amazon-compute",
-      "source_domain": "anthropic.com",
-      "first_sent_at": "2026-04-21T07:09:18+00:00",
-      "last_seen_at": "2026-04-21T07:09:18+00:00"
-    },
-    {
-      "event_id": "326369c3123c94b4",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.116: faster session resume, improved MCP startup and thinking spinner progress",
-      "canonical_url": "https://releasebot.io/updates/anthropic/claude-code",
-      "source_domain": "releasebot.io",
-      "first_sent_at": "2026-04-21T07:09:18+00:00",
-      "last_seen_at": "2026-04-21T07:09:18+00:00"
-    },
-    {
-      "event_id": "f39f8ee3174b576e",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "White House and Anthropic Hold 'Productive' Meeting, Aiming for a Compromise",
-      "canonical_url": "https://startupnews.fyi/2026/04/18/white-house-and-anthropic-hold-productive-meeting-aiming-for-a-compromise",
-      "source_domain": "startupnews.fyi",
-      "first_sent_at": "2026-04-20T07:29:56+00:00",
-      "last_seen_at": "2026-04-20T07:29:56+00:00"
-    },
-    {
-      "event_id": "11fb819b77e9211e",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "NSA using Anthropic's Mythos despite Defense Department blacklist",
-      "canonical_url": "https://axios.com/2026/04/19/nsa-anthropic-mythos-pentagon",
-      "source_domain": "axios.com",
-      "first_sent_at": "2026-04-20T07:29:56+00:00",
-      "last_seen_at": "2026-04-20T07:29:56+00:00"
     }
   ]
 }
