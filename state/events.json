@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-05-21T07:11:03+00:00",
+  "updated_at": "2026-05-22T07:14:28+00:00",
   "items": [
     {
       "event_id": "eadd5492709fe5d0",
@@ -271,6 +271,26 @@
       "source_domain": "salesforceben.com",
       "first_sent_at": "2026-04-19T20:10:25+00:00",
       "last_seen_at": "2026-04-19T20:10:25+00:00"
+    },
+    {
+      "event_id": "c162f28dc0893f13",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic's Code with Claude showed off coding's future—whether you like it or not",
+      "canonical_url": "https://technologyreview.com/2026/05/21/1137735/anthropics-code-with-claude-showed-off-codings-future-whether-you-like-it-or-not",
+      "source_domain": "technologyreview.com",
+      "first_sent_at": "2026-05-22T07:14:26+00:00",
+      "last_seen_at": "2026-05-22T07:14:26+00:00"
+    },
+    {
+      "event_id": "59e6426eb97ff5e6",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.146: /code-review command, Windows fixes, MCP pagination, and multi-agent improvements",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.146",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-05-22T07:14:26+00:00",
+      "last_seen_at": "2026-05-22T07:14:26+00:00"
     },
     {
       "event_id": "de34eb2d037fcb13",
