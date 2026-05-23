@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-05-22T07:14:28+00:00",
+  "updated_at": "2026-05-23T07:11:12+00:00",
   "items": [
     {
       "event_id": "eadd5492709fe5d0",
@@ -271,6 +271,56 @@
       "source_domain": "salesforceben.com",
       "first_sent_at": "2026-04-19T20:10:25+00:00",
       "last_seen_at": "2026-04-19T20:10:25+00:00"
+    },
+    {
+      "event_id": "f3e04d0c1f63967f",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic set to close over $30 billion funding round at $900B+ valuation, surpassing OpenAI",
+      "canonical_url": "https://bloomberg.com/news/articles/2026-05-22/anthropic-to-close-over-30-billion-round-as-soon-as-next-week",
+      "source_domain": "bloomberg.com",
+      "first_sent_at": "2026-05-23T07:11:10+00:00",
+      "last_seen_at": "2026-05-23T07:11:10+00:00"
+    },
+    {
+      "event_id": "e277e4cd0a5b3a68",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic in talks to use Microsoft's custom Maia 200 AI chips after $5 billion investment",
+      "canonical_url": "https://cnbc.com/2026/05/21/anthropic-microsoft-maia-200-ai-chip.html",
+      "source_domain": "cnbc.com",
+      "first_sent_at": "2026-05-23T07:11:10+00:00",
+      "last_seen_at": "2026-05-23T07:11:10+00:00"
+    },
+    {
+      "event_id": "ab4e574e1720796e",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.148: hotfix for Bash tool exit code 127 regression from v2.1.147",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.148",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-05-23T07:11:10+00:00",
+      "last_seen_at": "2026-05-23T07:11:10+00:00"
+    },
+    {
+      "event_id": "a46e16cf3b8c1e81",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic Sells Claude's Promise While Warning About AI's Dangers",
+      "canonical_url": "https://time.com/article/2026/05/22/anthropic-claude-code-jack-clark-ai-safety",
+      "source_domain": "time.com",
+      "first_sent_at": "2026-05-23T07:11:10+00:00",
+      "last_seen_at": "2026-05-23T07:11:10+00:00"
+    },
+    {
+      "event_id": "49b115ee4f139efd",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.147: pinned background sessions, /code-review renamed from /simplify, improved auto-updater",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.147",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-05-23T07:11:10+00:00",
+      "last_seen_at": "2026-05-23T07:11:10+00:00"
     },
     {
       "event_id": "c162f28dc0893f13",
@@ -1111,36 +1161,6 @@
       "source_domain": "theregister.com",
       "first_sent_at": "2026-04-22T07:25:10+00:00",
       "last_seen_at": "2026-04-23T07:32:58+00:00"
-    },
-    {
-      "event_id": "6e83267a04ee1afe",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic's Claude Mythos Preview changes cyber calculus with Project Glasswing",
-      "canonical_url": "https://foreignpolicy.com/2026/04/20/claude-mythos-preview-anthropic-project-glasswing-cybersecurity-ai-hacking-danger",
-      "source_domain": "foreignpolicy.com",
-      "first_sent_at": "2026-04-22T07:25:10+00:00",
-      "last_seen_at": "2026-04-22T07:25:10+00:00"
-    },
-    {
-      "event_id": "6488e7d8888d8cff",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Introducing Claude Opus 4.7",
-      "canonical_url": "https://anthropic.com/news/claude-opus-4-7",
-      "source_domain": "anthropic.com",
-      "first_sent_at": "2026-04-22T07:25:10+00:00",
-      "last_seen_at": "2026-04-22T07:25:10+00:00"
-    },
-    {
-      "event_id": "15607ef1dec84277",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Trump says Anthropic deal with Department of Defense is 'possible'",
-      "canonical_url": "https://cnbc.com/2026/04/21/trump-anthropic-department-defense-deal.html",
-      "source_domain": "cnbc.com",
-      "first_sent_at": "2026-04-22T07:25:10+00:00",
-      "last_seen_at": "2026-04-22T07:25:10+00:00"
     }
   ]
 }
