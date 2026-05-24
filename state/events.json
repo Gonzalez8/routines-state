@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-05-23T07:11:12+00:00",
+  "updated_at": "2026-05-24T07:10:43+00:00",
   "items": [
     {
       "event_id": "eadd5492709fe5d0",
@@ -271,6 +271,36 @@
       "source_domain": "salesforceben.com",
       "first_sent_at": "2026-04-19T20:10:25+00:00",
       "last_seen_at": "2026-04-19T20:10:25+00:00"
+    },
+    {
+      "event_id": "a3645c6a59796e7e",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic adds self-hosted sandboxes and MCP tunnels to Claude Managed Agents",
+      "canonical_url": "https://claude.com/blog/claude-managed-agents-updates",
+      "source_domain": "claude.com",
+      "first_sent_at": "2026-05-24T07:10:40+00:00",
+      "last_seen_at": "2026-05-24T07:10:40+00:00"
+    },
+    {
+      "event_id": "9b69baee1c70beb2",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.150: internal infrastructure improvements",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.150",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-05-24T07:10:40+00:00",
+      "last_seen_at": "2026-05-24T07:10:40+00:00"
+    },
+    {
+      "event_id": "2d2d621f4b1c17cc",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.149: /usage per-category breakdown, /diff keyboard scrolling, GFM task list checkboxes, PowerShell fix",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.149",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-05-24T07:10:40+00:00",
+      "last_seen_at": "2026-05-24T07:10:40+00:00"
     },
     {
       "event_id": "f3e04d0c1f63967f",
@@ -1111,56 +1141,6 @@
       "source_domain": "anthropic.com",
       "first_sent_at": "2026-04-24T07:22:32+00:00",
       "last_seen_at": "2026-04-24T07:22:32+00:00"
-    },
-    {
-      "event_id": "bab447efc94602fe",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Amazon to invest up to another $25 billion in Anthropic as part of AI infrastructure deal",
-      "canonical_url": "https://cnbc.com/2026/04/20/amazon-invest-up-to-25-billion-in-anthropic-part-of-ai-infrastructure.html",
-      "source_domain": "cnbc.com",
-      "first_sent_at": "2026-04-23T07:32:58+00:00",
-      "last_seen_at": "2026-04-23T07:32:58+00:00"
-    },
-    {
-      "event_id": "608aa125531d0aa6",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Is Claude Code going to cost $100/month? Probably not—it's all very confusing",
-      "canonical_url": "https://simonwillison.net/2026/Apr/22/claude-code-confusion",
-      "source_domain": "simonwillison.net",
-      "first_sent_at": "2026-04-23T07:32:58+00:00",
-      "last_seen_at": "2026-04-23T07:32:58+00:00"
-    },
-    {
-      "event_id": "4bbd40c65a77d3d7",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic Just Announced Huge News for Alphabet and Broadcom (TPU expansion)",
-      "canonical_url": "https://fool.com/investing/2026/04/22/anthropic-just-announced-huge-news-for-alphabet-an",
-      "source_domain": "fool.com",
-      "first_sent_at": "2026-04-23T07:32:58+00:00",
-      "last_seen_at": "2026-04-23T07:32:58+00:00"
-    },
-    {
-      "event_id": "437ba19b21c2f361",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic is investigating unauthorized access of its Mythos cybersecurity tool",
-      "canonical_url": "https://engadget.com/ai/anthropic-is-investigating-unauthorized-access-of-its-mythos-cybersecurity-tool-091017168.html",
-      "source_domain": "engadget.com",
-      "first_sent_at": "2026-04-23T07:32:58+00:00",
-      "last_seen_at": "2026-04-23T07:32:58+00:00"
-    },
-    {
-      "event_id": "6c885f980d6dcc1b",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic tests removing Claude Code from $20 Pro subscription tier",
-      "canonical_url": "https://theregister.com/2026/04/22/anthropic_removes_claude_code_pro",
-      "source_domain": "theregister.com",
-      "first_sent_at": "2026-04-22T07:25:10+00:00",
-      "last_seen_at": "2026-04-23T07:32:58+00:00"
     }
   ]
 }
