@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-05-27T07:14:49+00:00",
+  "updated_at": "2026-05-28T07:16:21+00:00",
   "items": [
     {
       "event_id": "a3a76344f712d203",
@@ -201,6 +201,16 @@
       "source_domain": "martechnotes.com",
       "first_sent_at": "2026-04-27T07:06:45+00:00",
       "last_seen_at": "2026-04-27T07:06:45+00:00"
+    },
+    {
+      "event_id": "d24b11c9874f4c40",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.152: /code-review --fix, /reload-skills, disallowed-tools in frontmatter, fallback-model switching, and Vim mode improvements",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-05-28T07:16:20+00:00",
+      "last_seen_at": "2026-05-28T07:16:20+00:00"
     },
     {
       "event_id": "80752caaa446ccb7",
@@ -991,36 +1001,6 @@
       "source_domain": "anthropic.com",
       "first_sent_at": "2026-04-28T07:30:59+00:00",
       "last_seen_at": "2026-04-28T07:30:59+00:00"
-    },
-    {
-      "event_id": "e4df53266b32b81d",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic explains Claude Code's recent performance decline after weeks of user backlash",
-      "canonical_url": "https://fortune.com/2026/04/24/anthropic-engineering-missteps-claude-code-performance-decline-user-backlash",
-      "source_domain": "fortune.com",
-      "first_sent_at": "2026-04-27T07:31:36+00:00",
-      "last_seen_at": "2026-04-27T07:31:36+00:00"
-    },
-    {
-      "event_id": "c8abfd8e2ce171d8",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic's Long-Term Benefit Trust appoints Vas Narasimhan, achieves majority board control",
-      "canonical_url": "https://anthropic.com/news/narasimhan-board",
-      "source_domain": "anthropic.com",
-      "first_sent_at": "2026-04-27T07:31:36+00:00",
-      "last_seen_at": "2026-04-27T07:31:36+00:00"
-    },
-    {
-      "event_id": "49b4cd4614b26cc9",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic adds persistent memory to Claude Managed Agents in public beta",
-      "canonical_url": "https://sdtimes.com/anthropic/anthropic-adds-memory-to-claude-managed-agents",
-      "source_domain": "sdtimes.com",
-      "first_sent_at": "2026-04-27T07:31:36+00:00",
-      "last_seen_at": "2026-04-27T07:31:36+00:00"
     }
   ]
 }
