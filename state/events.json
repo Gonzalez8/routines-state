@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-05-29T07:12:13+00:00",
+  "updated_at": "2026-05-30T07:14:10+00:00",
   "items": [
     {
       "event_id": "a3a76344f712d203",
@@ -201,6 +201,36 @@
       "source_domain": "martechnotes.com",
       "first_sent_at": "2026-04-27T07:06:45+00:00",
       "last_seen_at": "2026-04-27T07:06:45+00:00"
+    },
+    {
+      "event_id": "d12e5555054da81e",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.154: Opus 4.8 high-effort defaults, dynamic workflows, Chrome browser integration, lean system prompt default",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-05-30T07:14:10+00:00",
+      "last_seen_at": "2026-05-30T07:14:10+00:00"
+    },
+    {
+      "event_id": "64cd8258dfdd03f1",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Samsung and SK Hynix invest in Anthropic as strategic infrastructure partners, potential chip manufacturing deal",
+      "canonical_url": "https://koreaherald.com/article/10758856",
+      "source_domain": "koreaherald.com",
+      "first_sent_at": "2026-05-30T07:14:10+00:00",
+      "last_seen_at": "2026-05-30T07:14:10+00:00"
+    },
+    {
+      "event_id": "18da317a07be11a4",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Bristol Myers Squibb Announces Strategic Agreement with Anthropic to Position Claude Enterprise as Shared Intelligence Platform",
+      "canonical_url": "https://news.bms.com/news/details/2026/Bristol-Myers-Squibb-Announces-Strategic-Agreement-with-Anthropic-to-Position-Claude-Enterprise-as-the-Shared-Intelligence-Platform-Across-Its-Global-Operations/default.aspx",
+      "source_domain": "news.bms.com",
+      "first_sent_at": "2026-05-30T07:14:10+00:00",
+      "last_seen_at": "2026-05-30T07:14:10+00:00"
     },
     {
       "event_id": "c9ec3369c00eea2b",
@@ -931,36 +961,6 @@
       "source_domain": "anthropic.com",
       "first_sent_at": "2026-05-01T07:05:25+00:00",
       "last_seen_at": "2026-05-01T07:05:25+00:00"
-    },
-    {
-      "event_id": "cffad9512116c739",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "White House drafting plans to permit federal Anthropic use, bypassing supply chain risk designation",
-      "canonical_url": "https://axios.com/2026/04/29/trump-anthropic-pentagon-ai-executive-order-gov",
-      "source_domain": "axios.com",
-      "first_sent_at": "2026-04-30T07:09:40+00:00",
-      "last_seen_at": "2026-04-30T07:09:40+00:00"
-    },
-    {
-      "event_id": "8b2ae52e83da6718",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic launches 'Claude for Creative Work' with 9 connectors for Adobe, Blender, Autodesk and more",
-      "canonical_url": "https://anthropic.com/news/claude-for-creative-work",
-      "source_domain": "anthropic.com",
-      "first_sent_at": "2026-04-30T07:09:40+00:00",
-      "last_seen_at": "2026-04-30T07:09:40+00:00"
-    },
-    {
-      "event_id": "05146b4ab290a590",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic and OpenAI splurge on London office space in major AI leasing wave",
-      "canonical_url": "https://bloomberg.com/news/articles/2026-04-29/anthropic-openai-splurge-on-london-office-space-in-leasing-wave",
-      "source_domain": "bloomberg.com",
-      "first_sent_at": "2026-04-30T07:09:40+00:00",
-      "last_seen_at": "2026-04-30T07:09:40+00:00"
     }
   ]
 }
