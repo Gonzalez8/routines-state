@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-05-30T07:14:10+00:00",
+  "updated_at": "2026-05-31T07:12:17+00:00",
   "items": [
     {
       "event_id": "a3a76344f712d203",
@@ -201,6 +201,46 @@
       "source_domain": "martechnotes.com",
       "first_sent_at": "2026-04-27T07:06:45+00:00",
       "last_seen_at": "2026-04-27T07:06:45+00:00"
+    },
+    {
+      "event_id": "dd8228939ed70efe",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.158: Auto mode now available on Bedrock, Vertex, and Foundry for Opus 4.7 and Opus 4.8",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.158",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-05-31T07:12:15+00:00",
+      "last_seen_at": "2026-05-31T07:12:15+00:00"
+    },
+    {
+      "event_id": "bed482ba7d075fbb",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.157: plugin auto-loading from .claude/skills, claude plugin init scaffolding, EnterWorktree mid-session switching, and extensive fixes",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-05-31T07:12:15+00:00",
+      "last_seen_at": "2026-05-31T07:12:15+00:00"
+    },
+    {
+      "event_id": "4b4c6877b7559966",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.156: fix for Opus 4.8 thinking blocks modification causing API errors",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.156",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-05-31T07:12:15+00:00",
+      "last_seen_at": "2026-05-31T07:12:15+00:00"
+    },
+    {
+      "event_id": "47232b2fb90de550",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "AWS removes RPM quotas for Claude Opus 4.7 on Amazon Bedrock",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/claude-opus-4-7-amazon-bedrock-rpm-quotas-removed",
+      "source_domain": "aws.amazon.com",
+      "first_sent_at": "2026-05-31T07:12:15+00:00",
+      "last_seen_at": "2026-05-31T07:12:15+00:00"
     },
     {
       "event_id": "d12e5555054da81e",
@@ -931,36 +971,6 @@
       "source_domain": "winbuzzer.com",
       "first_sent_at": "2026-05-02T07:30:21+00:00",
       "last_seen_at": "2026-05-02T07:30:21+00:00"
-    },
-    {
-      "event_id": "c3df587d4e08a994",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic launches Claude Security public beta for enterprise customers",
-      "canonical_url": "https://siliconangle.com/2026/04/30/anthropic-announces-claude-security-public-beta-find-fix-software-vulnerabilities",
-      "source_domain": "siliconangle.com",
-      "first_sent_at": "2026-05-01T07:05:25+00:00",
-      "last_seen_at": "2026-05-01T07:05:25+00:00"
-    },
-    {
-      "event_id": "a7e90058f98ab198",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "CrowdStrike integrates Claude Opus 4.7 across Falcon platform via Project QuiltWorks",
-      "canonical_url": "https://crowdstrike.com/en-us/press-releases/crowdstrike-puts-claude-opus-4-7-to-work-across-falcon-platform-project-quiltworks",
-      "source_domain": "crowdstrike.com",
-      "first_sent_at": "2026-05-01T07:05:25+00:00",
-      "last_seen_at": "2026-05-01T07:05:25+00:00"
-    },
-    {
-      "event_id": "012c3b3c4956a49e",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic BioMysteryBench: Claude matches and surpasses human experts in bioinformatics research",
-      "canonical_url": "https://anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
-      "source_domain": "anthropic.com",
-      "first_sent_at": "2026-05-01T07:05:25+00:00",
-      "last_seen_at": "2026-05-01T07:05:25+00:00"
     }
   ]
 }
