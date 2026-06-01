@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-05-31T07:12:17+00:00",
+  "updated_at": "2026-06-01T07:14:11+00:00",
   "items": [
     {
       "event_id": "a3a76344f712d203",
@@ -201,6 +201,36 @@
       "source_domain": "martechnotes.com",
       "first_sent_at": "2026-04-27T07:06:45+00:00",
       "last_seen_at": "2026-04-27T07:06:45+00:00"
+    },
+    {
+      "event_id": "5ddcc57e7fbb722b",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Sonnet 4 and Opus 4 retire June 15, 2026 — migration guide for developers",
+      "canonical_url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+      "source_domain": "platform.claude.com",
+      "first_sent_at": "2026-06-01T07:14:08+00:00",
+      "last_seen_at": "2026-06-01T07:14:08+00:00"
+    },
+    {
+      "event_id": "5aac2ee5eefc07e3",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Microsoft drops Claude Code by June 30 after burning through its entire year's AI budget in just months",
+      "canonical_url": "https://cybernews.com/ai-news/microsoft-claude-code-burn-yearly-ai-budget",
+      "source_domain": "cybernews.com",
+      "first_sent_at": "2026-06-01T07:14:08+00:00",
+      "last_seen_at": "2026-06-01T07:14:08+00:00"
+    },
+    {
+      "event_id": "46ca5e1677498ec0",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.159: internal infrastructure improvements",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.159",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-06-01T07:14:08+00:00",
+      "last_seen_at": "2026-06-01T07:14:08+00:00"
     },
     {
       "event_id": "dd8228939ed70efe",
