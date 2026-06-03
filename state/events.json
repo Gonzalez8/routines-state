@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-06-02T07:13:32+00:00",
+  "updated_at": "2026-06-03T07:12:35+00:00",
   "items": [
     {
       "event_id": "edb25727226e77be",
@@ -221,6 +221,36 @@
       "source_domain": "fortune.com",
       "first_sent_at": "2026-05-04T07:14:11+00:00",
       "last_seen_at": "2026-05-04T07:14:11+00:00"
+    },
+    {
+      "event_id": "7c8a7650c97f466d",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Snowflake and Anthropic announce $200 million partnership to bring agentic AI to global enterprises",
+      "canonical_url": "https://anthropic.com/news/snowflake-anthropic-expanded-partnership",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-06-03T07:12:33+00:00",
+      "last_seen_at": "2026-06-03T07:12:33+00:00"
+    },
+    {
+      "event_id": "7c1cad628ab5c5fb",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Grant Thornton deploys Anthropic Claude across UK workforce",
+      "canonical_url": "https://accountancytoday.co.uk/2026/06/02/grant-thornton-to-roll-out-ai-platform-across-uk-workforce",
+      "source_domain": "accountancytoday.co.uk",
+      "first_sent_at": "2026-06-03T07:12:33+00:00",
+      "last_seen_at": "2026-06-03T07:12:33+00:00"
+    },
+    {
+      "event_id": "48d376bd7bc1a72f",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic expands Project Glasswing to 150 organizations in 15+ countries",
+      "canonical_url": "https://anthropic.com/news/expanding-project-glasswing",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-06-03T07:12:33+00:00",
+      "last_seen_at": "2026-06-03T07:12:33+00:00"
     },
     {
       "event_id": "90b896b819b7850e",
@@ -981,26 +1011,6 @@
       "source_domain": "theregister.com",
       "first_sent_at": "2026-05-04T07:18:45+00:00",
       "last_seen_at": "2026-05-04T07:18:45+00:00"
-    },
-    {
-      "event_id": "ad462437d60934d1",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Blender Foundation revises Anthropic AI funding deal to one-time donation amid community concerns",
-      "canonical_url": "https://blender.org/news/upcoming-blender-development-fund-and-ai-policies",
-      "source_domain": "blender.org",
-      "first_sent_at": "2026-05-03T07:26:02+00:00",
-      "last_seen_at": "2026-05-03T07:26:02+00:00"
-    },
-    {
-      "event_id": "257a06b940522874",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Harvard FAS plans to grant access to Anthropic's Claude, phase out ChatGPT Edu",
-      "canonical_url": "https://thecrimson.com/article/2026/4/28/fas-anthropic-claude",
-      "source_domain": "thecrimson.com",
-      "first_sent_at": "2026-05-03T07:26:02+00:00",
-      "last_seen_at": "2026-05-03T07:26:02+00:00"
     }
   ]
 }
