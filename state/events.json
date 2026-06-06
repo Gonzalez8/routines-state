@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-06-05T07:12:36+00:00",
+  "updated_at": "2026-06-06T07:08:52+00:00",
   "items": [
     {
       "event_id": "edb25727226e77be",
@@ -221,6 +221,46 @@
       "source_domain": "fortune.com",
       "first_sent_at": "2026-05-04T07:14:11+00:00",
       "last_seen_at": "2026-05-04T07:14:11+00:00"
+    },
+    {
+      "event_id": "f8ece9077f62f4e1",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic's Claude Services Down — claude.ai, Claude Code, and Cowork Affected",
+      "canonical_url": "https://cybersecuritynews.com/anthropics-claude-services-down",
+      "source_domain": "cybersecuritynews.com",
+      "first_sent_at": "2026-06-06T07:08:52+00:00",
+      "last_seen_at": "2026-06-06T07:08:52+00:00"
+    },
+    {
+      "event_id": "9c149312424be60f",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Code with Claude Tokyo: Anthropic developer conference June 10 with livestream and Japanese sessions",
+      "canonical_url": "https://claude.com/code-with-claude/tokyo",
+      "source_domain": "claude.com",
+      "first_sent_at": "2026-06-06T07:08:52+00:00",
+      "last_seen_at": "2026-06-06T07:08:52+00:00"
+    },
+    {
+      "event_id": "68531120e20c0474",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "When AI Builds Itself: Anthropic warns of recursive self-improvement risks and calls for global pause option",
+      "canonical_url": "https://anthropic.com/institute/recursive-self-improvement",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-06-06T07:08:52+00:00",
+      "last_seen_at": "2026-06-06T07:08:52+00:00"
+    },
+    {
+      "event_id": "28bd517aa74ba85f",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Making Claude a chemist: Opus 4.7 matches dedicated NMR software on molecular structure prediction",
+      "canonical_url": "https://anthropic.com/research/making-claude-a-chemist",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-06-06T07:08:52+00:00",
+      "last_seen_at": "2026-06-06T07:08:52+00:00"
     },
     {
       "event_id": "b551a9ce007dca39",
