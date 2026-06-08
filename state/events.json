@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-06-07T07:07:47+00:00",
+  "updated_at": "2026-06-08T07:11:45+00:00",
   "items": [
     {
       "event_id": "edb25727226e77be",
@@ -221,6 +221,36 @@
       "source_domain": "fortune.com",
       "first_sent_at": "2026-05-04T07:14:11+00:00",
       "last_seen_at": "2026-05-04T07:14:11+00:00"
+    },
+    {
+      "event_id": "c7a9b84f2f9d069b",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic pauses red-teaming program after unreleased Claude Oceanus model leaks online",
+      "canonical_url": "https://cybersecuritynews.com/anthropics-claude-oceanus-v1-p",
+      "source_domain": "cybersecuritynews.com",
+      "first_sent_at": "2026-06-08T07:11:42+00:00",
+      "last_seen_at": "2026-06-08T07:11:42+00:00"
+    },
+    {
+      "event_id": "aa618caf3d214fe7",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic probes customer data leak claims after Friday Claude outage",
+      "canonical_url": "https://cybernews.com/ai-news/claude-outage-resolved-anthropic-opus-model-errors",
+      "source_domain": "cybernews.com",
+      "first_sent_at": "2026-06-08T07:11:42+00:00",
+      "last_seen_at": "2026-06-08T07:11:42+00:00"
+    },
+    {
+      "event_id": "07f08b05df4eea7e",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.168: bug fixes and reliability improvements",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.168",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-06-08T07:11:42+00:00",
+      "last_seen_at": "2026-06-08T07:11:42+00:00"
     },
     {
       "event_id": "d2453afa77e5d00b",
@@ -991,26 +1021,6 @@
       "source_domain": "github.com",
       "first_sent_at": "2026-05-10T07:13:03+00:00",
       "last_seen_at": "2026-05-10T07:13:03+00:00"
-    },
-    {
-      "event_id": "aafe974f5424799c",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.133: hooks receive effort level, worktree.baseRef setting, memory optimizations and stability fixes",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.133",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-05-08T07:12:36+00:00",
-      "last_seen_at": "2026-05-08T07:12:36+00:00"
-    },
-    {
-      "event_id": "4abe906bc321a8a0",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Snyk Embeds Anthropic's Claude to Advance AI-Powered Security for Software Development",
-      "canonical_url": "https://finance.yahoo.com/sectors/technology/articles/snyk-embeds-anthropics-claude-advance-174900036.html",
-      "source_domain": "finance.yahoo.com",
-      "first_sent_at": "2026-05-08T07:12:36+00:00",
-      "last_seen_at": "2026-05-08T07:12:36+00:00"
     }
   ]
 }
