@@ -1,7 +1,247 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-06-08T07:13:13+00:00",
+  "updated_at": "2026-06-09T07:09:38+00:00",
   "items": [
+    {
+      "event_id": "c221ce229a321840",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Agentforce Life Sciences: June 2026 Newsletter",
+      "canonical_url": "https://salesforce.com/blog/agentforce-life-sciences-june-2026-newsletter",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-06-08T07:13:12+00:00",
+      "last_seen_at": "2026-06-08T07:13:12+00:00"
+    },
+    {
+      "event_id": "ba0fb558f1128815",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce Announces State of Sales Report for 2026",
+      "canonical_url": "https://salesforce.com/news/stories/state-of-sales-report-announcement-2026",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-06-08T07:13:12+00:00",
+      "last_seen_at": "2026-06-08T07:13:12+00:00"
+    },
+    {
+      "event_id": "6b9090832c72583e",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Tableau Unveils the Agentic Analytics Platform: Built on Trusted Knowledge",
+      "canonical_url": "https://salesforce.com/news/stories/tableau-agentic-analytics-platform-announcement",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-06-08T07:13:12+00:00",
+      "last_seen_at": "2026-06-08T07:13:12+00:00"
+    },
+    {
+      "event_id": "5d918fa9058dc0aa",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce Summer '26 Release Notes",
+      "canonical_url": "https://help.salesforce.com/s/articleView?id=release-notes.salesforce_release_notes.htm&language=en_US&release=262&type=5",
+      "source_domain": "help.salesforce.com",
+      "first_sent_at": "2026-06-08T07:13:12+00:00",
+      "last_seen_at": "2026-06-08T07:13:12+00:00"
+    },
+    {
+      "event_id": "2c256afa7ee08de2",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce Positioned as a Leader in 2026 Forrester Wave for Revenue Marketing Platforms for B2B",
+      "canonical_url": "https://salesforce.com/blog/salesforce-2026-forrester-wave-b2b",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-06-08T07:13:12+00:00",
+      "last_seen_at": "2026-06-08T07:13:12+00:00"
+    },
+    {
+      "event_id": "0679ed01ad0bef45",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce Summer '26 Release: Everything You Need to Know Before Go-Live",
+      "canonical_url": "https://salesforceben.com/salesforce-summer-26-release-everything-you-need-to-know-before-go-live",
+      "source_domain": "salesforceben.com",
+      "first_sent_at": "2026-06-08T07:13:12+00:00",
+      "last_seen_at": "2026-06-08T07:13:12+00:00"
+    },
+    {
+      "event_id": "edb25727226e77be",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Agentforce Vibes No Longer Free from June 2026",
+      "canonical_url": "https://salesforceben.com/agentforce-vibes-no-longer-free-for-use",
+      "source_domain": "salesforceben.com",
+      "first_sent_at": "2026-06-01T07:15:53+00:00",
+      "last_seen_at": "2026-06-01T07:17:17+00:00"
+    },
+    {
+      "event_id": "d5d5d8e463c1d24a",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce Delivers Record First Quarter Fiscal 2027 Results",
+      "canonical_url": "https://salesforce.com/news/press-releases/2026/05/27/fy27-q1-earnings",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-06-01T07:15:53+00:00",
+      "last_seen_at": "2026-06-01T07:17:17+00:00"
+    },
+    {
+      "event_id": "d5261d3b4795be22",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Admin Release Countdown: Get Ready for Summer '26",
+      "canonical_url": "https://admin.salesforce.com/blog/2026/admin-summer-26-release-countdown",
+      "source_domain": "admin.salesforce.com",
+      "first_sent_at": "2026-06-01T07:15:53+00:00",
+      "last_seen_at": "2026-06-01T07:17:17+00:00"
+    },
+    {
+      "event_id": "acf4404191c68beb",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "What Salesforce Headless 360 Means For Developers",
+      "canonical_url": "https://developer.salesforce.com/blogs/2026/05/headless-360-what-it-means-for-developers",
+      "source_domain": "developer.salesforce.com",
+      "first_sent_at": "2026-06-01T07:15:53+00:00",
+      "last_seen_at": "2026-06-01T07:17:17+00:00"
+    },
+    {
+      "event_id": "95cd0d53d155456d",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce Advances Agent Fabric: New Guided Determinism and Governance Controls to Scale Multi-Vendor AI Faster",
+      "canonical_url": "https://salesforce.com/news/stories/agent-fabric-control-plane-announcement",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-06-01T07:15:53+00:00",
+      "last_seen_at": "2026-06-01T07:17:17+00:00"
+    },
+    {
+      "event_id": "8728e4a2cb01da1d",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce Summer '26 Security Changes: What You Need to Do Before June Enforcement",
+      "canonical_url": "https://cognition24.com/salesforce-summer-26-security-changes",
+      "source_domain": "cognition24.com",
+      "first_sent_at": "2026-06-01T07:15:53+00:00",
+      "last_seen_at": "2026-06-01T07:17:17+00:00"
+    },
+    {
+      "event_id": "a3a76344f712d203",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce Announces Date of First Quarter Fiscal 2027 Earnings Release and Webcast",
+      "canonical_url": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Announces-Date-of-First-Quarter-Fiscal-2027-Earnings-Release-and-Webcast/default.aspx",
+      "source_domain": "investor.salesforce.com",
+      "first_sent_at": "2026-05-25T07:19:43+00:00",
+      "last_seen_at": "2026-05-25T07:19:43+00:00"
+    },
+    {
+      "event_id": "8a9f6e444689f90e",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce Is Done Asking: Five Security Changes Coming in June 2026",
+      "canonical_url": "https://arkusinc.com/archive/2026/salesforce-is-done-asking-five-security-changes-coming-in-june-2026",
+      "source_domain": "arkusinc.com",
+      "first_sent_at": "2026-05-25T07:19:43+00:00",
+      "last_seen_at": "2026-05-25T07:19:43+00:00"
+    },
+    {
+      "event_id": "747d66d4363ff72c",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Top 8 Salesforce Summer '26 Features for Developers",
+      "canonical_url": "https://salesforceben.com/top-8-salesforce-summer-26-features-for-developers",
+      "source_domain": "salesforceben.com",
+      "first_sent_at": "2026-05-25T07:19:43+00:00",
+      "last_seen_at": "2026-05-25T07:19:43+00:00"
+    },
+    {
+      "event_id": "619c42399474e808",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Informatica Announces Headless Data Management for AWS to Power Trusted, Enterprise-Ready Agentic Workflows",
+      "canonical_url": "https://salesforce.com/news/press-releases/2026/05/20/informatica-announces-headless-data-management-aws",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-05-25T07:19:43+00:00",
+      "last_seen_at": "2026-05-25T07:19:43+00:00"
+    },
+    {
+      "event_id": "4f01a6146651ab6a",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Informatica from Salesforce Delivers the Trusted Data Foundation Every AI Agent Needs — Now Across Every Surface, Every Platform, Everywhere",
+      "canonical_url": "https://salesforce.com/news/press-releases/2026/05/20/informatica-delivers-trusted-data-foundation",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-05-25T07:19:43+00:00",
+      "last_seen_at": "2026-05-25T07:19:43+00:00"
+    },
+    {
+      "event_id": "1f7b0e968e89b819",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Informatica Deepens Collaboration with Microsoft to Deliver Trusted Data for Agentic AI and Analytics at Scale",
+      "canonical_url": "https://salesforce.com/news/press-releases/2026/05/20/informatica-deepens-collaboration-with-microsoft",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-05-25T07:19:43+00:00",
+      "last_seen_at": "2026-05-25T07:19:43+00:00"
+    },
+    {
+      "event_id": "eadd5492709fe5d0",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Intent-Driven Tool Selection Using Abilities in Agentforce Vibes",
+      "canonical_url": "https://developer.salesforce.com/blogs/2026/05/intent-driven-tool-selection-using-abilities-in-agentforce-vibes",
+      "source_domain": "developer.salesforce.com",
+      "first_sent_at": "2026-05-18T07:10:00+00:00",
+      "last_seen_at": "2026-05-18T07:10:00+00:00"
+    },
+    {
+      "event_id": "c727c4f8c4e40e27",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce Summer 2026 Product Release Announcement",
+      "canonical_url": "https://salesforce.com/news/stories/summer-2026-product-release-announcement",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-05-18T07:10:00+00:00",
+      "last_seen_at": "2026-05-18T07:10:00+00:00"
+    },
+    {
+      "event_id": "b90daa989c301f72",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "GraphQL Mutations Now Available in LWC: Create, Update, and Delete Records",
+      "canonical_url": "https://developer.salesforce.com/blogs/2026/05/graphql-mutations-now-available-in-lwc-create-update-and-delete-records",
+      "source_domain": "developer.salesforce.com",
+      "first_sent_at": "2026-05-18T07:10:00+00:00",
+      "last_seen_at": "2026-05-18T07:10:00+00:00"
+    },
+    {
+      "event_id": "016a2936340fcd92",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Introducing the Data 360 MCP Server (Developer Preview)",
+      "canonical_url": "https://developer.salesforce.com/blogs/2026/05/introducing-the-data-360-mcp-server-developer-preview",
+      "source_domain": "developer.salesforce.com",
+      "first_sent_at": "2026-05-18T07:10:00+00:00",
+      "last_seen_at": "2026-05-18T07:10:00+00:00"
+    },
+    {
+      "event_id": "ed46f401e2ef7658",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Trump administration denies unlawful retaliation in Anthropic AI blacklisting over Pentagon demands",
+      "canonical_url": "https://usnews.com/news/top-news/articles/2026-06-08/trump-administration-denies-unlawful-retaliation-in-anthropic-ai-blacklisting",
+      "source_domain": "usnews.com",
+      "first_sent_at": "2026-06-09T07:09:35+00:00",
+      "last_seen_at": "2026-06-09T07:09:35+00:00"
+    },
+    {
+      "event_id": "99fa6149759faa98",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.169: --safe-mode flag, /cd command, and security hardening fixes",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.169",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-06-09T07:09:35+00:00",
+      "last_seen_at": "2026-06-09T07:09:35+00:00"
+    },
     {
       "event_id": "c7a9b84f2f9d069b",
       "routine": "claude-news",
@@ -801,226 +1041,6 @@
       "source_domain": "github.com",
       "first_sent_at": "2026-05-10T07:13:03+00:00",
       "last_seen_at": "2026-05-10T07:13:03+00:00"
-    },
-    {
-      "event_id": "c221ce229a321840",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Agentforce Life Sciences: June 2026 Newsletter",
-      "canonical_url": "https://salesforce.com/blog/agentforce-life-sciences-june-2026-newsletter",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-06-08T07:13:12+00:00",
-      "last_seen_at": "2026-06-08T07:13:12+00:00"
-    },
-    {
-      "event_id": "ba0fb558f1128815",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce Announces State of Sales Report for 2026",
-      "canonical_url": "https://salesforce.com/news/stories/state-of-sales-report-announcement-2026",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-06-08T07:13:12+00:00",
-      "last_seen_at": "2026-06-08T07:13:12+00:00"
-    },
-    {
-      "event_id": "6b9090832c72583e",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Tableau Unveils the Agentic Analytics Platform: Built on Trusted Knowledge",
-      "canonical_url": "https://salesforce.com/news/stories/tableau-agentic-analytics-platform-announcement",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-06-08T07:13:12+00:00",
-      "last_seen_at": "2026-06-08T07:13:12+00:00"
-    },
-    {
-      "event_id": "5d918fa9058dc0aa",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce Summer '26 Release Notes",
-      "canonical_url": "https://help.salesforce.com/s/articleView?id=release-notes.salesforce_release_notes.htm&language=en_US&release=262&type=5",
-      "source_domain": "help.salesforce.com",
-      "first_sent_at": "2026-06-08T07:13:12+00:00",
-      "last_seen_at": "2026-06-08T07:13:12+00:00"
-    },
-    {
-      "event_id": "2c256afa7ee08de2",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce Positioned as a Leader in 2026 Forrester Wave for Revenue Marketing Platforms for B2B",
-      "canonical_url": "https://salesforce.com/blog/salesforce-2026-forrester-wave-b2b",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-06-08T07:13:12+00:00",
-      "last_seen_at": "2026-06-08T07:13:12+00:00"
-    },
-    {
-      "event_id": "0679ed01ad0bef45",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce Summer '26 Release: Everything You Need to Know Before Go-Live",
-      "canonical_url": "https://salesforceben.com/salesforce-summer-26-release-everything-you-need-to-know-before-go-live",
-      "source_domain": "salesforceben.com",
-      "first_sent_at": "2026-06-08T07:13:12+00:00",
-      "last_seen_at": "2026-06-08T07:13:12+00:00"
-    },
-    {
-      "event_id": "edb25727226e77be",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Agentforce Vibes No Longer Free from June 2026",
-      "canonical_url": "https://salesforceben.com/agentforce-vibes-no-longer-free-for-use",
-      "source_domain": "salesforceben.com",
-      "first_sent_at": "2026-06-01T07:15:53+00:00",
-      "last_seen_at": "2026-06-01T07:17:17+00:00"
-    },
-    {
-      "event_id": "d5d5d8e463c1d24a",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce Delivers Record First Quarter Fiscal 2027 Results",
-      "canonical_url": "https://salesforce.com/news/press-releases/2026/05/27/fy27-q1-earnings",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-06-01T07:15:53+00:00",
-      "last_seen_at": "2026-06-01T07:17:17+00:00"
-    },
-    {
-      "event_id": "d5261d3b4795be22",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Admin Release Countdown: Get Ready for Summer '26",
-      "canonical_url": "https://admin.salesforce.com/blog/2026/admin-summer-26-release-countdown",
-      "source_domain": "admin.salesforce.com",
-      "first_sent_at": "2026-06-01T07:15:53+00:00",
-      "last_seen_at": "2026-06-01T07:17:17+00:00"
-    },
-    {
-      "event_id": "acf4404191c68beb",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "What Salesforce Headless 360 Means For Developers",
-      "canonical_url": "https://developer.salesforce.com/blogs/2026/05/headless-360-what-it-means-for-developers",
-      "source_domain": "developer.salesforce.com",
-      "first_sent_at": "2026-06-01T07:15:53+00:00",
-      "last_seen_at": "2026-06-01T07:17:17+00:00"
-    },
-    {
-      "event_id": "95cd0d53d155456d",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce Advances Agent Fabric: New Guided Determinism and Governance Controls to Scale Multi-Vendor AI Faster",
-      "canonical_url": "https://salesforce.com/news/stories/agent-fabric-control-plane-announcement",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-06-01T07:15:53+00:00",
-      "last_seen_at": "2026-06-01T07:17:17+00:00"
-    },
-    {
-      "event_id": "8728e4a2cb01da1d",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce Summer '26 Security Changes: What You Need to Do Before June Enforcement",
-      "canonical_url": "https://cognition24.com/salesforce-summer-26-security-changes",
-      "source_domain": "cognition24.com",
-      "first_sent_at": "2026-06-01T07:15:53+00:00",
-      "last_seen_at": "2026-06-01T07:17:17+00:00"
-    },
-    {
-      "event_id": "a3a76344f712d203",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce Announces Date of First Quarter Fiscal 2027 Earnings Release and Webcast",
-      "canonical_url": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Announces-Date-of-First-Quarter-Fiscal-2027-Earnings-Release-and-Webcast/default.aspx",
-      "source_domain": "investor.salesforce.com",
-      "first_sent_at": "2026-05-25T07:19:43+00:00",
-      "last_seen_at": "2026-05-25T07:19:43+00:00"
-    },
-    {
-      "event_id": "8a9f6e444689f90e",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce Is Done Asking: Five Security Changes Coming in June 2026",
-      "canonical_url": "https://arkusinc.com/archive/2026/salesforce-is-done-asking-five-security-changes-coming-in-june-2026",
-      "source_domain": "arkusinc.com",
-      "first_sent_at": "2026-05-25T07:19:43+00:00",
-      "last_seen_at": "2026-05-25T07:19:43+00:00"
-    },
-    {
-      "event_id": "747d66d4363ff72c",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Top 8 Salesforce Summer '26 Features for Developers",
-      "canonical_url": "https://salesforceben.com/top-8-salesforce-summer-26-features-for-developers",
-      "source_domain": "salesforceben.com",
-      "first_sent_at": "2026-05-25T07:19:43+00:00",
-      "last_seen_at": "2026-05-25T07:19:43+00:00"
-    },
-    {
-      "event_id": "619c42399474e808",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Informatica Announces Headless Data Management for AWS to Power Trusted, Enterprise-Ready Agentic Workflows",
-      "canonical_url": "https://salesforce.com/news/press-releases/2026/05/20/informatica-announces-headless-data-management-aws",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-05-25T07:19:43+00:00",
-      "last_seen_at": "2026-05-25T07:19:43+00:00"
-    },
-    {
-      "event_id": "4f01a6146651ab6a",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Informatica from Salesforce Delivers the Trusted Data Foundation Every AI Agent Needs — Now Across Every Surface, Every Platform, Everywhere",
-      "canonical_url": "https://salesforce.com/news/press-releases/2026/05/20/informatica-delivers-trusted-data-foundation",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-05-25T07:19:43+00:00",
-      "last_seen_at": "2026-05-25T07:19:43+00:00"
-    },
-    {
-      "event_id": "1f7b0e968e89b819",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Informatica Deepens Collaboration with Microsoft to Deliver Trusted Data for Agentic AI and Analytics at Scale",
-      "canonical_url": "https://salesforce.com/news/press-releases/2026/05/20/informatica-deepens-collaboration-with-microsoft",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-05-25T07:19:43+00:00",
-      "last_seen_at": "2026-05-25T07:19:43+00:00"
-    },
-    {
-      "event_id": "eadd5492709fe5d0",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Intent-Driven Tool Selection Using Abilities in Agentforce Vibes",
-      "canonical_url": "https://developer.salesforce.com/blogs/2026/05/intent-driven-tool-selection-using-abilities-in-agentforce-vibes",
-      "source_domain": "developer.salesforce.com",
-      "first_sent_at": "2026-05-18T07:10:00+00:00",
-      "last_seen_at": "2026-05-18T07:10:00+00:00"
-    },
-    {
-      "event_id": "c727c4f8c4e40e27",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce Summer 2026 Product Release Announcement",
-      "canonical_url": "https://salesforce.com/news/stories/summer-2026-product-release-announcement",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-05-18T07:10:00+00:00",
-      "last_seen_at": "2026-05-18T07:10:00+00:00"
-    },
-    {
-      "event_id": "b90daa989c301f72",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "GraphQL Mutations Now Available in LWC: Create, Update, and Delete Records",
-      "canonical_url": "https://developer.salesforce.com/blogs/2026/05/graphql-mutations-now-available-in-lwc-create-update-and-delete-records",
-      "source_domain": "developer.salesforce.com",
-      "first_sent_at": "2026-05-18T07:10:00+00:00",
-      "last_seen_at": "2026-05-18T07:10:00+00:00"
-    },
-    {
-      "event_id": "016a2936340fcd92",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Introducing the Data 360 MCP Server (Developer Preview)",
-      "canonical_url": "https://developer.salesforce.com/blogs/2026/05/introducing-the-data-360-mcp-server-developer-preview",
-      "source_domain": "developer.salesforce.com",
-      "first_sent_at": "2026-05-18T07:10:00+00:00",
-      "last_seen_at": "2026-05-18T07:10:00+00:00"
     }
   ]
 }
