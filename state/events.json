@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-06-09T07:09:38+00:00",
+  "updated_at": "2026-06-10T07:10:26+00:00",
   "items": [
     {
       "event_id": "c221ce229a321840",
@@ -221,6 +221,56 @@
       "source_domain": "developer.salesforce.com",
       "first_sent_at": "2026-05-18T07:10:00+00:00",
       "last_seen_at": "2026-05-18T07:10:00+00:00"
+    },
+    {
+      "event_id": "b3c4f09a01df41d4",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Introducing Claude Fable 5 and Claude Mythos 5",
+      "canonical_url": "https://anthropic.com/news/claude-fable-5-mythos-5",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-06-10T07:10:23+00:00",
+      "last_seen_at": "2026-06-10T07:10:23+00:00"
+    },
+    {
+      "event_id": "7205090ad9e11d68",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Apple Xcode now supports the Claude Agent SDK",
+      "canonical_url": "https://anthropic.com/news/apple-xcode-claude-agent-sdk",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-06-10T07:10:23+00:00",
+      "last_seen_at": "2026-06-10T07:10:23+00:00"
+    },
+    {
+      "event_id": "655b1e84c1d03378",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude support for Apple Foundation Models framework: Swift package for iOS and macOS developers",
+      "canonical_url": "https://claude.com/blog/claude-for-foundation-models",
+      "source_domain": "claude.com",
+      "first_sent_at": "2026-06-10T07:10:23+00:00",
+      "last_seen_at": "2026-06-10T07:10:23+00:00"
+    },
+    {
+      "event_id": "5a030a9fb93494a4",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.170: Claude Fable 5 Mythos-class model support and session transcript fix",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.170",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-06-10T07:10:23+00:00",
+      "last_seen_at": "2026-06-10T07:10:23+00:00"
+    },
+    {
+      "event_id": "30c846de6f7e0305",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Fable 5 available on Amazon Bedrock with Mythos-class capabilities and built-in safeguards",
+      "canonical_url": "https://aws.amazon.com/blogs/aws/anthropic-claude-fable-5-on-aws-mythos-class-capabilities-with-built-in-safeguards-now-available",
+      "source_domain": "aws.amazon.com",
+      "first_sent_at": "2026-06-10T07:10:23+00:00",
+      "last_seen_at": "2026-06-10T07:10:23+00:00"
     },
     {
       "event_id": "ed46f401e2ef7658",
@@ -991,56 +1041,6 @@
       "source_domain": "techcrunch.com",
       "first_sent_at": "2026-05-13T07:06:38+00:00",
       "last_seen_at": "2026-05-13T07:06:38+00:00"
-    },
-    {
-      "event_id": "f130b86554ea335f",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic research: Teaching Claude Why — eliminates blackmail behavior in agentic AI",
-      "canonical_url": "https://anthropic.com/research/teaching-claude-why",
-      "source_domain": "anthropic.com",
-      "first_sent_at": "2026-05-10T07:13:03+00:00",
-      "last_seen_at": "2026-05-10T07:13:03+00:00"
-    },
-    {
-      "event_id": "c0ed367a86008b63",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.136: MCP persistence fix, hard-deny auto mode rules, enterprise OTel survey support",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.136",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-05-10T07:13:03+00:00",
-      "last_seen_at": "2026-05-10T07:13:03+00:00"
-    },
-    {
-      "event_id": "9be0c709e9d8af80",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic signs $1.8 billion seven-year cloud computing deal with Akamai amid surging Claude demand",
-      "canonical_url": "https://benzinga.com/markets/tech/26/05/52434312/anthropic-signs-1-8-billion-akamai-cloud-deal-amid-surging-claude-ai-demand-report",
-      "source_domain": "benzinga.com",
-      "first_sent_at": "2026-05-10T07:13:03+00:00",
-      "last_seen_at": "2026-05-10T07:13:03+00:00"
-    },
-    {
-      "event_id": "795470794ac0a67a",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude AI used by hackers in attempted compromise of Mexican water utility OT systems",
-      "canonical_url": "https://cybersecuritydive.com/news/anthropics-claude-compromise-mexican-water-utility/819710",
-      "source_domain": "cybersecuritydive.com",
-      "first_sent_at": "2026-05-10T07:13:03+00:00",
-      "last_seen_at": "2026-05-10T07:13:03+00:00"
-    },
-    {
-      "event_id": "329fedb745f6c349",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.137 and v2.1.138: Windows VS Code extension activation fix and internal improvements",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.137",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-05-10T07:13:03+00:00",
-      "last_seen_at": "2026-05-10T07:13:03+00:00"
     }
   ]
 }
