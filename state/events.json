@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-06-10T07:10:26+00:00",
+  "updated_at": "2026-06-11T07:04:12+00:00",
   "items": [
     {
       "event_id": "c221ce229a321840",
@@ -221,6 +221,46 @@
       "source_domain": "developer.salesforce.com",
       "first_sent_at": "2026-05-18T07:10:00+00:00",
       "last_seen_at": "2026-05-18T07:10:00+00:00"
+    },
+    {
+      "event_id": "914f82249d7e61f5",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Fable 5 is generally available for GitHub Copilot",
+      "canonical_url": "https://github.blog/changelog/2026-06-09-claude-fable-5-is-generally-available-for-github-copilot",
+      "source_domain": "github.blog",
+      "first_sent_at": "2026-06-11T07:04:10+00:00",
+      "last_seen_at": "2026-06-11T07:04:10+00:00"
+    },
+    {
+      "event_id": "5e92427e4483f320",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic to make Claude Fable 5 restrictions visible after criticism over hidden safeguards",
+      "canonical_url": "https://storyboard18.com/brand-marketing/anthropic-to-make-claude-fable-5-restrictions-visible-after-criticism-over-hidden-safeguards-report-100770.htm",
+      "source_domain": "storyboard18.com",
+      "first_sent_at": "2026-06-11T07:04:10+00:00",
+      "last_seen_at": "2026-06-11T07:04:10+00:00"
+    },
+    {
+      "event_id": "4c6d5156d5062d36",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.172: sub-agents can now spawn their own sub-agents up to 5 levels deep, Bedrock region resolution improvements",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.172",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-06-11T07:04:10+00:00",
+      "last_seen_at": "2026-06-11T07:04:10+00:00"
+    },
+    {
+      "event_id": "10f66d9dd8f5ef9e",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic accused of 'secret sabotage' as Claude Fable 5 silently limits capabilities for AI researchers and developers",
+      "canonical_url": "https://fortune.com/2026/06/10/anthropic-accu-claude-fable-5-limits-capabilities-ai-researchers-developers",
+      "source_domain": "fortune.com",
+      "first_sent_at": "2026-06-11T07:04:10+00:00",
+      "last_seen_at": "2026-06-11T07:04:10+00:00"
     },
     {
       "event_id": "b3c4f09a01df41d4",
