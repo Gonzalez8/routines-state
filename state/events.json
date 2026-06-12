@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-06-11T07:04:12+00:00",
+  "updated_at": "2026-06-12T07:04:55+00:00",
   "items": [
     {
       "event_id": "c221ce229a321840",
@@ -221,6 +221,36 @@
       "source_domain": "developer.salesforce.com",
       "first_sent_at": "2026-05-18T07:10:00+00:00",
       "last_seen_at": "2026-05-18T07:10:00+00:00"
+    },
+    {
+      "event_id": "c62fe3dcd783c384",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.173: Fable 5 model name normalization fix and Windows sandbox startup warning fix",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.173",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-06-12T07:04:55+00:00",
+      "last_seen_at": "2026-06-12T07:04:55+00:00"
+    },
+    {
+      "event_id": "80d80e3472207bda",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic pledges $200 million to research AI's economic impact and job displacement via Economic Futures Research Fund",
+      "canonical_url": "https://anthropic.com/news/introducing-the-anthropic-economic-futures-program",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-06-12T07:04:55+00:00",
+      "last_seen_at": "2026-06-12T07:04:55+00:00"
+    },
+    {
+      "event_id": "742b7258c3b8fed2",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Introducing Claude Corps: Anthropic commits $150M fellowship to place 1,000 AI fellows at US nonprofits",
+      "canonical_url": "https://anthropic.com/news/claude-corps",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-06-12T07:04:55+00:00",
+      "last_seen_at": "2026-06-12T07:04:55+00:00"
     },
     {
       "event_id": "914f82249d7e61f5",
