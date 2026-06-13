@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-06-12T07:04:55+00:00",
+  "updated_at": "2026-06-13T07:05:25+00:00",
   "items": [
     {
       "event_id": "c221ce229a321840",
@@ -221,6 +221,66 @@
       "source_domain": "developer.salesforce.com",
       "first_sent_at": "2026-05-18T07:10:00+00:00",
       "last_seen_at": "2026-05-18T07:10:00+00:00"
+    },
+    {
+      "event_id": "d928b31812d9ae14",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Results from the first Anthropic Public Record: survey of 52,000 Americans on AI hopes and fears",
+      "canonical_url": "https://anthropic.com/news/anthropic-public-record",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-06-13T07:05:23+00:00",
+      "last_seen_at": "2026-06-13T07:05:23+00:00"
+    },
+    {
+      "event_id": "9a0e2149850b6a07",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.174: wheelScrollAccelerationEnabled setting, model picker fix, Bedrock GovCloud fix, and performance improvements",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.174",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-06-13T07:05:23+00:00",
+      "last_seen_at": "2026-06-13T07:05:23+00:00"
+    },
+    {
+      "event_id": "91dcb8ddc21dfb40",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.176: session titles in conversation language, footerLinksRegexes setting, Bedrock credential caching fix, and extensive bug fixes",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.176",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-06-13T07:05:23+00:00",
+      "last_seen_at": "2026-06-13T07:05:23+00:00"
+    },
+    {
+      "event_id": "902418e40a99ac01",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.175: enforceAvailableModels managed setting for stricter model allowlist enforcement",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.175",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-06-13T07:05:23+00:00",
+      "last_seen_at": "2026-06-13T07:05:23+00:00"
+    },
+    {
+      "event_id": "890d6d852e409dcc",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic suspends Fable 5 and Mythos 5 worldwide following US government export control directive",
+      "canonical_url": "https://anthropic.com/news/fable-mythos-access",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-06-13T07:05:23+00:00",
+      "last_seen_at": "2026-06-13T07:05:23+00:00"
+    },
+    {
+      "event_id": "74d188857d778635",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "TCS and Anthropic partner to bring Claude to regulated industries",
+      "canonical_url": "https://anthropic.com/news/tcs-anthropic-partnership",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-06-13T07:05:23+00:00",
+      "last_seen_at": "2026-06-13T07:05:23+00:00"
     },
     {
       "event_id": "c62fe3dcd783c384",
@@ -1081,36 +1141,6 @@
       "source_domain": "anthropic.com",
       "first_sent_at": "2026-05-14T07:15:42+00:00",
       "last_seen_at": "2026-05-14T07:15:42+00:00"
-    },
-    {
-      "event_id": "e33da1cae7ff20bd",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.139: Agent View, /goal command, and enhanced workflow control",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-05-13T07:06:38+00:00",
-      "last_seen_at": "2026-05-13T07:06:38+00:00"
-    },
-    {
-      "event_id": "d520b1c3dc3a5194",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "OpenAI grants EU access to GPT-5.5-Cyber cybersecurity model while Anthropic holds out on Mythos",
-      "canonical_url": "https://cnbc.com/2026/05/11/openai-eu-cyber-model-anthropic-mythos-gpt.html",
-      "source_domain": "cnbc.com",
-      "first_sent_at": "2026-05-13T07:06:38+00:00",
-      "last_seen_at": "2026-05-13T07:06:38+00:00"
-    },
-    {
-      "event_id": "b64d8bb0f8d0c6e3",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic launches Claude for Legal with 12 practice-area plugins and 20+ MCP connectors",
-      "canonical_url": "https://techcrunch.com/2026/05/12/the-ai-legal-services-industry-is-heating-up-anthropic-is-getting-in-on-the-action",
-      "source_domain": "techcrunch.com",
-      "first_sent_at": "2026-05-13T07:06:38+00:00",
-      "last_seen_at": "2026-05-13T07:06:38+00:00"
     }
   ]
 }
