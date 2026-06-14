@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-06-13T07:05:25+00:00",
+  "updated_at": "2026-06-14T07:05:39+00:00",
   "items": [
     {
       "event_id": "c221ce229a321840",
@@ -221,6 +221,36 @@
       "source_domain": "developer.salesforce.com",
       "first_sent_at": "2026-05-18T07:10:00+00:00",
       "last_seen_at": "2026-05-18T07:10:00+00:00"
+    },
+    {
+      "event_id": "fe517148cdea3b26",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic CEO Dario Amodei says he doesn't know if Claude was used in the Iran school strike that killed 120+ children",
+      "canonical_url": "https://thenextweb.com/news/anthropic-amodei-claude-iran-school-strike-military-ai",
+      "source_domain": "thenextweb.com",
+      "first_sent_at": "2026-06-14T07:05:37+00:00",
+      "last_seen_at": "2026-06-14T07:05:37+00:00"
+    },
+    {
+      "event_id": "66267511b9c60fbb",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Why US has restricted foreign access to Anthropic's Claude Fable 5 and Mythos 5 models",
+      "canonical_url": "https://business-standard.com/technology/tech-news/us-anthropic-claude-fable-5-mythos-access-restricted-ai-export-controls-126061400194_1.html",
+      "source_domain": "business-standard.com",
+      "first_sent_at": "2026-06-14T07:05:37+00:00",
+      "last_seen_at": "2026-06-14T07:05:37+00:00"
+    },
+    {
+      "event_id": "2cf376688df6b473",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on",
+      "canonical_url": "https://anthropic.com/news/dxc-anthropic-alliance",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-06-14T07:05:37+00:00",
+      "last_seen_at": "2026-06-14T07:05:37+00:00"
     },
     {
       "event_id": "d928b31812d9ae14",
@@ -1061,86 +1091,6 @@
       "source_domain": "anthropic.com",
       "first_sent_at": "2026-05-17T07:10:20+00:00",
       "last_seen_at": "2026-05-17T07:10:20+00:00"
-    },
-    {
-      "event_id": "c51c1c1d477db142",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic puts Claude agents on a separate credit meter starting June 15",
-      "canonical_url": "https://axios.com/2026/05/14/anthropic-claude-price-openai-tokens",
-      "source_domain": "axios.com",
-      "first_sent_at": "2026-05-15T07:03:47+00:00",
-      "last_seen_at": "2026-05-15T07:03:47+00:00"
-    },
-    {
-      "event_id": "a610d18f07b98ecc",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "US judge seeks more details on Anthropic's $1.5 billion author copyright settlement",
-      "canonical_url": "https://storyboard18.com/amp/digital/judge-seeks-more-details-on-anthropic-1-5-billion-author-settlement-ws-l-98181.htm",
-      "source_domain": "storyboard18.com",
-      "first_sent_at": "2026-05-15T07:03:47+00:00",
-      "last_seen_at": "2026-05-15T07:03:47+00:00"
-    },
-    {
-      "event_id": "56ea2e19f1aff21b",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.142: new claude agents flags, fast mode defaults to Opus 4.7, and background session fixes",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.142",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-05-15T07:03:47+00:00",
-      "last_seen_at": "2026-05-15T07:03:47+00:00"
-    },
-    {
-      "event_id": "15deaf8a34eaf924",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "PwC deploys Claude to build technology and reinvent enterprise functions for clients",
-      "canonical_url": "https://anthropic.com/news/pwc-expanded-partnership",
-      "source_domain": "anthropic.com",
-      "first_sent_at": "2026-05-15T07:03:47+00:00",
-      "last_seen_at": "2026-05-15T07:03:47+00:00"
-    },
-    {
-      "event_id": "136ae5d0f135ad61",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic forms $200 million partnership with the Gates Foundation",
-      "canonical_url": "https://anthropic.com/news/gates-foundation-partnership",
-      "source_domain": "anthropic.com",
-      "first_sent_at": "2026-05-15T07:03:47+00:00",
-      "last_seen_at": "2026-05-15T07:03:47+00:00"
-    },
-    {
-      "event_id": "a608d7b04823af27",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "SAP and Anthropic partner to embed Claude as primary AI reasoning across SAP Business AI Platform",
-      "canonical_url": "https://news.sap.com/2026/05/sap-anthropic-to-bring-claude-sap-business-ai-platform",
-      "source_domain": "news.sap.com",
-      "first_sent_at": "2026-05-14T07:15:42+00:00",
-      "last_seen_at": "2026-05-14T07:15:42+00:00"
-    },
-    {
-      "event_id": "9d98c82ae058d11b",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.140 and v2.1.141: agent color palette, hook terminalSequence, ANTHROPIC_WORKSPACE_ID and Rewind 'Summarize up to here'",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-05-14T07:15:42+00:00",
-      "last_seen_at": "2026-05-14T07:15:42+00:00"
-    },
-    {
-      "event_id": "21ec615f55e28d0a",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Introducing Claude for Small Business",
-      "canonical_url": "https://anthropic.com/news/claude-for-small-business",
-      "source_domain": "anthropic.com",
-      "first_sent_at": "2026-05-14T07:15:42+00:00",
-      "last_seen_at": "2026-05-14T07:15:42+00:00"
     }
   ]
 }
