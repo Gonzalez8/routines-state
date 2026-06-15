@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-06-14T07:05:39+00:00",
+  "updated_at": "2026-06-15T07:07:22+00:00",
   "items": [
     {
       "event_id": "c221ce229a321840",
@@ -221,6 +221,56 @@
       "source_domain": "developer.salesforce.com",
       "first_sent_at": "2026-05-18T07:10:00+00:00",
       "last_seen_at": "2026-05-18T07:10:00+00:00"
+    },
+    {
+      "event_id": "e417a791683a9421",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.177: MCP server reconnect fix, API gateway credentials security fix, Linux sandbox and Remote Control improvements",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.177",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-06-15T07:07:19+00:00",
+      "last_seen_at": "2026-06-15T07:07:19+00:00"
+    },
+    {
+      "event_id": "ac57df69a00c8f0a",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic flies staff to DC to resolve White House fight over Mythos suspension",
+      "canonical_url": "https://axios.com/2026/06/14/anthropic-white-house-mythos-fable",
+      "source_domain": "axios.com",
+      "first_sent_at": "2026-06-15T07:07:19+00:00",
+      "last_seen_at": "2026-06-15T07:07:19+00:00"
+    },
+    {
+      "event_id": "9dc60dee270d210b",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Agent SDK moves to separate credit pool starting June 15: Pro gets $20, Max 5x $100, Max 20x $200",
+      "canonical_url": "https://thenewstack.io/anthropic-agent-sdk-credits",
+      "source_domain": "thenewstack.io",
+      "first_sent_at": "2026-06-15T07:07:19+00:00",
+      "last_seen_at": "2026-06-15T07:07:19+00:00"
+    },
+    {
+      "event_id": "108fa6a83c2001b9",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Sonnet 4 and Opus 4 retire today June 15 with no grace period — API requests will fail",
+      "canonical_url": "https://enterprisedna.co/resources/news/anthropic-claude-june-15-retirements-billing-2026",
+      "source_domain": "enterprisedna.co",
+      "first_sent_at": "2026-06-15T07:07:19+00:00",
+      "last_seen_at": "2026-06-15T07:07:19+00:00"
+    },
+    {
+      "event_id": "0bbff8b7f8f78d58",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic to brief House Homeland Security on Mythos AI capabilities in closed-door hearing",
+      "canonical_url": "https://thehill.com/policy/technology/5875253-house-briefing-anthropic-mythos",
+      "source_domain": "thehill.com",
+      "first_sent_at": "2026-06-15T07:07:19+00:00",
+      "last_seen_at": "2026-06-15T07:07:19+00:00"
     },
     {
       "event_id": "fe517148cdea3b26",
