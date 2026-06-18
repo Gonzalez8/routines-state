@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-06-17T07:04:47+00:00",
+  "updated_at": "2026-06-18T07:04:13+00:00",
   "items": [
     {
       "event_id": "f928fc3ce20644b6",
@@ -291,6 +291,46 @@
       "source_domain": "developer.salesforce.com",
       "first_sent_at": "2026-05-18T07:10:00+00:00",
       "last_seen_at": "2026-05-18T07:10:00+00:00"
+    },
+    {
+      "event_id": "be027bf9530796a7",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Dario Amodei and Google DeepMind CEO call for U.S.-led AI coalition at G7 summit",
+      "canonical_url": "https://cnbc.com/2026/06/17/anthropic-amodei-google-hassabis-us-ai-coalition-g7.html",
+      "source_domain": "cnbc.com",
+      "first_sent_at": "2026-06-18T07:04:10+00:00",
+      "last_seen_at": "2026-06-18T07:04:10+00:00"
+    },
+    {
+      "event_id": "8ee22311a00e5614",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.181: /config key=value syntax, sandbox.allowAppleEvents, streaming improvements, and multiple bug fixes",
+      "canonical_url": "https://code.claude.com/docs/en/changelog",
+      "source_domain": "code.claude.com",
+      "first_sent_at": "2026-06-18T07:04:10+00:00",
+      "last_seen_at": "2026-06-18T07:04:10+00:00"
+    },
+    {
+      "event_id": "286c41df5b35a832",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "G7 discusses 'trusted partners' framework to restore access to Anthropic's controlled AI models",
+      "canonical_url": "https://cnbc.com/2026/06/17/g7-trump-ai-tech-leaders-openai-anthropic-google.html",
+      "source_domain": "cnbc.com",
+      "first_sent_at": "2026-06-18T07:04:10+00:00",
+      "last_seen_at": "2026-06-18T07:04:10+00:00"
+    },
+    {
+      "event_id": "1b333625fbcc6249",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem",
+      "canonical_url": "https://anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-06-18T07:04:10+00:00",
+      "last_seen_at": "2026-06-18T07:04:10+00:00"
     },
     {
       "event_id": "7cf86ea59b206349",
@@ -1171,36 +1211,6 @@
       "source_domain": "bloomberg.com",
       "first_sent_at": "2026-05-19T07:12:35+00:00",
       "last_seen_at": "2026-05-19T07:12:35+00:00"
-    },
-    {
-      "event_id": "63a3ad69b162f1c6",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic says it hit a $30 billion revenue run rate after 'crazy' 80x growth",
-      "canonical_url": "https://venturebeat.com/technology/anthropic-says-it-hit-a-30-billion-revenue-run-rate-after-crazy-80x-growth",
-      "source_domain": "venturebeat.com",
-      "first_sent_at": "2026-05-18T07:12:34+00:00",
-      "last_seen_at": "2026-05-18T07:12:34+00:00"
-    },
-    {
-      "event_id": "247c268c4b3fcc9c",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic now has more business customers than OpenAI, according to Ramp data",
-      "canonical_url": "https://techcrunch.com/2026/05/13/anthropic-now-has-more-business-customers-than-openai-according-to-ramp-data",
-      "source_domain": "techcrunch.com",
-      "first_sent_at": "2026-05-18T07:12:34+00:00",
-      "last_seen_at": "2026-05-18T07:12:34+00:00"
-    },
-    {
-      "event_id": "0bdb0149e94b077c",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude can now follow users across Outlook, Word, Excel, and PowerPoint",
-      "canonical_url": "https://thenewstack.io/claude-word-excel-powerpoint-outlook-microsoft-office",
-      "source_domain": "thenewstack.io",
-      "first_sent_at": "2026-05-18T07:12:34+00:00",
-      "last_seen_at": "2026-05-18T07:12:34+00:00"
     }
   ]
 }
