@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-06-18T07:04:13+00:00",
+  "updated_at": "2026-06-19T07:05:06+00:00",
   "items": [
     {
       "event_id": "f928fc3ce20644b6",
@@ -291,6 +291,36 @@
       "source_domain": "developer.salesforce.com",
       "first_sent_at": "2026-05-18T07:10:00+00:00",
       "last_seen_at": "2026-05-18T07:10:00+00:00"
+    },
+    {
+      "event_id": "ec9ecdf7aaf238c5",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic launches enterprise-managed MCP auth with Okta for Claude Team and Enterprise",
+      "canonical_url": "https://claude.com/blog/enterprise-managed-auth",
+      "source_domain": "claude.com",
+      "first_sent_at": "2026-06-19T07:05:06+00:00",
+      "last_seen_at": "2026-06-19T07:05:06+00:00"
+    },
+    {
+      "event_id": "2eb702e8905cdb0f",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code ahora soporta Artifacts: sesiones de trabajo como páginas web interactivas en vivo",
+      "canonical_url": "https://claude.com/blog/artifacts-in-claude-code",
+      "source_domain": "claude.com",
+      "first_sent_at": "2026-06-19T07:05:06+00:00",
+      "last_seen_at": "2026-06-19T07:05:06+00:00"
+    },
+    {
+      "event_id": "239f5de9bbe3e283",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Workload Identity Federation is now generally available on the Claude Platform",
+      "canonical_url": "https://claude.com/blog/workload-identity-federation",
+      "source_domain": "claude.com",
+      "first_sent_at": "2026-06-19T07:05:06+00:00",
+      "last_seen_at": "2026-06-19T07:05:06+00:00"
     },
     {
       "event_id": "be027bf9530796a7",
@@ -1181,36 +1211,6 @@
       "source_domain": "github.com",
       "first_sent_at": "2026-05-20T07:09:51+00:00",
       "last_seen_at": "2026-05-20T07:09:51+00:00"
-    },
-    {
-      "event_id": "8c64a6ba79cc2c1e",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.144: /resume for background sessions, model picker per-session, startup hang fix",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-05-19T07:12:35+00:00",
-      "last_seen_at": "2026-05-19T07:12:35+00:00"
-    },
-    {
-      "event_id": "35ab7077a9a5fc83",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Code with Claude London (May 19): developer conference with workshops, live demos, and office hours",
-      "canonical_url": "https://claude.com/code-with-claude/london",
-      "source_domain": "claude.com",
-      "first_sent_at": "2026-05-19T07:12:35+00:00",
-      "last_seen_at": "2026-05-19T07:12:35+00:00"
-    },
-    {
-      "event_id": "2dc23d83ec65ef76",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic bans SPV share transfers, names 8 unauthorized firms amid pre-IPO market frenzy",
-      "canonical_url": "https://bloomberg.com/news/articles/2026-05-18/anthropic-sends-jolt-through-the-market-for-buying-shares-in-the-hottest-pre-ipo-startups",
-      "source_domain": "bloomberg.com",
-      "first_sent_at": "2026-05-19T07:12:35+00:00",
-      "last_seen_at": "2026-05-19T07:12:35+00:00"
     }
   ]
 }
