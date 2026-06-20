@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-06-19T07:05:06+00:00",
+  "updated_at": "2026-06-20T07:05:38+00:00",
   "items": [
     {
       "event_id": "f928fc3ce20644b6",
@@ -291,6 +291,36 @@
       "source_domain": "developer.salesforce.com",
       "first_sent_at": "2026-05-18T07:10:00+00:00",
       "last_seen_at": "2026-05-18T07:10:00+00:00"
+    },
+    {
+      "event_id": "c512208a0774e96f",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Enterprise adds admin permissions to custom roles for granular access control",
+      "canonical_url": "https://support.claude.com/en/articles/13930452-manage-custom-roles-on-enterprise-plans",
+      "source_domain": "support.claude.com",
+      "first_sent_at": "2026-06-20T07:05:35+00:00",
+      "last_seen_at": "2026-06-20T07:05:35+00:00"
+    },
+    {
+      "event_id": "1b46493c62fb9a66",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Steering Claude Code: skills, hooks, subagents and more",
+      "canonical_url": "https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more",
+      "source_domain": "claude.com",
+      "first_sent_at": "2026-06-20T07:05:35+00:00",
+      "last_seen_at": "2026-06-20T07:05:35+00:00"
+    },
+    {
+      "event_id": "01f18cd3420825d0",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.183: enhanced auto mode safety blocks destructive git commands and infra destroy operations",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.183",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-06-20T07:05:35+00:00",
+      "last_seen_at": "2026-06-20T07:05:35+00:00"
     },
     {
       "event_id": "ec9ecdf7aaf238c5",
@@ -1191,26 +1221,6 @@
       "source_domain": "techcrunch.com",
       "first_sent_at": "2026-05-21T07:11:00+00:00",
       "last_seen_at": "2026-05-21T07:11:00+00:00"
-    },
-    {
-      "event_id": "d6d12a8d55837550",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Andrej Karpathy joins Anthropic to lead pre-training research with Claude",
-      "canonical_url": "https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team",
-      "source_domain": "techcrunch.com",
-      "first_sent_at": "2026-05-20T07:09:51+00:00",
-      "last_seen_at": "2026-05-20T07:09:51+00:00"
-    },
-    {
-      "event_id": "72d7ddfe62bfd4b5",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.145: bug fixes for Bedrock/Vertex model picker, remote-session login, MCP pagination, and crashed sessions",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.145",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-05-20T07:09:51+00:00",
-      "last_seen_at": "2026-05-20T07:09:51+00:00"
     }
   ]
 }
