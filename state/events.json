@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-06-20T07:05:38+00:00",
+  "updated_at": "2026-06-21T07:05:33+00:00",
   "items": [
     {
       "event_id": "f928fc3ce20644b6",
@@ -291,6 +291,16 @@
       "source_domain": "developer.salesforce.com",
       "first_sent_at": "2026-05-18T07:10:00+00:00",
       "last_seen_at": "2026-05-18T07:10:00+00:00"
+    },
+    {
+      "event_id": "eedbdd75d45319db",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.185: stream-stall hint message improved to 'Waiting for API response', timeout extended from 10s to 20s",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.185",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-06-21T07:05:30+00:00",
+      "last_seen_at": "2026-06-21T07:05:30+00:00"
     },
     {
       "event_id": "c512208a0774e96f",
@@ -1201,26 +1211,6 @@
       "source_domain": "github.com",
       "first_sent_at": "2026-05-22T07:14:26+00:00",
       "last_seen_at": "2026-05-22T07:14:26+00:00"
-    },
-    {
-      "event_id": "de34eb2d037fcb13",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "KPMG and Anthropic sign Global Alliance and launch Digital Gateway Powered by Claude",
-      "canonical_url": "https://anthropic.com/news/anthropic-kpmg",
-      "source_domain": "anthropic.com",
-      "first_sent_at": "2026-05-21T07:11:00+00:00",
-      "last_seen_at": "2026-05-21T07:11:00+00:00"
-    },
-    {
-      "event_id": "0ab86c8c835cbf46",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic on pace for first profitable quarter as revenue surges to $10.9B",
-      "canonical_url": "https://techcrunch.com/2026/05/20/anthropic-says-its-about-to-have-its-first-profitable-quarter",
-      "source_domain": "techcrunch.com",
-      "first_sent_at": "2026-05-21T07:11:00+00:00",
-      "last_seen_at": "2026-05-21T07:11:00+00:00"
     }
   ]
 }
