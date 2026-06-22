@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-06-21T07:05:33+00:00",
+  "updated_at": "2026-06-22T07:03:54+00:00",
   "items": [
     {
       "event_id": "f928fc3ce20644b6",
@@ -291,6 +291,26 @@
       "source_domain": "developer.salesforce.com",
       "first_sent_at": "2026-05-18T07:10:00+00:00",
       "last_seen_at": "2026-05-18T07:10:00+00:00"
+    },
+    {
+      "event_id": "f737e0707c4e8f34",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic Claude AI sufre caída global de 90 minutos afectando Opus 4.8, 4.7, 4.6, Sonnet 4.6 y Haiku 4.5",
+      "canonical_url": "https://cybersecuritynews.com/anthropic-claude-ai-outage",
+      "source_domain": "cybersecuritynews.com",
+      "first_sent_at": "2026-06-22T07:03:44+00:00",
+      "last_seen_at": "2026-06-22T07:03:44+00:00"
+    },
+    {
+      "event_id": "3373721b449ea6c9",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Fable 5 deja de estar incluido en planes de suscripción de Claude a partir del 23 de junio, pasando a créditos de uso",
+      "canonical_url": "https://developersdigest.tech/blog/claude-fable-5-june-22-deadline",
+      "source_domain": "developersdigest.tech",
+      "first_sent_at": "2026-06-22T07:03:44+00:00",
+      "last_seen_at": "2026-06-22T07:03:44+00:00"
     },
     {
       "event_id": "eedbdd75d45319db",
@@ -1191,26 +1211,6 @@
       "source_domain": "github.com",
       "first_sent_at": "2026-05-23T07:11:10+00:00",
       "last_seen_at": "2026-05-23T07:11:10+00:00"
-    },
-    {
-      "event_id": "c162f28dc0893f13",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic's Code with Claude showed off coding's future—whether you like it or not",
-      "canonical_url": "https://technologyreview.com/2026/05/21/1137735/anthropics-code-with-claude-showed-off-codings-future-whether-you-like-it-or-not",
-      "source_domain": "technologyreview.com",
-      "first_sent_at": "2026-05-22T07:14:26+00:00",
-      "last_seen_at": "2026-05-22T07:14:26+00:00"
-    },
-    {
-      "event_id": "59e6426eb97ff5e6",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.146: /code-review command, Windows fixes, MCP pagination, and multi-agent improvements",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.146",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-05-22T07:14:26+00:00",
-      "last_seen_at": "2026-05-22T07:14:26+00:00"
     }
   ]
 }
