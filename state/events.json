@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-06-25T07:03:12+00:00",
+  "updated_at": "2026-06-26T07:03:48+00:00",
   "items": [
     {
       "event_id": "febfeed555b64fff",
@@ -281,6 +281,26 @@
       "source_domain": "salesforce.com",
       "first_sent_at": "2026-05-25T07:19:43+00:00",
       "last_seen_at": "2026-05-25T07:19:43+00:00"
+    },
+    {
+      "event_id": "aeed3e6e8a19dc06",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic's Claude is winning over paid consumers, a market owned by ChatGPT",
+      "canonical_url": "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt",
+      "source_domain": "techcrunch.com",
+      "first_sent_at": "2026-06-26T07:03:46+00:00",
+      "last_seen_at": "2026-06-26T07:03:46+00:00"
+    },
+    {
+      "event_id": "326369c3123c94b4",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.193: autoMode.classifyAllShell setting, live bash path autocomplete, background agent improvements",
+      "canonical_url": "https://releasebot.io/updates/anthropic/claude-code",
+      "source_domain": "releasebot.io",
+      "first_sent_at": "2026-06-26T07:03:46+00:00",
+      "last_seen_at": "2026-06-26T07:03:46+00:00"
     },
     {
       "event_id": "fa7a61c33d8e2f62",
@@ -1111,36 +1131,6 @@
       "source_domain": "theregister.com",
       "first_sent_at": "2026-05-27T07:14:46+00:00",
       "last_seen_at": "2026-05-27T07:14:46+00:00"
-    },
-    {
-      "event_id": "3aa14e0cd34f3c58",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic prepares Mythos 1 for Claude Code and Claude Security",
-      "canonical_url": "https://testingcatalog.com/anthropic-prepares-mythos-1-for-claude-code-and-claude-security",
-      "source_domain": "testingcatalog.com",
-      "first_sent_at": "2026-05-26T07:14:19+00:00",
-      "last_seen_at": "2026-05-26T07:14:19+00:00"
-    },
-    {
-      "event_id": "362780da208feb00",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude now works with more security and compliance tools",
-      "canonical_url": "https://claude.com/blog/compliance-api-security-partners",
-      "source_domain": "claude.com",
-      "first_sent_at": "2026-05-26T07:14:19+00:00",
-      "last_seen_at": "2026-05-26T07:14:19+00:00"
-    },
-    {
-      "event_id": "27764c98688e25f7",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical 'Magnifica humanitas'",
-      "canonical_url": "https://anthropic.com/news/chris-olah-pope-leo-encyclical",
-      "source_domain": "anthropic.com",
-      "first_sent_at": "2026-05-26T07:14:19+00:00",
-      "last_seen_at": "2026-05-26T07:14:19+00:00"
     }
   ]
 }
