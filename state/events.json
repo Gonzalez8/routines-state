@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-06-26T07:03:48+00:00",
+  "updated_at": "2026-06-27T07:04:00+00:00",
   "items": [
     {
       "event_id": "febfeed555b64fff",
@@ -281,6 +281,26 @@
       "source_domain": "salesforce.com",
       "first_sent_at": "2026-05-25T07:19:43+00:00",
       "last_seen_at": "2026-05-25T07:19:43+00:00"
+    },
+    {
+      "event_id": "c082cb13a8952687",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic Economic Index June 2026: Cadences — usage mirrors daily rhythms, 93% of conversations produce artifacts, heavy AI users most optimistic about career",
+      "canonical_url": "https://anthropic.com/research/economic-index-june-2026-report",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-06-27T07:04:00+00:00",
+      "last_seen_at": "2026-06-27T07:04:00+00:00"
+    },
+    {
+      "event_id": "95dec64dac9f4ad6",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic cleared to release Claude Mythos 5 to over 100 US institutions after US government partially lifts export control ban",
+      "canonical_url": "https://9to5mac.com/2026/06/26/anthropic-cleared-to-release-claude-mythos-5-to-over-100-us-institutions",
+      "source_domain": "9to5mac.com",
+      "first_sent_at": "2026-06-27T07:04:00+00:00",
+      "last_seen_at": "2026-06-27T07:04:00+00:00"
     },
     {
       "event_id": "aeed3e6e8a19dc06",
@@ -1121,16 +1141,6 @@
       "source_domain": "github.com",
       "first_sent_at": "2026-05-28T07:16:20+00:00",
       "last_seen_at": "2026-05-28T07:16:20+00:00"
-    },
-    {
-      "event_id": "80752caaa446ccb7",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic to release Mythos-class models to the public",
-      "canonical_url": "https://theregister.com/security/2026/05/25/anthropic-to-release-mythos-class-models-to-the-public/5245596",
-      "source_domain": "theregister.com",
-      "first_sent_at": "2026-05-27T07:14:46+00:00",
-      "last_seen_at": "2026-05-27T07:14:46+00:00"
     }
   ]
 }
