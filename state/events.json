@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-06-27T07:04:00+00:00",
+  "updated_at": "2026-06-28T07:05:31+00:00",
   "items": [
     {
       "event_id": "febfeed555b64fff",
@@ -281,6 +281,36 @@
       "source_domain": "salesforce.com",
       "first_sent_at": "2026-05-25T07:19:43+00:00",
       "last_seen_at": "2026-05-25T07:19:43+00:00"
+    },
+    {
+      "event_id": "cd8c735a9cc7fa10",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude adds Trusted Devices for Remote Control on Team and Enterprise plans to verify devices before remote sessions",
+      "canonical_url": "https://releasebot.io/updates/anthropic/claude",
+      "source_domain": "releasebot.io",
+      "first_sent_at": "2026-06-28T07:05:28+00:00",
+      "last_seen_at": "2026-06-28T07:05:28+00:00"
+    },
+    {
+      "event_id": "47140c7954cf62a5",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.195: CLAUDE_CODE_DISABLE_MOUSE_CLICKS, exact hook matcher fix, voice dictation improvements",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.195",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-06-28T07:05:28+00:00",
+      "last_seen_at": "2026-06-28T07:05:28+00:00"
+    },
+    {
+      "event_id": "084ad6857c3a3c0d",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.191: /rewind command to resume conversations before /clear, 37% CPU reduction during streaming",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.191",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-06-28T07:05:28+00:00",
+      "last_seen_at": "2026-06-28T07:05:28+00:00"
     },
     {
       "event_id": "c082cb13a8952687",
@@ -1131,16 +1161,6 @@
       "source_domain": "github.com",
       "first_sent_at": "2026-05-29T07:12:10+00:00",
       "last_seen_at": "2026-05-29T07:12:10+00:00"
-    },
-    {
-      "event_id": "d24b11c9874f4c40",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.152: /code-review --fix, /reload-skills, disallowed-tools in frontmatter, fallback-model switching, and Vim mode improvements",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-05-28T07:16:20+00:00",
-      "last_seen_at": "2026-05-28T07:16:20+00:00"
     }
   ]
 }
