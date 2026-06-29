@@ -1,106 +1,36 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-06-28T07:05:31+00:00",
+  "updated_at": "2026-06-29T07:09:33+00:00",
   "items": [
     {
-      "event_id": "febfeed555b64fff",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce Signs Definitive Agreement to Acquire Fin",
-      "canonical_url": "https://salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-06-22T07:10:25+00:00",
-      "last_seen_at": "2026-06-22T07:10:25+00:00"
+      "event_id": "cd8c735a9cc7fa10",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude adds Trusted Devices for Remote Control on Team and Enterprise plans to verify devices before remote sessions",
+      "canonical_url": "https://releasebot.io/updates/anthropic/claude",
+      "source_domain": "releasebot.io",
+      "first_sent_at": "2026-06-28T07:05:28+00:00",
+      "last_seen_at": "2026-06-28T07:05:28+00:00"
     },
     {
-      "event_id": "ef1791cf42496c00",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce MFA Enforcement Now Live in Sandboxes: Phishing-Resistant MFA Required for Privileged Users from June 22",
-      "canonical_url": "https://help.salesforce.com/s/articleView?language=en_US&id=005317465&type=1",
-      "source_domain": "help.salesforce.com",
-      "first_sent_at": "2026-06-22T07:10:25+00:00",
-      "last_seen_at": "2026-06-22T07:10:25+00:00"
+      "event_id": "47140c7954cf62a5",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.195: CLAUDE_CODE_DISABLE_MOUSE_CLICKS, exact hook matcher fix, voice dictation improvements",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.195",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-06-28T07:05:28+00:00",
+      "last_seen_at": "2026-06-28T07:05:28+00:00"
     },
     {
-      "event_id": "3fe95b4f240d8f9b",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Why Has Salesforce Stock Hit a New Three-Year Low?",
-      "canonical_url": "https://salesforceben.com/why-has-salesforce-stock-hit-a-new-three-year-low",
-      "source_domain": "salesforceben.com",
-      "first_sent_at": "2026-06-22T07:10:25+00:00",
-      "last_seen_at": "2026-06-22T07:10:25+00:00"
-    },
-    {
-      "event_id": "f928fc3ce20644b6",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Jen's Top Summer '26 Release Features For Admins",
-      "canonical_url": "https://admin.salesforce.com/blog/2026/jens-top-summer-26-release-features-for-admins",
-      "source_domain": "admin.salesforce.com",
-      "first_sent_at": "2026-06-15T07:10:50+00:00",
-      "last_seen_at": "2026-06-15T07:10:50+00:00"
-    },
-    {
-      "event_id": "c6ea8d88b6cc705c",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "How Salesforce is Harnessing AI to Revolutionize Customer Support",
-      "canonical_url": "https://salesforce.com/blog/ai-customer-support",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-06-15T07:10:50+00:00",
-      "last_seen_at": "2026-06-15T07:10:50+00:00"
-    },
-    {
-      "event_id": "da85a8aff7f1df36",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce CPQ is officially retired: what this means for customers in 2026",
-      "canonical_url": "https://salesforceben.com/salesforce-cpq-is-officially-retired-what-this-means-for-customers-in-2026",
-      "source_domain": "salesforceben.com",
-      "first_sent_at": "2026-06-15T07:10:50+00:00",
-      "last_seen_at": "2026-06-15T07:10:50+00:00"
-    },
-    {
-      "event_id": "34f8d01a68bcec0a",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce Summer '26 Release: The AI-Powered Agentforce Features You Need to Know",
-      "canonical_url": "https://trailhead.salesforce.com/en/trailblazers/events/summer-26-release",
-      "source_domain": "trailhead.salesforce.com",
-      "first_sent_at": "2026-06-08T07:10:53+00:00",
-      "last_seen_at": "2026-06-08T07:10:53+00:00"
-    },
-    {
-      "event_id": "93f6e6f15c8b1db4",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce acquires Convergence.ai to enhance Agentforce autonomous reasoning",
-      "canonical_url": "https://techcrunch.com/2026/06/08/salesforce-acquires-convergence-ai",
-      "source_domain": "techcrunch.com",
-      "first_sent_at": "2026-06-08T07:10:53+00:00",
-      "last_seen_at": "2026-06-08T07:10:53+00:00"
-    },
-    {
-      "event_id": "0e621e54d99900a6",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce CEO Marc Benioff says agentic AI is changing everything: 'We are at the beginning of something truly extraordinary'",
-      "canonical_url": "https://businessinsider.com/salesforce-marc-benioff-agentic-ai-2026",
-      "source_domain": "businessinsider.com",
-      "first_sent_at": "2026-06-08T07:10:53+00:00",
-      "last_seen_at": "2026-06-08T07:10:53+00:00"
-    },
-    {
-      "event_id": "b3b1b39b78e6c7be",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce Expands Government Cloud with New Sovereign AI Features",
-      "canonical_url": "https://salesforce.com/news/stories/government-cloud-sovereign-ai",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-06-01T07:11:06+00:00",
-      "last_seen_at": "2026-06-01T07:11:06+00:00"
+      "event_id": "084ad6857c3a3c0d",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.191: /rewind command to resume conversations before /clear, 37% CPU reduction during streaming",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.191",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-06-28T07:05:28+00:00",
+      "last_seen_at": "2026-06-28T07:05:28+00:00"
     },
     {
       "event_id": "c082cb13a8952687",
@@ -153,6 +83,16 @@
       "last_seen_at": "2026-06-25T07:03:09+00:00"
     },
     {
+      "event_id": "62c40b98c6a5b33d",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.187: sandbox.credentials setting, org model restrictions, fullscreen controls",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.187",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-06-25T07:03:09+00:00",
+      "last_seen_at": "2026-06-25T07:03:09+00:00"
+    },
+    {
       "event_id": "2a0c60ec2dd8f5c3",
       "routine": "claude-news",
       "topic": "claude-ai",
@@ -169,16 +109,6 @@
       "title": "Anthropic launches Claude Tag: persistent AI teammate inside Slack for Enterprise and Team customers",
       "canonical_url": "https://anthropic.com/news/introducing-claude-tag",
       "source_domain": "anthropic.com",
-      "first_sent_at": "2026-06-25T07:03:09+00:00",
-      "last_seen_at": "2026-06-25T07:03:09+00:00"
-    },
-    {
-      "event_id": "62c40b98c6a5b33d",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.187: sandbox.credentials setting, org model restrictions, fullscreen controls",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.187",
-      "source_domain": "github.com",
       "first_sent_at": "2026-06-25T07:03:09+00:00",
       "last_seen_at": "2026-06-25T07:03:09+00:00"
     },
@@ -213,22 +143,22 @@
       "last_seen_at": "2026-06-21T07:05:30+00:00"
     },
     {
-      "event_id": "7f97e3a16a9eb6e2",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Enterprise adds admin permissions to custom roles for granular access control",
-      "canonical_url": "https://releasebot.io/updates/anthropic/claude",
-      "source_domain": "releasebot.io",
-      "first_sent_at": "2026-06-20T07:05:35+00:00",
-      "last_seen_at": "2026-06-20T07:05:35+00:00"
-    },
-    {
       "event_id": "9e33f7b5e3bedb2c",
       "routine": "claude-news",
       "topic": "claude-ai",
       "title": "Steering Claude Code: skills, hooks, subagents and more",
       "canonical_url": "https://code.claude.com/docs/en/whats-new",
       "source_domain": "code.claude.com",
+      "first_sent_at": "2026-06-20T07:05:35+00:00",
+      "last_seen_at": "2026-06-20T07:05:35+00:00"
+    },
+    {
+      "event_id": "7f97e3a16a9eb6e2",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Enterprise adds admin permissions to custom roles for granular access control",
+      "canonical_url": "https://releasebot.io/updates/anthropic/claude",
+      "source_domain": "releasebot.io",
       "first_sent_at": "2026-06-20T07:05:35+00:00",
       "last_seen_at": "2026-06-20T07:05:35+00:00"
     },
@@ -273,11 +203,21 @@
       "last_seen_at": "2026-06-19T07:05:06+00:00"
     },
     {
-      "event_id": "2a7b1e8d4c9f0362",
+      "event_id": "e1b9c0d7f2a53841",
       "routine": "claude-news",
       "topic": "claude-ai",
-      "title": "Dario Amodei and Google DeepMind CEO call for U.S.-led AI coalition at G7 summit",
-      "canonical_url": "https://techcrunch.com/2026/06/18/dario-amodei-google-deepmind-ceo-ai-coalition-g7",
+      "title": "Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem",
+      "canonical_url": "https://anthropic.com/news/seoul-office",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-06-18T07:04:10+00:00",
+      "last_seen_at": "2026-06-18T07:04:10+00:00"
+    },
+    {
+      "event_id": "c3d2a1f8e4b70639",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "G7 discusses 'trusted partners' framework to restore access to Anthropic's controversial Mythos 5 model",
+      "canonical_url": "https://techcrunch.com/2026/06/17/g7-anthropic-mythos-5-trusted-partners",
       "source_domain": "techcrunch.com",
       "first_sent_at": "2026-06-18T07:04:10+00:00",
       "last_seen_at": "2026-06-18T07:04:10+00:00"
@@ -293,22 +233,12 @@
       "last_seen_at": "2026-06-18T07:04:10+00:00"
     },
     {
-      "event_id": "c3d2a1f8e4b70639",
+      "event_id": "2a7b1e8d4c9f0362",
       "routine": "claude-news",
       "topic": "claude-ai",
-      "title": "G7 discusses 'trusted partners' framework to restore access to Anthropic's controversial Mythos 5 model",
-      "canonical_url": "https://techcrunch.com/2026/06/17/g7-anthropic-mythos-5-trusted-partners",
+      "title": "Dario Amodei and Google DeepMind CEO call for U.S.-led AI coalition at G7 summit",
+      "canonical_url": "https://techcrunch.com/2026/06/18/dario-amodei-google-deepmind-ceo-ai-coalition-g7",
       "source_domain": "techcrunch.com",
-      "first_sent_at": "2026-06-18T07:04:10+00:00",
-      "last_seen_at": "2026-06-18T07:04:10+00:00"
-    },
-    {
-      "event_id": "e1b9c0d7f2a53841",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem",
-      "canonical_url": "https://anthropic.com/news/seoul-office",
-      "source_domain": "anthropic.com",
       "first_sent_at": "2026-06-18T07:04:10+00:00",
       "last_seen_at": "2026-06-18T07:04:10+00:00"
     },
@@ -333,16 +263,6 @@
       "last_seen_at": "2026-06-17T07:04:44+00:00"
     },
     {
-      "event_id": "7c9e3b1a2d5f0874",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.178: Tool(param:value) permission syntax, nested skills loading fix, MCP latency fix",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.178",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-06-16T07:08:44+00:00",
-      "last_seen_at": "2026-06-16T07:08:44+00:00"
-    },
-    {
       "event_id": "b2f0e8d4a6c31975",
       "routine": "claude-news",
       "topic": "claude-ai",
@@ -353,12 +273,22 @@
       "last_seen_at": "2026-06-16T07:08:44+00:00"
     },
     {
-      "event_id": "a1c7e0f9b2d84632",
+      "event_id": "7c9e3b1a2d5f0874",
       "routine": "claude-news",
       "topic": "claude-ai",
-      "title": "Claude Code v2.1.177: MCP server reconnect fix, API gateway credentials security fix",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.177",
+      "title": "Claude Code v2.1.178: Tool(param:value) permission syntax, nested skills loading fix, MCP latency fix",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.178",
       "source_domain": "github.com",
+      "first_sent_at": "2026-06-16T07:08:44+00:00",
+      "last_seen_at": "2026-06-16T07:08:44+00:00"
+    },
+    {
+      "event_id": "f4d6a2b8c0e39175",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Agent SDK moves to separate credit pool starting June 15: Pro gets $20, Max gets $100",
+      "canonical_url": "https://support.claude.com/en/articles/12138966-release-notes",
+      "source_domain": "support.claude.com",
       "first_sent_at": "2026-06-15T07:07:19+00:00",
       "last_seen_at": "2026-06-15T07:07:19+00:00"
     },
@@ -373,12 +303,22 @@
       "last_seen_at": "2026-06-15T07:07:19+00:00"
     },
     {
-      "event_id": "f4d6a2b8c0e39175",
+      "event_id": "d7c4b9e2a0f31856",
       "routine": "claude-news",
       "topic": "claude-ai",
-      "title": "Claude Agent SDK moves to separate credit pool starting June 15: Pro gets $20, Max gets $100",
-      "canonical_url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "source_domain": "support.claude.com",
+      "title": "Anthropic to brief House Homeland Security on Mythos AI capabilities in closed-door session",
+      "canonical_url": "https://techcrunch.com/2026/06/14/anthropic-house-homeland-security-mythos",
+      "source_domain": "techcrunch.com",
+      "first_sent_at": "2026-06-15T07:07:19+00:00",
+      "last_seen_at": "2026-06-15T07:07:19+00:00"
+    },
+    {
+      "event_id": "a1c7e0f9b2d84632",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.177: MCP server reconnect fix, API gateway credentials security fix",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.177",
+      "source_domain": "github.com",
       "first_sent_at": "2026-06-15T07:07:19+00:00",
       "last_seen_at": "2026-06-15T07:07:19+00:00"
     },
@@ -393,14 +333,14 @@
       "last_seen_at": "2026-06-15T07:07:19+00:00"
     },
     {
-      "event_id": "d7c4b9e2a0f31856",
+      "event_id": "9d8c4a1e0b6f2753",
       "routine": "claude-news",
       "topic": "claude-ai",
-      "title": "Anthropic to brief House Homeland Security on Mythos AI capabilities in closed-door session",
-      "canonical_url": "https://techcrunch.com/2026/06/14/anthropic-house-homeland-security-mythos",
+      "title": "DXC will integrate Claude into the systems banks, airlines, and other regulated sectors run",
+      "canonical_url": "https://techcrunch.com/2026/06/12/dxc-anthropic-claude-regulated-sectors",
       "source_domain": "techcrunch.com",
-      "first_sent_at": "2026-06-15T07:07:19+00:00",
-      "last_seen_at": "2026-06-15T07:07:19+00:00"
+      "first_sent_at": "2026-06-14T07:05:37+00:00",
+      "last_seen_at": "2026-06-14T07:05:37+00:00"
     },
     {
       "event_id": "6b2a9e4d1c7f0835",
@@ -423,21 +363,41 @@
       "last_seen_at": "2026-06-14T07:05:37+00:00"
     },
     {
-      "event_id": "9d8c4a1e0b6f2753",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "DXC will integrate Claude into the systems banks, airlines, and other regulated sectors run",
-      "canonical_url": "https://techcrunch.com/2026/06/12/dxc-anthropic-claude-regulated-sectors",
-      "source_domain": "techcrunch.com",
-      "first_sent_at": "2026-06-14T07:05:37+00:00",
-      "last_seen_at": "2026-06-14T07:05:37+00:00"
-    },
-    {
       "event_id": "c5f2b8a0d3e61947",
       "routine": "claude-news",
       "topic": "claude-ai",
       "title": "Results from the first Anthropic Public Record: survey of 52,000 Americans on AI values and society",
       "canonical_url": "https://anthropic.com/news/public-record-results",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-06-13T07:05:23+00:00",
+      "last_seen_at": "2026-06-13T07:05:23+00:00"
+    },
+    {
+      "event_id": "b7e2a1f5c8d03964",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic suspends Fable 5 and Mythos 5 worldwide following US government export control directive",
+      "canonical_url": "https://anthropic.com/news/statement-on-us-government-directive",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-06-13T07:05:23+00:00",
+      "last_seen_at": "2026-06-13T07:05:23+00:00"
+    },
+    {
+      "event_id": "a9b4c3d0e7f21856",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.176: session titles in conversation language, footerLinksRegex support",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.176",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-06-13T07:05:23+00:00",
+      "last_seen_at": "2026-06-13T07:05:23+00:00"
+    },
+    {
+      "event_id": "5d4c3a2b1f8e0796",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "TCS and Anthropic partner to bring Claude to regulated industries",
+      "canonical_url": "https://anthropic.com/news/tcs-partnership",
       "source_domain": "anthropic.com",
       "first_sent_at": "2026-06-13T07:05:23+00:00",
       "last_seen_at": "2026-06-13T07:05:23+00:00"
@@ -453,42 +413,12 @@
       "last_seen_at": "2026-06-13T07:05:23+00:00"
     },
     {
-      "event_id": "a9b4c3d0e7f21856",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.176: session titles in conversation language, footerLinksRegex support",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.176",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-06-13T07:05:23+00:00",
-      "last_seen_at": "2026-06-13T07:05:23+00:00"
-    },
-    {
       "event_id": "0f6e1b4a7c8d2935",
       "routine": "claude-news",
       "topic": "claude-ai",
       "title": "Claude Code v2.1.175: enforceAvailableModels managed setting for stricter model governance",
       "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.175",
       "source_domain": "github.com",
-      "first_sent_at": "2026-06-13T07:05:23+00:00",
-      "last_seen_at": "2026-06-13T07:05:23+00:00"
-    },
-    {
-      "event_id": "b7e2a1f5c8d03964",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic suspends Fable 5 and Mythos 5 worldwide following US government export control directive",
-      "canonical_url": "https://anthropic.com/news/statement-on-us-government-directive",
-      "source_domain": "anthropic.com",
-      "first_sent_at": "2026-06-13T07:05:23+00:00",
-      "last_seen_at": "2026-06-13T07:05:23+00:00"
-    },
-    {
-      "event_id": "5d4c3a2b1f8e0796",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "TCS and Anthropic partner to bring Claude to regulated industries",
-      "canonical_url": "https://anthropic.com/news/tcs-partnership",
-      "source_domain": "anthropic.com",
       "first_sent_at": "2026-06-13T07:05:23+00:00",
       "last_seen_at": "2026-06-13T07:05:23+00:00"
     },
@@ -543,16 +473,6 @@
       "last_seen_at": "2026-06-11T07:04:10+00:00"
     },
     {
-      "event_id": "6d3a8b2e5c1f0947",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.172: sub-agents can now spawn their own sub-agents up to 5 levels deep",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.172",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-06-11T07:04:10+00:00",
-      "last_seen_at": "2026-06-11T07:04:10+00:00"
-    },
-    {
       "event_id": "8e4a5c0b7d2f1936",
       "routine": "claude-news",
       "topic": "claude-ai",
@@ -563,24 +483,14 @@
       "last_seen_at": "2026-06-11T07:04:10+00:00"
     },
     {
-      "event_id": "1b7e4a9d3c0f2856",
+      "event_id": "6d3a8b2e5c1f0947",
       "routine": "claude-news",
       "topic": "claude-ai",
-      "title": "Introducing Claude Fable 5 and Claude Mythos 5",
-      "canonical_url": "https://anthropic.com/news/claude-fable-5-mythos-5",
-      "source_domain": "anthropic.com",
-      "first_sent_at": "2026-06-10T07:10:23+00:00",
-      "last_seen_at": "2026-06-10T07:10:23+00:00"
-    },
-    {
-      "event_id": "3c8b2d5a0e7f1946",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Apple Xcode now supports the Claude Agent SDK",
-      "canonical_url": "https://developer.apple.com/news/2026/xcode-claude-agent-sdk",
-      "source_domain": "developer.apple.com",
-      "first_sent_at": "2026-06-10T07:10:23+00:00",
-      "last_seen_at": "2026-06-10T07:10:23+00:00"
+      "title": "Claude Code v2.1.172: sub-agents can now spawn their own sub-agents up to 5 levels deep",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.172",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-06-11T07:04:10+00:00",
+      "last_seen_at": "2026-06-11T07:04:10+00:00"
     },
     {
       "event_id": "f7a3b0c6e9d21845",
@@ -589,16 +499,6 @@
       "title": "Claude support for Apple Foundation Models framework: Swift package for iOS and macOS",
       "canonical_url": "https://anthropic.com/news/apple-foundation-models",
       "source_domain": "anthropic.com",
-      "first_sent_at": "2026-06-10T07:10:23+00:00",
-      "last_seen_at": "2026-06-10T07:10:23+00:00"
-    },
-    {
-      "event_id": "5d2a9b7e1c4f0836",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.170: Claude Fable 5 Mythos-class model support and session transcripts",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.170",
-      "source_domain": "github.com",
       "first_sent_at": "2026-06-10T07:10:23+00:00",
       "last_seen_at": "2026-06-10T07:10:23+00:00"
     },
@@ -613,14 +513,34 @@
       "last_seen_at": "2026-06-10T07:10:23+00:00"
     },
     {
-      "event_id": "2f8c1b7d4a5e0936",
+      "event_id": "5d2a9b7e1c4f0836",
       "routine": "claude-news",
       "topic": "claude-ai",
-      "title": "Trump administration denies unlawful retaliation in Anthropic AI blacklisting over Iran connection",
-      "canonical_url": "https://techcrunch.com/2026/06/09/trump-administration-denies-unlawful-retaliation-anthropic",
-      "source_domain": "techcrunch.com",
-      "first_sent_at": "2026-06-09T07:09:35+00:00",
-      "last_seen_at": "2026-06-09T07:09:35+00:00"
+      "title": "Claude Code v2.1.170: Claude Fable 5 Mythos-class model support and session transcripts",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.170",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-06-10T07:10:23+00:00",
+      "last_seen_at": "2026-06-10T07:10:23+00:00"
+    },
+    {
+      "event_id": "3c8b2d5a0e7f1946",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Apple Xcode now supports the Claude Agent SDK",
+      "canonical_url": "https://developer.apple.com/news/2026/xcode-claude-agent-sdk",
+      "source_domain": "developer.apple.com",
+      "first_sent_at": "2026-06-10T07:10:23+00:00",
+      "last_seen_at": "2026-06-10T07:10:23+00:00"
+    },
+    {
+      "event_id": "1b7e4a9d3c0f2856",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Introducing Claude Fable 5 and Claude Mythos 5",
+      "canonical_url": "https://anthropic.com/news/claude-fable-5-mythos-5",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-06-10T07:10:23+00:00",
+      "last_seen_at": "2026-06-10T07:10:23+00:00"
     },
     {
       "event_id": "d1e0c9b3f2a47856",
@@ -633,12 +553,22 @@
       "last_seen_at": "2026-06-09T07:09:35+00:00"
     },
     {
-      "event_id": "7c3d8f1a5b0e2964",
+      "event_id": "2f8c1b7d4a5e0936",
       "routine": "claude-news",
       "topic": "claude-ai",
-      "title": "Anthropic pauses red-teaming program after unreleased Claude Oceanus model leaks through third-party API access",
-      "canonical_url": "https://techcrunch.com/2026/06/08/anthropic-pauses-red-teaming-oceanus-leak",
+      "title": "Trump administration denies unlawful retaliation in Anthropic AI blacklisting over Iran connection",
+      "canonical_url": "https://techcrunch.com/2026/06/09/trump-administration-denies-unlawful-retaliation-anthropic",
       "source_domain": "techcrunch.com",
+      "first_sent_at": "2026-06-09T07:09:35+00:00",
+      "last_seen_at": "2026-06-09T07:09:35+00:00"
+    },
+    {
+      "event_id": "c9f6e4b0a2d81735",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.168: bug fixes and reliability improvements",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.168",
+      "source_domain": "github.com",
       "first_sent_at": "2026-06-08T07:11:42+00:00",
       "last_seen_at": "2026-06-08T07:11:42+00:00"
     },
@@ -653,12 +583,12 @@
       "last_seen_at": "2026-06-08T07:11:42+00:00"
     },
     {
-      "event_id": "c9f6e4b0a2d81735",
+      "event_id": "7c3d8f1a5b0e2964",
       "routine": "claude-news",
       "topic": "claude-ai",
-      "title": "Claude Code v2.1.168: bug fixes and reliability improvements",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.168",
-      "source_domain": "github.com",
+      "title": "Anthropic pauses red-teaming program after unreleased Claude Oceanus model leaks through third-party API access",
+      "canonical_url": "https://techcrunch.com/2026/06/08/anthropic-pauses-red-teaming-oceanus-leak",
+      "source_domain": "techcrunch.com",
       "first_sent_at": "2026-06-08T07:11:42+00:00",
       "last_seen_at": "2026-06-08T07:11:42+00:00"
     },
@@ -703,16 +633,6 @@
       "last_seen_at": "2026-06-06T07:08:52+00:00"
     },
     {
-      "event_id": "3c5a9e2b7f4d1806",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Code with Claude Tokyo: Anthropic developer conference June 10 with livestream and sessions",
-      "canonical_url": "https://anthropic.com/events/code-with-claude-tokyo",
-      "source_domain": "anthropic.com",
-      "first_sent_at": "2026-06-06T07:08:52+00:00",
-      "last_seen_at": "2026-06-06T07:08:52+00:00"
-    },
-    {
       "event_id": "9b4d0e6a2c3f1785",
       "routine": "claude-news",
       "topic": "claude-ai",
@@ -728,6 +648,16 @@
       "topic": "claude-ai",
       "title": "Making Claude a chemist: Opus 4.7 matches dedicated NMR software on molecular structure analysis",
       "canonical_url": "https://anthropic.com/research/making-claude-a-chemist",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-06-06T07:08:52+00:00",
+      "last_seen_at": "2026-06-06T07:08:52+00:00"
+    },
+    {
+      "event_id": "3c5a9e2b7f4d1806",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Code with Claude Tokyo: Anthropic developer conference June 10 with livestream and sessions",
+      "canonical_url": "https://anthropic.com/events/code-with-claude-tokyo",
       "source_domain": "anthropic.com",
       "first_sent_at": "2026-06-06T07:08:52+00:00",
       "last_seen_at": "2026-06-06T07:08:52+00:00"
@@ -763,16 +693,6 @@
       "last_seen_at": "2026-06-05T07:12:34+00:00"
     },
     {
-      "event_id": "2d8b5a3c1e9f0746",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Introducing the Services Track and Partner Hub of the Claude Partner Network",
-      "canonical_url": "https://anthropic.com/news/services-track-partner-hub",
-      "source_domain": "anthropic.com",
-      "first_sent_at": "2026-06-04T07:12:42+00:00",
-      "last_seen_at": "2026-06-04T07:12:42+00:00"
-    },
-    {
       "event_id": "c6f3b7e0a9d21854",
       "routine": "claude-news",
       "topic": "claude-ai",
@@ -793,14 +713,14 @@
       "last_seen_at": "2026-06-04T07:12:42+00:00"
     },
     {
-      "event_id": "e2b8f4d0a5c71936",
+      "event_id": "2d8b5a3c1e9f0746",
       "routine": "claude-news",
       "topic": "claude-ai",
-      "title": "Snowflake and Anthropic announce $200 million partnership to bring agentic AI to enterprise data platforms",
-      "canonical_url": "https://snowflake.com/en/blog/snowflake-anthropic-partnership",
-      "source_domain": "snowflake.com",
-      "first_sent_at": "2026-06-03T07:12:33+00:00",
-      "last_seen_at": "2026-06-03T07:12:33+00:00"
+      "title": "Introducing the Services Track and Partner Hub of the Claude Partner Network",
+      "canonical_url": "https://anthropic.com/news/services-track-partner-hub",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-06-04T07:12:42+00:00",
+      "last_seen_at": "2026-06-04T07:12:42+00:00"
     },
     {
       "event_id": "f5c2a9e7b0d31846",
@@ -813,6 +733,16 @@
       "last_seen_at": "2026-06-03T07:12:33+00:00"
     },
     {
+      "event_id": "e2b8f4d0a5c71936",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Snowflake and Anthropic announce $200 million partnership to bring agentic AI to enterprise data platforms",
+      "canonical_url": "https://snowflake.com/en/blog/snowflake-anthropic-partnership",
+      "source_domain": "snowflake.com",
+      "first_sent_at": "2026-06-03T07:12:33+00:00",
+      "last_seen_at": "2026-06-03T07:12:33+00:00"
+    },
+    {
       "event_id": "8d3c0b7e4a5f1926",
       "routine": "claude-news",
       "topic": "claude-ai",
@@ -821,6 +751,16 @@
       "source_domain": "anthropic.com",
       "first_sent_at": "2026-06-03T07:12:33+00:00",
       "last_seen_at": "2026-06-03T07:12:33+00:00"
+    },
+    {
+      "event_id": "3e5f2c8b0a7d1946",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.159: internal infrastructure improvements",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.159",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-06-02T07:13:32+00:00",
+      "last_seen_at": "2026-06-02T07:13:32+00:00"
     },
     {
       "event_id": "1f6e9d3b7a0c4825",
@@ -843,26 +783,6 @@
       "last_seen_at": "2026-06-02T07:13:32+00:00"
     },
     {
-      "event_id": "3e5f2c8b0a7d1946",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.159: internal infrastructure improvements",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.159",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-06-02T07:13:32+00:00",
-      "last_seen_at": "2026-06-02T07:13:32+00:00"
-    },
-    {
-      "event_id": "7b4c1f9e3a8d0625",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.158: Auto mode now available on Bedrock, Vertex, and Foundry for Team and Enterprise",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.158",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-05-31T07:12:15+00:00",
-      "last_seen_at": "2026-05-31T07:12:15+00:00"
-    },
-    {
       "event_id": "d5b2a8e0c4f71936",
       "routine": "claude-news",
       "topic": "claude-ai",
@@ -878,6 +798,16 @@
       "topic": "claude-ai",
       "title": "Claude Code v2.1.156: fix for Opus 4.8 thinking blocks modification causing API errors",
       "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.156",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-05-31T07:12:15+00:00",
+      "last_seen_at": "2026-05-31T07:12:15+00:00"
+    },
+    {
+      "event_id": "7b4c1f9e3a8d0625",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.158: Auto mode now available on Bedrock, Vertex, and Foundry for Team and Enterprise",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.158",
       "source_domain": "github.com",
       "first_sent_at": "2026-05-31T07:12:15+00:00",
       "last_seen_at": "2026-05-31T07:12:15+00:00"
@@ -923,22 +853,22 @@
       "last_seen_at": "2026-05-30T07:14:10+00:00"
     },
     {
-      "event_id": "5a7d4b1c9f3e0826",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic raises $65B Series H at $965B valuation, nears $1 trillion ahead of IPO",
-      "canonical_url": "https://techcrunch.com/2026/05/29/anthropic-65b-series-h-965b-valuation",
-      "source_domain": "techcrunch.com",
-      "first_sent_at": "2026-05-29T07:12:10+00:00",
-      "last_seen_at": "2026-05-29T07:12:10+00:00"
-    },
-    {
       "event_id": "c8e3b2f7a0d51946",
       "routine": "claude-news",
       "topic": "claude-ai",
       "title": "Introducing Claude Opus 4.8",
       "canonical_url": "https://anthropic.com/news/claude-opus-4-8",
       "source_domain": "anthropic.com",
+      "first_sent_at": "2026-05-29T07:12:10+00:00",
+      "last_seen_at": "2026-05-29T07:12:10+00:00"
+    },
+    {
+      "event_id": "5a7d4b1c9f3e0826",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic raises $65B Series H at $965B valuation, nears $1 trillion ahead of IPO",
+      "canonical_url": "https://techcrunch.com/2026/05/29/anthropic-65b-series-h-965b-valuation",
+      "source_domain": "techcrunch.com",
       "first_sent_at": "2026-05-29T07:12:10+00:00",
       "last_seen_at": "2026-05-29T07:12:10+00:00"
     },
@@ -953,34 +883,164 @@
       "last_seen_at": "2026-05-29T07:12:10+00:00"
     },
     {
-      "event_id": "47140c7954cf62a5",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.195: CLAUDE_CODE_DISABLE_MOUSE_CLICKS, exact hook matcher fix, voice dictation improvements",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.195",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-06-28T07:05:28+00:00",
-      "last_seen_at": "2026-06-28T07:05:28+00:00"
+      "event_id": "cac1fad388c8d480",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Anthropic and Salesforce Expand Strategic Partnership to Bring Claude to Regulated Industries",
+      "canonical_url": "https://anthropic.com/news/salesforce-anthropic-expanded-partnership",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-06-29T07:09:30+00:00",
+      "last_seen_at": "2026-06-29T07:09:30+00:00"
     },
     {
-      "event_id": "084ad6857c3a3c0d",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.191: /rewind command to resume conversations before /clear, 37% CPU reduction during streaming",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.191",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-06-28T07:05:28+00:00",
-      "last_seen_at": "2026-06-28T07:05:28+00:00"
+      "event_id": "c727c4f8c4e40e27",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce Summer 2026 Product Release Announcement",
+      "canonical_url": "https://salesforce.com/news/stories/summer-2026-product-release-announcement",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-06-29T07:09:30+00:00",
+      "last_seen_at": "2026-06-29T07:09:30+00:00"
     },
     {
-      "event_id": "cd8c735a9cc7fa10",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude adds Trusted Devices for Remote Control on Team and Enterprise plans to verify devices before remote sessions",
-      "canonical_url": "https://releasebot.io/updates/anthropic/claude",
-      "source_domain": "releasebot.io",
-      "first_sent_at": "2026-06-28T07:05:28+00:00",
-      "last_seen_at": "2026-06-28T07:05:28+00:00"
+      "event_id": "c221ce229a321840",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Agentforce Life Sciences: June 2026 Newsletter",
+      "canonical_url": "https://salesforce.com/blog/agentforce-life-sciences-june-2026-newsletter",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-06-29T07:09:30+00:00",
+      "last_seen_at": "2026-06-29T07:09:30+00:00"
+    },
+    {
+      "event_id": "ba0fb558f1128815",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce Announces State of Sales Report for 2026",
+      "canonical_url": "https://salesforce.com/news/stories/state-of-sales-report-announcement-2026",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-06-29T07:09:30+00:00",
+      "last_seen_at": "2026-06-29T07:09:30+00:00"
+    },
+    {
+      "event_id": "ab100f457255ab38",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce and Anthropic Bring Trusted Business Context and AI Actions to Claude Through Slack and Agentforce 360",
+      "canonical_url": "https://salesforce.com/news/stories/salesforce-anthropic-trusted-context-ai-actions-on-claude",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-06-29T07:09:30+00:00",
+      "last_seen_at": "2026-06-29T07:09:30+00:00"
+    },
+    {
+      "event_id": "04b88d0fa7f2e9d9",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Summer '26 Release: Top Development & Security Features",
+      "canonical_url": "https://salesforce.com/blog/platform-summer-26-release",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-06-29T07:09:30+00:00",
+      "last_seen_at": "2026-06-29T07:09:30+00:00"
+    },
+    {
+      "event_id": "febfeed555b64fff",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce Signs Definitive Agreement to Acquire Fin",
+      "canonical_url": "https://salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-06-22T07:10:25+00:00",
+      "last_seen_at": "2026-06-22T07:10:25+00:00"
+    },
+    {
+      "event_id": "ef1791cf42496c00",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce MFA Enforcement Now Live in Sandboxes: Phishing-Resistant MFA Required for Privileged Users from June 22",
+      "canonical_url": "https://help.salesforce.com/s/articleView?language=en_US&id=005317465&type=1",
+      "source_domain": "help.salesforce.com",
+      "first_sent_at": "2026-06-22T07:10:25+00:00",
+      "last_seen_at": "2026-06-22T07:10:25+00:00"
+    },
+    {
+      "event_id": "3fe95b4f240d8f9b",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Why Has Salesforce Stock Hit a New Three-Year Low?",
+      "canonical_url": "https://salesforceben.com/why-has-salesforce-stock-hit-a-new-three-year-low",
+      "source_domain": "salesforceben.com",
+      "first_sent_at": "2026-06-22T07:10:25+00:00",
+      "last_seen_at": "2026-06-22T07:10:25+00:00"
+    },
+    {
+      "event_id": "f928fc3ce20644b6",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Jen's Top Summer '26 Release Features For Admins",
+      "canonical_url": "https://admin.salesforce.com/blog/2026/jens-top-summer-26-release-features-for-admins",
+      "source_domain": "admin.salesforce.com",
+      "first_sent_at": "2026-06-15T07:10:50+00:00",
+      "last_seen_at": "2026-06-15T07:10:50+00:00"
+    },
+    {
+      "event_id": "da85a8aff7f1df36",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce CPQ is officially retired: what this means for customers in 2026",
+      "canonical_url": "https://salesforceben.com/salesforce-cpq-is-officially-retired-what-this-means-for-customers-in-2026",
+      "source_domain": "salesforceben.com",
+      "first_sent_at": "2026-06-15T07:10:50+00:00",
+      "last_seen_at": "2026-06-15T07:10:50+00:00"
+    },
+    {
+      "event_id": "c6ea8d88b6cc705c",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "How Salesforce is Harnessing AI to Revolutionize Customer Support",
+      "canonical_url": "https://salesforce.com/blog/ai-customer-support",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-06-15T07:10:50+00:00",
+      "last_seen_at": "2026-06-15T07:10:50+00:00"
+    },
+    {
+      "event_id": "93f6e6f15c8b1db4",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce acquires Convergence.ai to enhance Agentforce autonomous reasoning",
+      "canonical_url": "https://techcrunch.com/2026/06/08/salesforce-acquires-convergence-ai",
+      "source_domain": "techcrunch.com",
+      "first_sent_at": "2026-06-08T07:10:53+00:00",
+      "last_seen_at": "2026-06-08T07:10:53+00:00"
+    },
+    {
+      "event_id": "34f8d01a68bcec0a",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce Summer '26 Release: The AI-Powered Agentforce Features You Need to Know",
+      "canonical_url": "https://trailhead.salesforce.com/en/trailblazers/events/summer-26-release",
+      "source_domain": "trailhead.salesforce.com",
+      "first_sent_at": "2026-06-08T07:10:53+00:00",
+      "last_seen_at": "2026-06-08T07:10:53+00:00"
+    },
+    {
+      "event_id": "0e621e54d99900a6",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce CEO Marc Benioff says agentic AI is changing everything: 'We are at the beginning of something truly extraordinary'",
+      "canonical_url": "https://businessinsider.com/salesforce-marc-benioff-agentic-ai-2026",
+      "source_domain": "businessinsider.com",
+      "first_sent_at": "2026-06-08T07:10:53+00:00",
+      "last_seen_at": "2026-06-08T07:10:53+00:00"
+    },
+    {
+      "event_id": "b3b1b39b78e6c7be",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce Expands Government Cloud with New Sovereign AI Features",
+      "canonical_url": "https://salesforce.com/news/stories/government-cloud-sovereign-ai",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-06-01T07:11:06+00:00",
+      "last_seen_at": "2026-06-01T07:11:06+00:00"
     }
   ]
 }
