@@ -1,7 +1,207 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-06-29T07:09:33+00:00",
+  "updated_at": "2026-06-30T07:04:43+00:00",
   "items": [
+    {
+      "event_id": "cac1fad388c8d480",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Anthropic and Salesforce Expand Strategic Partnership to Bring Claude to Regulated Industries",
+      "canonical_url": "https://anthropic.com/news/salesforce-anthropic-expanded-partnership",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-06-29T07:09:30+00:00",
+      "last_seen_at": "2026-06-29T07:09:30+00:00"
+    },
+    {
+      "event_id": "c727c4f8c4e40e27",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce Summer 2026 Product Release Announcement",
+      "canonical_url": "https://salesforce.com/news/stories/summer-2026-product-release-announcement",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-06-29T07:09:30+00:00",
+      "last_seen_at": "2026-06-29T07:09:30+00:00"
+    },
+    {
+      "event_id": "c221ce229a321840",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Agentforce Life Sciences: June 2026 Newsletter",
+      "canonical_url": "https://salesforce.com/blog/agentforce-life-sciences-june-2026-newsletter",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-06-29T07:09:30+00:00",
+      "last_seen_at": "2026-06-29T07:09:30+00:00"
+    },
+    {
+      "event_id": "ba0fb558f1128815",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce Announces State of Sales Report for 2026",
+      "canonical_url": "https://salesforce.com/news/stories/state-of-sales-report-announcement-2026",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-06-29T07:09:30+00:00",
+      "last_seen_at": "2026-06-29T07:09:30+00:00"
+    },
+    {
+      "event_id": "ab100f457255ab38",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce and Anthropic Bring Trusted Business Context and AI Actions to Claude Through Slack and Agentforce 360",
+      "canonical_url": "https://salesforce.com/news/stories/salesforce-anthropic-trusted-context-ai-actions-on-claude",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-06-29T07:09:30+00:00",
+      "last_seen_at": "2026-06-29T07:09:30+00:00"
+    },
+    {
+      "event_id": "04b88d0fa7f2e9d9",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Summer '26 Release: Top Development & Security Features",
+      "canonical_url": "https://salesforce.com/blog/platform-summer-26-release",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-06-29T07:09:30+00:00",
+      "last_seen_at": "2026-06-29T07:09:30+00:00"
+    },
+    {
+      "event_id": "febfeed555b64fff",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce Signs Definitive Agreement to Acquire Fin",
+      "canonical_url": "https://salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-06-22T07:10:25+00:00",
+      "last_seen_at": "2026-06-22T07:10:25+00:00"
+    },
+    {
+      "event_id": "ef1791cf42496c00",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce MFA Enforcement Now Live in Sandboxes: Phishing-Resistant MFA Required for Privileged Users from June 22",
+      "canonical_url": "https://help.salesforce.com/s/articleView?language=en_US&id=005317465&type=1",
+      "source_domain": "help.salesforce.com",
+      "first_sent_at": "2026-06-22T07:10:25+00:00",
+      "last_seen_at": "2026-06-22T07:10:25+00:00"
+    },
+    {
+      "event_id": "3fe95b4f240d8f9b",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Why Has Salesforce Stock Hit a New Three-Year Low?",
+      "canonical_url": "https://salesforceben.com/why-has-salesforce-stock-hit-a-new-three-year-low",
+      "source_domain": "salesforceben.com",
+      "first_sent_at": "2026-06-22T07:10:25+00:00",
+      "last_seen_at": "2026-06-22T07:10:25+00:00"
+    },
+    {
+      "event_id": "f928fc3ce20644b6",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Jen's Top Summer '26 Release Features For Admins",
+      "canonical_url": "https://admin.salesforce.com/blog/2026/jens-top-summer-26-release-features-for-admins",
+      "source_domain": "admin.salesforce.com",
+      "first_sent_at": "2026-06-15T07:10:50+00:00",
+      "last_seen_at": "2026-06-15T07:10:50+00:00"
+    },
+    {
+      "event_id": "da85a8aff7f1df36",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce CPQ is officially retired: what this means for customers in 2026",
+      "canonical_url": "https://salesforceben.com/salesforce-cpq-is-officially-retired-what-this-means-for-customers-in-2026",
+      "source_domain": "salesforceben.com",
+      "first_sent_at": "2026-06-15T07:10:50+00:00",
+      "last_seen_at": "2026-06-15T07:10:50+00:00"
+    },
+    {
+      "event_id": "c6ea8d88b6cc705c",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "How Salesforce is Harnessing AI to Revolutionize Customer Support",
+      "canonical_url": "https://salesforce.com/blog/ai-customer-support",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-06-15T07:10:50+00:00",
+      "last_seen_at": "2026-06-15T07:10:50+00:00"
+    },
+    {
+      "event_id": "93f6e6f15c8b1db4",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce acquires Convergence.ai to enhance Agentforce autonomous reasoning",
+      "canonical_url": "https://techcrunch.com/2026/06/08/salesforce-acquires-convergence-ai",
+      "source_domain": "techcrunch.com",
+      "first_sent_at": "2026-06-08T07:10:53+00:00",
+      "last_seen_at": "2026-06-08T07:10:53+00:00"
+    },
+    {
+      "event_id": "34f8d01a68bcec0a",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce Summer '26 Release: The AI-Powered Agentforce Features You Need to Know",
+      "canonical_url": "https://trailhead.salesforce.com/en/trailblazers/events/summer-26-release",
+      "source_domain": "trailhead.salesforce.com",
+      "first_sent_at": "2026-06-08T07:10:53+00:00",
+      "last_seen_at": "2026-06-08T07:10:53+00:00"
+    },
+    {
+      "event_id": "0e621e54d99900a6",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce CEO Marc Benioff says agentic AI is changing everything: 'We are at the beginning of something truly extraordinary'",
+      "canonical_url": "https://businessinsider.com/salesforce-marc-benioff-agentic-ai-2026",
+      "source_domain": "businessinsider.com",
+      "first_sent_at": "2026-06-08T07:10:53+00:00",
+      "last_seen_at": "2026-06-08T07:10:53+00:00"
+    },
+    {
+      "event_id": "b3b1b39b78e6c7be",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce Expands Government Cloud with New Sovereign AI Features",
+      "canonical_url": "https://salesforce.com/news/stories/government-cloud-sovereign-ai",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-06-01T07:11:06+00:00",
+      "last_seen_at": "2026-06-01T07:11:06+00:00"
+    },
+    {
+      "event_id": "dd6c50bd32b0a1ce",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude llega a Slack: equipos Team y Enterprise pueden etiquetar a Claude directamente",
+      "canonical_url": "https://releasebot.io/updates/anthropic",
+      "source_domain": "releasebot.io",
+      "first_sent_at": "2026-06-30T07:04:43+00:00",
+      "last_seen_at": "2026-06-30T07:04:43+00:00"
+    },
+    {
+      "event_id": "85ea9b52178bef3a",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic da descuento a California: Claude llega a todas las agencias estatales",
+      "canonical_url": "https://pymnts.com/news/artificial-intelligence/2026/anthropic-gives-california-government-a-discount-on-claude",
+      "source_domain": "pymnts.com",
+      "first_sent_at": "2026-06-30T07:04:43+00:00",
+      "last_seen_at": "2026-06-30T07:04:43+00:00"
+    },
+    {
+      "event_id": "6732d0594921101e",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "El gobierno de EE.UU. autoriza a Anthropic a lanzar Mythos 5 a 100 empresas y agencias federales",
+      "canonical_url": "https://cnbc.com/2026/06/26/us-government-anthropic-claude-mythos5-ai.html",
+      "source_domain": "cnbc.com",
+      "first_sent_at": "2026-06-30T07:04:43+00:00",
+      "last_seen_at": "2026-06-30T07:04:43+00:00"
+    },
+    {
+      "event_id": "21928f478573a90e",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Fable 5 y Mythos 5 lanzados el 9 de junio, suspendidos el 12 por control de exportaciones de EE.UU.",
+      "canonical_url": "https://hidekazu-konishi.com/entry/anthropic_claude_model_release_timeline.html",
+      "source_domain": "hidekazu-konishi.com",
+      "first_sent_at": "2026-06-30T07:04:43+00:00",
+      "last_seen_at": "2026-06-30T07:04:43+00:00"
+    },
     {
       "event_id": "cd8c735a9cc7fa10",
       "routine": "claude-news",
@@ -821,226 +1021,6 @@
       "source_domain": "aws.amazon.com",
       "first_sent_at": "2026-05-31T07:12:15+00:00",
       "last_seen_at": "2026-05-31T07:12:15+00:00"
-    },
-    {
-      "event_id": "e9c4b0d8f3a71625",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.154: Opus 4.8 high-effort defaults, dynamic workflows, Chrome browsing",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-05-30T07:14:10+00:00",
-      "last_seen_at": "2026-05-30T07:14:10+00:00"
-    },
-    {
-      "event_id": "8d1a3c7f5b0e2964",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Samsung and SK Hynix invest in Anthropic as strategic infrastructure partners, providing memory technology for AI scaling",
-      "canonical_url": "https://techcrunch.com/2026/05/30/samsung-sk-hynix-anthropic-investment",
-      "source_domain": "techcrunch.com",
-      "first_sent_at": "2026-05-30T07:14:10+00:00",
-      "last_seen_at": "2026-05-30T07:14:10+00:00"
-    },
-    {
-      "event_id": "4f2b6e9c1a0d3857",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Bristol Myers Squibb Announces Strategic Agreement with Anthropic to Position Claude as Core AI Platform for Drug Discovery",
-      "canonical_url": "https://investors.bms.com/news-releases/news-release-details/bristol-myers-squibb-anthropic-ai-drug-discovery",
-      "source_domain": "investors.bms.com",
-      "first_sent_at": "2026-05-30T07:14:10+00:00",
-      "last_seen_at": "2026-05-30T07:14:10+00:00"
-    },
-    {
-      "event_id": "c8e3b2f7a0d51946",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Introducing Claude Opus 4.8",
-      "canonical_url": "https://anthropic.com/news/claude-opus-4-8",
-      "source_domain": "anthropic.com",
-      "first_sent_at": "2026-05-29T07:12:10+00:00",
-      "last_seen_at": "2026-05-29T07:12:10+00:00"
-    },
-    {
-      "event_id": "5a7d4b1c9f3e0826",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic raises $65B Series H at $965B valuation, nears $1 trillion ahead of IPO",
-      "canonical_url": "https://techcrunch.com/2026/05/29/anthropic-65b-series-h-965b-valuation",
-      "source_domain": "techcrunch.com",
-      "first_sent_at": "2026-05-29T07:12:10+00:00",
-      "last_seen_at": "2026-05-29T07:12:10+00:00"
-    },
-    {
-      "event_id": "0b1d5e8f4a9c2637",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.153: skipLfs option, npm auto-update notice, status-line COLUMNS override",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.153",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-05-29T07:12:10+00:00",
-      "last_seen_at": "2026-05-29T07:12:10+00:00"
-    },
-    {
-      "event_id": "cac1fad388c8d480",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Anthropic and Salesforce Expand Strategic Partnership to Bring Claude to Regulated Industries",
-      "canonical_url": "https://anthropic.com/news/salesforce-anthropic-expanded-partnership",
-      "source_domain": "anthropic.com",
-      "first_sent_at": "2026-06-29T07:09:30+00:00",
-      "last_seen_at": "2026-06-29T07:09:30+00:00"
-    },
-    {
-      "event_id": "c727c4f8c4e40e27",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce Summer 2026 Product Release Announcement",
-      "canonical_url": "https://salesforce.com/news/stories/summer-2026-product-release-announcement",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-06-29T07:09:30+00:00",
-      "last_seen_at": "2026-06-29T07:09:30+00:00"
-    },
-    {
-      "event_id": "c221ce229a321840",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Agentforce Life Sciences: June 2026 Newsletter",
-      "canonical_url": "https://salesforce.com/blog/agentforce-life-sciences-june-2026-newsletter",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-06-29T07:09:30+00:00",
-      "last_seen_at": "2026-06-29T07:09:30+00:00"
-    },
-    {
-      "event_id": "ba0fb558f1128815",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce Announces State of Sales Report for 2026",
-      "canonical_url": "https://salesforce.com/news/stories/state-of-sales-report-announcement-2026",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-06-29T07:09:30+00:00",
-      "last_seen_at": "2026-06-29T07:09:30+00:00"
-    },
-    {
-      "event_id": "ab100f457255ab38",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce and Anthropic Bring Trusted Business Context and AI Actions to Claude Through Slack and Agentforce 360",
-      "canonical_url": "https://salesforce.com/news/stories/salesforce-anthropic-trusted-context-ai-actions-on-claude",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-06-29T07:09:30+00:00",
-      "last_seen_at": "2026-06-29T07:09:30+00:00"
-    },
-    {
-      "event_id": "04b88d0fa7f2e9d9",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Summer '26 Release: Top Development & Security Features",
-      "canonical_url": "https://salesforce.com/blog/platform-summer-26-release",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-06-29T07:09:30+00:00",
-      "last_seen_at": "2026-06-29T07:09:30+00:00"
-    },
-    {
-      "event_id": "febfeed555b64fff",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce Signs Definitive Agreement to Acquire Fin",
-      "canonical_url": "https://salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-06-22T07:10:25+00:00",
-      "last_seen_at": "2026-06-22T07:10:25+00:00"
-    },
-    {
-      "event_id": "ef1791cf42496c00",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce MFA Enforcement Now Live in Sandboxes: Phishing-Resistant MFA Required for Privileged Users from June 22",
-      "canonical_url": "https://help.salesforce.com/s/articleView?language=en_US&id=005317465&type=1",
-      "source_domain": "help.salesforce.com",
-      "first_sent_at": "2026-06-22T07:10:25+00:00",
-      "last_seen_at": "2026-06-22T07:10:25+00:00"
-    },
-    {
-      "event_id": "3fe95b4f240d8f9b",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Why Has Salesforce Stock Hit a New Three-Year Low?",
-      "canonical_url": "https://salesforceben.com/why-has-salesforce-stock-hit-a-new-three-year-low",
-      "source_domain": "salesforceben.com",
-      "first_sent_at": "2026-06-22T07:10:25+00:00",
-      "last_seen_at": "2026-06-22T07:10:25+00:00"
-    },
-    {
-      "event_id": "f928fc3ce20644b6",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Jen's Top Summer '26 Release Features For Admins",
-      "canonical_url": "https://admin.salesforce.com/blog/2026/jens-top-summer-26-release-features-for-admins",
-      "source_domain": "admin.salesforce.com",
-      "first_sent_at": "2026-06-15T07:10:50+00:00",
-      "last_seen_at": "2026-06-15T07:10:50+00:00"
-    },
-    {
-      "event_id": "da85a8aff7f1df36",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce CPQ is officially retired: what this means for customers in 2026",
-      "canonical_url": "https://salesforceben.com/salesforce-cpq-is-officially-retired-what-this-means-for-customers-in-2026",
-      "source_domain": "salesforceben.com",
-      "first_sent_at": "2026-06-15T07:10:50+00:00",
-      "last_seen_at": "2026-06-15T07:10:50+00:00"
-    },
-    {
-      "event_id": "c6ea8d88b6cc705c",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "How Salesforce is Harnessing AI to Revolutionize Customer Support",
-      "canonical_url": "https://salesforce.com/blog/ai-customer-support",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-06-15T07:10:50+00:00",
-      "last_seen_at": "2026-06-15T07:10:50+00:00"
-    },
-    {
-      "event_id": "93f6e6f15c8b1db4",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce acquires Convergence.ai to enhance Agentforce autonomous reasoning",
-      "canonical_url": "https://techcrunch.com/2026/06/08/salesforce-acquires-convergence-ai",
-      "source_domain": "techcrunch.com",
-      "first_sent_at": "2026-06-08T07:10:53+00:00",
-      "last_seen_at": "2026-06-08T07:10:53+00:00"
-    },
-    {
-      "event_id": "34f8d01a68bcec0a",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce Summer '26 Release: The AI-Powered Agentforce Features You Need to Know",
-      "canonical_url": "https://trailhead.salesforce.com/en/trailblazers/events/summer-26-release",
-      "source_domain": "trailhead.salesforce.com",
-      "first_sent_at": "2026-06-08T07:10:53+00:00",
-      "last_seen_at": "2026-06-08T07:10:53+00:00"
-    },
-    {
-      "event_id": "0e621e54d99900a6",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce CEO Marc Benioff says agentic AI is changing everything: 'We are at the beginning of something truly extraordinary'",
-      "canonical_url": "https://businessinsider.com/salesforce-marc-benioff-agentic-ai-2026",
-      "source_domain": "businessinsider.com",
-      "first_sent_at": "2026-06-08T07:10:53+00:00",
-      "last_seen_at": "2026-06-08T07:10:53+00:00"
-    },
-    {
-      "event_id": "b3b1b39b78e6c7be",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce Expands Government Cloud with New Sovereign AI Features",
-      "canonical_url": "https://salesforce.com/news/stories/government-cloud-sovereign-ai",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-06-01T07:11:06+00:00",
-      "last_seen_at": "2026-06-01T07:11:06+00:00"
     }
   ]
 }
