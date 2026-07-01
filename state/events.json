@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-06-30T07:04:43+00:00",
+  "updated_at": "2026-07-01T07:03:48+00:00",
   "items": [
     {
       "event_id": "cac1fad388c8d480",
@@ -161,6 +161,46 @@
       "source_domain": "salesforce.com",
       "first_sent_at": "2026-06-01T07:11:06+00:00",
       "last_seen_at": "2026-06-01T07:11:06+00:00"
+    },
+    {
+      "event_id": "f1b736a7fc54cba8",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Science, an AI workbench for scientists",
+      "canonical_url": "https://anthropic.com/news/claude-science-ai-workbench",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-07-01T07:03:45+00:00",
+      "last_seen_at": "2026-07-01T07:03:45+00:00"
+    },
+    {
+      "event_id": "e315c22d3a62e140",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Introducing Claude Sonnet 5",
+      "canonical_url": "https://anthropic.com/news/claude-sonnet-5",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-07-01T07:03:45+00:00",
+      "last_seen_at": "2026-07-01T07:03:45+00:00"
+    },
+    {
+      "event_id": "2e5e9db5c2c41e8e",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.197: Claude Sonnet 5 as default model, 1M-token context, org default models, readable session names",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.197",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-07-01T07:03:45+00:00",
+      "last_seen_at": "2026-07-01T07:03:45+00:00"
+    },
+    {
+      "event_id": "213d0c5c1e4508cd",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Redeploying Claude Fable 5 globally starting July 1 after US export controls lifted",
+      "canonical_url": "https://anthropic.com/news/redeploying-fable-5",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-07-01T07:03:45+00:00",
+      "last_seen_at": "2026-07-01T07:03:45+00:00"
     },
     {
       "event_id": "dd6c50bd32b0a1ce",
@@ -981,46 +1021,6 @@
       "source_domain": "github.com",
       "first_sent_at": "2026-06-02T07:13:32+00:00",
       "last_seen_at": "2026-06-02T07:13:32+00:00"
-    },
-    {
-      "event_id": "d5b2a8e0c4f71936",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.157: plugin auto-loading from .claude/skills, claude plugin init",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-05-31T07:12:15+00:00",
-      "last_seen_at": "2026-05-31T07:12:15+00:00"
-    },
-    {
-      "event_id": "a6c3e9b1f7d02854",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.156: fix for Opus 4.8 thinking blocks modification causing API errors",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.156",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-05-31T07:12:15+00:00",
-      "last_seen_at": "2026-05-31T07:12:15+00:00"
-    },
-    {
-      "event_id": "7b4c1f9e3a8d0625",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.158: Auto mode now available on Bedrock, Vertex, and Foundry for Team and Enterprise",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.158",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-05-31T07:12:15+00:00",
-      "last_seen_at": "2026-05-31T07:12:15+00:00"
-    },
-    {
-      "event_id": "2b7f5d1a8c4e0936",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "AWS removes RPM quotas for Claude Opus 4.7 on Amazon Bedrock",
-      "canonical_url": "https://aws.amazon.com/blogs/machine-learning/aws-removes-rpm-quotas-claude-opus-47",
-      "source_domain": "aws.amazon.com",
-      "first_sent_at": "2026-05-31T07:12:15+00:00",
-      "last_seen_at": "2026-05-31T07:12:15+00:00"
     }
   ]
 }
