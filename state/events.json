@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-07-01T07:03:48+00:00",
+  "updated_at": "2026-07-02T07:13:37+00:00",
   "items": [
     {
       "event_id": "cac1fad388c8d480",
@@ -161,6 +161,56 @@
       "source_domain": "salesforce.com",
       "first_sent_at": "2026-06-01T07:11:06+00:00",
       "last_seen_at": "2026-06-01T07:11:06+00:00"
+    },
+    {
+      "event_id": "f6286ebb18ffadc9",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic updates privacy policy to require government ID and facial biometrics from some Claude users starting July 8",
+      "canonical_url": "https://techcrunch.com/2026/06/22/anthropic-says-claude-may-want-to-see-your-id",
+      "source_domain": "techcrunch.com",
+      "first_sent_at": "2026-07-02T07:13:34+00:00",
+      "last_seen_at": "2026-07-02T07:13:34+00:00"
+    },
+    {
+      "event_id": "ed25b2e261a79fde",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Introducing the Claude apps gateway for Amazon Bedrock and Google Cloud",
+      "canonical_url": "https://claude.com/blog/introducing-the-claude-apps-gateway",
+      "source_domain": "claude.com",
+      "first_sent_at": "2026-07-02T07:13:34+00:00",
+      "last_seen_at": "2026-07-02T07:13:34+00:00"
+    },
+    {
+      "event_id": "d539ad0840e0855d",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Higher usage limits for Claude and a compute deal with SpaceX",
+      "canonical_url": "https://anthropic.com/news/higher-limits-spacex",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-07-02T07:13:34+00:00",
+      "last_seen_at": "2026-07-02T07:13:34+00:00"
+    },
+    {
+      "event_id": "5da5866778ff4245",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude in Microsoft Foundry is now generally available",
+      "canonical_url": "https://claude.com/blog/claude-in-microsoft-foundry",
+      "source_domain": "claude.com",
+      "first_sent_at": "2026-07-02T07:13:34+00:00",
+      "last_seen_at": "2026-07-02T07:13:34+00:00"
+    },
+    {
+      "event_id": "29f3c2d9235c4828",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.198: background agent notifications, /dataviz skill, Claude in Chrome GA",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.198",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-07-02T07:13:34+00:00",
+      "last_seen_at": "2026-07-02T07:13:34+00:00"
     },
     {
       "event_id": "f1b736a7fc54cba8",
@@ -991,36 +1041,6 @@
       "source_domain": "anthropic.com",
       "first_sent_at": "2026-06-03T07:12:33+00:00",
       "last_seen_at": "2026-06-03T07:12:33+00:00"
-    },
-    {
-      "event_id": "3e5f2c8b0a7d1946",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.159: internal infrastructure improvements",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.159",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-06-02T07:13:32+00:00",
-      "last_seen_at": "2026-06-02T07:13:32+00:00"
-    },
-    {
-      "event_id": "1f6e9d3b7a0c4825",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic confidentially files draft S-1 with the SEC for proposed IPO",
-      "canonical_url": "https://techcrunch.com/2026/06/02/anthropic-sec-s1-ipo",
-      "source_domain": "techcrunch.com",
-      "first_sent_at": "2026-06-02T07:13:32+00:00",
-      "last_seen_at": "2026-06-02T07:13:32+00:00"
-    },
-    {
-      "event_id": "0c8a4d7e2b9f1635",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.160: security prompts for shell startup files, ultracode workflow optimizations",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.160",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-06-02T07:13:32+00:00",
-      "last_seen_at": "2026-06-02T07:13:32+00:00"
     }
   ]
 }
