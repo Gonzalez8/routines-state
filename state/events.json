@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-07-02T07:13:37+00:00",
+  "updated_at": "2026-07-03T07:11:59+00:00",
   "items": [
     {
       "event_id": "cac1fad388c8d480",
@@ -161,6 +161,36 @@
       "source_domain": "salesforce.com",
       "first_sent_at": "2026-06-01T07:11:06+00:00",
       "last_seen_at": "2026-06-01T07:11:06+00:00"
+    },
+    {
+      "event_id": "e053c50450e3f0d3",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Giving admins more visibility and control over Claude spend",
+      "canonical_url": "https://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend",
+      "source_domain": "claude.com",
+      "first_sent_at": "2026-07-03T07:11:56+00:00",
+      "last_seen_at": "2026-07-03T07:11:56+00:00"
+    },
+    {
+      "event_id": "bc9183d6a8b03ca3",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "More details on Fable 5's cyber safeguards and our jailbreak framework",
+      "canonical_url": "https://anthropic.com/news/fable-safeguards-jailbreak-framework",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-07-03T07:11:56+00:00",
+      "last_seen_at": "2026-07-03T07:11:56+00:00"
+    },
+    {
+      "event_id": "9c8ae044f57e62f2",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.199: stacked slash-skills, streaming mid-error fixes, background agent Linux fix",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.199",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-07-03T07:11:56+00:00",
+      "last_seen_at": "2026-07-03T07:11:56+00:00"
     },
     {
       "event_id": "f6286ebb18ffadc9",
