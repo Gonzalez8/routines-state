@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-07-04T07:11:38+00:00",
+  "updated_at": "2026-07-05T07:14:08+00:00",
   "items": [
     {
       "event_id": "cac1fad388c8d480",
@@ -1011,66 +1011,6 @@
       "source_domain": "anthropic.com",
       "first_sent_at": "2026-06-06T07:08:52+00:00",
       "last_seen_at": "2026-06-06T07:08:52+00:00"
-    },
-    {
-      "event_id": "b1c7e9f3a4d02856",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.162: slash command autocomplete, Remote Control footer pill, quick keybinding",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.162",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-06-05T07:12:34+00:00",
-      "last_seen_at": "2026-06-05T07:12:34+00:00"
-    },
-    {
-      "event_id": "7f3c2b9a0e5d1846",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.165: bug fixes and reliability improvements",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.165",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-06-05T07:12:34+00:00",
-      "last_seen_at": "2026-06-05T07:12:34+00:00"
-    },
-    {
-      "event_id": "4a0e7f5b8c2d1963",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.163: requiredMinimumVersion managed settings, /plugin list command",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.163",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-06-05T07:12:34+00:00",
-      "last_seen_at": "2026-06-05T07:12:34+00:00"
-    },
-    {
-      "event_id": "c6f3b7e0a9d21854",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.161: MCP credential security fix, parallel tool calls independence",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.161",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-06-04T07:12:42+00:00",
-      "last_seen_at": "2026-06-04T07:12:42+00:00"
-    },
-    {
-      "event_id": "9a4e1b0c7f3d2856",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Microsoft releases new AI models to challenge Anthropic's business push",
-      "canonical_url": "https://techcrunch.com/2026/06/04/microsoft-ai-models-challenge-anthropic",
-      "source_domain": "techcrunch.com",
-      "first_sent_at": "2026-06-04T07:12:42+00:00",
-      "last_seen_at": "2026-06-04T07:12:42+00:00"
-    },
-    {
-      "event_id": "2d8b5a3c1e9f0746",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Introducing the Services Track and Partner Hub of the Claude Partner Network",
-      "canonical_url": "https://anthropic.com/news/services-track-partner-hub",
-      "source_domain": "anthropic.com",
-      "first_sent_at": "2026-06-04T07:12:42+00:00",
-      "last_seen_at": "2026-06-04T07:12:42+00:00"
     }
   ]
 }
