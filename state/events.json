@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-07-06T07:14:40+00:00",
+  "updated_at": "2026-07-07T07:13:05+00:00",
   "items": [
     {
       "event_id": "cce098db4a042c3d",
@@ -181,6 +181,46 @@
       "source_domain": "businessinsider.com",
       "first_sent_at": "2026-06-08T07:10:53+00:00",
       "last_seen_at": "2026-06-08T07:10:53+00:00"
+    },
+    {
+      "event_id": "da6bef1efe8104db",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities: 466 million lines scanned in 20 hours",
+      "canonical_url": "https://anthropic.com/news/alberta-government-claude-cybersecurity",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-07-07T07:13:05+00:00",
+      "last_seen_at": "2026-07-07T07:13:05+00:00"
+    },
+    {
+      "event_id": "6b67bc39a27cbb8b",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.202: Dynamic workflow size setting in /config, workflow OpenTelemetry attributes, crash fixes",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.202",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-07-07T07:13:05+00:00",
+      "last_seen_at": "2026-07-07T07:13:05+00:00"
+    },
+    {
+      "event_id": "5785618e5561d84e",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic discovers 'J-Space': a global workspace inside Claude that mirrors human conscious thought",
+      "canonical_url": "https://anthropic.com/research/global-workspace",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-07-07T07:13:05+00:00",
+      "last_seen_at": "2026-07-07T07:13:05+00:00"
+    },
+    {
+      "event_id": "1bd71a8a2d69cc3f",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic signs $19 billion 20-year lease with TeraWulf for Kentucky AI data center",
+      "canonical_url": "https://datacenterdynamics.com/en/news/anthropic-signs-19bn-20-year-lease-for-kentucky-data-center-with-terawulf",
+      "source_domain": "datacenterdynamics.com",
+      "first_sent_at": "2026-07-07T07:13:05+00:00",
+      "last_seen_at": "2026-07-07T07:13:05+00:00"
     },
     {
       "event_id": "c6f0b77183325fbb",
@@ -961,36 +1001,6 @@
       "source_domain": "techcrunch.com",
       "first_sent_at": "2026-06-08T07:11:42+00:00",
       "last_seen_at": "2026-06-08T07:11:42+00:00"
-    },
-    {
-      "event_id": "6b2f1c3e7a4d0958",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.167: bug fixes and reliability improvements",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.167",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-06-07T07:07:45+00:00",
-      "last_seen_at": "2026-06-07T07:07:45+00:00"
-    },
-    {
-      "event_id": "4d8e0a2c5b9f1637",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic announces model deprecations: Claude Sonnet 4 and Opus 4 retire June 15 with no grace period",
-      "canonical_url": "https://anthropic.com/news/model-deprecations-june-2026",
-      "source_domain": "anthropic.com",
-      "first_sent_at": "2026-06-07T07:07:45+00:00",
-      "last_seen_at": "2026-06-07T07:07:45+00:00"
-    },
-    {
-      "event_id": "0a3b7e9c1d5f2846",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.166: fallbackModel setting, glob deny rules, cross-session security fix",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.166",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-06-07T07:07:45+00:00",
-      "last_seen_at": "2026-06-07T07:07:45+00:00"
     }
   ]
 }
