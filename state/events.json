@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-07-07T07:13:05+00:00",
+  "updated_at": "2026-07-08T07:12:12+00:00",
   "items": [
     {
       "event_id": "cce098db4a042c3d",
@@ -181,6 +181,36 @@
       "source_domain": "businessinsider.com",
       "first_sent_at": "2026-06-08T07:10:53+00:00",
       "last_seen_at": "2026-06-08T07:10:53+00:00"
+    },
+    {
+      "event_id": "c7785977b79a0da5",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Cowork expands to mobile and web with cross-device continuity and background cloud processing",
+      "canonical_url": "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork",
+      "source_domain": "techcrunch.com",
+      "first_sent_at": "2026-07-08T07:12:09+00:00",
+      "last_seen_at": "2026-07-08T07:12:09+00:00"
+    },
+    {
+      "event_id": "45f7835c4ce5b2d6",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic brings Claude Code and Claude Cowork to government in Claude for Government Desktop public beta (FedRAMP High)",
+      "canonical_url": "https://claude.com/blog/bringing-claude-code-and-claude-cowork-to-government",
+      "source_domain": "claude.com",
+      "first_sent_at": "2026-07-08T07:12:09+00:00",
+      "last_seen_at": "2026-07-08T07:12:09+00:00"
+    },
+    {
+      "event_id": "092dbf0dce8f5c64",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Fable 5 leaves Claude subscription plans on July 7: usage credits now required at standard API rates from July 8",
+      "canonical_url": "https://thestreet.com/technology/anthropic-ipo-fable5-mythos-safety-classifier-block-jailbreak",
+      "source_domain": "thestreet.com",
+      "first_sent_at": "2026-07-08T07:12:09+00:00",
+      "last_seen_at": "2026-07-08T07:12:09+00:00"
     },
     {
       "event_id": "da6bef1efe8104db",
@@ -971,36 +1001,6 @@
       "source_domain": "techcrunch.com",
       "first_sent_at": "2026-06-09T07:09:35+00:00",
       "last_seen_at": "2026-06-09T07:09:35+00:00"
-    },
-    {
-      "event_id": "c9f6e4b0a2d81735",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.168: bug fixes and reliability improvements",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.168",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-06-08T07:11:42+00:00",
-      "last_seen_at": "2026-06-08T07:11:42+00:00"
-    },
-    {
-      "event_id": "a4b5c2e8d0f71936",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic probes customer data leak claims after Friday Claude outage",
-      "canonical_url": "https://techcrunch.com/2026/06/07/anthropic-probes-data-leak-claims-claude-outage",
-      "source_domain": "techcrunch.com",
-      "first_sent_at": "2026-06-08T07:11:42+00:00",
-      "last_seen_at": "2026-06-08T07:11:42+00:00"
-    },
-    {
-      "event_id": "7c3d8f1a5b0e2964",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic pauses red-teaming program after unreleased Claude Oceanus model leaks through third-party API access",
-      "canonical_url": "https://techcrunch.com/2026/06/08/anthropic-pauses-red-teaming-oceanus-leak",
-      "source_domain": "techcrunch.com",
-      "first_sent_at": "2026-06-08T07:11:42+00:00",
-      "last_seen_at": "2026-06-08T07:11:42+00:00"
     }
   ]
 }
