@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-07-09T07:13:42+00:00",
+  "updated_at": "2026-07-10T07:12:48+00:00",
   "items": [
     {
       "event_id": "cce098db4a042c3d",
@@ -181,6 +181,56 @@
       "source_domain": "businessinsider.com",
       "first_sent_at": "2026-06-08T07:10:53+00:00",
       "last_seen_at": "2026-06-08T07:10:53+00:00"
+    },
+    {
+      "event_id": "f595de6791f25c50",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Alibaba reportedly bans employees from using Claude Code",
+      "canonical_url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code",
+      "source_domain": "techcrunch.com",
+      "first_sent_at": "2026-07-10T07:12:46+00:00",
+      "last_seen_at": "2026-07-10T07:12:46+00:00"
+    },
+    {
+      "event_id": "b899438d9437094d",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic brings Claude Cowork to mobile and web as usage data shows most users aren't coding",
+      "canonical_url": "https://venturebeat.com/technology/anthropic-brings-claude-cowork-to-mobile-and-web-as-usage-data-shows-most-users-arent-coding",
+      "source_domain": "venturebeat.com",
+      "first_sent_at": "2026-07-10T07:12:46+00:00",
+      "last_seen_at": "2026-07-10T07:12:46+00:00"
+    },
+    {
+      "event_id": "47201e67cce5f404",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude AI Gets Yet Another Boost in VS Code 1.128",
+      "canonical_url": "https://visualstudiomagazine.com/articles/2026/07/08/claude-ai-gets-yet-another-boost-in-vs-code-1-128.aspx",
+      "source_domain": "visualstudiomagazine.com",
+      "first_sent_at": "2026-07-10T07:12:46+00:00",
+      "last_seen_at": "2026-07-10T07:12:46+00:00"
+    },
+    {
+      "event_id": "34c93f16337bad59",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic's new Claude Reflect feature is quietly selling you on AI",
+      "canonical_url": "https://techcrunch.com/2026/07/09/anthropics-new-claude-feature-is-quietly-selling-you-on-ai",
+      "source_domain": "techcrunch.com",
+      "first_sent_at": "2026-07-10T07:12:46+00:00",
+      "last_seen_at": "2026-07-10T07:12:46+00:00"
+    },
+    {
+      "event_id": "0128d33b241b3227",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic's new J-lens reveals a silent workspace inside Claude that mirrors a leading theory of consciousness",
+      "canonical_url": "https://venturebeat.com/technology/anthropics-new-j-lens-reveals-a-silent-workspace-inside-claude-that-mirrors-a-leading-theory-of-consciousness",
+      "source_domain": "venturebeat.com",
+      "first_sent_at": "2026-07-10T07:12:46+00:00",
+      "last_seen_at": "2026-07-10T07:12:46+00:00"
     },
     {
       "event_id": "994ade8c9af221f1",
@@ -961,56 +1011,6 @@
       "source_domain": "github.com",
       "first_sent_at": "2026-06-11T07:04:10+00:00",
       "last_seen_at": "2026-06-11T07:04:10+00:00"
-    },
-    {
-      "event_id": "f7a3b0c6e9d21845",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude support for Apple Foundation Models framework: Swift package for iOS and macOS",
-      "canonical_url": "https://anthropic.com/news/apple-foundation-models",
-      "source_domain": "anthropic.com",
-      "first_sent_at": "2026-06-10T07:10:23+00:00",
-      "last_seen_at": "2026-06-10T07:10:23+00:00"
-    },
-    {
-      "event_id": "b4c8e1a3f0d26957",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Fable 5 available on Amazon Bedrock with Mythos-class capabilities and built-in guardrails",
-      "canonical_url": "https://aws.amazon.com/blogs/machine-learning/claude-fable-5-amazon-bedrock",
-      "source_domain": "aws.amazon.com",
-      "first_sent_at": "2026-06-10T07:10:23+00:00",
-      "last_seen_at": "2026-06-10T07:10:23+00:00"
-    },
-    {
-      "event_id": "5d2a9b7e1c4f0836",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.170: Claude Fable 5 Mythos-class model support and session transcripts",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.170",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-06-10T07:10:23+00:00",
-      "last_seen_at": "2026-06-10T07:10:23+00:00"
-    },
-    {
-      "event_id": "3c8b2d5a0e7f1946",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Apple Xcode now supports the Claude Agent SDK",
-      "canonical_url": "https://developer.apple.com/news/2026/xcode-claude-agent-sdk",
-      "source_domain": "developer.apple.com",
-      "first_sent_at": "2026-06-10T07:10:23+00:00",
-      "last_seen_at": "2026-06-10T07:10:23+00:00"
-    },
-    {
-      "event_id": "1b7e4a9d3c0f2856",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Introducing Claude Fable 5 and Claude Mythos 5",
-      "canonical_url": "https://anthropic.com/news/claude-fable-5-mythos-5",
-      "source_domain": "anthropic.com",
-      "first_sent_at": "2026-06-10T07:10:23+00:00",
-      "last_seen_at": "2026-06-10T07:10:23+00:00"
     }
   ]
 }
