@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-07-10T07:12:48+00:00",
+  "updated_at": "2026-07-11T07:12:57+00:00",
   "items": [
     {
       "event_id": "cce098db4a042c3d",
@@ -181,6 +181,66 @@
       "source_domain": "businessinsider.com",
       "first_sent_at": "2026-06-08T07:10:53+00:00",
       "last_seen_at": "2026-06-08T07:10:53+00:00"
+    },
+    {
+      "event_id": "c9f9fe744ecb6f55",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.206: directory suggestions in /cd, gateway support, background agent auto-upgrade, and code review improvements",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.206",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-07-11T07:12:54+00:00",
+      "last_seen_at": "2026-07-11T07:12:54+00:00"
+    },
+    {
+      "event_id": "687015e2933b6172",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Ben Bernanke appointed to Anthropic's Long-Term Benefit Trust",
+      "canonical_url": "https://anthropic.com/news/ben-bernanke",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-07-11T07:12:54+00:00",
+      "last_seen_at": "2026-07-11T07:12:54+00:00"
+    },
+    {
+      "event_id": "3be27a1fd30b9e74",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Inviting hard questions: Anthropic launches public initiative and Anthropic Institute to address society's toughest AI challenges",
+      "canonical_url": "https://anthropic.com/news/hard-questions",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-07-11T07:12:54+00:00",
+      "last_seen_at": "2026-07-11T07:12:54+00:00"
+    },
+    {
+      "event_id": "301b274f97d3221b",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Introducing a way to reflect on how you use Claude: monthly recap, focus settings, and work insights",
+      "canonical_url": "https://anthropic.com/news/reflect-with-claude",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-07-11T07:12:54+00:00",
+      "last_seen_at": "2026-07-11T07:12:54+00:00"
+    },
+    {
+      "event_id": "0d8e7d122fd70d24",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "UST is bringing Claude to physical AI: 20,000 employees trained and chip validation cycle times cut from 4 days to 48 hours",
+      "canonical_url": "https://anthropic.com/news/ust-claude",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-07-11T07:12:54+00:00",
+      "last_seen_at": "2026-07-11T07:12:54+00:00"
+    },
+    {
+      "event_id": "05f940bd658079c3",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.207: auto mode on Bedrock/Vertex/Foundry by default, terminal freeze fix, and security improvements",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.207",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-07-11T07:12:54+00:00",
+      "last_seen_at": "2026-07-11T07:12:54+00:00"
     },
     {
       "event_id": "f595de6791f25c50",
@@ -971,46 +1031,6 @@
       "source_domain": "anthropic.com",
       "first_sent_at": "2026-06-12T07:04:55+00:00",
       "last_seen_at": "2026-06-12T07:04:55+00:00"
-    },
-    {
-      "event_id": "e8b3c0d7a5f21694",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Fable 5 is generally available for GitHub Copilot",
-      "canonical_url": "https://github.blog/2026/06/11/claude-fable-5-github-copilot",
-      "source_domain": "github.blog",
-      "first_sent_at": "2026-06-11T07:04:10+00:00",
-      "last_seen_at": "2026-06-11T07:04:10+00:00"
-    },
-    {
-      "event_id": "9f1a7c4e2b8d0635",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic to make Claude Fable 5 restrictions visible after criticism over hidden capability limits",
-      "canonical_url": "https://techcrunch.com/2026/06/11/anthropic-fable-5-restrictions-visible",
-      "source_domain": "techcrunch.com",
-      "first_sent_at": "2026-06-11T07:04:10+00:00",
-      "last_seen_at": "2026-06-11T07:04:10+00:00"
-    },
-    {
-      "event_id": "8e4a5c0b7d2f1936",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic accused of 'secret sabotage' as Claude Fable 5 silently limits capabilities for non-US users",
-      "canonical_url": "https://techcrunch.com/2026/06/10/anthropic-secret-sabotage-fable-5",
-      "source_domain": "techcrunch.com",
-      "first_sent_at": "2026-06-11T07:04:10+00:00",
-      "last_seen_at": "2026-06-11T07:04:10+00:00"
-    },
-    {
-      "event_id": "6d3a8b2e5c1f0947",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.172: sub-agents can now spawn their own sub-agents up to 5 levels deep",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.172",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-06-11T07:04:10+00:00",
-      "last_seen_at": "2026-06-11T07:04:10+00:00"
     }
   ]
 }
