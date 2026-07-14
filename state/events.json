@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-07-13T07:13:02+00:00",
+  "updated_at": "2026-07-14T07:13:28+00:00",
   "items": [
     {
       "event_id": "68949c525b958ba1",
@@ -191,6 +191,36 @@
       "source_domain": "salesforce.com",
       "first_sent_at": "2026-06-15T07:10:50+00:00",
       "last_seen_at": "2026-06-15T07:10:50+00:00"
+    },
+    {
+      "event_id": "ff9eefa71b6ff0a0",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Honeycomb EAP leaks inside Cursor: Anthropic's unreleased Opus 5 model spotted with 1M-token context",
+      "canonical_url": "https://thenewstack.io/fable-5-honeycomb-opus",
+      "source_domain": "thenewstack.io",
+      "first_sent_at": "2026-07-14T07:13:25+00:00",
+      "last_seen_at": "2026-07-14T07:13:25+00:00"
+    },
+    {
+      "event_id": "c99c479600608074",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.208: screen reader mode, vim insert-mode remaps, process wrapper support, and mouse-click improvements",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.208",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-07-14T07:13:25+00:00",
+      "last_seen_at": "2026-07-14T07:13:25+00:00"
+    },
+    {
+      "event_id": "59a73df8c0136ccb",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic starts localizing Claude pricing for India, its second-largest market after the US",
+      "canonical_url": "https://techcrunch.com/2026/07/13/anthropic-starts-localizing-claude-pricing-for-india-its-biggest-market-after-the-us",
+      "source_domain": "techcrunch.com",
+      "first_sent_at": "2026-07-14T07:13:25+00:00",
+      "last_seen_at": "2026-07-14T07:13:25+00:00"
     },
     {
       "event_id": "5e21c800a23f7762",
@@ -941,36 +971,6 @@
       "source_domain": "status.anthropic.com",
       "first_sent_at": "2026-06-15T07:07:19+00:00",
       "last_seen_at": "2026-06-15T07:07:19+00:00"
-    },
-    {
-      "event_id": "9d8c4a1e0b6f2753",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "DXC will integrate Claude into the systems banks, airlines, and other regulated sectors run",
-      "canonical_url": "https://techcrunch.com/2026/06/12/dxc-anthropic-claude-regulated-sectors",
-      "source_domain": "techcrunch.com",
-      "first_sent_at": "2026-06-14T07:05:37+00:00",
-      "last_seen_at": "2026-06-14T07:05:37+00:00"
-    },
-    {
-      "event_id": "6b2a9e4d1c7f0835",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic CEO Dario Amodei says he doesn't know if Claude was used in the Iran strike, condemns use of AI in warfare",
-      "canonical_url": "https://techcrunch.com/2026/06/13/dario-amodei-iran-strike-claude",
-      "source_domain": "techcrunch.com",
-      "first_sent_at": "2026-06-14T07:05:37+00:00",
-      "last_seen_at": "2026-06-14T07:05:37+00:00"
-    },
-    {
-      "event_id": "1a5c7b3e8d0f2946",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Why US has restricted foreign access to Anthropic's Claude Fable 5 and Mythos 5 AI models",
-      "canonical_url": "https://techcrunch.com/2026/06/13/why-us-restricted-access-anthropic-fable-5-mythos-5",
-      "source_domain": "techcrunch.com",
-      "first_sent_at": "2026-06-14T07:05:37+00:00",
-      "last_seen_at": "2026-06-14T07:05:37+00:00"
     }
   ]
 }
