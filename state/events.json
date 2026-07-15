@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-07-14T07:13:28+00:00",
+  "updated_at": "2026-07-15T07:12:29+00:00",
   "items": [
     {
       "event_id": "68949c525b958ba1",
@@ -191,6 +191,56 @@
       "source_domain": "salesforce.com",
       "first_sent_at": "2026-06-15T07:10:50+00:00",
       "last_seen_at": "2026-06-15T07:10:50+00:00"
+    },
+    {
+      "event_id": "fe4dc1b70fa748b6",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "The Download: Claude's inner workings, and the future of world models",
+      "canonical_url": "https://technologyreview.com/2026/07/14/1140391/the-download-anthropic-claude-internal-thoughts-world-models",
+      "source_domain": "technologyreview.com",
+      "first_sent_at": "2026-07-15T07:12:26+00:00",
+      "last_seen_at": "2026-07-15T07:12:26+00:00"
+    },
+    {
+      "event_id": "e059ed6a3a626fa7",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic launches Claude for Teachers in AI race to influence America's classrooms",
+      "canonical_url": "https://chalkbeat.org/2026/07/14/anthropic-launches-claude-for-teachers-as-ai-companies-battle-for-classrooms",
+      "source_domain": "chalkbeat.org",
+      "first_sent_at": "2026-07-15T07:12:26+00:00",
+      "last_seen_at": "2026-07-15T07:12:26+00:00"
+    },
+    {
+      "event_id": "d3d443d576bccf27",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Introducing Claude for Teachers",
+      "canonical_url": "https://anthropic.com/news/claude-for-teachers",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-07-15T07:12:26+00:00",
+      "last_seen_at": "2026-07-15T07:12:26+00:00"
+    },
+    {
+      "event_id": "1a7870da20b495e6",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic launches free Claude for Teachers",
+      "canonical_url": "https://thehill.com/policy/technology/5968601-claude-for-teachers-launch",
+      "source_domain": "thehill.com",
+      "first_sent_at": "2026-07-15T07:12:26+00:00",
+      "last_seen_at": "2026-07-15T07:12:26+00:00"
+    },
+    {
+      "event_id": "326369c3123c94b4",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.193: autoMode.classifyAllShell setting, live bash path autocomplete, background agent improvements",
+      "canonical_url": "https://releasebot.io/updates/anthropic/claude-code",
+      "source_domain": "releasebot.io",
+      "first_sent_at": "2026-06-26T07:03:46+00:00",
+      "last_seen_at": "2026-07-15T07:12:26+00:00"
     },
     {
       "event_id": "ff9eefa71b6ff0a0",
@@ -703,16 +753,6 @@
       "last_seen_at": "2026-06-26T07:03:46+00:00"
     },
     {
-      "event_id": "326369c3123c94b4",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.193: autoMode.classifyAllShell setting, live bash path autocomplete, background agent improvements",
-      "canonical_url": "https://releasebot.io/updates/anthropic/claude-code",
-      "source_domain": "releasebot.io",
-      "first_sent_at": "2026-06-26T07:03:46+00:00",
-      "last_seen_at": "2026-06-26T07:03:46+00:00"
-    },
-    {
       "event_id": "fa7a61c33d8e2f62",
       "routine": "claude-news",
       "topic": "claude-ai",
@@ -921,56 +961,6 @@
       "source_domain": "github.com",
       "first_sent_at": "2026-06-16T07:08:44+00:00",
       "last_seen_at": "2026-06-16T07:08:44+00:00"
-    },
-    {
-      "event_id": "f4d6a2b8c0e39175",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Agent SDK moves to separate credit pool starting June 15: Pro gets $20, Max gets $100",
-      "canonical_url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "source_domain": "support.claude.com",
-      "first_sent_at": "2026-06-15T07:07:19+00:00",
-      "last_seen_at": "2026-06-15T07:07:19+00:00"
-    },
-    {
-      "event_id": "e5b2c8d0a3f16749",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic flies staff to DC to resolve White House fight over Mythos suspension",
-      "canonical_url": "https://techcrunch.com/2026/06/14/anthropic-flies-staff-dc-white-house-mythos",
-      "source_domain": "techcrunch.com",
-      "first_sent_at": "2026-06-15T07:07:19+00:00",
-      "last_seen_at": "2026-06-15T07:07:19+00:00"
-    },
-    {
-      "event_id": "d7c4b9e2a0f31856",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic to brief House Homeland Security on Mythos AI capabilities in closed-door session",
-      "canonical_url": "https://techcrunch.com/2026/06/14/anthropic-house-homeland-security-mythos",
-      "source_domain": "techcrunch.com",
-      "first_sent_at": "2026-06-15T07:07:19+00:00",
-      "last_seen_at": "2026-06-15T07:07:19+00:00"
-    },
-    {
-      "event_id": "a1c7e0f9b2d84632",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.177: MCP server reconnect fix, API gateway credentials security fix",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.177",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-06-15T07:07:19+00:00",
-      "last_seen_at": "2026-06-15T07:07:19+00:00"
-    },
-    {
-      "event_id": "3e8b1d5a0c7f2946",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Sonnet 4 and Opus 4 retire today June 15 with no grace period — API requests fail immediately",
-      "canonical_url": "https://status.anthropic.com/incidents/jun-15-2026",
-      "source_domain": "status.anthropic.com",
-      "first_sent_at": "2026-06-15T07:07:19+00:00",
-      "last_seen_at": "2026-06-15T07:07:19+00:00"
     }
   ]
 }
