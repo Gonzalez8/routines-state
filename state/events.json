@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-07-15T07:12:29+00:00",
+  "updated_at": "2026-07-16T07:15:10+00:00",
   "items": [
     {
       "event_id": "68949c525b958ba1",
@@ -191,6 +191,56 @@
       "source_domain": "salesforce.com",
       "first_sent_at": "2026-06-15T07:10:50+00:00",
       "last_seen_at": "2026-06-15T07:10:50+00:00"
+    },
+    {
+      "event_id": "de1936a589bd6134",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Fable 5 globally restored after US government directive lifted",
+      "canonical_url": "https://scriptbyai.com/anthropic-claude-timeline",
+      "source_domain": "scriptbyai.com",
+      "first_sent_at": "2026-07-16T07:15:08+00:00",
+      "last_seen_at": "2026-07-16T07:15:08+00:00"
+    },
+    {
+      "event_id": "a7ffd91e276d9bb1",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic moves closer to mega-IPO as bankers line up investor meetings",
+      "canonical_url": "https://cnbc.com/2026/07/15/anthropic-ipo-banks-investor-meetings.html",
+      "source_domain": "cnbc.com",
+      "first_sent_at": "2026-07-16T07:15:08+00:00",
+      "last_seen_at": "2026-07-16T07:15:08+00:00"
+    },
+    {
+      "event_id": "6862f540c5589507",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic commits $10 million to Canadian AI research",
+      "canonical_url": "https://anthropic.com/news/canadian-ai-research",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-07-16T07:15:08+00:00",
+      "last_seen_at": "2026-07-16T07:15:08+00:00"
+    },
+    {
+      "event_id": "62cf6967249c913b",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic and Blackstone bet the next trillion-dollar AI business is implementation, not just models",
+      "canonical_url": "https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models",
+      "source_domain": "techcrunch.com",
+      "first_sent_at": "2026-07-16T07:15:08+00:00",
+      "last_seen_at": "2026-07-16T07:15:08+00:00"
+    },
+    {
+      "event_id": "235aff276338c1e4",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude API July 2026: Rate limits raised, API key expiration settings, Fast mode for Opus 4.7 deprecated July 24",
+      "canonical_url": "https://byteiota.com/claude-api-july-2026-rate-limits-key-expiry",
+      "source_domain": "byteiota.com",
+      "first_sent_at": "2026-07-16T07:15:08+00:00",
+      "last_seen_at": "2026-07-16T07:15:08+00:00"
     },
     {
       "event_id": "fe4dc1b70fa748b6",
@@ -941,26 +991,6 @@
       "source_domain": "techcrunch.com",
       "first_sent_at": "2026-06-17T07:04:44+00:00",
       "last_seen_at": "2026-06-17T07:04:44+00:00"
-    },
-    {
-      "event_id": "b2f0e8d4a6c31975",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "76 cybersecurity experts sign open letter urging Trump administration to lift export ban on Anthropic Mythos 5",
-      "canonical_url": "https://cyberscoop.com/cybersecurity-experts-anthropic-mythos-5-export-ban",
-      "source_domain": "cyberscoop.com",
-      "first_sent_at": "2026-06-16T07:08:44+00:00",
-      "last_seen_at": "2026-06-16T07:08:44+00:00"
-    },
-    {
-      "event_id": "7c9e3b1a2d5f0874",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.178: Tool(param:value) permission syntax, nested skills loading fix, MCP latency fix",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.178",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-06-16T07:08:44+00:00",
-      "last_seen_at": "2026-06-16T07:08:44+00:00"
     }
   ]
 }
