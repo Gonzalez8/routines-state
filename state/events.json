@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-07-16T07:15:10+00:00",
+  "updated_at": "2026-07-17T07:13:42+00:00",
   "items": [
     {
       "event_id": "68949c525b958ba1",
@@ -191,6 +191,56 @@
       "source_domain": "salesforce.com",
       "first_sent_at": "2026-06-15T07:10:50+00:00",
       "last_seen_at": "2026-06-15T07:10:50+00:00"
+    },
+    {
+      "event_id": "d8273d6ebf24faf6",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.212: /fork copies conversation to background session, WebSearch and subagent spawn caps, MCP tools auto-move to background after 2 minutes",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.212",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-07-17T07:13:40+00:00",
+      "last_seen_at": "2026-07-17T07:13:40+00:00"
+    },
+    {
+      "event_id": "ca9f31aa3a675988",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.211: --forward-subagent-text flag for stream-json output, Bedrock/Vertex/AWS default to Claude Opus 4.8, permission preview security fix",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.211",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-07-17T07:13:40+00:00",
+      "last_seen_at": "2026-07-17T07:13:40+00:00"
+    },
+    {
+      "event_id": "b3448c84393e9755",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Microsoft 365 connector for Claude gains write tools: draft and send email, manage calendar, create files in OneDrive and SharePoint",
+      "canonical_url": "https://releasebot.io/updates/anthropic/claude-developer-platform",
+      "source_domain": "releasebot.io",
+      "first_sent_at": "2026-07-17T07:13:40+00:00",
+      "last_seen_at": "2026-07-17T07:13:40+00:00"
+    },
+    {
+      "event_id": "ae7c24eee35d9c1f",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.210: live elapsed-time counter on collapsed tool summaries, worktree isolation fix, auto mode classifier defaults to Sonnet 5",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.210",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-07-17T07:13:40+00:00",
+      "last_seen_at": "2026-07-17T07:13:40+00:00"
+    },
+    {
+      "event_id": "125049f855d9f787",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.209: restores access to model selection and dialogs blocked in background agent sessions",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.209",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-07-17T07:13:40+00:00",
+      "last_seen_at": "2026-07-17T07:13:40+00:00"
     },
     {
       "event_id": "de1936a589bd6134",
@@ -971,26 +1021,6 @@
       "source_domain": "techcrunch.com",
       "first_sent_at": "2026-06-18T07:04:10+00:00",
       "last_seen_at": "2026-06-18T07:04:10+00:00"
-    },
-    {
-      "event_id": "f7a2e1c8b0d46935",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.179: mid-stream connection drop fix, WSL2 scroll fix, and multi-agent system improvements",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.179",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-06-17T07:04:44+00:00",
-      "last_seen_at": "2026-06-17T07:04:44+00:00"
-    },
-    {
-      "event_id": "a4b8c0e2d6f19573",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Outage: Tenth Disruption in 12 Days Exposes Anthropic Infrastructure Strain",
-      "canonical_url": "https://techcrunch.com/2026/06/17/claude-outage-tenth-disruption-12-days",
-      "source_domain": "techcrunch.com",
-      "first_sent_at": "2026-06-17T07:04:44+00:00",
-      "last_seen_at": "2026-06-17T07:04:44+00:00"
     }
   ]
 }
