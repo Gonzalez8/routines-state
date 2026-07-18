@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-07-17T07:13:42+00:00",
+  "updated_at": "2026-07-18T07:15:50+00:00",
   "items": [
     {
       "event_id": "68949c525b958ba1",
@@ -191,6 +191,16 @@
       "source_domain": "salesforce.com",
       "first_sent_at": "2026-06-15T07:10:50+00:00",
       "last_seen_at": "2026-06-15T07:10:50+00:00"
+    },
+    {
+      "event_id": "7d1662a426ac1af2",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "HIPAA self-serve configuration now available for Claude Enterprise and API organizations: one-step BAA review, guide download, and enablement",
+      "canonical_url": "https://support.claude.com/en/articles/13296973-hipaa-ready-enterprise-plans",
+      "source_domain": "support.claude.com",
+      "first_sent_at": "2026-07-18T07:15:46+00:00",
+      "last_seen_at": "2026-07-18T07:15:46+00:00"
     },
     {
       "event_id": "d8273d6ebf24faf6",
@@ -981,46 +991,6 @@
       "source_domain": "platform.claude.com",
       "first_sent_at": "2026-06-19T07:05:06+00:00",
       "last_seen_at": "2026-06-19T07:05:06+00:00"
-    },
-    {
-      "event_id": "e1b9c0d7f2a53841",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem",
-      "canonical_url": "https://anthropic.com/news/seoul-office",
-      "source_domain": "anthropic.com",
-      "first_sent_at": "2026-06-18T07:04:10+00:00",
-      "last_seen_at": "2026-06-18T07:04:10+00:00"
-    },
-    {
-      "event_id": "c3d2a1f8e4b70639",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "G7 discusses 'trusted partners' framework to restore access to Anthropic's controversial Mythos 5 model",
-      "canonical_url": "https://techcrunch.com/2026/06/17/g7-anthropic-mythos-5-trusted-partners",
-      "source_domain": "techcrunch.com",
-      "first_sent_at": "2026-06-18T07:04:10+00:00",
-      "last_seen_at": "2026-06-18T07:04:10+00:00"
-    },
-    {
-      "event_id": "8f5c6b3e0a2d7194",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.181: /config key=value syntax, sandbox.allowAppleEvents, stream-stall timeout setting",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.181",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-06-18T07:04:10+00:00",
-      "last_seen_at": "2026-06-18T07:04:10+00:00"
-    },
-    {
-      "event_id": "2a7b1e8d4c9f0362",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Dario Amodei and Google DeepMind CEO call for U.S.-led AI coalition at G7 summit",
-      "canonical_url": "https://techcrunch.com/2026/06/18/dario-amodei-google-deepmind-ceo-ai-coalition-g7",
-      "source_domain": "techcrunch.com",
-      "first_sent_at": "2026-06-18T07:04:10+00:00",
-      "last_seen_at": "2026-06-18T07:04:10+00:00"
     }
   ]
 }
