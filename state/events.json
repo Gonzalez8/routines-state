@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-07-18T07:15:50+00:00",
+  "updated_at": "2026-07-19T07:12:46+00:00",
   "items": [
     {
       "event_id": "68949c525b958ba1",
@@ -191,6 +191,36 @@
       "source_domain": "salesforce.com",
       "first_sent_at": "2026-06-15T07:10:50+00:00",
       "last_seen_at": "2026-06-15T07:10:50+00:00"
+    },
+    {
+      "event_id": "f5508f38002281d8",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Fable 5 stays free for paid users until July 19 as Anthropic buys more time",
+      "canonical_url": "https://bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time",
+      "source_domain": "bleepingcomputer.com",
+      "first_sent_at": "2026-07-19T07:12:42+00:00",
+      "last_seen_at": "2026-07-19T07:12:42+00:00"
+    },
+    {
+      "event_id": "ab08fa9c99fde801",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.215: /verify y /code-review ya no se ejecutan automáticamente, ahora deben invocarse manualmente",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.215",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-07-19T07:12:42+00:00",
+      "last_seen_at": "2026-07-19T07:12:42+00:00"
+    },
+    {
+      "event_id": "68b6fcdd72e6351b",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.214: fix de bypass de permisos en Windows PowerShell 5.1, nueva herramienta EndConversation, heartbeat de progreso en llamadas largas y mejoras en logs OpenTelemetry",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.214",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-07-19T07:12:42+00:00",
+      "last_seen_at": "2026-07-19T07:12:42+00:00"
     },
     {
       "event_id": "7d1662a426ac1af2",
@@ -961,36 +991,6 @@
       "source_domain": "github.com",
       "first_sent_at": "2026-06-20T07:05:35+00:00",
       "last_seen_at": "2026-06-20T07:05:35+00:00"
-    },
-    {
-      "event_id": "f3e1d7b4f08c6421",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic launches enterprise-managed MCP auth with Okta for Claude Team and Enterprise",
-      "canonical_url": "https://anthropic.com/news/enterprise-mcp-auth",
-      "source_domain": "anthropic.com",
-      "first_sent_at": "2026-06-19T07:05:06+00:00",
-      "last_seen_at": "2026-06-19T07:05:06+00:00"
-    },
-    {
-      "event_id": "4a9c69dbf1e1a88c",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code ahora soporta Artifacts: sesiones de trabajo como páginas web interactivas guardadas con URL permanente",
-      "canonical_url": "https://code.claude.com/docs/en/whats-new",
-      "source_domain": "code.claude.com",
-      "first_sent_at": "2026-06-19T07:05:06+00:00",
-      "last_seen_at": "2026-06-19T07:05:06+00:00"
-    },
-    {
-      "event_id": "3b1a2c0d5e9f4c67",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Workload Identity Federation is now generally available on the Claude Platform",
-      "canonical_url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "source_domain": "platform.claude.com",
-      "first_sent_at": "2026-06-19T07:05:06+00:00",
-      "last_seen_at": "2026-06-19T07:05:06+00:00"
     }
   ]
 }
