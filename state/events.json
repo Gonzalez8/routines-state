@@ -1,7 +1,207 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-07-20T07:09:22+00:00",
+  "updated_at": "2026-07-20T07:16:15+00:00",
   "items": [
+    {
+      "event_id": "a9d99d2491b2b6bd",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce MFA Enforcement Now Live in Production Orgs: All Users Require Phishing-Resistant MFA from July 20",
+      "canonical_url": "https://admin.salesforce.com/blog/2026/prepare-your-org-for-salesforce-mfa-enforcement",
+      "source_domain": "admin.salesforce.com",
+      "first_sent_at": "2026-07-20T07:09:18+00:00",
+      "last_seen_at": "2026-07-20T07:09:18+00:00"
+    },
+    {
+      "event_id": "850495182e7178ad",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Announcing the Headless 360 MCP Server Beta: Discover, Describe, Dispatch and 100+ Admin Skills for AI Agents",
+      "canonical_url": "https://developer.salesforce.com/blogs/2026/07/announcing-the-headless-360-mcp-server-beta",
+      "source_domain": "developer.salesforce.com",
+      "first_sent_at": "2026-07-20T07:09:18+00:00",
+      "last_seen_at": "2026-07-20T07:09:18+00:00"
+    },
+    {
+      "event_id": "81e8df41994f64af",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "U.S. Air Force Leverages Missionforce to Modernize Sustainment and Operations for $13.5 Billion Vehicle Fleet",
+      "canonical_url": "https://salesforce.com/news/press-releases/2026/07/08/us-air-force-missionforce-modernize-sustainment-operations",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-07-20T07:09:18+00:00",
+      "last_seen_at": "2026-07-20T07:09:18+00:00"
+    },
+    {
+      "event_id": "68949c525b958ba1",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce Deepens Commitment to Switzerland with $1 Billion Investment to Accelerate Agentic AI Transformation",
+      "canonical_url": "https://salesforce.com/news/press-releases/2026/07/07/1-billion-ai-transformation-investment-switzerland",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-07-13T07:08:43+00:00",
+      "last_seen_at": "2026-07-13T07:08:43+00:00"
+    },
+    {
+      "event_id": "453bf35232f9540f",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce Signs Definitive Agreement to Acquire m3ter, a Metering and Rating Platform for Consumption-Based Billing",
+      "canonical_url": "https://salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-m3ter",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-07-13T07:08:43+00:00",
+      "last_seen_at": "2026-07-13T07:08:43+00:00"
+    },
+    {
+      "event_id": "402e63b3b29ba3d9",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Agentforce Builder Replaces Legacy Builder Starting Week of July 13: New Agents Must Be Created in Agentforce Studio",
+      "canonical_url": "https://salesforce.com/agentforce/what-is-new",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-07-13T07:08:43+00:00",
+      "last_seen_at": "2026-07-13T07:08:43+00:00"
+    },
+    {
+      "event_id": "0b07e910a35b15bc",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce Launches Agentforce Help Agent That Deploys in Minutes and Only Charges for Resolutions",
+      "canonical_url": "https://salesforce.com/news/stories/agentforce-help-agent-announcement",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-07-13T07:08:43+00:00",
+      "last_seen_at": "2026-07-13T07:08:43+00:00"
+    },
+    {
+      "event_id": "cce098db4a042c3d",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "As AI Agents Transform Commerce, Salesforce Unleashes Its Biggest Agentforce Commerce Release Yet",
+      "canonical_url": "https://salesforce.com/news/stories/agentforce-commerce-announcement",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-07-06T07:08:34+00:00",
+      "last_seen_at": "2026-07-06T07:08:34+00:00"
+    },
+    {
+      "event_id": "23a5cfe95c7417d5",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Global leaders launch AI for Good Global Commission to expand access, strengthen trust and accelerate impact",
+      "canonical_url": "https://salesforce.com/news/press-releases/2026/07/02/ai-for-good-global-commission-announcement",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-07-06T07:08:34+00:00",
+      "last_seen_at": "2026-07-06T07:08:34+00:00"
+    },
+    {
+      "event_id": "04e6975d857839aa",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "How Salesforce is Closing the AI Skills Gap",
+      "canonical_url": "https://salesforce.com/news/stories/salesforce-closing-ai-skills-gap",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-07-06T07:08:34+00:00",
+      "last_seen_at": "2026-07-06T07:08:34+00:00"
+    },
+    {
+      "event_id": "cac1fad388c8d480",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Anthropic and Salesforce Expand Strategic Partnership to Bring Claude to Regulated Industries",
+      "canonical_url": "https://anthropic.com/news/salesforce-anthropic-expanded-partnership",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-06-29T07:09:30+00:00",
+      "last_seen_at": "2026-06-29T07:09:30+00:00"
+    },
+    {
+      "event_id": "c727c4f8c4e40e27",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce Summer 2026 Product Release Announcement",
+      "canonical_url": "https://salesforce.com/news/stories/summer-2026-product-release-announcement",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-06-29T07:09:30+00:00",
+      "last_seen_at": "2026-06-29T07:09:30+00:00"
+    },
+    {
+      "event_id": "c221ce229a321840",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Agentforce Life Sciences: June 2026 Newsletter",
+      "canonical_url": "https://salesforce.com/blog/agentforce-life-sciences-june-2026-newsletter",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-06-29T07:09:30+00:00",
+      "last_seen_at": "2026-06-29T07:09:30+00:00"
+    },
+    {
+      "event_id": "ba0fb558f1128815",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce Announces State of Sales Report for 2026",
+      "canonical_url": "https://salesforce.com/news/stories/state-of-sales-report-announcement-2026",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-06-29T07:09:30+00:00",
+      "last_seen_at": "2026-06-29T07:09:30+00:00"
+    },
+    {
+      "event_id": "ab100f457255ab38",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce and Anthropic Bring Trusted Business Context and AI Actions to Claude Through Slack and Agentforce 360",
+      "canonical_url": "https://salesforce.com/news/stories/salesforce-anthropic-trusted-context-ai-actions-on-claude",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-06-29T07:09:30+00:00",
+      "last_seen_at": "2026-06-29T07:09:30+00:00"
+    },
+    {
+      "event_id": "04b88d0fa7f2e9d9",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Summer '26 Release: Top Development & Security Features",
+      "canonical_url": "https://salesforce.com/blog/platform-summer-26-release",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-06-29T07:09:30+00:00",
+      "last_seen_at": "2026-06-29T07:09:30+00:00"
+    },
+    {
+      "event_id": "febfeed555b64fff",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce Signs Definitive Agreement to Acquire Fin",
+      "canonical_url": "https://salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-06-22T07:10:25+00:00",
+      "last_seen_at": "2026-06-22T07:10:25+00:00"
+    },
+    {
+      "event_id": "ef1791cf42496c00",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce MFA Enforcement Now Live in Sandboxes: Phishing-Resistant MFA Required for Privileged Users from June 22",
+      "canonical_url": "https://help.salesforce.com/s/articleView?language=en_US&id=005317465&type=1",
+      "source_domain": "help.salesforce.com",
+      "first_sent_at": "2026-06-22T07:10:25+00:00",
+      "last_seen_at": "2026-06-22T07:10:25+00:00"
+    },
+    {
+      "event_id": "3fe95b4f240d8f9b",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Why Has Salesforce Stock Hit a New Three-Year Low?",
+      "canonical_url": "https://salesforceben.com/why-has-salesforce-stock-hit-a-new-three-year-low",
+      "source_domain": "salesforceben.com",
+      "first_sent_at": "2026-06-22T07:10:25+00:00",
+      "last_seen_at": "2026-06-22T07:10:25+00:00"
+    },
+    {
+      "event_id": "2d50854f8a9a61a7",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Fable 5 becomes permanent in Max and Team Premium plans at 50% usage limit starting July 20; Pro and Team Standard moved to usage credits with one-time $100 credit",
+      "canonical_url": "https://the-decoder.com/anthropic-slashes-claude-fable-5-limits-in-max-and-team-premium-and-pushes-pro-users-toward-api-pricing",
+      "source_domain": "the-decoder.com",
+      "first_sent_at": "2026-07-20T07:16:13+00:00",
+      "last_seen_at": "2026-07-20T07:16:13+00:00"
+    },
     {
       "event_id": "f5508f38002281d8",
       "routine": "claude-news",
@@ -180,6 +380,16 @@
       "canonical_url": "https://thehill.com/policy/technology/5968601-claude-for-teachers-launch",
       "source_domain": "thehill.com",
       "first_sent_at": "2026-07-15T07:12:26+00:00",
+      "last_seen_at": "2026-07-15T07:12:26+00:00"
+    },
+    {
+      "event_id": "326369c3123c94b4",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.193: autoMode.classifyAllShell setting, live bash path autocomplete, background agent improvements",
+      "canonical_url": "https://releasebot.io/updates/anthropic/claude-code",
+      "source_domain": "releasebot.io",
+      "first_sent_at": "2026-06-26T07:03:46+00:00",
       "last_seen_at": "2026-07-15T07:12:26+00:00"
     },
     {
@@ -693,16 +903,6 @@
       "last_seen_at": "2026-06-26T07:03:46+00:00"
     },
     {
-      "event_id": "326369c3123c94b4",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.193: autoMode.classifyAllShell setting, live bash path autocomplete, background agent improvements",
-      "canonical_url": "https://releasebot.io/updates/anthropic/claude-code",
-      "source_domain": "releasebot.io",
-      "first_sent_at": "2026-06-26T07:03:46+00:00",
-      "last_seen_at": "2026-07-15T07:12:26+00:00"
-    },
-    {
       "event_id": "fa7a61c33d8e2f62",
       "routine": "claude-news",
       "topic": "claude-ai",
@@ -771,226 +971,6 @@
       "source_domain": "github.com",
       "first_sent_at": "2026-06-21T07:05:30+00:00",
       "last_seen_at": "2026-06-21T07:05:30+00:00"
-    },
-    {
-      "event_id": "9e33f7b5e3bedb2c",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Steering Claude Code: skills, hooks, subagents and more",
-      "canonical_url": "https://code.claude.com/docs/en/whats-new",
-      "source_domain": "code.claude.com",
-      "first_sent_at": "2026-06-20T07:05:35+00:00",
-      "last_seen_at": "2026-06-20T07:05:35+00:00"
-    },
-    {
-      "event_id": "7f97e3a16a9eb6e2",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Enterprise adds admin permissions to custom roles for granular access control",
-      "canonical_url": "https://releasebot.io/updates/anthropic/claude",
-      "source_domain": "releasebot.io",
-      "first_sent_at": "2026-06-20T07:05:35+00:00",
-      "last_seen_at": "2026-06-20T07:05:35+00:00"
-    },
-    {
-      "event_id": "5266eebccc6c225b",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.183: enhanced auto mode safety blocks destructive git commands without explicit approval",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.183",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-06-20T07:05:35+00:00",
-      "last_seen_at": "2026-06-20T07:05:35+00:00"
-    },
-    {
-      "event_id": "a9d99d2491b2b6bd",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce MFA Enforcement Now Live in Production Orgs: All Users Require Phishing-Resistant MFA from July 20",
-      "canonical_url": "https://admin.salesforce.com/blog/2026/prepare-your-org-for-salesforce-mfa-enforcement",
-      "source_domain": "admin.salesforce.com",
-      "first_sent_at": "2026-07-20T07:09:18+00:00",
-      "last_seen_at": "2026-07-20T07:09:18+00:00"
-    },
-    {
-      "event_id": "850495182e7178ad",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Announcing the Headless 360 MCP Server Beta: Discover, Describe, Dispatch and 100+ Admin Skills for AI Agents",
-      "canonical_url": "https://developer.salesforce.com/blogs/2026/07/announcing-the-headless-360-mcp-server-beta",
-      "source_domain": "developer.salesforce.com",
-      "first_sent_at": "2026-07-20T07:09:18+00:00",
-      "last_seen_at": "2026-07-20T07:09:18+00:00"
-    },
-    {
-      "event_id": "81e8df41994f64af",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "U.S. Air Force Leverages Missionforce to Modernize Sustainment and Operations for $13.5 Billion Vehicle Fleet",
-      "canonical_url": "https://salesforce.com/news/press-releases/2026/07/08/us-air-force-missionforce-modernize-sustainment-operations",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-07-20T07:09:18+00:00",
-      "last_seen_at": "2026-07-20T07:09:18+00:00"
-    },
-    {
-      "event_id": "68949c525b958ba1",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce Deepens Commitment to Switzerland with $1 Billion Investment to Accelerate Agentic AI Transformation",
-      "canonical_url": "https://salesforce.com/news/press-releases/2026/07/07/1-billion-ai-transformation-investment-switzerland",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-07-13T07:08:43+00:00",
-      "last_seen_at": "2026-07-13T07:08:43+00:00"
-    },
-    {
-      "event_id": "453bf35232f9540f",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce Signs Definitive Agreement to Acquire m3ter, a Metering and Rating Platform for Consumption-Based Billing",
-      "canonical_url": "https://salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-m3ter",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-07-13T07:08:43+00:00",
-      "last_seen_at": "2026-07-13T07:08:43+00:00"
-    },
-    {
-      "event_id": "402e63b3b29ba3d9",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Agentforce Builder Replaces Legacy Builder Starting Week of July 13: New Agents Must Be Created in Agentforce Studio",
-      "canonical_url": "https://salesforce.com/agentforce/what-is-new",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-07-13T07:08:43+00:00",
-      "last_seen_at": "2026-07-13T07:08:43+00:00"
-    },
-    {
-      "event_id": "0b07e910a35b15bc",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce Launches Agentforce Help Agent That Deploys in Minutes and Only Charges for Resolutions",
-      "canonical_url": "https://salesforce.com/news/stories/agentforce-help-agent-announcement",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-07-13T07:08:43+00:00",
-      "last_seen_at": "2026-07-13T07:08:43+00:00"
-    },
-    {
-      "event_id": "cce098db4a042c3d",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "As AI Agents Transform Commerce, Salesforce Unleashes Its Biggest Agentforce Commerce Release Yet",
-      "canonical_url": "https://salesforce.com/news/stories/agentforce-commerce-announcement",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-07-06T07:08:34+00:00",
-      "last_seen_at": "2026-07-06T07:08:34+00:00"
-    },
-    {
-      "event_id": "23a5cfe95c7417d5",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Global leaders launch AI for Good Global Commission to expand access, strengthen trust and accelerate impact",
-      "canonical_url": "https://salesforce.com/news/press-releases/2026/07/02/ai-for-good-global-commission-announcement",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-07-06T07:08:34+00:00",
-      "last_seen_at": "2026-07-06T07:08:34+00:00"
-    },
-    {
-      "event_id": "04e6975d857839aa",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "How Salesforce is Closing the AI Skills Gap",
-      "canonical_url": "https://salesforce.com/news/stories/salesforce-closing-ai-skills-gap",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-07-06T07:08:34+00:00",
-      "last_seen_at": "2026-07-06T07:08:34+00:00"
-    },
-    {
-      "event_id": "cac1fad388c8d480",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Anthropic and Salesforce Expand Strategic Partnership to Bring Claude to Regulated Industries",
-      "canonical_url": "https://anthropic.com/news/salesforce-anthropic-expanded-partnership",
-      "source_domain": "anthropic.com",
-      "first_sent_at": "2026-06-29T07:09:30+00:00",
-      "last_seen_at": "2026-06-29T07:09:30+00:00"
-    },
-    {
-      "event_id": "c727c4f8c4e40e27",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce Summer 2026 Product Release Announcement",
-      "canonical_url": "https://salesforce.com/news/stories/summer-2026-product-release-announcement",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-06-29T07:09:30+00:00",
-      "last_seen_at": "2026-06-29T07:09:30+00:00"
-    },
-    {
-      "event_id": "c221ce229a321840",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Agentforce Life Sciences: June 2026 Newsletter",
-      "canonical_url": "https://salesforce.com/blog/agentforce-life-sciences-june-2026-newsletter",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-06-29T07:09:30+00:00",
-      "last_seen_at": "2026-06-29T07:09:30+00:00"
-    },
-    {
-      "event_id": "ba0fb558f1128815",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce Announces State of Sales Report for 2026",
-      "canonical_url": "https://salesforce.com/news/stories/state-of-sales-report-announcement-2026",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-06-29T07:09:30+00:00",
-      "last_seen_at": "2026-06-29T07:09:30+00:00"
-    },
-    {
-      "event_id": "ab100f457255ab38",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce and Anthropic Bring Trusted Business Context and AI Actions to Claude Through Slack and Agentforce 360",
-      "canonical_url": "https://salesforce.com/news/stories/salesforce-anthropic-trusted-context-ai-actions-on-claude",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-06-29T07:09:30+00:00",
-      "last_seen_at": "2026-06-29T07:09:30+00:00"
-    },
-    {
-      "event_id": "04b88d0fa7f2e9d9",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Summer '26 Release: Top Development & Security Features",
-      "canonical_url": "https://salesforce.com/blog/platform-summer-26-release",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-06-29T07:09:30+00:00",
-      "last_seen_at": "2026-06-29T07:09:30+00:00"
-    },
-    {
-      "event_id": "febfeed555b64fff",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce Signs Definitive Agreement to Acquire Fin",
-      "canonical_url": "https://salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-06-22T07:10:25+00:00",
-      "last_seen_at": "2026-06-22T07:10:25+00:00"
-    },
-    {
-      "event_id": "ef1791cf42496c00",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce MFA Enforcement Now Live in Sandboxes: Phishing-Resistant MFA Required for Privileged Users from June 22",
-      "canonical_url": "https://help.salesforce.com/s/articleView?language=en_US&id=005317465&type=1",
-      "source_domain": "help.salesforce.com",
-      "first_sent_at": "2026-06-22T07:10:25+00:00",
-      "last_seen_at": "2026-06-22T07:10:25+00:00"
-    },
-    {
-      "event_id": "3fe95b4f240d8f9b",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Why Has Salesforce Stock Hit a New Three-Year Low?",
-      "canonical_url": "https://salesforceben.com/why-has-salesforce-stock-hit-a-new-three-year-low",
-      "source_domain": "salesforceben.com",
-      "first_sent_at": "2026-06-22T07:10:25+00:00",
-      "last_seen_at": "2026-06-22T07:10:25+00:00"
     }
   ]
 }
