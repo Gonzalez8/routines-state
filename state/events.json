@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-07-20T07:16:15+00:00",
+  "updated_at": "2026-07-21T07:20:11+00:00",
   "items": [
     {
       "event_id": "a9d99d2491b2b6bd",
@@ -191,6 +191,36 @@
       "source_domain": "salesforceben.com",
       "first_sent_at": "2026-06-22T07:10:25+00:00",
       "last_seen_at": "2026-06-22T07:10:25+00:00"
+    },
+    {
+      "event_id": "b8027b6ac9afdc9b",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Apply for Anthropic's AI for Science rare disease research grants",
+      "canonical_url": "https://anthropic.com/news/rare-disease-research-grants",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-07-21T07:20:11+00:00",
+      "last_seen_at": "2026-07-21T07:20:11+00:00"
+    },
+    {
+      "event_id": "782dc5d2bb873709",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic's landmark $1.5B copyright settlement with book authors approved",
+      "canonical_url": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved",
+      "source_domain": "techcrunch.com",
+      "first_sent_at": "2026-07-21T07:20:11+00:00",
+      "last_seen_at": "2026-07-21T07:20:11+00:00"
+    },
+    {
+      "event_id": "71099e809dbe3799",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic, Blackstone, and Hellman & Friedman Introduce Ode with Anthropic, an Enterprise AI Services Firm",
+      "canonical_url": "https://businesswire.com/news/home/20260715205134/en/Anthropic-Blackstone-and-Hellman-Friedman-Introduce-Ode-with-Anthropic-an-Enterprise-AI-Services-Firm",
+      "source_domain": "businesswire.com",
+      "first_sent_at": "2026-07-21T07:20:11+00:00",
+      "last_seen_at": "2026-07-21T07:20:11+00:00"
     },
     {
       "event_id": "2d50854f8a9a61a7",
@@ -961,16 +991,6 @@
       "source_domain": "support.claude.com",
       "first_sent_at": "2026-06-22T07:03:44+00:00",
       "last_seen_at": "2026-06-22T07:03:44+00:00"
-    },
-    {
-      "event_id": "d8e7a36f6ee3d0c8",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.185: stream-stall hint message improved to 'Waiting for API response'",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.185",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-06-21T07:05:30+00:00",
-      "last_seen_at": "2026-06-21T07:05:30+00:00"
     }
   ]
 }
