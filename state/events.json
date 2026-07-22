@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-07-21T07:20:11+00:00",
+  "updated_at": "2026-07-22T07:15:46+00:00",
   "items": [
     {
       "event_id": "a9d99d2491b2b6bd",
@@ -191,6 +191,46 @@
       "source_domain": "salesforceben.com",
       "first_sent_at": "2026-06-22T07:10:25+00:00",
       "last_seen_at": "2026-06-22T07:10:25+00:00"
+    },
+    {
+      "event_id": "d7184fb3e3452c4c",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.217: emoji shortcode autocomplete and tighter subagent/budget controls",
+      "canonical_url": "https://code.claude.com/docs/en/whats-new",
+      "source_domain": "code.claude.com",
+      "first_sent_at": "2026-07-22T07:15:46+00:00",
+      "last_seen_at": "2026-07-22T07:15:46+00:00"
+    },
+    {
+      "event_id": "b02e3e4c3292451e",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic adds agent-memory-2026-07-22 beta header: new stable ordering and stricter depth/path_prefix rules for memory store API",
+      "canonical_url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "source_domain": "platform.claude.com",
+      "first_sent_at": "2026-07-22T07:15:46+00:00",
+      "last_seen_at": "2026-07-22T07:15:46+00:00"
+    },
+    {
+      "event_id": "9c55610ad0411c91",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic retiring legacy Workbench and experimental prompt tools APIs on August 17, 2026",
+      "canonical_url": "https://docs.anthropic.com/en/release-notes/api",
+      "source_domain": "docs.anthropic.com",
+      "first_sent_at": "2026-07-22T07:15:46+00:00",
+      "last_seen_at": "2026-07-22T07:15:46+00:00"
+    },
+    {
+      "event_id": "09303abc657c1d25",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.216: sandbox.filesystem.disabled setting and fix for quadratic message normalization stalls in long sessions",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.216",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-07-22T07:15:46+00:00",
+      "last_seen_at": "2026-07-22T07:15:46+00:00"
     },
     {
       "event_id": "b8027b6ac9afdc9b",
@@ -971,26 +1011,6 @@
       "source_domain": "anthropic.com",
       "first_sent_at": "2026-06-25T07:03:09+00:00",
       "last_seen_at": "2026-06-25T07:03:09+00:00"
-    },
-    {
-      "event_id": "ae614b6e25e94d12",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic Claude AI sufre caída global de 90 minutos afectando Opus 4.8, 4.7, 4.6 y todos los planes",
-      "canonical_url": "https://status.anthropic.com/incidents/jun-22-2026",
-      "source_domain": "status.anthropic.com",
-      "first_sent_at": "2026-06-22T07:03:44+00:00",
-      "last_seen_at": "2026-06-22T07:03:44+00:00"
-    },
-    {
-      "event_id": "a9e547daf75ca0c7",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Fable 5 deja de estar incluido en planes de suscripción de Claude a partir del 28 de junio: los usuarios de Pro y Max vuelven a pagar por token",
-      "canonical_url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "source_domain": "support.claude.com",
-      "first_sent_at": "2026-06-22T07:03:44+00:00",
-      "last_seen_at": "2026-06-22T07:03:44+00:00"
     }
   ]
 }
