@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-07-23T07:15:32+00:00",
+  "updated_at": "2026-07-24T07:15:36+00:00",
   "items": [
     {
       "event_id": "a9d99d2491b2b6bd",
@@ -191,6 +191,56 @@
       "source_domain": "salesforceben.com",
       "first_sent_at": "2026-06-22T07:10:25+00:00",
       "last_seen_at": "2026-06-22T07:10:25+00:00"
+    },
+    {
+      "event_id": "791c7e287e7d81e6",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "How Claude Code works in large codebases: Best practices and where to start",
+      "canonical_url": "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start",
+      "source_domain": "claude.com",
+      "first_sent_at": "2026-07-24T07:15:33+00:00",
+      "last_seen_at": "2026-07-24T07:15:33+00:00"
+    },
+    {
+      "event_id": "7034dec0b8bd7bb9",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Fast mode for Opus 4.7 deprecated and removed July 24 2026",
+      "canonical_url": "https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-8",
+      "source_domain": "platform.claude.com",
+      "first_sent_at": "2026-07-24T07:15:33+00:00",
+      "last_seen_at": "2026-07-24T07:15:33+00:00"
+    },
+    {
+      "event_id": "3fb5d4c486f93190",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "The Anthropic Economic Index connector for Claude",
+      "canonical_url": "https://anthropic.com/news/anthropic-economic-index-connector",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-07-24T07:15:33+00:00",
+      "last_seen_at": "2026-07-24T07:15:33+00:00"
+    },
+    {
+      "event_id": "1ee1e1f00743f734",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.218: /code-review runs as background subagent, Windows path corruption fix, and 37 stability fixes",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.218",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-07-24T07:15:33+00:00",
+      "last_seen_at": "2026-07-24T07:15:33+00:00"
+    },
+    {
+      "event_id": "07886dee851eeeab",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic updates Claude voice mode with Opus and Sonnet models and cross-app automation",
+      "canonical_url": "https://claude.com/blog/think-through-hard-problems-in-voice-mode",
+      "source_domain": "claude.com",
+      "first_sent_at": "2026-07-24T07:15:33+00:00",
+      "last_seen_at": "2026-07-24T07:15:33+00:00"
     },
     {
       "event_id": "c13e0165139328b6",
