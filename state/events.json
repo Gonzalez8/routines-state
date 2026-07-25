@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-07-24T07:15:36+00:00",
+  "updated_at": "2026-07-25T07:11:54+00:00",
   "items": [
     {
       "event_id": "a9d99d2491b2b6bd",
@@ -191,6 +191,36 @@
       "source_domain": "salesforceben.com",
       "first_sent_at": "2026-06-22T07:10:25+00:00",
       "last_seen_at": "2026-06-22T07:10:25+00:00"
+    },
+    {
+      "event_id": "af2fe4b731ab19a1",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.219: Opus default switched to Claude Opus 5 (1M context), fast mode at $10/$50 per Mtok",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.219",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-07-25T07:11:51+00:00",
+      "last_seen_at": "2026-07-25T07:11:51+00:00"
+    },
+    {
+      "event_id": "6121fc06560ac364",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.220: bug fixes and reliability improvements",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.220",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-07-25T07:11:51+00:00",
+      "last_seen_at": "2026-07-25T07:11:51+00:00"
+    },
+    {
+      "event_id": "394e5c4669d9368b",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Introducing Claude Opus 5",
+      "canonical_url": "https://anthropic.com/news/claude-opus-5",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-07-25T07:11:51+00:00",
+      "last_seen_at": "2026-07-25T07:11:51+00:00"
     },
     {
       "event_id": "791c7e287e7d81e6",
@@ -1051,46 +1081,6 @@
       "source_domain": "techcrunch.com",
       "first_sent_at": "2026-06-26T07:03:46+00:00",
       "last_seen_at": "2026-06-26T07:03:46+00:00"
-    },
-    {
-      "event_id": "fa7a61c33d8e2f62",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic accuses Alibaba of illicitly accessing Claude AI model in largest known AI misuse case",
-      "canonical_url": "https://techcrunch.com/2026/06/24/anthropic-accuses-alibaba-of-illicitly-accessing-claude-ai-model",
-      "source_domain": "techcrunch.com",
-      "first_sent_at": "2026-06-25T07:03:09+00:00",
-      "last_seen_at": "2026-06-25T07:03:09+00:00"
-    },
-    {
-      "event_id": "62c40b98c6a5b33d",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.187: sandbox.credentials setting, org model restrictions, fullscreen controls",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.187",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-06-25T07:03:09+00:00",
-      "last_seen_at": "2026-06-25T07:03:09+00:00"
-    },
-    {
-      "event_id": "2a0c60ec2dd8f5c3",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Micron and Anthropic announce strategic agreement to scale next-generation AI infrastructure",
-      "canonical_url": "https://investors.micron.com/news-releases/news-release-details/micron-and-anthropic-announce-strategic-agreement-scale-next",
-      "source_domain": "investors.micron.com",
-      "first_sent_at": "2026-06-25T07:03:09+00:00",
-      "last_seen_at": "2026-06-25T07:03:09+00:00"
-    },
-    {
-      "event_id": "0e4b5d1ebb1d2fe4",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic launches Claude Tag: persistent AI teammate inside Slack for Enterprise and Team customers",
-      "canonical_url": "https://anthropic.com/news/introducing-claude-tag",
-      "source_domain": "anthropic.com",
-      "first_sent_at": "2026-06-25T07:03:09+00:00",
-      "last_seen_at": "2026-06-25T07:03:09+00:00"
     }
   ]
 }
