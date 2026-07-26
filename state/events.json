@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-07-25T07:11:54+00:00",
+  "updated_at": "2026-07-26T07:15:12+00:00",
   "items": [
     {
       "event_id": "a9d99d2491b2b6bd",
@@ -191,6 +191,36 @@
       "source_domain": "salesforceben.com",
       "first_sent_at": "2026-06-22T07:10:25+00:00",
       "last_seen_at": "2026-06-22T07:10:25+00:00"
+    },
+    {
+      "event_id": "dda1ad17a71dc39f",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Mid-conversation tool changes beta: add or remove tools between turns while preserving prompt cache",
+      "canonical_url": "https://platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages",
+      "source_domain": "platform.claude.com",
+      "first_sent_at": "2026-07-26T07:15:06+00:00",
+      "last_seen_at": "2026-07-26T07:15:06+00:00"
+    },
+    {
+      "event_id": "71635f9c6e3eef8f",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic's relentless cadence: four flagship models in two months — Mythos 5, Fable 5, Sonnet 5, Opus 5",
+      "canonical_url": "https://buildfastwithai.com/blogs/ai-news-today-july-26-2026",
+      "source_domain": "buildfastwithai.com",
+      "first_sent_at": "2026-07-26T07:15:06+00:00",
+      "last_seen_at": "2026-07-26T07:15:06+00:00"
+    },
+    {
+      "event_id": "2fea5488e781adb1",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Opus 5: the new leader in agentic knowledge work",
+      "canonical_url": "https://artificialanalysis.ai/articles/claude-opus-5-leader-agentic-knowledge-work",
+      "source_domain": "artificialanalysis.ai",
+      "first_sent_at": "2026-07-26T07:15:06+00:00",
+      "last_seen_at": "2026-07-26T07:15:06+00:00"
     },
     {
       "event_id": "af2fe4b731ab19a1",
@@ -1071,16 +1101,6 @@
       "source_domain": "9to5mac.com",
       "first_sent_at": "2026-06-27T07:04:00+00:00",
       "last_seen_at": "2026-06-27T07:04:00+00:00"
-    },
-    {
-      "event_id": "aeed3e6e8a19dc06",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic's Claude is winning over paid consumers, a market owned by ChatGPT",
-      "canonical_url": "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt",
-      "source_domain": "techcrunch.com",
-      "first_sent_at": "2026-06-26T07:03:46+00:00",
-      "last_seen_at": "2026-06-26T07:03:46+00:00"
     }
   ]
 }
