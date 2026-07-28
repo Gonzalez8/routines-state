@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-07-27T07:26:33+00:00",
+  "updated_at": "2026-07-28T07:19:07+00:00",
   "items": [
     {
       "event_id": "be1dded7503b5d3a",
@@ -191,6 +191,26 @@
       "source_domain": "salesforce.com",
       "first_sent_at": "2026-06-29T07:09:30+00:00",
       "last_seen_at": "2026-06-29T07:09:30+00:00"
+    },
+    {
+      "event_id": "5ca995a203c2ef10",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic publica su posición oficial sobre los modelos open-weights",
+      "canonical_url": "https://anthropic.com/news/position-open-weights-models",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-07-28T07:18:58+00:00",
+      "last_seen_at": "2026-07-28T07:18:58+00:00"
+    },
+    {
+      "event_id": "01ff846b91b3ec48",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Cognizant y Anthropic amplían su asociación para llevar Claude a clientes empresariales",
+      "canonical_url": "https://anthropic.com/news/cognizant-anthropic",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-07-28T07:18:58+00:00",
+      "last_seen_at": "2026-07-28T07:18:58+00:00"
     },
     {
       "event_id": "dc045bc32e59ffac",
@@ -1081,36 +1101,6 @@
       "source_domain": "hidekazu-konishi.com",
       "first_sent_at": "2026-06-30T07:04:43+00:00",
       "last_seen_at": "2026-06-30T07:04:43+00:00"
-    },
-    {
-      "event_id": "cd8c735a9cc7fa10",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude adds Trusted Devices for Remote Control on Team and Enterprise plans to verify devices before remote sessions",
-      "canonical_url": "https://releasebot.io/updates/anthropic/claude",
-      "source_domain": "releasebot.io",
-      "first_sent_at": "2026-06-28T07:05:28+00:00",
-      "last_seen_at": "2026-06-28T07:05:28+00:00"
-    },
-    {
-      "event_id": "47140c7954cf62a5",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.195: CLAUDE_CODE_DISABLE_MOUSE_CLICKS, exact hook matcher fix, voice dictation improvements",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.195",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-06-28T07:05:28+00:00",
-      "last_seen_at": "2026-06-28T07:05:28+00:00"
-    },
-    {
-      "event_id": "084ad6857c3a3c0d",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.191: /rewind command to resume conversations before /clear, 37% CPU reduction during streaming",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.191",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-06-28T07:05:28+00:00",
-      "last_seen_at": "2026-06-28T07:05:28+00:00"
     }
   ]
 }
