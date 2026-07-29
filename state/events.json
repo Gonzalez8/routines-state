@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-07-28T07:19:07+00:00",
+  "updated_at": "2026-07-29T07:16:06+00:00",
   "items": [
     {
       "event_id": "be1dded7503b5d3a",
@@ -191,6 +191,36 @@
       "source_domain": "salesforce.com",
       "first_sent_at": "2026-06-29T07:09:30+00:00",
       "last_seen_at": "2026-06-29T07:09:30+00:00"
+    },
+    {
+      "event_id": "aae10a73e529925b",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "The new rules of context engineering for Claude 5 generation models",
+      "canonical_url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
+      "source_domain": "claude.com",
+      "first_sent_at": "2026-07-29T07:16:03+00:00",
+      "last_seen_at": "2026-07-29T07:16:03+00:00"
+    },
+    {
+      "event_id": "a2c81c3a38dbe01a",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Discovering cryptographic weaknesses with Claude",
+      "canonical_url": "https://anthropic.com/research/discovering-cryptographic-weaknesses",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-07-29T07:16:03+00:00",
+      "last_seen_at": "2026-07-29T07:16:03+00:00"
+    },
+    {
+      "event_id": "23a5eb8b6a1cfd4f",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "MCP 2026-07-28 spec: stateless core, coming to Claude",
+      "canonical_url": "https://claude.com/blog/bringing-mcp-2026-07-28-to-claude",
+      "source_domain": "claude.com",
+      "first_sent_at": "2026-07-29T07:16:03+00:00",
+      "last_seen_at": "2026-07-29T07:16:03+00:00"
     },
     {
       "event_id": "5ca995a203c2ef10",
