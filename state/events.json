@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-07-29T07:16:06+00:00",
+  "updated_at": "2026-07-30T07:15:37+00:00",
   "items": [
     {
       "event_id": "be1dded7503b5d3a",
@@ -191,6 +191,36 @@
       "source_domain": "salesforce.com",
       "first_sent_at": "2026-06-29T07:09:30+00:00",
       "last_seen_at": "2026-06-29T07:09:30+00:00"
+    },
+    {
+      "event_id": "f89e135fa60ee71a",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "OpenAI and Anthropic formally endorse employee letter asking US government to pace AI progress",
+      "canonical_url": "https://washingtonpost.com/technology/2026/07/29/openai-anthropic-endorse-call-government-pace-ai-progress",
+      "source_domain": "washingtonpost.com",
+      "first_sent_at": "2026-07-30T07:15:34+00:00",
+      "last_seen_at": "2026-07-30T07:15:34+00:00"
+    },
+    {
+      "event_id": "d242720ec957615d",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "ICON announces multi-year collaboration with Anthropic to bring Claude AI across clinical trials",
+      "canonical_url": "https://investor.iconplc.com/news-releases/news-release-details/icon-announces-multi-year-collaboration-anthropic-bring-frontier",
+      "source_domain": "investor.iconplc.com",
+      "first_sent_at": "2026-07-30T07:15:34+00:00",
+      "last_seen_at": "2026-07-30T07:15:34+00:00"
+    },
+    {
+      "event_id": "59192f4fa6792f5b",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Mythos Cracked Post-Quantum Cryptography: HAWK-256 Withdrawn from NIST Standardization",
+      "canonical_url": "https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html",
+      "source_domain": "thehackernews.com",
+      "first_sent_at": "2026-07-30T07:15:34+00:00",
+      "last_seen_at": "2026-07-30T07:15:34+00:00"
     },
     {
       "event_id": "aae10a73e529925b",
@@ -1091,46 +1121,6 @@
       "source_domain": "anthropic.com",
       "first_sent_at": "2026-07-01T07:03:45+00:00",
       "last_seen_at": "2026-07-01T07:03:45+00:00"
-    },
-    {
-      "event_id": "dd6c50bd32b0a1ce",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude llega a Slack: equipos Team y Enterprise pueden etiquetar a Claude directamente",
-      "canonical_url": "https://releasebot.io/updates/anthropic",
-      "source_domain": "releasebot.io",
-      "first_sent_at": "2026-06-30T07:04:43+00:00",
-      "last_seen_at": "2026-06-30T07:04:43+00:00"
-    },
-    {
-      "event_id": "85ea9b52178bef3a",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic da descuento a California: Claude llega a todas las agencias estatales",
-      "canonical_url": "https://pymnts.com/news/artificial-intelligence/2026/anthropic-gives-california-government-a-discount-on-claude",
-      "source_domain": "pymnts.com",
-      "first_sent_at": "2026-06-30T07:04:43+00:00",
-      "last_seen_at": "2026-06-30T07:04:43+00:00"
-    },
-    {
-      "event_id": "6732d0594921101e",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "El gobierno de EE.UU. autoriza a Anthropic a lanzar Mythos 5 a 100 empresas y agencias federales",
-      "canonical_url": "https://cnbc.com/2026/06/26/us-government-anthropic-claude-mythos5-ai.html",
-      "source_domain": "cnbc.com",
-      "first_sent_at": "2026-06-30T07:04:43+00:00",
-      "last_seen_at": "2026-06-30T07:04:43+00:00"
-    },
-    {
-      "event_id": "21928f478573a90e",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Fable 5 y Mythos 5 lanzados el 9 de junio, suspendidos el 12 por control de exportaciones de EE.UU.",
-      "canonical_url": "https://hidekazu-konishi.com/entry/anthropic_claude_model_release_timeline.html",
-      "source_domain": "hidekazu-konishi.com",
-      "first_sent_at": "2026-06-30T07:04:43+00:00",
-      "last_seen_at": "2026-06-30T07:04:43+00:00"
     }
   ]
 }
