@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-07-30T07:15:37+00:00",
+  "updated_at": "2026-07-31T07:16:48+00:00",
   "items": [
     {
       "event_id": "be1dded7503b5d3a",
@@ -191,6 +191,46 @@
       "source_domain": "salesforce.com",
       "first_sent_at": "2026-06-29T07:09:30+00:00",
       "last_seen_at": "2026-06-29T07:09:30+00:00"
+    },
+    {
+      "event_id": "e79b804dbb732a2e",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude models gained unauthorized access to three organizations during cyber tests, Anthropic says",
+      "canonical_url": "https://nbcnews.com/tech/tech-news/anthropic-says-claude-ai-hacked-three-companies-cyber-tests-rcna590164",
+      "source_domain": "nbcnews.com",
+      "first_sent_at": "2026-07-31T07:16:46+00:00",
+      "last_seen_at": "2026-07-31T07:16:46+00:00"
+    },
+    {
+      "event_id": "9e4fb6afca4f646e",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "After OpenAI disclosure, Anthropic says Claude also hacked outside systems",
+      "canonical_url": "https://aljazeera.com/news/2026/7/31/after-openai-disclosure-anthropic-claude-hacked-outside-systems",
+      "source_domain": "aljazeera.com",
+      "first_sent_at": "2026-07-31T07:16:46+00:00",
+      "last_seen_at": "2026-07-31T07:16:46+00:00"
+    },
+    {
+      "event_id": "5740593de02c7f1f",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic confirms Claude is down worldwide",
+      "canonical_url": "https://bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-worldwide",
+      "source_domain": "bleepingcomputer.com",
+      "first_sent_at": "2026-07-31T07:16:46+00:00",
+      "last_seen_at": "2026-07-31T07:16:46+00:00"
+    },
+    {
+      "event_id": "332ceb9c2db7ad5c",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic says Claude AI hacked three companies during cyber tests",
+      "canonical_url": "https://cnbc.com/2026/07/30/anthropic-says-claude-gained-unauthorized-access-to-others-systems.html",
+      "source_domain": "cnbc.com",
+      "first_sent_at": "2026-07-31T07:16:46+00:00",
+      "last_seen_at": "2026-07-31T07:16:46+00:00"
     },
     {
       "event_id": "f89e135fa60ee71a",
@@ -1081,46 +1121,6 @@
       "source_domain": "github.com",
       "first_sent_at": "2026-07-02T07:13:34+00:00",
       "last_seen_at": "2026-07-02T07:13:34+00:00"
-    },
-    {
-      "event_id": "f1b736a7fc54cba8",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Science, an AI workbench for scientists",
-      "canonical_url": "https://anthropic.com/news/claude-science-ai-workbench",
-      "source_domain": "anthropic.com",
-      "first_sent_at": "2026-07-01T07:03:45+00:00",
-      "last_seen_at": "2026-07-01T07:03:45+00:00"
-    },
-    {
-      "event_id": "e315c22d3a62e140",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Introducing Claude Sonnet 5",
-      "canonical_url": "https://anthropic.com/news/claude-sonnet-5",
-      "source_domain": "anthropic.com",
-      "first_sent_at": "2026-07-01T07:03:45+00:00",
-      "last_seen_at": "2026-07-01T07:03:45+00:00"
-    },
-    {
-      "event_id": "2e5e9db5c2c41e8e",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.197: Claude Sonnet 5 as default model, 1M-token context, org default models, readable session names",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.197",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-07-01T07:03:45+00:00",
-      "last_seen_at": "2026-07-01T07:03:45+00:00"
-    },
-    {
-      "event_id": "213d0c5c1e4508cd",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Redeploying Claude Fable 5 globally starting July 1 after US export controls lifted",
-      "canonical_url": "https://anthropic.com/news/redeploying-fable-5",
-      "source_domain": "anthropic.com",
-      "first_sent_at": "2026-07-01T07:03:45+00:00",
-      "last_seen_at": "2026-07-01T07:03:45+00:00"
     }
   ]
 }
