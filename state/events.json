@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-07-31T07:16:48+00:00",
+  "updated_at": "2026-08-01T07:16:07+00:00",
   "items": [
     {
       "event_id": "be1dded7503b5d3a",
@@ -191,6 +191,36 @@
       "source_domain": "salesforce.com",
       "first_sent_at": "2026-06-29T07:09:30+00:00",
       "last_seen_at": "2026-06-29T07:09:30+00:00"
+    },
+    {
+      "event_id": "f6f44ad759a9873f",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Sonnet 5 promotional pricing ends August 31: standard rate $3/$15 per MTok takes effect September 1",
+      "canonical_url": "https://platform.claude.com/docs/en/about-claude/models/whats-new-sonnet-5",
+      "source_domain": "platform.claude.com",
+      "first_sent_at": "2026-08-01T07:16:04+00:00",
+      "last_seen_at": "2026-08-01T07:16:04+00:00"
+    },
+    {
+      "event_id": "d41428ff389caf41",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic extends Claude Code 50% weekly usage boost through August 19, 2026",
+      "canonical_url": "https://explainx.ai/blog/claude-usage-limits-2026-timeline-explained",
+      "source_domain": "explainx.ai",
+      "first_sent_at": "2026-08-01T07:16:04+00:00",
+      "last_seen_at": "2026-08-01T07:16:04+00:00"
+    },
+    {
+      "event_id": "21172e84b76c79aa",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic publishes official investigation into three real-world cybersecurity evaluation incidents",
+      "canonical_url": "https://anthropic.com/news/investigating-incidents-cybersecurity-evals",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-08-01T07:16:04+00:00",
+      "last_seen_at": "2026-08-01T07:16:04+00:00"
     },
     {
       "event_id": "e79b804dbb732a2e",
@@ -1071,56 +1101,6 @@
       "source_domain": "github.com",
       "first_sent_at": "2026-07-03T07:11:56+00:00",
       "last_seen_at": "2026-07-03T07:11:56+00:00"
-    },
-    {
-      "event_id": "f6286ebb18ffadc9",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic updates privacy policy to require government ID and facial biometrics from some Claude users starting July 8",
-      "canonical_url": "https://techcrunch.com/2026/06/22/anthropic-says-claude-may-want-to-see-your-id",
-      "source_domain": "techcrunch.com",
-      "first_sent_at": "2026-07-02T07:13:34+00:00",
-      "last_seen_at": "2026-07-02T07:13:34+00:00"
-    },
-    {
-      "event_id": "ed25b2e261a79fde",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Introducing the Claude apps gateway for Amazon Bedrock and Google Cloud",
-      "canonical_url": "https://claude.com/blog/introducing-the-claude-apps-gateway",
-      "source_domain": "claude.com",
-      "first_sent_at": "2026-07-02T07:13:34+00:00",
-      "last_seen_at": "2026-07-02T07:13:34+00:00"
-    },
-    {
-      "event_id": "d539ad0840e0855d",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Higher usage limits for Claude and a compute deal with SpaceX",
-      "canonical_url": "https://anthropic.com/news/higher-limits-spacex",
-      "source_domain": "anthropic.com",
-      "first_sent_at": "2026-07-02T07:13:34+00:00",
-      "last_seen_at": "2026-07-02T07:13:34+00:00"
-    },
-    {
-      "event_id": "5da5866778ff4245",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude in Microsoft Foundry is now generally available",
-      "canonical_url": "https://claude.com/blog/claude-in-microsoft-foundry",
-      "source_domain": "claude.com",
-      "first_sent_at": "2026-07-02T07:13:34+00:00",
-      "last_seen_at": "2026-07-02T07:13:34+00:00"
-    },
-    {
-      "event_id": "29f3c2d9235c4828",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.198: background agent notifications, /dataviz skill, Claude in Chrome GA",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.198",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-07-02T07:13:34+00:00",
-      "last_seen_at": "2026-07-02T07:13:34+00:00"
     }
   ]
 }
