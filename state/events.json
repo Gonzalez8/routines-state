@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-01T07:16:07+00:00",
+  "updated_at": "2026-08-02T07:14:15+00:00",
   "items": [
     {
       "event_id": "be1dded7503b5d3a",
@@ -191,6 +191,36 @@
       "source_domain": "salesforce.com",
       "first_sent_at": "2026-06-29T07:09:30+00:00",
       "last_seen_at": "2026-06-29T07:09:30+00:00"
+    },
+    {
+      "event_id": "926ce3d92368498a",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Tag goes live August 3 on Team and Enterprise Slack: mandatory auto-migration for all workspaces not yet opted in",
+      "canonical_url": "https://venturebeat.com/technology/anthropic-launches-claude-tag-replacing-its-slack-app-with-a-persistent-ai-teammate-that-learns-monitors-and-works-autonomously",
+      "source_domain": "venturebeat.com",
+      "first_sent_at": "2026-08-02T07:14:12+00:00",
+      "last_seen_at": "2026-08-02T07:14:12+00:00"
+    },
+    {
+      "event_id": "8d1ed43c1c40c89c",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Managed Agents webhooks, multiagent orchestration, and self-hosted sandboxes now available on Claude Platform on AWS",
+      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/claude-platform-aws",
+      "source_domain": "aws.amazon.com",
+      "first_sent_at": "2026-08-02T07:14:12+00:00",
+      "last_seen_at": "2026-08-02T07:14:12+00:00"
+    },
+    {
+      "event_id": "3a8a801f558fcc4b",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Opus 4.1 (claude-opus-4-1-20250805) retires from the API on August 5, 2026: migrate to Claude Opus 4.8",
+      "canonical_url": "https://therouter.ai/news/anthropic-deprecates-claude-opus-4-1-august-5-migration-guide",
+      "source_domain": "therouter.ai",
+      "first_sent_at": "2026-08-02T07:14:12+00:00",
+      "last_seen_at": "2026-08-02T07:14:12+00:00"
     },
     {
       "event_id": "f6f44ad759a9873f",
@@ -1071,36 +1101,6 @@
       "source_domain": "github.com",
       "first_sent_at": "2026-07-04T07:11:35+00:00",
       "last_seen_at": "2026-07-04T07:11:35+00:00"
-    },
-    {
-      "event_id": "e053c50450e3f0d3",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Giving admins more visibility and control over Claude spend",
-      "canonical_url": "https://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend",
-      "source_domain": "claude.com",
-      "first_sent_at": "2026-07-03T07:11:56+00:00",
-      "last_seen_at": "2026-07-03T07:11:56+00:00"
-    },
-    {
-      "event_id": "bc9183d6a8b03ca3",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "More details on Fable 5's cyber safeguards and our jailbreak framework",
-      "canonical_url": "https://anthropic.com/news/fable-safeguards-jailbreak-framework",
-      "source_domain": "anthropic.com",
-      "first_sent_at": "2026-07-03T07:11:56+00:00",
-      "last_seen_at": "2026-07-03T07:11:56+00:00"
-    },
-    {
-      "event_id": "9c8ae044f57e62f2",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.199: stacked slash-skills, streaming mid-error fixes, background agent Linux fix",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.199",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-07-03T07:11:56+00:00",
-      "last_seen_at": "2026-07-03T07:11:56+00:00"
     }
   ]
 }
