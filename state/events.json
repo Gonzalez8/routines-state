@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-03T07:24:26+00:00",
+  "updated_at": "2026-08-04T07:20:26+00:00",
   "items": [
     {
       "event_id": "fd33f0a50b24a8c0",
@@ -181,6 +181,26 @@
       "source_domain": "salesforce.com",
       "first_sent_at": "2026-07-06T07:08:34+00:00",
       "last_seen_at": "2026-07-06T07:08:34+00:00"
+    },
+    {
+      "event_id": "446d2f0dc1a8f38f",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.221: Focus view, sandbox credential masking y corrección de seguridad en Bash",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.221",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-08-04T07:20:23+00:00",
+      "last_seen_at": "2026-08-04T07:20:23+00:00"
+    },
+    {
+      "event_id": "42b9f3d387459e2d",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.221 — Print Mode MCP Connection Fix and Permission Check Bypass Fix",
+      "canonical_url": "https://dev.classmethod.jp/en/articles/20260804-cc-updates-v2-1-221",
+      "source_domain": "dev.classmethod.jp",
+      "first_sent_at": "2026-08-04T07:20:23+00:00",
+      "last_seen_at": "2026-08-04T07:20:23+00:00"
     },
     {
       "event_id": "fc2ffceb3630c87b",
