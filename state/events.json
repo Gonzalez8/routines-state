@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-04T07:20:26+00:00",
+  "updated_at": "2026-08-05T07:21:17+00:00",
   "items": [
     {
       "event_id": "fd33f0a50b24a8c0",
@@ -181,6 +181,26 @@
       "source_domain": "salesforce.com",
       "first_sent_at": "2026-07-06T07:08:34+00:00",
       "last_seen_at": "2026-07-06T07:08:34+00:00"
+    },
+    {
+      "event_id": "370bcbf9d074cf57",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer",
+      "canonical_url": "https://anthropic.com/news/tino-cuellar",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-08-05T07:21:13+00:00",
+      "last_seen_at": "2026-08-05T07:21:13+00:00"
+    },
+    {
+      "event_id": "176c84980445df8f",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.222: worktree isolation security fix, auto-allow hook bypass fix, and /usage MCP attribution correction",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.222",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-08-05T07:21:13+00:00",
+      "last_seen_at": "2026-08-05T07:21:13+00:00"
     },
     {
       "event_id": "446d2f0dc1a8f38f",
