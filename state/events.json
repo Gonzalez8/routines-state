@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-05T07:21:17+00:00",
+  "updated_at": "2026-08-06T07:20:20+00:00",
   "items": [
     {
       "event_id": "fd33f0a50b24a8c0",
@@ -181,6 +181,26 @@
       "source_domain": "salesforce.com",
       "first_sent_at": "2026-07-06T07:08:34+00:00",
       "last_seen_at": "2026-07-06T07:08:34+00:00"
+    },
+    {
+      "event_id": "d68e9c254408e7f6",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic is hiring an AI chip design team to run Claude faster and cut inference costs",
+      "canonical_url": "https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team",
+      "source_domain": "techcrunch.com",
+      "first_sent_at": "2026-08-06T07:20:15+00:00",
+      "last_seen_at": "2026-08-06T07:20:15+00:00"
+    },
+    {
+      "event_id": "81e97baf72b81992",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude sufre una interrupción masiva de más de 4 horas afectando múltiples modelos",
+      "canonical_url": "https://androidauthority.com/claude-outage-august-5-2026-3694847",
+      "source_domain": "androidauthority.com",
+      "first_sent_at": "2026-08-06T07:20:15+00:00",
+      "last_seen_at": "2026-08-06T07:20:15+00:00"
     },
     {
       "event_id": "370bcbf9d074cf57",
@@ -1071,46 +1091,6 @@
       "source_domain": "thestreet.com",
       "first_sent_at": "2026-07-08T07:12:09+00:00",
       "last_seen_at": "2026-07-08T07:12:09+00:00"
-    },
-    {
-      "event_id": "da6bef1efe8104db",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities: 466 million lines scanned in 20 hours",
-      "canonical_url": "https://anthropic.com/news/alberta-government-claude-cybersecurity",
-      "source_domain": "anthropic.com",
-      "first_sent_at": "2026-07-07T07:13:05+00:00",
-      "last_seen_at": "2026-07-07T07:13:05+00:00"
-    },
-    {
-      "event_id": "6b67bc39a27cbb8b",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.202: Dynamic workflow size setting in /config, workflow OpenTelemetry attributes, crash fixes",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.202",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-07-07T07:13:05+00:00",
-      "last_seen_at": "2026-07-07T07:13:05+00:00"
-    },
-    {
-      "event_id": "5785618e5561d84e",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic discovers 'J-Space': a global workspace inside Claude that mirrors human conscious thought",
-      "canonical_url": "https://anthropic.com/research/global-workspace",
-      "source_domain": "anthropic.com",
-      "first_sent_at": "2026-07-07T07:13:05+00:00",
-      "last_seen_at": "2026-07-07T07:13:05+00:00"
-    },
-    {
-      "event_id": "1bd71a8a2d69cc3f",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic signs $19 billion 20-year lease with TeraWulf for Kentucky AI data center",
-      "canonical_url": "https://datacenterdynamics.com/en/news/anthropic-signs-19bn-20-year-lease-for-kentucky-data-center-with-terawulf",
-      "source_domain": "datacenterdynamics.com",
-      "first_sent_at": "2026-07-07T07:13:05+00:00",
-      "last_seen_at": "2026-07-07T07:13:05+00:00"
     }
   ]
 }
