@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-06T07:20:20+00:00",
+  "updated_at": "2026-08-07T07:24:12+00:00",
   "items": [
     {
       "event_id": "fd33f0a50b24a8c0",
@@ -181,6 +181,46 @@
       "source_domain": "salesforce.com",
       "first_sent_at": "2026-07-06T07:08:34+00:00",
       "last_seen_at": "2026-07-06T07:08:34+00:00"
+    },
+    {
+      "event_id": "e69d5176f87ea9de",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Enterprise launches Inference Hooks beta for real-time DLP across all Claude surfaces",
+      "canonical_url": "https://claude.com/blog/claude-enterprise-inference-hooks",
+      "source_domain": "claude.com",
+      "first_sent_at": "2026-08-07T07:24:12+00:00",
+      "last_seen_at": "2026-08-07T07:24:12+00:00"
+    },
+    {
+      "event_id": "5d99bdd5cb47d122",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic improves Fable 5 biology safeguards, reducing false refusals by 85%",
+      "canonical_url": "https://anthropic.com/news/improving-fable-5-s-biology-safeguards",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-08-07T07:24:12+00:00",
+      "last_seen_at": "2026-08-07T07:24:12+00:00"
+    },
+    {
+      "event_id": "5744471a751edec2",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.224: Self-hosted runner, cross-session messaging, and sandbox security fixes",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.224",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-08-07T07:24:12+00:00",
+      "last_seen_at": "2026-08-07T07:24:12+00:00"
+    },
+    {
+      "event_id": "223f449f1b6b43b5",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.223: Marketplace owner wildcards, model warnings, and permission bypass security fix",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.223",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-08-07T07:24:12+00:00",
+      "last_seen_at": "2026-08-07T07:24:12+00:00"
     },
     {
       "event_id": "d68e9c254408e7f6",
@@ -1061,36 +1101,6 @@
       "source_domain": "androidauthority.com",
       "first_sent_at": "2026-07-09T07:13:39+00:00",
       "last_seen_at": "2026-07-09T07:13:39+00:00"
-    },
-    {
-      "event_id": "c7785977b79a0da5",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Cowork expands to mobile and web with cross-device continuity and background cloud processing",
-      "canonical_url": "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork",
-      "source_domain": "techcrunch.com",
-      "first_sent_at": "2026-07-08T07:12:09+00:00",
-      "last_seen_at": "2026-07-08T07:12:09+00:00"
-    },
-    {
-      "event_id": "45f7835c4ce5b2d6",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic brings Claude Code and Claude Cowork to government in Claude for Government Desktop public beta (FedRAMP High)",
-      "canonical_url": "https://claude.com/blog/bringing-claude-code-and-claude-cowork-to-government",
-      "source_domain": "claude.com",
-      "first_sent_at": "2026-07-08T07:12:09+00:00",
-      "last_seen_at": "2026-07-08T07:12:09+00:00"
-    },
-    {
-      "event_id": "092dbf0dce8f5c64",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Fable 5 leaves Claude subscription plans on July 7: usage credits now required at standard API rates from July 8",
-      "canonical_url": "https://thestreet.com/technology/anthropic-ipo-fable5-mythos-safety-classifier-block-jailbreak",
-      "source_domain": "thestreet.com",
-      "first_sent_at": "2026-07-08T07:12:09+00:00",
-      "last_seen_at": "2026-07-08T07:12:09+00:00"
     }
   ]
 }
