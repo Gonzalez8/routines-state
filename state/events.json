@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-07T07:24:12+00:00",
+  "updated_at": "2026-08-08T07:16:19+00:00",
   "items": [
     {
       "event_id": "fd33f0a50b24a8c0",
@@ -1071,36 +1071,6 @@
       "source_domain": "venturebeat.com",
       "first_sent_at": "2026-07-10T07:12:46+00:00",
       "last_seen_at": "2026-07-10T07:12:46+00:00"
-    },
-    {
-      "event_id": "994ade8c9af221f1",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "China advierte de 'backdoor' en Claude Code y Anthropic confirma mecanismo anti-distilación oculto",
-      "canonical_url": "https://cnbc.com/2026/07/08/china-anthropic-ai-claude-code-backdoor-security-threat.html",
-      "source_domain": "cnbc.com",
-      "first_sent_at": "2026-07-09T07:13:39+00:00",
-      "last_seen_at": "2026-07-09T07:13:39+00:00"
-    },
-    {
-      "event_id": "8ee22311a00e5614",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.203: login-expiry warnings, manual mode badge, background agent session recovery fixes",
-      "canonical_url": "https://code.claude.com/docs/en/changelog",
-      "source_domain": "code.claude.com",
-      "first_sent_at": "2026-07-09T07:13:39+00:00",
-      "last_seen_at": "2026-07-09T07:13:39+00:00"
-    },
-    {
-      "event_id": "236bdeb33f361200",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Fable 5 extended to July 12: Anthropic extends free access five more days after subscriber backlash",
-      "canonical_url": "https://androidauthority.com/claude-fable-5-free-extension-3685103",
-      "source_domain": "androidauthority.com",
-      "first_sent_at": "2026-07-09T07:13:39+00:00",
-      "last_seen_at": "2026-07-09T07:13:39+00:00"
     }
   ]
 }
