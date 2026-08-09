@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-08T07:16:19+00:00",
+  "updated_at": "2026-08-09T07:16:14+00:00",
   "items": [
     {
       "event_id": "fd33f0a50b24a8c0",
@@ -181,6 +181,46 @@
       "source_domain": "salesforce.com",
       "first_sent_at": "2026-07-06T07:08:34+00:00",
       "last_seen_at": "2026-07-06T07:08:34+00:00"
+    },
+    {
+      "event_id": "f9e8b40d060311f5",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.225: gateway spend-limit support, workspace trust prompt for agents, OAuth token fix",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.225",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-08-09T07:16:12+00:00",
+      "last_seen_at": "2026-08-09T07:16:12+00:00"
+    },
+    {
+      "event_id": "f75ed72b6c90c0e0",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.226: bug fixes and reliability improvements",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.226",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-08-09T07:16:12+00:00",
+      "last_seen_at": "2026-08-09T07:16:12+00:00"
+    },
+    {
+      "event_id": "cd8c735a9cc7fa10",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Enterprise adds beta skill and plugin security scanning to block malicious third-party uploads",
+      "canonical_url": "https://releasebot.io/updates/anthropic/claude",
+      "source_domain": "releasebot.io",
+      "first_sent_at": "2026-08-09T07:16:12+00:00",
+      "last_seen_at": "2026-08-09T07:16:12+00:00"
+    },
+    {
+      "event_id": "748157dfb1bf5ce4",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Self-hosted environments for Claude Code now in public beta: run sessions on your own compute",
+      "canonical_url": "https://claude.com/blog/run-claude-code-sessions-on-your-own-compute",
+      "source_domain": "claude.com",
+      "first_sent_at": "2026-08-09T07:16:12+00:00",
+      "last_seen_at": "2026-08-09T07:16:12+00:00"
     },
     {
       "event_id": "e69d5176f87ea9de",
@@ -1021,56 +1061,6 @@
       "source_domain": "github.com",
       "first_sent_at": "2026-07-11T07:12:54+00:00",
       "last_seen_at": "2026-07-11T07:12:54+00:00"
-    },
-    {
-      "event_id": "f595de6791f25c50",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Alibaba reportedly bans employees from using Claude Code",
-      "canonical_url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code",
-      "source_domain": "techcrunch.com",
-      "first_sent_at": "2026-07-10T07:12:46+00:00",
-      "last_seen_at": "2026-07-10T07:12:46+00:00"
-    },
-    {
-      "event_id": "b899438d9437094d",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic brings Claude Cowork to mobile and web as usage data shows most users aren't coding",
-      "canonical_url": "https://venturebeat.com/technology/anthropic-brings-claude-cowork-to-mobile-and-web-as-usage-data-shows-most-users-arent-coding",
-      "source_domain": "venturebeat.com",
-      "first_sent_at": "2026-07-10T07:12:46+00:00",
-      "last_seen_at": "2026-07-10T07:12:46+00:00"
-    },
-    {
-      "event_id": "47201e67cce5f404",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude AI Gets Yet Another Boost in VS Code 1.128",
-      "canonical_url": "https://visualstudiomagazine.com/articles/2026/07/08/claude-ai-gets-yet-another-boost-in-vs-code-1-128.aspx",
-      "source_domain": "visualstudiomagazine.com",
-      "first_sent_at": "2026-07-10T07:12:46+00:00",
-      "last_seen_at": "2026-07-10T07:12:46+00:00"
-    },
-    {
-      "event_id": "34c93f16337bad59",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic's new Claude Reflect feature is quietly selling you on AI",
-      "canonical_url": "https://techcrunch.com/2026/07/09/anthropics-new-claude-feature-is-quietly-selling-you-on-ai",
-      "source_domain": "techcrunch.com",
-      "first_sent_at": "2026-07-10T07:12:46+00:00",
-      "last_seen_at": "2026-07-10T07:12:46+00:00"
-    },
-    {
-      "event_id": "0128d33b241b3227",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic's new J-lens reveals a silent workspace inside Claude that mirrors a leading theory of consciousness",
-      "canonical_url": "https://venturebeat.com/technology/anthropics-new-j-lens-reveals-a-silent-workspace-inside-claude-that-mirrors-a-leading-theory-of-consciousness",
-      "source_domain": "venturebeat.com",
-      "first_sent_at": "2026-07-10T07:12:46+00:00",
-      "last_seen_at": "2026-07-10T07:12:46+00:00"
     }
   ]
 }
