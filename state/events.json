@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-11T07:23:45+00:00",
+  "updated_at": "2026-08-12T07:23:31+00:00",
   "items": [
     {
       "event_id": "bb38bab6d61e3aaa",
@@ -201,6 +201,46 @@
       "source_domain": "salesforce.com",
       "first_sent_at": "2026-07-13T07:08:43+00:00",
       "last_seen_at": "2026-07-13T07:08:43+00:00"
+    },
+    {
+      "event_id": "fd1c56c3fd14e584",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic Introduces Claude for Teachers",
+      "canonical_url": "https://edsurge.com/news/anthropic-introduces-claude-for-teachers",
+      "source_domain": "edsurge.com",
+      "first_sent_at": "2026-08-12T07:23:28+00:00",
+      "last_seen_at": "2026-08-12T07:23:28+00:00"
+    },
+    {
+      "event_id": "e6cb566771a9f772",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code Sessions Can Now Run on Infrastructure Your Team Controls",
+      "canonical_url": "https://unite.ai/claude-code-sessions-can-now-run-on-infrastructure-your-team-controls",
+      "source_domain": "unite.ai",
+      "first_sent_at": "2026-08-12T07:23:28+00:00",
+      "last_seen_at": "2026-08-12T07:23:28+00:00"
+    },
+    {
+      "event_id": "cf8810d908a37104",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic watermarks all Claude outputs globally with marks that may persist through some editing",
+      "canonical_url": "https://the-decoder.com/anthropic-watermarks-all-claude-outputs-globally-with-marks-that-may-persist-through-some-editing",
+      "source_domain": "the-decoder.com",
+      "first_sent_at": "2026-08-12T07:23:28+00:00",
+      "last_seen_at": "2026-08-12T07:23:28+00:00"
+    },
+    {
+      "event_id": "2815bec88e0dc5af",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic Confirms In-House Chip Team: Co-Design Bet Could Cut Claude Inference Costs in Half",
+      "canonical_url": "https://techtimes.com/articles/323238/20260805/anthropic-confirms-house-chip-team-co-design-bet-could-cut-claude-inference-costs-half.htm",
+      "source_domain": "techtimes.com",
+      "first_sent_at": "2026-08-12T07:23:28+00:00",
+      "last_seen_at": "2026-08-12T07:23:28+00:00"
     },
     {
       "event_id": "94fda2c4b11bba47",
@@ -1021,26 +1061,6 @@
       "source_domain": "techcrunch.com",
       "first_sent_at": "2026-07-14T07:13:25+00:00",
       "last_seen_at": "2026-07-14T07:13:25+00:00"
-    },
-    {
-      "event_id": "5e21c800a23f7762",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Fable 5 extended again to July 19: Anthropic delays switch to usage credits one more week",
-      "canonical_url": "https://androidauthority.com/anthropic-claude-fable-5-credits-usage-july-3684840",
-      "source_domain": "androidauthority.com",
-      "first_sent_at": "2026-07-13T07:12:59+00:00",
-      "last_seen_at": "2026-07-13T07:12:59+00:00"
-    },
-    {
-      "event_id": "4cdddbcf91c02da3",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code new release: /doctor check for CLAUDE.md, /commit-push-pr improvements, and subagent bug fixes",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-07-13T07:12:59+00:00",
-      "last_seen_at": "2026-07-13T07:12:59+00:00"
     }
   ]
 }
