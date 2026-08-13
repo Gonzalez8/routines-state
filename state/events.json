@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-12T07:23:31+00:00",
+  "updated_at": "2026-08-13T07:28:00+00:00",
   "items": [
     {
       "event_id": "bb38bab6d61e3aaa",
@@ -201,6 +201,56 @@
       "source_domain": "salesforce.com",
       "first_sent_at": "2026-07-13T07:08:43+00:00",
       "last_seen_at": "2026-07-13T07:08:43+00:00"
+    },
+    {
+      "event_id": "d72244ba3903e0d2",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic watermarks all Claude outputs globally under EU AI Act transparency rules",
+      "canonical_url": "https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models",
+      "source_domain": "techcrunch.com",
+      "first_sent_at": "2026-08-13T07:27:58+00:00",
+      "last_seen_at": "2026-08-13T07:27:58+00:00"
+    },
+    {
+      "event_id": "d30c87a7c1cb77a6",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.228: corrección de fallos de redibujado, detección de Git en Windows y revertido de modelo en /tui",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.228",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-08-13T07:27:58+00:00",
+      "last_seen_at": "2026-08-13T07:27:58+00:00"
+    },
+    {
+      "event_id": "a187a6bfbd5608a9",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic publishes new research on Agentic Misalignment in Summer 2026: four new frontier model failure scenarios in autonomous agent simulations",
+      "canonical_url": "https://alignment.anthropic.com/2026/agentic-misalignment-summer-2026",
+      "source_domain": "alignment.anthropic.com",
+      "first_sent_at": "2026-08-13T07:27:58+00:00",
+      "last_seen_at": "2026-08-13T07:27:58+00:00"
+    },
+    {
+      "event_id": "73a66e02749b2f7d",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.227: corrección de feature flags, fallos de Bash en claude-code-action y mejoras en el menú de comandos",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.227",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-08-13T07:27:58+00:00",
+      "last_seen_at": "2026-08-13T07:27:58+00:00"
+    },
+    {
+      "event_id": "32ac937d7620821a",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic adds invisible watermarks to Claude text to comply with EU AI Act",
+      "canonical_url": "https://interestingengineering.com/ai-robotics/anthropic-claude-text-invisible-watermarks",
+      "source_domain": "interestingengineering.com",
+      "first_sent_at": "2026-08-13T07:27:58+00:00",
+      "last_seen_at": "2026-08-13T07:27:58+00:00"
     },
     {
       "event_id": "fd1c56c3fd14e584",
@@ -1031,36 +1081,6 @@
       "source_domain": "releasebot.io",
       "first_sent_at": "2026-06-26T07:03:46+00:00",
       "last_seen_at": "2026-07-15T07:12:26+00:00"
-    },
-    {
-      "event_id": "ff9eefa71b6ff0a0",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Honeycomb EAP leaks inside Cursor: Anthropic's unreleased Opus 5 model spotted with 1M-token context",
-      "canonical_url": "https://thenewstack.io/fable-5-honeycomb-opus",
-      "source_domain": "thenewstack.io",
-      "first_sent_at": "2026-07-14T07:13:25+00:00",
-      "last_seen_at": "2026-07-14T07:13:25+00:00"
-    },
-    {
-      "event_id": "c99c479600608074",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.208: screen reader mode, vim insert-mode remaps, process wrapper support, and mouse-click improvements",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.208",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-07-14T07:13:25+00:00",
-      "last_seen_at": "2026-07-14T07:13:25+00:00"
-    },
-    {
-      "event_id": "59a73df8c0136ccb",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic starts localizing Claude pricing for India, its second-largest market after the US",
-      "canonical_url": "https://techcrunch.com/2026/07/13/anthropic-starts-localizing-claude-pricing-for-india-its-biggest-market-after-the-us",
-      "source_domain": "techcrunch.com",
-      "first_sent_at": "2026-07-14T07:13:25+00:00",
-      "last_seen_at": "2026-07-14T07:13:25+00:00"
     }
   ]
 }
