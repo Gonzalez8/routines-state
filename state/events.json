@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-13T07:28:00+00:00",
+  "updated_at": "2026-08-14T07:44:29+00:00",
   "items": [
     {
       "event_id": "bb38bab6d61e3aaa",
@@ -201,6 +201,46 @@
       "source_domain": "salesforce.com",
       "first_sent_at": "2026-07-13T07:08:43+00:00",
       "last_seen_at": "2026-07-13T07:08:43+00:00"
+    },
+    {
+      "event_id": "f4f08d0a5e94622b",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Compliance API de Claude se extiende a Cowork y Claude Code en beta para Enterprise",
+      "canonical_url": "https://claude.com/blog/compliance-api-cowork-and-claude-code",
+      "source_domain": "claude.com",
+      "first_sent_at": "2026-08-14T07:44:26+00:00",
+      "last_seen_at": "2026-08-14T07:44:26+00:00"
+    },
+    {
+      "event_id": "87a773103adbc4e9",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.231: corrección de OAuth MCP con URI de redirección preregistrada (Slack)",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.231",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-08-14T07:44:26+00:00",
+      "last_seen_at": "2026-08-14T07:44:26+00:00"
+    },
+    {
+      "event_id": "141e9f30fd21bbcf",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.232: subagent forking por defecto, @-menciones entre sesiones y agentes en segundo plano",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.232",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-08-14T07:44:26+00:00",
+      "last_seen_at": "2026-08-14T07:44:26+00:00"
+    },
+    {
+      "event_id": "02ff76f50f368957",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.229: Remote Control --continue, hooks para self-hosted runners y keepalive SSE en streaming",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.229",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-08-14T07:44:26+00:00",
+      "last_seen_at": "2026-08-14T07:44:26+00:00"
     },
     {
       "event_id": "d72244ba3903e0d2",
@@ -1031,56 +1071,6 @@
       "source_domain": "byteiota.com",
       "first_sent_at": "2026-07-16T07:15:08+00:00",
       "last_seen_at": "2026-07-16T07:15:08+00:00"
-    },
-    {
-      "event_id": "fe4dc1b70fa748b6",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "The Download: Claude's inner workings, and the future of world models",
-      "canonical_url": "https://technologyreview.com/2026/07/14/1140391/the-download-anthropic-claude-internal-thoughts-world-models",
-      "source_domain": "technologyreview.com",
-      "first_sent_at": "2026-07-15T07:12:26+00:00",
-      "last_seen_at": "2026-07-15T07:12:26+00:00"
-    },
-    {
-      "event_id": "e059ed6a3a626fa7",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic launches Claude for Teachers in AI race to influence America's classrooms",
-      "canonical_url": "https://chalkbeat.org/2026/07/14/anthropic-launches-claude-for-teachers-as-ai-companies-battle-for-classrooms",
-      "source_domain": "chalkbeat.org",
-      "first_sent_at": "2026-07-15T07:12:26+00:00",
-      "last_seen_at": "2026-07-15T07:12:26+00:00"
-    },
-    {
-      "event_id": "d3d443d576bccf27",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Introducing Claude for Teachers",
-      "canonical_url": "https://anthropic.com/news/claude-for-teachers",
-      "source_domain": "anthropic.com",
-      "first_sent_at": "2026-07-15T07:12:26+00:00",
-      "last_seen_at": "2026-07-15T07:12:26+00:00"
-    },
-    {
-      "event_id": "1a7870da20b495e6",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic launches free Claude for Teachers",
-      "canonical_url": "https://thehill.com/policy/technology/5968601-claude-for-teachers-launch",
-      "source_domain": "thehill.com",
-      "first_sent_at": "2026-07-15T07:12:26+00:00",
-      "last_seen_at": "2026-07-15T07:12:26+00:00"
-    },
-    {
-      "event_id": "326369c3123c94b4",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.193: autoMode.classifyAllShell setting, live bash path autocomplete, background agent improvements",
-      "canonical_url": "https://releasebot.io/updates/anthropic/claude-code",
-      "source_domain": "releasebot.io",
-      "first_sent_at": "2026-06-26T07:03:46+00:00",
-      "last_seen_at": "2026-07-15T07:12:26+00:00"
     }
   ]
 }
