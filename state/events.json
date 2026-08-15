@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-14T07:44:29+00:00",
+  "updated_at": "2026-08-15T07:14:59+00:00",
   "items": [
     {
       "event_id": "bb38bab6d61e3aaa",
@@ -201,6 +201,36 @@
       "source_domain": "salesforce.com",
       "first_sent_at": "2026-07-13T07:08:43+00:00",
       "last_seen_at": "2026-07-13T07:08:43+00:00"
+    },
+    {
+      "event_id": "7804503b9ea36833",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Sonnet 5 pricing made permanent at $2/$10 per MTok — scheduled September 1 increase cancelled",
+      "canonical_url": "https://explainx.ai/blog/anthropic-sonnet-5-permanent-pricing-august-2026",
+      "source_domain": "explainx.ai",
+      "first_sent_at": "2026-08-15T07:14:56+00:00",
+      "last_seen_at": "2026-08-15T07:14:56+00:00"
+    },
+    {
+      "event_id": "618c33bd7ff30921",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.233: correcciones de mTLS, voz y Remote Control (20 cambios)",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.233",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-08-15T07:14:56+00:00",
+      "last_seen_at": "2026-08-15T07:14:56+00:00"
+    },
+    {
+      "event_id": "32fa95c69ac5d344",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic sufre interrupción el 14 de agosto: Claude API, Claude Code y Cowork caídos durante ~4 horas",
+      "canonical_url": "https://status.claude.com/",
+      "source_domain": "status.claude.com",
+      "first_sent_at": "2026-08-15T07:14:56+00:00",
+      "last_seen_at": "2026-08-15T07:14:56+00:00"
     },
     {
       "event_id": "f4f08d0a5e94622b",
