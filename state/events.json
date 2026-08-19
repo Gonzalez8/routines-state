@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-18T07:15:46+00:00",
+  "updated_at": "2026-08-19T07:17:02+00:00",
   "items": [
     {
       "event_id": "d6bde2731e96e984",
@@ -211,6 +211,46 @@
       "source_domain": "salesforce.com",
       "first_sent_at": "2026-07-20T07:09:18+00:00",
       "last_seen_at": "2026-07-20T07:09:18+00:00"
+    },
+    {
+      "event_id": "faff3193fdb65405",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic in talks to acquire Israeli AI startup Decart for $6 billion to cut inference costs",
+      "canonical_url": "https://fortune.com/2026/08/13/anthropic-said-in-talks-to-buy-startup-decart-for-6-billion",
+      "source_domain": "fortune.com",
+      "first_sent_at": "2026-08-19T07:17:00+00:00",
+      "last_seen_at": "2026-08-19T07:17:00+00:00"
+    },
+    {
+      "event_id": "45f7835c4ce5b2d6",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude for Government: Claude Code y Cowork llegan al sector público en beta (entorno FedRAMP High)",
+      "canonical_url": "https://claude.com/blog/bringing-claude-code-and-claude-cowork-to-government",
+      "source_domain": "claude.com",
+      "first_sent_at": "2026-08-19T07:17:00+00:00",
+      "last_seen_at": "2026-08-19T07:17:00+00:00"
+    },
+    {
+      "event_id": "39c481a2b04cb758",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.235: spellcheck opcional, corrección de invalidación de caché y mejoras de renderizado Markdown",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.235",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-08-19T07:17:00+00:00",
+      "last_seen_at": "2026-08-19T07:17:00+00:00"
+    },
+    {
+      "event_id": "26af09b61211907e",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic posts first profitable quarter: Q2 2026 revenue exceeds $11.5 billion, up 14x year-over-year",
+      "canonical_url": "https://cnbc.com/2026/08/15/anthropic-revenue-jumps-to-over-11point5-billion-in-q2-report.html",
+      "source_domain": "cnbc.com",
+      "first_sent_at": "2026-08-19T07:17:00+00:00",
+      "last_seen_at": "2026-08-19T07:17:00+00:00"
     },
     {
       "event_id": "3189b0966863f831",
@@ -1021,16 +1061,6 @@
       "source_domain": "businesswire.com",
       "first_sent_at": "2026-07-21T07:20:11+00:00",
       "last_seen_at": "2026-07-21T07:20:11+00:00"
-    },
-    {
-      "event_id": "2d50854f8a9a61a7",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Fable 5 becomes permanent in Max and Team Premium plans at 50% usage limit starting July 20; Pro and Team Standard moved to usage credits with one-time $100 credit",
-      "canonical_url": "https://the-decoder.com/anthropic-slashes-claude-fable-5-limits-in-max-and-team-premium-and-pushes-pro-users-toward-api-pricing",
-      "source_domain": "the-decoder.com",
-      "first_sent_at": "2026-07-20T07:16:13+00:00",
-      "last_seen_at": "2026-07-20T07:16:13+00:00"
     }
   ]
 }
