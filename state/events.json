@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-19T07:17:02+00:00",
+  "updated_at": "2026-08-20T07:17:36+00:00",
   "items": [
     {
       "event_id": "d6bde2731e96e984",
@@ -211,6 +211,36 @@
       "source_domain": "salesforce.com",
       "first_sent_at": "2026-07-20T07:09:18+00:00",
       "last_seen_at": "2026-07-20T07:09:18+00:00"
+    },
+    {
+      "event_id": "d20e514ee6ca5a6a",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic research: Claude accelerating protein design and analytical chemistry",
+      "canonical_url": "https://anthropic.com/news/protein-design-analytical-chemistry",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-08-20T07:17:36+00:00",
+      "last_seen_at": "2026-08-20T07:17:36+00:00"
+    },
+    {
+      "event_id": "b3448c84393e9755",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Developer Platform: Admin API user management GA, Files API GA y Agent Skills disponibles",
+      "canonical_url": "https://releasebot.io/updates/anthropic/claude-developer-platform",
+      "source_domain": "releasebot.io",
+      "first_sent_at": "2026-08-20T07:17:36+00:00",
+      "last_seen_at": "2026-08-20T07:17:36+00:00"
+    },
+    {
+      "event_id": "8ee22311a00e5614",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code: nuevo modelo predeterminado (ANTHROPIC_DEFAULT_MODEL), notificaciones idle entre sesiones y sandbox macOS mejorado",
+      "canonical_url": "https://code.claude.com/docs/en/changelog",
+      "source_domain": "code.claude.com",
+      "first_sent_at": "2026-08-20T07:17:36+00:00",
+      "last_seen_at": "2026-08-20T07:17:36+00:00"
     },
     {
       "event_id": "faff3193fdb65405",
