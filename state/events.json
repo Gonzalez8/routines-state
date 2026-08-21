@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-20T07:17:36+00:00",
+  "updated_at": "2026-08-21T07:18:32+00:00",
   "items": [
     {
       "event_id": "d6bde2731e96e984",
@@ -211,6 +211,36 @@
       "source_domain": "salesforce.com",
       "first_sent_at": "2026-07-20T07:09:18+00:00",
       "last_seen_at": "2026-07-20T07:09:18+00:00"
+    },
+    {
+      "event_id": "aaee83c0605118c7",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.238: keybindingFlavor setting (readline mode) and plugin marketplace headersHelper",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.238",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-08-21T07:18:29+00:00",
+      "last_seen_at": "2026-08-21T07:18:29+00:00"
+    },
+    {
+      "event_id": "3e1f4a4cc0e4a052",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.237: prompt caching fix for LLM gateways and new built-in Concise output style",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.237",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-08-21T07:18:29+00:00",
+      "last_seen_at": "2026-08-21T07:18:29+00:00"
+    },
+    {
+      "event_id": "397da1a113f1bca6",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Academy: Anthropic comparte su enfoque para enseñar y aprender IA",
+      "canonical_url": "https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai",
+      "source_domain": "claude.com",
+      "first_sent_at": "2026-08-21T07:18:29+00:00",
+      "last_seen_at": "2026-08-21T07:18:29+00:00"
     },
     {
       "event_id": "d20e514ee6ca5a6a",
@@ -1021,76 +1051,6 @@
       "source_domain": "cybersecuritynews.com",
       "first_sent_at": "2026-07-23T07:15:30+00:00",
       "last_seen_at": "2026-07-23T07:15:30+00:00"
-    },
-    {
-      "event_id": "d7184fb3e3452c4c",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.217: emoji shortcode autocomplete and tighter subagent/budget controls",
-      "canonical_url": "https://code.claude.com/docs/en/whats-new",
-      "source_domain": "code.claude.com",
-      "first_sent_at": "2026-07-22T07:15:46+00:00",
-      "last_seen_at": "2026-07-22T07:15:46+00:00"
-    },
-    {
-      "event_id": "b02e3e4c3292451e",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic adds agent-memory-2026-07-22 beta header: new stable ordering and stricter depth/path_prefix rules for memory store API",
-      "canonical_url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "source_domain": "platform.claude.com",
-      "first_sent_at": "2026-07-22T07:15:46+00:00",
-      "last_seen_at": "2026-07-22T07:15:46+00:00"
-    },
-    {
-      "event_id": "9c55610ad0411c91",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic retiring legacy Workbench and experimental prompt tools APIs on August 17, 2026",
-      "canonical_url": "https://docs.anthropic.com/en/release-notes/api",
-      "source_domain": "docs.anthropic.com",
-      "first_sent_at": "2026-07-22T07:15:46+00:00",
-      "last_seen_at": "2026-07-22T07:15:46+00:00"
-    },
-    {
-      "event_id": "09303abc657c1d25",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.216: sandbox.filesystem.disabled setting and fix for quadratic message normalization stalls in long sessions",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.216",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-07-22T07:15:46+00:00",
-      "last_seen_at": "2026-07-22T07:15:46+00:00"
-    },
-    {
-      "event_id": "b8027b6ac9afdc9b",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Apply for Anthropic's AI for Science rare disease research grants",
-      "canonical_url": "https://anthropic.com/news/rare-disease-research-grants",
-      "source_domain": "anthropic.com",
-      "first_sent_at": "2026-07-21T07:20:11+00:00",
-      "last_seen_at": "2026-07-21T07:20:11+00:00"
-    },
-    {
-      "event_id": "782dc5d2bb873709",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic's landmark $1.5B copyright settlement with book authors approved",
-      "canonical_url": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved",
-      "source_domain": "techcrunch.com",
-      "first_sent_at": "2026-07-21T07:20:11+00:00",
-      "last_seen_at": "2026-07-21T07:20:11+00:00"
-    },
-    {
-      "event_id": "71099e809dbe3799",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic, Blackstone, and Hellman & Friedman Introduce Ode with Anthropic, an Enterprise AI Services Firm",
-      "canonical_url": "https://businesswire.com/news/home/20260715205134/en/Anthropic-Blackstone-and-Hellman-Friedman-Introduce-Ode-with-Anthropic-an-Enterprise-AI-Services-Firm",
-      "source_domain": "businesswire.com",
-      "first_sent_at": "2026-07-21T07:20:11+00:00",
-      "last_seen_at": "2026-07-21T07:20:11+00:00"
     }
   ]
 }
