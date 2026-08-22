@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-21T07:18:32+00:00",
+  "updated_at": "2026-08-22T07:11:08+00:00",
   "items": [
     {
       "event_id": "d6bde2731e96e984",
@@ -211,6 +211,26 @@
       "source_domain": "salesforce.com",
       "first_sent_at": "2026-07-20T07:09:18+00:00",
       "last_seen_at": "2026-07-20T07:09:18+00:00"
+    },
+    {
+      "event_id": "b2212512defb7ee9",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.239: corrección de conexiones MCP v2 que reabrían el stream infinitamente y hooks de notificación",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.239",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-08-22T07:11:05+00:00",
+      "last_seen_at": "2026-08-22T07:11:05+00:00"
+    },
+    {
+      "event_id": "5e6a035debc16404",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic espera igualar o superar el récord de IPO de SpaceX ($86B)",
+      "canonical_url": "https://bloomberg.com/news/articles/2026-08-20/anthropic-expects-to-match-spacex-s-record-ipo-size-or-top-it",
+      "source_domain": "bloomberg.com",
+      "first_sent_at": "2026-08-22T07:11:05+00:00",
+      "last_seen_at": "2026-08-22T07:11:05+00:00"
     },
     {
       "event_id": "aaee83c0605118c7",
