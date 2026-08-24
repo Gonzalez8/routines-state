@@ -1,7 +1,267 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-24T07:09:02+00:00",
+  "updated_at": "2026-08-24T07:18:17+00:00",
   "items": [
+    {
+      "event_id": "febfeed555b64fff",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce firma acuerdo para adquirir Fin (ex-Intercom) por ~$3.6B para potenciar agentes de atención al cliente",
+      "canonical_url": "https://salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-08-24T07:09:00+00:00",
+      "last_seen_at": "2026-08-24T07:09:00+00:00"
+    },
+    {
+      "event_id": "f890b81270fcd397",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Summer '26: Highlights para Arquitectos — Security Mesh, Archive on Hyperforce y nuevas integraciones agenticas",
+      "canonical_url": "https://salesforce.com/blog/summer-26-release-architect-highlights",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-08-24T07:09:00+00:00",
+      "last_seen_at": "2026-08-24T07:09:00+00:00"
+    },
+    {
+      "event_id": "c6ea8d88b6cc705c",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Guía del desarrollador para el Summer '26: Hosted MCP Servers, LWC State Managers y Agentforce Mobile SDK",
+      "canonical_url": "https://developer.salesforce.com/blogs/2026/06/the-salesforce-developers-guide-to-the-summer-26-release",
+      "source_domain": "developer.salesforce.com",
+      "first_sent_at": "2026-08-24T07:09:00+00:00",
+      "last_seen_at": "2026-08-24T07:09:00+00:00"
+    },
+    {
+      "event_id": "69ca43d397dbfeca",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "MCP Server para Marketing Cloud Engagement ya está en disponibilidad general (GA)",
+      "canonical_url": "https://developer.salesforce.com/blogs/2026/06/the-mcp-server-for-marketing-cloud-engagement-is-now-ga",
+      "source_domain": "developer.salesforce.com",
+      "first_sent_at": "2026-08-24T07:09:00+00:00",
+      "last_seen_at": "2026-08-24T07:09:00+00:00"
+    },
+    {
+      "event_id": "1430fe9b2af93bc9",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Missionforce National Security lanza agentes IA Agentforce con autorización IL5",
+      "canonical_url": "https://investor.salesforce.com/news/news-details/2026/Missionforce-National-Security-Unveils-IL5-Authorized-AI-Agents-and-Apps-to-Drive-Decision-Advantage-Readiness-and-Enhanced-Warfighter-Support/default.aspx",
+      "source_domain": "investor.salesforce.com",
+      "first_sent_at": "2026-08-24T07:09:00+00:00",
+      "last_seen_at": "2026-08-24T07:09:00+00:00"
+    },
+    {
+      "event_id": "04b88d0fa7f2e9d9",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce Summer '26: Agentforce Vibes con soporte para Claude Sonnet, Claude Opus y GPT-5",
+      "canonical_url": "https://salesforce.com/blog/platform-summer-26-release",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-08-24T07:09:00+00:00",
+      "last_seen_at": "2026-08-24T07:09:00+00:00"
+    },
+    {
+      "event_id": "d6bde2731e96e984",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce headed in the right direction for agentic AI, Evercore says",
+      "canonical_url": "https://seekingalpha.com/news/4629343-salesforce-headed-in-the-right-direction-for-agentic-ai-evercore-says",
+      "source_domain": "seekingalpha.com",
+      "first_sent_at": "2026-08-17T07:37:31+00:00",
+      "last_seen_at": "2026-08-17T07:37:31+00:00"
+    },
+    {
+      "event_id": "c727c4f8c4e40e27",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce Summer 2026 Product Release: Multi-Agent Orchestration, Tableau MCP, Agentforce Self-Service and More",
+      "canonical_url": "https://salesforce.com/news/stories/summer-2026-product-release-announcement",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-08-17T07:37:31+00:00",
+      "last_seen_at": "2026-08-17T07:37:31+00:00"
+    },
+    {
+      "event_id": "c478b1fe89b8b594",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce Announces Date of Second Quarter Fiscal 2027 Earnings Release and Webcast",
+      "canonical_url": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Announces-Date-of-Second-Quarter-Fiscal-2027-Earnings-Release-and-Webcast/default.aspx",
+      "source_domain": "investor.salesforce.com",
+      "first_sent_at": "2026-08-17T07:37:31+00:00",
+      "last_seen_at": "2026-08-24T07:09:00+00:00"
+    },
+    {
+      "event_id": "a7cff41014885ae0",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Scale Agent Development with Salesforce Headless 360",
+      "canonical_url": "https://salesforce.com/blog/agent-development-lifecycle-headless",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-08-17T07:37:31+00:00",
+      "last_seen_at": "2026-08-17T07:37:31+00:00"
+    },
+    {
+      "event_id": "97b43f1da2243e73",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "JPMorgan Targets $250 for Salesforce Stock, Says AI Fears are Overblown",
+      "canonical_url": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-just-upgraded-salesforce-stock-175714160.html",
+      "source_domain": "finance.yahoo.com",
+      "first_sent_at": "2026-08-17T07:37:31+00:00",
+      "last_seen_at": "2026-08-17T07:37:31+00:00"
+    },
+    {
+      "event_id": "bb38bab6d61e3aaa",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "U.S. Army Human Resources Command Deploys Agentforce to Deliver 24/7 AI-Powered Support to 9.2 Million Soldiers, Veterans, and Military Families",
+      "canonical_url": "https://salesforce.com/news/press-releases/2026/08/05/us-army-hrc-agentforce-ai-powered-support",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-08-10T07:15:09+00:00",
+      "last_seen_at": "2026-08-10T07:15:09+00:00"
+    },
+    {
+      "event_id": "b519474e1fc2ea86",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce Agentic Enterprise Index: Agent Deployments More Than Double Year over Year",
+      "canonical_url": "https://salesforce.com/news/stories/agentic-enterprise-index-insights-2026",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-08-10T07:15:09+00:00",
+      "last_seen_at": "2026-08-10T07:15:09+00:00"
+    },
+    {
+      "event_id": "8a249c22a5e71d60",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Exclusive: Salesforce Cuts Jobs Across Tableau, Trailhead, Community, and Events",
+      "canonical_url": "https://salesforceben.com/exclusive-salesforce-cuts-jobs-across-tableau-trailhead-community-and-events",
+      "source_domain": "salesforceben.com",
+      "first_sent_at": "2026-08-10T07:15:09+00:00",
+      "last_seen_at": "2026-08-10T07:15:09+00:00"
+    },
+    {
+      "event_id": "55099cf372b08ea5",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Missionforce National Security Unveils IL5-Authorized AI Agents and Apps to Drive Decision Advantage, Readiness, and Enhanced Warfighter Support",
+      "canonical_url": "https://salesforce.com/news/press-releases/2026/08/05/dow-agentforce-mission-readiness",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-08-10T07:15:09+00:00",
+      "last_seen_at": "2026-08-10T07:15:09+00:00"
+    },
+    {
+      "event_id": "2f30ea0737366f21",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce Hacks 2026: Everything We Know So Far",
+      "canonical_url": "https://salesforceben.com/salesforce-hacks-2026-everything-we-know-so-far",
+      "source_domain": "salesforceben.com",
+      "first_sent_at": "2026-08-10T07:15:09+00:00",
+      "last_seen_at": "2026-08-10T07:15:09+00:00"
+    },
+    {
+      "event_id": "fd33f0a50b24a8c0",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Toward Self-Improving Agents: How Enterprise AI Loops Compound Over Time",
+      "canonical_url": "https://salesforce.com/news/stories/toward-self-improving-agents",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-08-03T07:15:12+00:00",
+      "last_seen_at": "2026-08-03T07:15:12+00:00"
+    },
+    {
+      "event_id": "ede22434c4356c1a",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Shopping's New First Step: Agentic Search Grows 200% as Purchase Journeys Start in AI Chats",
+      "canonical_url": "https://salesforce.com/news/stories/agentic-search-growth",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-08-03T07:15:12+00:00",
+      "last_seen_at": "2026-08-03T07:15:12+00:00"
+    },
+    {
+      "event_id": "50134e8970ee4f66",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "New Research: Field Service Leaders Face a Growing Talent Crisis and ROI Challenge Even as They Double Down on AI Investment",
+      "canonical_url": "https://salesforce.com/news/stories/field-service-growing-talent-crisis",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-08-03T07:15:12+00:00",
+      "last_seen_at": "2026-08-03T07:15:12+00:00"
+    },
+    {
+      "event_id": "44050d88c549991f",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Ask Slackbot: How Salesforce Built a Data Insights Specialist to Scale Analytics Without Burnout",
+      "canonical_url": "https://salesforce.com/news/stories/ask-slackbot-data-insights-specialist",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-08-03T07:15:12+00:00",
+      "last_seen_at": "2026-08-03T07:15:12+00:00"
+    },
+    {
+      "event_id": "21e7ea56be0bcd6f",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Salesforce Named a Leader in the 2026 Gartner Magic Quadrant for Conversational AI Platforms",
+      "canonical_url": "https://salesforce.com/blog/salesforce-2026-gartner-magic-quadrant-conversational-ai-platforms",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-08-03T07:15:12+00:00",
+      "last_seen_at": "2026-08-03T07:15:12+00:00"
+    },
+    {
+      "event_id": "be1dded7503b5d3a",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "VA Awards Salesforce $1.6B Contract to Transform Veteran Care and Services",
+      "canonical_url": "https://salesforce.com/news/press-releases/2026/07/24/missionforce-transforms-veteran-care",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-07-27T07:19:49+00:00",
+      "last_seen_at": "2026-07-27T07:19:49+00:00"
+    },
+    {
+      "event_id": "87fd54cabffe5e1e",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Jack Dorsey Launches Buzz, an Open-Source Rival to Salesforce's Slack",
+      "canonical_url": "https://salesforceben.com/jack-dorsey-launches-rival-to-salesforces-slack",
+      "source_domain": "salesforceben.com",
+      "first_sent_at": "2026-07-27T07:19:49+00:00",
+      "last_seen_at": "2026-07-27T07:19:49+00:00"
+    },
+    {
+      "event_id": "0ba6f58e41746b70",
+      "routine": "salesforce-news",
+      "topic": "salesforce",
+      "title": "Slackbot Can Now Do Anything Salesforce Can — MCP Servers Now Generally Available",
+      "canonical_url": "https://salesforce.com/news/linked-content/slackbot-can-now-do-anything-salesforce-can-just-ask",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-07-27T07:19:49+00:00",
+      "last_seen_at": "2026-07-27T07:19:49+00:00"
+    },
+    {
+      "event_id": "ee682ea5341594b1",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.241: bug fixes for Remote Control resume, voice mode, and accessibility navigation",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.241",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-08-24T07:18:14+00:00",
+      "last_seen_at": "2026-08-24T07:18:14+00:00"
+    },
+    {
+      "event_id": "7a04782a58943091",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude AI outage August 24 2026: Mythos 5, Fable 5, Opus 5 and Opus 4.8 hit elevated errors",
+      "canonical_url": "https://notebookcheck.net/Claude-faces-another-outage-as-errors-hit-multiple-models.1376666.0.html",
+      "source_domain": "notebookcheck.net",
+      "first_sent_at": "2026-08-24T07:18:14+00:00",
+      "last_seen_at": "2026-08-24T07:18:14+00:00"
+    },
     {
       "event_id": "88638867f7bf325b",
       "routine": "claude-news",
@@ -771,326 +1031,6 @@
       "source_domain": "artificialanalysis.ai",
       "first_sent_at": "2026-07-26T07:15:06+00:00",
       "last_seen_at": "2026-07-26T07:15:06+00:00"
-    },
-    {
-      "event_id": "af2fe4b731ab19a1",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.219: Opus default switched to Claude Opus 5 (1M context), fast mode at $10/$50 per Mtok",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.219",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-07-25T07:11:51+00:00",
-      "last_seen_at": "2026-07-25T07:11:51+00:00"
-    },
-    {
-      "event_id": "6121fc06560ac364",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.220: bug fixes and reliability improvements",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.220",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-07-25T07:11:51+00:00",
-      "last_seen_at": "2026-07-25T07:11:51+00:00"
-    },
-    {
-      "event_id": "394e5c4669d9368b",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Introducing Claude Opus 5",
-      "canonical_url": "https://anthropic.com/news/claude-opus-5",
-      "source_domain": "anthropic.com",
-      "first_sent_at": "2026-07-25T07:11:51+00:00",
-      "last_seen_at": "2026-07-25T07:11:51+00:00"
-    },
-    {
-      "event_id": "791c7e287e7d81e6",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "How Claude Code works in large codebases: Best practices and where to start",
-      "canonical_url": "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start",
-      "source_domain": "claude.com",
-      "first_sent_at": "2026-07-24T07:15:33+00:00",
-      "last_seen_at": "2026-07-24T07:15:33+00:00"
-    },
-    {
-      "event_id": "7034dec0b8bd7bb9",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Fast mode for Opus 4.7 deprecated and removed July 24 2026",
-      "canonical_url": "https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-8",
-      "source_domain": "platform.claude.com",
-      "first_sent_at": "2026-07-24T07:15:33+00:00",
-      "last_seen_at": "2026-07-24T07:15:33+00:00"
-    },
-    {
-      "event_id": "3fb5d4c486f93190",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "The Anthropic Economic Index connector for Claude",
-      "canonical_url": "https://anthropic.com/news/anthropic-economic-index-connector",
-      "source_domain": "anthropic.com",
-      "first_sent_at": "2026-07-24T07:15:33+00:00",
-      "last_seen_at": "2026-07-24T07:15:33+00:00"
-    },
-    {
-      "event_id": "1ee1e1f00743f734",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Code v2.1.218: /code-review runs as background subagent, Windows path corruption fix, and 37 stability fixes",
-      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.218",
-      "source_domain": "github.com",
-      "first_sent_at": "2026-07-24T07:15:33+00:00",
-      "last_seen_at": "2026-07-24T07:15:33+00:00"
-    },
-    {
-      "event_id": "07886dee851eeeab",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic updates Claude voice mode with Opus and Sonnet models and cross-app automation",
-      "canonical_url": "https://claude.com/blog/think-through-hard-problems-in-voice-mode",
-      "source_domain": "claude.com",
-      "first_sent_at": "2026-07-24T07:15:33+00:00",
-      "last_seen_at": "2026-07-24T07:15:33+00:00"
-    },
-    {
-      "event_id": "febfeed555b64fff",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce firma acuerdo para adquirir Fin (ex-Intercom) por ~$3.6B para potenciar agentes de atención al cliente",
-      "canonical_url": "https://salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-08-24T07:09:00+00:00",
-      "last_seen_at": "2026-08-24T07:09:00+00:00"
-    },
-    {
-      "event_id": "f890b81270fcd397",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Summer '26: Highlights para Arquitectos — Security Mesh, Archive on Hyperforce y nuevas integraciones agenticas",
-      "canonical_url": "https://salesforce.com/blog/summer-26-release-architect-highlights",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-08-24T07:09:00+00:00",
-      "last_seen_at": "2026-08-24T07:09:00+00:00"
-    },
-    {
-      "event_id": "c6ea8d88b6cc705c",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Guía del desarrollador para el Summer '26: Hosted MCP Servers, LWC State Managers y Agentforce Mobile SDK",
-      "canonical_url": "https://developer.salesforce.com/blogs/2026/06/the-salesforce-developers-guide-to-the-summer-26-release",
-      "source_domain": "developer.salesforce.com",
-      "first_sent_at": "2026-08-24T07:09:00+00:00",
-      "last_seen_at": "2026-08-24T07:09:00+00:00"
-    },
-    {
-      "event_id": "69ca43d397dbfeca",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "MCP Server para Marketing Cloud Engagement ya está en disponibilidad general (GA)",
-      "canonical_url": "https://developer.salesforce.com/blogs/2026/06/the-mcp-server-for-marketing-cloud-engagement-is-now-ga",
-      "source_domain": "developer.salesforce.com",
-      "first_sent_at": "2026-08-24T07:09:00+00:00",
-      "last_seen_at": "2026-08-24T07:09:00+00:00"
-    },
-    {
-      "event_id": "1430fe9b2af93bc9",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Missionforce National Security lanza agentes IA Agentforce con autorización IL5",
-      "canonical_url": "https://investor.salesforce.com/news/news-details/2026/Missionforce-National-Security-Unveils-IL5-Authorized-AI-Agents-and-Apps-to-Drive-Decision-Advantage-Readiness-and-Enhanced-Warfighter-Support/default.aspx",
-      "source_domain": "investor.salesforce.com",
-      "first_sent_at": "2026-08-24T07:09:00+00:00",
-      "last_seen_at": "2026-08-24T07:09:00+00:00"
-    },
-    {
-      "event_id": "04b88d0fa7f2e9d9",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce Summer '26: Agentforce Vibes con soporte para Claude Sonnet, Claude Opus y GPT-5",
-      "canonical_url": "https://salesforce.com/blog/platform-summer-26-release",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-08-24T07:09:00+00:00",
-      "last_seen_at": "2026-08-24T07:09:00+00:00"
-    },
-    {
-      "event_id": "c478b1fe89b8b594",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce Announces Date of Second Quarter Fiscal 2027 Earnings Release and Webcast",
-      "canonical_url": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Announces-Date-of-Second-Quarter-Fiscal-2027-Earnings-Release-and-Webcast/default.aspx",
-      "source_domain": "investor.salesforce.com",
-      "first_sent_at": "2026-08-17T07:37:31+00:00",
-      "last_seen_at": "2026-08-24T07:09:00+00:00"
-    },
-    {
-      "event_id": "d6bde2731e96e984",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce headed in the right direction for agentic AI, Evercore says",
-      "canonical_url": "https://seekingalpha.com/news/4629343-salesforce-headed-in-the-right-direction-for-agentic-ai-evercore-says",
-      "source_domain": "seekingalpha.com",
-      "first_sent_at": "2026-08-17T07:37:31+00:00",
-      "last_seen_at": "2026-08-17T07:37:31+00:00"
-    },
-    {
-      "event_id": "c727c4f8c4e40e27",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce Summer 2026 Product Release: Multi-Agent Orchestration, Tableau MCP, Agentforce Self-Service and More",
-      "canonical_url": "https://salesforce.com/news/stories/summer-2026-product-release-announcement",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-08-17T07:37:31+00:00",
-      "last_seen_at": "2026-08-17T07:37:31+00:00"
-    },
-    {
-      "event_id": "a7cff41014885ae0",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Scale Agent Development with Salesforce Headless 360",
-      "canonical_url": "https://salesforce.com/blog/agent-development-lifecycle-headless",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-08-17T07:37:31+00:00",
-      "last_seen_at": "2026-08-17T07:37:31+00:00"
-    },
-    {
-      "event_id": "97b43f1da2243e73",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "JPMorgan Targets $250 for Salesforce Stock, Says AI Fears are Overblown",
-      "canonical_url": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-just-upgraded-salesforce-stock-175714160.html",
-      "source_domain": "finance.yahoo.com",
-      "first_sent_at": "2026-08-17T07:37:31+00:00",
-      "last_seen_at": "2026-08-17T07:37:31+00:00"
-    },
-    {
-      "event_id": "bb38bab6d61e3aaa",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "U.S. Army Human Resources Command Deploys Agentforce to Deliver 24/7 AI-Powered Support to 9.2 Million Soldiers, Veterans, and Military Families",
-      "canonical_url": "https://salesforce.com/news/press-releases/2026/08/05/us-army-hrc-agentforce-ai-powered-support",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-08-10T07:15:09+00:00",
-      "last_seen_at": "2026-08-10T07:15:09+00:00"
-    },
-    {
-      "event_id": "b519474e1fc2ea86",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce Agentic Enterprise Index: Agent Deployments More Than Double Year over Year",
-      "canonical_url": "https://salesforce.com/news/stories/agentic-enterprise-index-insights-2026",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-08-10T07:15:09+00:00",
-      "last_seen_at": "2026-08-10T07:15:09+00:00"
-    },
-    {
-      "event_id": "8a249c22a5e71d60",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Exclusive: Salesforce Cuts Jobs Across Tableau, Trailhead, Community, and Events",
-      "canonical_url": "https://salesforceben.com/exclusive-salesforce-cuts-jobs-across-tableau-trailhead-community-and-events",
-      "source_domain": "salesforceben.com",
-      "first_sent_at": "2026-08-10T07:15:09+00:00",
-      "last_seen_at": "2026-08-10T07:15:09+00:00"
-    },
-    {
-      "event_id": "55099cf372b08ea5",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Missionforce National Security Unveils IL5-Authorized AI Agents and Apps to Drive Decision Advantage, Readiness, and Enhanced Warfighter Support",
-      "canonical_url": "https://salesforce.com/news/press-releases/2026/08/05/dow-agentforce-mission-readiness",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-08-10T07:15:09+00:00",
-      "last_seen_at": "2026-08-10T07:15:09+00:00"
-    },
-    {
-      "event_id": "2f30ea0737366f21",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce Hacks 2026: Everything We Know So Far",
-      "canonical_url": "https://salesforceben.com/salesforce-hacks-2026-everything-we-know-so-far",
-      "source_domain": "salesforceben.com",
-      "first_sent_at": "2026-08-10T07:15:09+00:00",
-      "last_seen_at": "2026-08-10T07:15:09+00:00"
-    },
-    {
-      "event_id": "fd33f0a50b24a8c0",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Toward Self-Improving Agents: How Enterprise AI Loops Compound Over Time",
-      "canonical_url": "https://salesforce.com/news/stories/toward-self-improving-agents",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-08-03T07:15:12+00:00",
-      "last_seen_at": "2026-08-03T07:15:12+00:00"
-    },
-    {
-      "event_id": "ede22434c4356c1a",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Shopping's New First Step: Agentic Search Grows 200% as Purchase Journeys Start in AI Chats",
-      "canonical_url": "https://salesforce.com/news/stories/agentic-search-growth",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-08-03T07:15:12+00:00",
-      "last_seen_at": "2026-08-03T07:15:12+00:00"
-    },
-    {
-      "event_id": "50134e8970ee4f66",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "New Research: Field Service Leaders Face a Growing Talent Crisis and ROI Challenge Even as They Double Down on AI Investment",
-      "canonical_url": "https://salesforce.com/news/stories/field-service-growing-talent-crisis",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-08-03T07:15:12+00:00",
-      "last_seen_at": "2026-08-03T07:15:12+00:00"
-    },
-    {
-      "event_id": "44050d88c549991f",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Ask Slackbot: How Salesforce Built a Data Insights Specialist to Scale Analytics Without Burnout",
-      "canonical_url": "https://salesforce.com/news/stories/ask-slackbot-data-insights-specialist",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-08-03T07:15:12+00:00",
-      "last_seen_at": "2026-08-03T07:15:12+00:00"
-    },
-    {
-      "event_id": "21e7ea56be0bcd6f",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Salesforce Named a Leader in the 2026 Gartner Magic Quadrant for Conversational AI Platforms",
-      "canonical_url": "https://salesforce.com/blog/salesforce-2026-gartner-magic-quadrant-conversational-ai-platforms",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-08-03T07:15:12+00:00",
-      "last_seen_at": "2026-08-03T07:15:12+00:00"
-    },
-    {
-      "event_id": "be1dded7503b5d3a",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "VA Awards Salesforce $1.6B Contract to Transform Veteran Care and Services",
-      "canonical_url": "https://salesforce.com/news/press-releases/2026/07/24/missionforce-transforms-veteran-care",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-07-27T07:19:49+00:00",
-      "last_seen_at": "2026-07-27T07:19:49+00:00"
-    },
-    {
-      "event_id": "87fd54cabffe5e1e",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Jack Dorsey Launches Buzz, an Open-Source Rival to Salesforce's Slack",
-      "canonical_url": "https://salesforceben.com/jack-dorsey-launches-rival-to-salesforces-slack",
-      "source_domain": "salesforceben.com",
-      "first_sent_at": "2026-07-27T07:19:49+00:00",
-      "last_seen_at": "2026-07-27T07:19:49+00:00"
-    },
-    {
-      "event_id": "0ba6f58e41746b70",
-      "routine": "salesforce-news",
-      "topic": "salesforce",
-      "title": "Slackbot Can Now Do Anything Salesforce Can — MCP Servers Now Generally Available",
-      "canonical_url": "https://salesforce.com/news/linked-content/slackbot-can-now-do-anything-salesforce-can-just-ask",
-      "source_domain": "salesforce.com",
-      "first_sent_at": "2026-07-27T07:19:49+00:00",
-      "last_seen_at": "2026-07-27T07:19:49+00:00"
     }
   ]
 }
