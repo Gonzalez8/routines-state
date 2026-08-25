@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-24T07:18:17+00:00",
+  "updated_at": "2026-08-25T07:21:23+00:00",
   "items": [
     {
       "event_id": "febfeed555b64fff",
@@ -241,6 +241,16 @@
       "source_domain": "salesforce.com",
       "first_sent_at": "2026-07-27T07:19:49+00:00",
       "last_seen_at": "2026-07-27T07:19:49+00:00"
+    },
+    {
+      "event_id": "facf8be0d2eb006a",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Commercial Claude Has Gone Down 28 Times in 30 Days; Its Government Tier Has Never Gone Down Once",
+      "canonical_url": "https://techtimes.com/articles/325344/20260824/commercial-claude-has-gone-down-28-times-30-days-its-government-tier-has-never-gone-down-once.htm",
+      "source_domain": "techtimes.com",
+      "first_sent_at": "2026-08-25T07:21:21+00:00",
+      "last_seen_at": "2026-08-25T07:21:21+00:00"
     },
     {
       "event_id": "ee682ea5341594b1",
@@ -1001,36 +1011,6 @@
       "source_domain": "ir.amd.com",
       "first_sent_at": "2026-07-27T07:26:30+00:00",
       "last_seen_at": "2026-07-27T07:26:30+00:00"
-    },
-    {
-      "event_id": "dda1ad17a71dc39f",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Mid-conversation tool changes beta: add or remove tools between turns while preserving prompt cache",
-      "canonical_url": "https://platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages",
-      "source_domain": "platform.claude.com",
-      "first_sent_at": "2026-07-26T07:15:06+00:00",
-      "last_seen_at": "2026-07-26T07:15:06+00:00"
-    },
-    {
-      "event_id": "71635f9c6e3eef8f",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic's relentless cadence: four flagship models in two months — Mythos 5, Fable 5, Sonnet 5, Opus 5",
-      "canonical_url": "https://buildfastwithai.com/blogs/ai-news-today-july-26-2026",
-      "source_domain": "buildfastwithai.com",
-      "first_sent_at": "2026-07-26T07:15:06+00:00",
-      "last_seen_at": "2026-07-26T07:15:06+00:00"
-    },
-    {
-      "event_id": "2fea5488e781adb1",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Opus 5: the new leader in agentic knowledge work",
-      "canonical_url": "https://artificialanalysis.ai/articles/claude-opus-5-leader-agentic-knowledge-work",
-      "source_domain": "artificialanalysis.ai",
-      "first_sent_at": "2026-07-26T07:15:06+00:00",
-      "last_seen_at": "2026-07-26T07:15:06+00:00"
     }
   ]
 }
