@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-25T07:21:23+00:00",
+  "updated_at": "2026-08-26T07:23:58+00:00",
   "items": [
     {
       "event_id": "febfeed555b64fff",
@@ -241,6 +241,36 @@
       "source_domain": "salesforce.com",
       "first_sent_at": "2026-07-27T07:19:49+00:00",
       "last_seen_at": "2026-07-27T07:19:49+00:00"
+    },
+    {
+      "event_id": "8d9400244b31664d",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Bain & Company se convierte en 'Global Premier Partner' de Anthropic para acelerar transformaciones de IA empresarial",
+      "canonical_url": "https://bain.com/about/media-center/press-releases/2026/bain-company-announces-partnership-with-anthropic-to-accelerate-clients-enterprise-ai-transformations",
+      "source_domain": "bain.com",
+      "first_sent_at": "2026-08-26T07:23:58+00:00",
+      "last_seen_at": "2026-08-26T07:23:58+00:00"
+    },
+    {
+      "event_id": "1f535a351848ff1c",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic prepara previsión de ingresos potenciales de más de $30 billones para inversores del IPO",
+      "canonical_url": "https://pymnts.com/news/artificial-intelligence/2026/anthropic-readies-30-trillion-dollar-revenue-forecast-investors",
+      "source_domain": "pymnts.com",
+      "first_sent_at": "2026-08-26T07:23:58+00:00",
+      "last_seen_at": "2026-08-26T07:23:58+00:00"
+    },
+    {
+      "event_id": "088cddd00d1b17ef",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Memory unificada en Chat y Cowork: tópicos editables y protección de temas sensibles",
+      "canonical_url": "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat",
+      "source_domain": "techcrunch.com",
+      "first_sent_at": "2026-08-26T07:23:58+00:00",
+      "last_seen_at": "2026-08-26T07:23:58+00:00"
     },
     {
       "event_id": "facf8be0d2eb006a",
