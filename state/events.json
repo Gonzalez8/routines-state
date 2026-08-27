@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-26T07:23:58+00:00",
+  "updated_at": "2026-08-27T07:20:51+00:00",
   "items": [
     {
       "event_id": "febfeed555b64fff",
@@ -241,6 +241,36 @@
       "source_domain": "salesforce.com",
       "first_sent_at": "2026-07-27T07:19:49+00:00",
       "last_seen_at": "2026-07-27T07:19:49+00:00"
+    },
+    {
+      "event_id": "984514e6814201cc",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.246: 61 cambios incluyendo advertencias de reglas Bash, pestaña Auto en /permissions y mejoras de rendimiento",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.246",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-08-27T07:20:48+00:00",
+      "last_seen_at": "2026-08-27T07:20:48+00:00"
+    },
+    {
+      "event_id": "49d9f4fbc24cc660",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Salesforce y Anthropic anuncian Claudeforce: plugin con 37 skills de ventas integrado en Claude",
+      "canonical_url": "https://salesforce.com/news/press-releases/2026/08/26/salesforce-and-anthropic-announce-claudeforce",
+      "source_domain": "salesforce.com",
+      "first_sent_at": "2026-08-27T07:20:48+00:00",
+      "last_seen_at": "2026-08-27T07:20:48+00:00"
+    },
+    {
+      "event_id": "1d8e40acbbb15edc",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic apunta a valoración de $2 billones en IPO de octubre 2026, lo que sería el mayor IPO de la historia",
+      "canonical_url": "https://startuphub.ai/ai-news/ipo-watch/2026/anthropic-2-trillion-ipo-valuation-target-2026-08-25",
+      "source_domain": "startuphub.ai",
+      "first_sent_at": "2026-08-27T07:20:48+00:00",
+      "last_seen_at": "2026-08-27T07:20:48+00:00"
     },
     {
       "event_id": "8d9400244b31664d",
@@ -991,56 +1021,6 @@
       "source_domain": "claude.com",
       "first_sent_at": "2026-07-29T07:16:03+00:00",
       "last_seen_at": "2026-07-29T07:16:03+00:00"
-    },
-    {
-      "event_id": "5ca995a203c2ef10",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Anthropic publica su posición oficial sobre los modelos open-weights",
-      "canonical_url": "https://anthropic.com/news/position-open-weights-models",
-      "source_domain": "anthropic.com",
-      "first_sent_at": "2026-07-28T07:18:58+00:00",
-      "last_seen_at": "2026-07-28T07:18:58+00:00"
-    },
-    {
-      "event_id": "01ff846b91b3ec48",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Cognizant y Anthropic amplían su asociación para llevar Claude a clientes empresariales",
-      "canonical_url": "https://anthropic.com/news/cognizant-anthropic",
-      "source_domain": "anthropic.com",
-      "first_sent_at": "2026-07-28T07:18:58+00:00",
-      "last_seen_at": "2026-07-28T07:18:58+00:00"
-    },
-    {
-      "event_id": "dc045bc32e59ffac",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Nvidia open-weights letter doubles to 50 signatories: Anthropic and Amazon notably absent",
-      "canonical_url": "https://forbes.com/sites/sandycarter/2026/07/25/huangs-open-weights-letter-doubled-to-50-without-amazon-and-anthropic",
-      "source_domain": "forbes.com",
-      "first_sent_at": "2026-07-27T07:26:30+00:00",
-      "last_seen_at": "2026-07-27T07:26:30+00:00"
-    },
-    {
-      "event_id": "5f6f5d0c3012658f",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "SpaceX S-1 filing reveals Anthropic pays $1.25 billion per month for Colossus 1 compute through May 2029",
-      "canonical_url": "https://enterprisedna.co/resources/news/anthropic-xai-colossus-1-25-billion-compute-economics-2026",
-      "source_domain": "enterprisedna.co",
-      "first_sent_at": "2026-07-27T07:26:30+00:00",
-      "last_seen_at": "2026-07-27T07:26:30+00:00"
-    },
-    {
-      "event_id": "06f74e6610ef0853",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "AMD y Anthropic anuncian asociación estratégica para desplegar 2 gigavatios de GPUs MI450 con inversión de $5.000 millones",
-      "canonical_url": "https://ir.amd.com/news-events/press-releases/detail/1292/amd-and-anthropic-announce-strategic-partnership-to-deploy-up-to-2-gigawatts-of-amd-instinct-mi450-series-gpus",
-      "source_domain": "ir.amd.com",
-      "first_sent_at": "2026-07-27T07:26:30+00:00",
-      "last_seen_at": "2026-07-27T07:26:30+00:00"
     }
   ]
 }
