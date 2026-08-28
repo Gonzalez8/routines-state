@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-27T07:20:51+00:00",
+  "updated_at": "2026-08-28T07:20:38+00:00",
   "items": [
     {
       "event_id": "febfeed555b64fff",
@@ -241,6 +241,36 @@
       "source_domain": "salesforce.com",
       "first_sent_at": "2026-07-27T07:19:49+00:00",
       "last_seen_at": "2026-07-27T07:19:49+00:00"
+    },
+    {
+      "event_id": "f1b736a7fc54cba8",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic tests new way for Claude to work with robots and scientific lab tools (Model Hardware Standard)",
+      "canonical_url": "https://anthropic.com/news/claude-science-ai-workbench",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-08-28T07:20:36+00:00",
+      "last_seen_at": "2026-08-28T07:20:36+00:00"
+    },
+    {
+      "event_id": "8a440cf17193f597",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Cowork gets a built-in browser: nothing to install",
+      "canonical_url": "https://claude.com/blog/cowork-built-in-browser",
+      "source_domain": "claude.com",
+      "first_sent_at": "2026-08-28T07:20:36+00:00",
+      "last_seen_at": "2026-08-28T07:20:36+00:00"
+    },
+    {
+      "event_id": "62883b8774d3899c",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.247: SendFeedback tool, /claude-api cost-optimize y mejoras de seguridad en marketplace",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.247",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-08-28T07:20:36+00:00",
+      "last_seen_at": "2026-08-28T07:20:36+00:00"
     },
     {
       "event_id": "984514e6814201cc",
@@ -991,36 +1021,6 @@
       "source_domain": "thehackernews.com",
       "first_sent_at": "2026-07-30T07:15:34+00:00",
       "last_seen_at": "2026-07-30T07:15:34+00:00"
-    },
-    {
-      "event_id": "aae10a73e529925b",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "The new rules of context engineering for Claude 5 generation models",
-      "canonical_url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
-      "source_domain": "claude.com",
-      "first_sent_at": "2026-07-29T07:16:03+00:00",
-      "last_seen_at": "2026-07-29T07:16:03+00:00"
-    },
-    {
-      "event_id": "a2c81c3a38dbe01a",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Discovering cryptographic weaknesses with Claude",
-      "canonical_url": "https://anthropic.com/research/discovering-cryptographic-weaknesses",
-      "source_domain": "anthropic.com",
-      "first_sent_at": "2026-07-29T07:16:03+00:00",
-      "last_seen_at": "2026-07-29T07:16:03+00:00"
-    },
-    {
-      "event_id": "23a5eb8b6a1cfd4f",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "MCP 2026-07-28 spec: stateless core, coming to Claude",
-      "canonical_url": "https://claude.com/blog/bringing-mcp-2026-07-28-to-claude",
-      "source_domain": "claude.com",
-      "first_sent_at": "2026-07-29T07:16:03+00:00",
-      "last_seen_at": "2026-07-29T07:16:03+00:00"
     }
   ]
 }
