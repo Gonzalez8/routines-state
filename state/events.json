@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-28T07:20:38+00:00",
+  "updated_at": "2026-08-29T07:12:49+00:00",
   "items": [
     {
       "event_id": "febfeed555b64fff",
@@ -1021,6 +1021,26 @@
       "source_domain": "thehackernews.com",
       "first_sent_at": "2026-07-30T07:15:34+00:00",
       "last_seen_at": "2026-07-30T07:15:34+00:00"
+    },
+    {
+      "event_id": "f5af373f26319e93",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic expande el apoyo a científicos: 10,000 plazas gratuitas y con descuento en Claude Team",
+      "canonical_url": "https://anthropic.com/news/expanding-support-for-scientists",
+      "source_domain": "anthropic.com",
+      "first_sent_at": "2026-08-29T07:12:47+00:00",
+      "last_seen_at": "2026-08-29T07:12:47+00:00"
+    },
+    {
+      "event_id": "3dca89a830111d46",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.251: hooks PreModelSwitch/PostModelSwitch, streaming en vivo de subagentes, métricas de caché y correcciones de seguridad",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.251",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-08-29T07:12:47+00:00",
+      "last_seen_at": "2026-08-29T07:12:47+00:00"
     }
   ]
 }
