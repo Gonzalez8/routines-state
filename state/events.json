@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-08-31T07:22:40+00:00",
+  "updated_at": "2026-09-01T07:20:56+00:00",
   "items": [
     {
       "event_id": "aec3b266a8562f49",
@@ -241,6 +241,36 @@
       "source_domain": "salesforce.com",
       "first_sent_at": "2026-08-03T07:15:12+00:00",
       "last_seen_at": "2026-08-03T07:15:12+00:00"
+    },
+    {
+      "event_id": "e939ddacf1414d51",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code weekly limits: 50% promo ends September 14, replaced by permanent 25% increase (effective 17% cut from current levels)",
+      "canonical_url": "https://bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent",
+      "source_domain": "bleepingcomputer.com",
+      "first_sent_at": "2026-09-01T07:20:39+00:00",
+      "last_seen_at": "2026-09-01T07:20:39+00:00"
+    },
+    {
+      "event_id": "b02e3e4c3292451e",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Anthropic API adds workspace-id response header and spend budget cap for Managed Agents sessions",
+      "canonical_url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "source_domain": "platform.claude.com",
+      "first_sent_at": "2026-09-01T07:20:39+00:00",
+      "last_seen_at": "2026-09-01T07:20:39+00:00"
+    },
+    {
+      "event_id": "54b25c1a77c20b5a",
+      "routine": "claude-news",
+      "topic": "claude-ai",
+      "title": "Claude Code v2.1.252: fixes Bash failures on Mac, Remote Control stalling and 'always allow' not saving",
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.252",
+      "source_domain": "github.com",
+      "first_sent_at": "2026-09-01T07:20:39+00:00",
+      "last_seen_at": "2026-09-01T07:20:39+00:00"
     },
     {
       "event_id": "97a0a39e7b24854b",
@@ -951,36 +981,6 @@
       "source_domain": "techtimes.com",
       "first_sent_at": "2026-08-03T07:24:02+00:00",
       "last_seen_at": "2026-08-03T07:24:02+00:00"
-    },
-    {
-      "event_id": "926ce3d92368498a",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Tag goes live August 3 on Team and Enterprise Slack: mandatory auto-migration for all workspaces not yet opted in",
-      "canonical_url": "https://venturebeat.com/technology/anthropic-launches-claude-tag-replacing-its-slack-app-with-a-persistent-ai-teammate-that-learns-monitors-and-works-autonomously",
-      "source_domain": "venturebeat.com",
-      "first_sent_at": "2026-08-02T07:14:12+00:00",
-      "last_seen_at": "2026-08-02T07:14:12+00:00"
-    },
-    {
-      "event_id": "8d1ed43c1c40c89c",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Managed Agents webhooks, multiagent orchestration, and self-hosted sandboxes now available on Claude Platform on AWS",
-      "canonical_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/claude-platform-aws",
-      "source_domain": "aws.amazon.com",
-      "first_sent_at": "2026-08-02T07:14:12+00:00",
-      "last_seen_at": "2026-08-02T07:14:12+00:00"
-    },
-    {
-      "event_id": "3a8a801f558fcc4b",
-      "routine": "claude-news",
-      "topic": "claude-ai",
-      "title": "Claude Opus 4.1 (claude-opus-4-1-20250805) retires from the API on August 5, 2026: migrate to Claude Opus 4.8",
-      "canonical_url": "https://therouter.ai/news/anthropic-deprecates-claude-opus-4-1-august-5-migration-guide",
-      "source_domain": "therouter.ai",
-      "first_sent_at": "2026-08-02T07:14:12+00:00",
-      "last_seen_at": "2026-08-02T07:14:12+00:00"
     }
   ]
 }
